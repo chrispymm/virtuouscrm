@@ -1,0 +1,84 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api.virtuoussoftware.com/api/Contact/ByTag/37
+    body:
+      encoding: UTF-8
+      string: filter=&skip=0&take=10
+    headers:
+      Accept-Version:
+      - v1
+      Authorization:
+      - Bearer v1iO46y9qiqyXiz8D4ZTugnpIVIv6KXEsReKZ8EuOFHJT29thIXQW1XUWbtykR66_4UtSoQIaUTTjuFcFY5iidQin8SE17IF7PebkqgeC0UPT-Z4G4v6fPVJ1IDLGxCSTfYe_CZ3tlSnQdzcT7ICmEAPI6i_GsL4TL4uCPFfmIgB0Cqn68kh3BBKtMCOWbsYdhP_U4OJDlCgYBG3AkKqpgDAH0H9Cb1DJO1x3o4TVn06_QQHDLDHfAccZHn2lUPbB_7s6f7UtKc_X_YmAcTMUFOd8POeyF3mNRbOY6xSM0cMvhLnPj93yEA_WI75WB-swJyHILIyv6ccUUZ6KmS16SAWOqzjKho9ccQg6-TKCoezQ2yvDlLrsA2H-V7X09PU7MWX6mn9nyGD1SDmt_5y-skiPhekNLoYnvp-2LOo619-HuVOChY0-_N3r5k6xwiimX797esP7KZIvveU5oOYjRY1QuFb0S8eg5aIZi9apWjBN9WfX4XfTcwTSVisZo0O3Xs34NyVERTvMfL-CX3sOoKSOB5hnc2V1gy7c8m08mD0jyRh
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Cache-Control:
+      - no-cache
+      Pragma:
+      - no-cache
+      Content-Length:
+      - '2868'
+      Content-Type:
+      - application/json; charset=utf-8
+      Expires:
+      - "-1"
+      Server:
+      - Microsoft-IIS/8.0
+      X-Aspnet-Version:
+      - 4.0.30319
+      X-Powered-By:
+      - ASP.NET
+      Set-Cookie:
+      - ARRAffinity=57e02562d9ac2c8caf0267b53f831dbdfd53ba7eef9644ee4508a7637ba2424f;Path=/;HttpOnly;Domain=api.virtuoussoftware.com
+      Date:
+      - Mon, 09 Oct 2017 21:10:47 GMT
+    body:
+      encoding: UTF-8
+      string: "{\r\n  \"list\": [\r\n    {\r\n      \"id\": 1246,\r\n      \"name\":
+        \"Chris Amaro\",\r\n      \"contactType\": \"Household\",\r\n      \"contactName\":
+        \"Chris Amaro\",\r\n      \"address\": \"Mesa, AZ\",\r\n      \"email\": \"chrisamaro@redemptionaz.com\",\r\n
+        \     \"phone\": \"6026289858\",\r\n      \"contactViewUrl\": \"/api/Contact/1246\"\r\n
+        \   },\r\n    {\r\n      \"id\": 1251,\r\n      \"name\": \"Peter Jannetti\",\r\n
+        \     \"contactType\": \"Household\",\r\n      \"contactName\": \"Peter Jannetti\",\r\n
+        \     \"address\": \"Farmingville, NY\",\r\n      \"email\": \"pjannetti@optonline.net\",\r\n
+        \     \"phone\": \"6314959055\",\r\n      \"contactViewUrl\": \"/api/Contact/1251\"\r\n
+        \   },\r\n    {\r\n      \"id\": 1252,\r\n      \"name\": \"Sam Pedigo\",\r\n
+        \     \"contactType\": \"Household\",\r\n      \"contactName\": \"Sam Pedigo\",\r\n
+        \     \"address\": \"Prosper, TX\",\r\n      \"email\": \"spedigo@legacyprosper.com\",\r\n
+        \     \"phone\": \"\",\r\n      \"contactViewUrl\": \"/api/Contact/1252\"\r\n
+        \   },\r\n    {\r\n      \"id\": 1253,\r\n      \"name\": \"Chris Wiegand\",\r\n
+        \     \"contactType\": \"Household\",\r\n      \"contactName\": \"Chris Wiegand\",\r\n
+        \     \"address\": \"Lakeport, MI\",\r\n      \"email\": \"4livingwater@gmail.com\",\r\n
+        \     \"phone\": \"8103858561\",\r\n      \"contactViewUrl\": \"/api/Contact/1253\"\r\n
+        \   },\r\n    {\r\n      \"id\": 1254,\r\n      \"name\": \"Andy Stager\",\r\n
+        \     \"contactType\": \"Household\",\r\n      \"contactName\": \"Andy Stager\",\r\n
+        \     \"address\": \"Rock Hill, SC\",\r\n      \"email\": \"arstager@gmail.com\",\r\n
+        \     \"phone\": \"8037278202\",\r\n      \"contactViewUrl\": \"/api/Contact/1254\"\r\n
+        \   },\r\n    {\r\n      \"id\": 1256,\r\n      \"name\": \"Scott Sullivan\",\r\n
+        \     \"contactType\": \"Household\",\r\n      \"contactName\": \"Scott Sullivan\",\r\n
+        \     \"address\": \"Ada, OK\",\r\n      \"email\": \"scottpatricksullivan@gmail.com\",\r\n
+        \     \"phone\": \"5803102490\",\r\n      \"contactViewUrl\": \"/api/Contact/1256\"\r\n
+        \   },\r\n    {\r\n      \"id\": 1260,\r\n      \"name\": \"Caleb Klontz\",\r\n
+        \     \"contactType\": \"Household\",\r\n      \"contactName\": \"Caleb Klontz\",\r\n
+        \     \"address\": \"Trieste, TS Italy\",\r\n      \"email\": \"caleb.klontz@gmail.com\",\r\n
+        \     \"phone\": \"3924755010\",\r\n      \"contactViewUrl\": \"/api/Contact/1260\"\r\n
+        \   },\r\n    {\r\n      \"id\": 1262,\r\n      \"name\": \"Jeremy Tuinstra\",\r\n
+        \     \"contactType\": \"Household\",\r\n      \"contactName\": \"Jeremy Tuinstra\",\r\n
+        \     \"address\": \"\",\r\n      \"email\": \"jjtuinstra@hotmail.com\",\r\n
+        \     \"phone\": \"\",\r\n      \"contactViewUrl\": \"/api/Contact/1262\"\r\n
+        \   },\r\n    {\r\n      \"id\": 1268,\r\n      \"name\": \"Bo Bray\",\r\n
+        \     \"contactType\": \"Household\",\r\n      \"contactName\": \"Bo Bray\",\r\n
+        \     \"address\": \"\",\r\n      \"email\": \"bobray14@gmail.com\",\r\n      \"phone\":
+        \"\",\r\n      \"contactViewUrl\": \"/api/Contact/1268\"\r\n    },\r\n    {\r\n
+        \     \"id\": 1270,\r\n      \"name\": \"Brent Christian\",\r\n      \"contactType\":
+        \"Household\",\r\n      \"contactName\": \"Brent Christian\",\r\n      \"address\":
+        \"\",\r\n      \"email\": \"christian.brent@gmail.com\",\r\n      \"phone\":
+        \"\",\r\n      \"contactViewUrl\": \"/api/Contact/1270\"\r\n    }\r\n  ],\r\n
+        \ \"total\": 433\r\n}"
+    http_version: 
+  recorded_at: Mon, 09 Oct 2017 21:10:48 GMT
+recorded_with: VCR 3.0.3
