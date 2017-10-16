@@ -48,8 +48,8 @@ module Virtuouscrm #:nodoc:
     # Perform a DELETE request.
     # @param path [String] The path at which to make ther request.
     # @param params [Hash] A hash of request parameters.
-    def delete(path, params = {})
-      request :delete, path, params
+    def delete(path, body={}, params = {})
+      request :delete, path, body, params
     end
 
     private
@@ -61,8 +61,11 @@ module Virtuouscrm #:nodoc:
       "Accept-Version" => @api_version,
       "Authorization" => "Bearer #{@token}"
       }
-
-      response =  self.class.public_send verb, path, body: body, query: params, headers: headers
+      if verb == :get 
+        response =  self.class.public_send verb, path, query: params, headers: headers
+      else
+        response =  self.class.public_send verb, path, body: body, query: params, headers: headers
+      end
 
     #   if response.headers["Warning"]
     #     Virtuouscrm.configuration.logger.warn response.headers["Warning"]
