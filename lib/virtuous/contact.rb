@@ -92,20 +92,69 @@ module Virtuous
                     skip:   skip,
                     take:   take
                 }
-                activity = JSON.parse(connection.get("/Contact/QueryOptions", params).body )
+                activity = JSON.parse(connection.get("/Contact/Activity", params).body )
             end
 
             # Gets the contacts the (current) user is following.
             # @param skip [Int] Number of records to skip (pagination start number).
             # @param take [Int] Number of records to take (records per page).
             # @return [Array] An array of activity entries
-            def activity(skip=0, take=10)
+            def following(skip=0, take=10)
                 params = {
                     skip:   skip,
                     take:   take
                 }
-                activity = JSON.parse(connection.get("/Contact/QueryOptions", params).body )
+                activity = JSON.parse(connection.get("/Contact/Following", params).body )
             end
+
+            # Posts and creates a contact batch that will be processed for changes and duplicates.
+            # @param contacts [Array] and array  of the contact objects [OpenStruct] to queue/process
+            # @return status [String] HTTP status code  200 / 400 etc
+            def batch(contacts=[])
+                body = {
+                    contacts: contacts 
+                }
+                response = connection.post("/Contact/Batch", body )
+                status = response.respond_to?(:status) ? response.status : response.code
+            end
+
+            
+            # Find Contacts near a location
+            # @param lat [Int] latitude
+            # @param lng [Int] logitude
+            # @param distance [Int] distance in miles for search radius
+            # @param skip [Int] Number of records to skip (pagination start number).
+            # @param take [Int] Number of records to take (records per page).
+            # @return [Array]  of randonmly structuired contact information (for some reason)
+            def search_nearby(lat=0, lng=0, distance=0, skip=0, take=10)
+                body = {
+                    latitude: lat,
+                    longitude: lng,
+                    distanceInMiles: distance
+                }
+                params = {
+                    skip:   skip,
+                    take:   take
+                }
+                response = JSON.parse(connection.post("/Contact/Proximity", body, params).body)
+            end
+
+            # Find all contacts that match, fully or partially, the given search parameter
+            # @param search [String] The search query.
+            # @param skip [Int] Number of records to skip (pagination start number).
+            # @param take [Int] Number of records to take (records per page).
+            # @return [Array] An array of Virtuous::Contact records
+            def search(search="", skip=0, take=10 )
+                body = {
+                    search: search
+                }
+                params = {
+                    skip:   skip,
+                    take:   take
+                }
+                parse_list(connection.post("/Contact/Search", body, params).body)
+            end
+
 
             private
             

@@ -27,7 +27,7 @@ module Virtuous #:nodoc:
     # @param path [String] The path at which to make ther request.
     # @param params [Hash] A hash of request parameters.
     def get(path, params = {})
-      request :get, path, params
+      request :get, path, {}, params
     end
 
     # Perform a PUT request.
