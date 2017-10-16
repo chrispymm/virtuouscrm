@@ -1,11 +1,11 @@
 # coding: utf-8
 lib = File.expand_path("../lib", __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require "virtuouscrm/version"
+require "Virtuous/version"
 
 Gem::Specification.new do |spec|
-  spec.name          = "virtuouscrm"
-  spec.version       = Virtuouscrm::VERSION
+  spec.name          = "Virtuous"
+  spec.version       = Virtuous::VERSION
   spec.authors       = ["Chris Pymm"]
   spec.email         = ["chris@adozeneggs.co.uk"]
 

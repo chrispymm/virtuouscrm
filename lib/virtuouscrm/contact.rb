@@ -1,28 +1,28 @@
-module Virtuouscrm
+module Virtuous
     class Contact < Client
 
         class << self
 
             # Get a contact. 
             # @param id [Int] The ContactID of the contact to retrieve.
-            # @return [Virtuouscrm::Contact]
+            # @return [Virtuous::Contact]
             def find(id)
-                contact = Virtuouscrm::Contact.new JSON.parse(connection.get("/Contact/#{id}").body)
+                contact = Virtuous::Contact.new JSON.parse(connection.get("/Contact/#{id}").body)
             end
 
             # Get a contact by reference source and reference id
             # @param reference_source [String] The Reference Source of the contact to retrieve.
             # @param reference_id [Int] The Reference Id of the contact to retrieve.
-            # @return [Virtuouscrm::Contact]
+            # @return [Virtuous::Contact]
             def find_by_reference_source(reference_source, reference_id)
-                contact = Virtuouscrm::Contact.new JSON.parse(connection.get("/Contact/#{reference_source}/#{reference_id}").body)
+                contact = Virtuous::Contact.new JSON.parse(connection.get("/Contact/#{reference_source}/#{reference_id}").body)
             end
 
             # Get a contact by reference source and reference id
             # @param reference_id [Int] The Reference Id of the contact to retrieve.
-            # @return [Virtuouscrm::Contact]
+            # @return [Virtuous::Contact]
             def find_by_reference(reference_id)
-                contact = Virtuouscrm::Contact.new JSON.parse(connection.get("/Contact/ByReference/#{reference_id}").body)
+                contact = Virtuous::Contact.new JSON.parse(connection.get("/Contact/ByReference/#{reference_id}").body)
             end
 
             # Get a contacts by tag id
@@ -30,7 +30,7 @@ module Virtuouscrm
             # @param filter [String] String to filter by.
             # @param skip [Int] Number of records to skip (pagination start number).
             # @param take [Int] Number of records to take (records per page).
-            # @return [Array] An array of Virtuouscrm::Contact records
+            # @return [Array] An array of Virtuous::Contact records
             def find_by_tag_id(tag_id, filter='', skip=0, take=10 )
                 params = {
                     filter: filter,
@@ -43,19 +43,19 @@ module Virtuouscrm
             # Update a contact by id
             # @param id [Int] the id of the contact to update
             # @param attributes [Hash] attributes of the contact to update
-            # @return [Virtuouscrm::Contact] the updated contact
+            # @return [Virtuous::Contact] the updated contact
             def update( id, attributes = {} )
                 body = attributes
-                contact = Virtuouscrm::Contact.new JSON.parse(connection.put("/Contact/#{id}", body).body)
+                contact = Virtuous::Contact.new JSON.parse(connection.put("/Contact/#{id}", body).body)
             end
 
             # Create a new contact
             # @param id [Int] the id of the contact to update
             # @param attributes [Hash] attributes of the contact to create
-            # @return [Virtuouscrm::Contact] the new contact
+            # @return [Virtuous::Contact] the new contact
             def new(attributes)
                 body = attributes
-                contact = Virtuouscrm::Contact.new JSON.parse(connection.post("/Contact", body).body)
+                contact = Virtuous::Contact.new JSON.parse(connection.post("/Contact", body).body)
             end
 
 

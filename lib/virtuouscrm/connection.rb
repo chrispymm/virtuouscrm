@@ -1,4 +1,4 @@
-module Virtuouscrm #:nodoc:
+module Virtuous #:nodoc:
     
   class Connection
     include HTTParty
@@ -15,11 +15,11 @@ module Virtuouscrm #:nodoc:
     # @param api_base_uri [String] Base URI at which to make API calls.
     # @param oauth_base_uri [String] Base URI for OAuth requests.
     def initialize(version: DEFAULT_VERSION, api_base_uri: DEFAULT_API_BASE_URI)
-      @token              = Virtuouscrm.configuration.token
+      @token              = Virtuous.configuration.token
       @api_version        = version
       @api_base_uri       = api_base_uri
 
-      Virtuouscrm::Connection.base_uri @api_base_uri
+      Virtuous::Connection.base_uri @api_base_uri
     end
 
 
@@ -65,7 +65,7 @@ module Virtuouscrm #:nodoc:
       response =  self.class.public_send verb, path, body: body, query: params, headers: headers
 
     #   if response.headers["Warning"]
-    #     Virtuouscrm.configuration.logger.warn response.headers["Warning"]
+    #     Virtuous.configuration.logger.warn response.headers["Warning"]
     #   end
 
       status_code = response.respond_to?(:status) ? response.status : response.code
@@ -77,7 +77,7 @@ module Virtuouscrm #:nodoc:
         else
           message ="Status: #{status_code}"
         end
-        raise Virtuouscrm::Error.new message
+        raise Virtuous::Error.new message
       end
 
       response

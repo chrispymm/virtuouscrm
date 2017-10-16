@@ -1,15 +1,15 @@
 require "httparty"
 
-require "virtuouscrm/version"
-require "virtuouscrm/configuration"
-require "virtuouscrm/client"
-require "virtuouscrm/connection"
-require "virtuouscrm/error"
+require "Virtuous/version"
+require "Virtuous/configuration"
+require "Virtuous/client"
+require "Virtuous/connection"
+require "Virtuous/error"
 
-require "virtuouscrm/contact"
-require "virtuouscrm/tag"
+require "Virtuous/contact"
+require "Virtuous/tag"
 
-module Virtuouscrm
+module Virtuous
   class << self
     attr_accessor :configuration
   end

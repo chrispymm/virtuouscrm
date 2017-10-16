@@ -1,4 +1,4 @@
-module Virtuouscrm
+module Virtuous
     class Tag < Client
 
         class << self

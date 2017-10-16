@@ -1,4 +1,4 @@
 source "https://rubygems.org"
 
-# Specify your gem's dependencies in virtuouscrm.gemspec
+# Specify your gem's dependencies in Virtuous.gemspec
 gemspec

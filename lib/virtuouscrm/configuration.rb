@@ -1,4 +1,4 @@
-module Virtuouscrm
+module Virtuous
     class Configuration 
         attr_accessor :token
         #attr_accessor :application_secret

@@ -1,4 +1,4 @@
-module Virtuouscrm # :nodoc:
+module Virtuous # :nodoc:
     class Client
     
         # Build an Unsplash object with the given attributes.
@@ -19,7 +19,7 @@ module Virtuouscrm # :nodoc:
         #   end
         # end
     
-        # Raw JSON as returned by Virtuouscrm API.
+        # Raw JSON as returned by Virtuous API.
         # @return [Hash] json
         def to_h
           @attributes.to_h
