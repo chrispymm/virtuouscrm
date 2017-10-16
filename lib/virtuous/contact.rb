@@ -52,8 +52,8 @@ module Virtuous
             # Create a new contact
             # @param id [Int] the id of the contact to update
             # @param attributes [Hash] attributes of the contact to create
-            # @return [Virtuous::Contact] the new contact
-            def new(attributes)
+            # @return [Virtuouscrm::Contact] the new contact
+            def create(attributes={})
                 body = attributes
                 contact = Virtuous::Contact.new JSON.parse(connection.post("/Contact", body).body)
             end

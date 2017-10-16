@@ -1,13 +1,13 @@
 require "httparty"
 
-require "Virtuous/version"
-require "Virtuous/configuration"
-require "Virtuous/client"
-require "Virtuous/connection"
-require "Virtuous/error"
+require "virtuous/version"
+require "virtuous/configuration"
+require "virtuous/client"
+require "virtuous/connection"
+require "virtuous/error"
 
-require "Virtuous/contact"
-require "Virtuous/tag"
+require "virtuous/contact"
+require "virtuous/tag"
 
 module Virtuous
   class << self
