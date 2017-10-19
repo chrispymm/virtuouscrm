@@ -10,7 +10,7 @@ module Virtuous
 
             # Gets the types of contact methods related to the specified contact method type
             # @param contact_method [String] ContactMethod type to fetch related content methods for.
-            # @return [String] related to specified contact method type
+            # @return [Array] of [String] related to specified contact method type
             def related_types(contact_method)
                 params = {
                     name: contact_method
@@ -28,7 +28,7 @@ module Virtuous
 
             # Gets the specified contact method
             # @param contactMethodId [Int] The contactID of the specified contact method
-            # @return [String] related to specified contact method
+            # @return [Hash] of [String] related to specified contact method
             def find(id)
                 contact_method = JSON.parse(connection.get("/ContactMethod/#{id}").body )
             end            
@@ -39,7 +39,7 @@ module Virtuous
             # @return [Virtuous::Contact] the updated contact method
             def update( id, attributes = {} )
                 body = attributes
-                contact_method = Virtuous::ContactAddress.new JSON.parse(connection.put("/ContactMethod/#{id}", body).body)
+                contact_method = Virtuous::ContactMethod.new JSON.parse(connection.put("/ContactMethod/#{id}", body).body)
             end
 
             # Create a new contact method for the specified contact individual
@@ -48,13 +48,13 @@ module Virtuous
             # @return [Virtuous::Contact] the created contact method
             def create( attributes = {} )
                 body = attributes
-                contact_method = Virtuous::ContactAddress.new JSON.parse(connection.post("/ContactMethod", body).body)
+                contact_method = Virtuous::ContactMethod.new JSON.parse(connection.post("/ContactMethod", body).body)
             end
 
             private
             
             def parse_list(json)
-                JSON.parse(json)["list"].map { |contact| new contact }
+                JSON.parse(json)["list"].map { |contact_method| new contact_method }
             end            
 
         end

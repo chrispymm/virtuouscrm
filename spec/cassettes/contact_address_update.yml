@@ -1,0 +1,48 @@
+---
+http_interactions:
+- request:
+    method: put
+    uri: https://api.virtuoussoftware.com/api/ContactAddress/2526
+    body:
+      encoding: UTF-8
+      string: label=Imported%20Address&city=Loughborough
+    headers:
+      Accept-Version:
+      - v1
+      Authorization:
+      - Bearer v1iO46y9qiqyXiz8D4ZTugnpIVIv6KXEsReKZ8EuOFHJT29thIXQW1XUWbtykR66_4UtSoQIaUTTjuFcFY5iidQin8SE17IF7PebkqgeC0UPT-Z4G4v6fPVJ1IDLGxCSTfYe_CZ3tlSnQdzcT7ICmEAPI6i_GsL4TL4uCPFfmIgB0Cqn68kh3BBKtMCOWbsYdhP_U4OJDlCgYBG3AkKqpgDAH0H9Cb1DJO1x3o4TVn06_QQHDLDHfAccZHn2lUPbB_7s6f7UtKc_X_YmAcTMUFOd8POeyF3mNRbOY6xSM0cMvhLnPj93yEA_WI75WB-swJyHILIyv6ccUUZ6KmS16SAWOqzjKho9ccQg6-TKCoezQ2yvDlLrsA2H-V7X09PU7MWX6mn9nyGD1SDmt_5y-skiPhekNLoYnvp-2LOo619-HuVOChY0-_N3r5k6xwiimX797esP7KZIvveU5oOYjRY1QuFb0S8eg5aIZi9apWjBN9WfX4XfTcwTSVisZo0O3Xs34NyVERTvMfL-CX3sOoKSOB5hnc2V1gy7c8m08mD0jyRh
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Cache-Control:
+      - no-cache
+      Pragma:
+      - no-cache
+      Content-Length:
+      - '294'
+      Content-Type:
+      - application/json; charset=utf-8
+      Expires:
+      - "-1"
+      Server:
+      - Microsoft-IIS/8.0
+      X-Aspnet-Version:
+      - 4.0.30319
+      X-Powered-By:
+      - ASP.NET
+      Set-Cookie:
+      - ARRAffinity=720ad350918348fce31b8fbef78811b9f1fbecff329b4238f20f9034308a1964;Path=/;HttpOnly;Domain=api.virtuoussoftware.com
+      Date:
+      - Thu, 19 Oct 2017 10:40:15 GMT
+    body:
+      encoding: UTF-8
+      string: "{\r\n  \"id\": 2526,\r\n  \"label\": \"Imported Address\",\r\n  \"address1\":
+        null,\r\n  \"address2\": null,\r\n  \"city\": \"Loughborough\",\r\n  \"state\":
+        \"\",\r\n  \"postal\": null,\r\n  \"country\": \"\",\r\n  \"isPrimary\": true,\r\n
+        \ \"canBePrimary\": false,\r\n  \"startMonth\": 1,\r\n  \"startDay\": 1,\r\n
+        \ \"endMonth\": 12,\r\n  \"endDay\": 31\r\n}"
+    http_version: 
+  recorded_at: Thu, 19 Oct 2017 10:40:15 GMT
+recorded_with: VCR 3.0.3

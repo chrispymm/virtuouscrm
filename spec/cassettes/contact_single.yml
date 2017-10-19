@@ -33,9 +33,9 @@ http_interactions:
       X-Powered-By:
       - ASP.NET
       Set-Cookie:
-      - ARRAffinity=57e02562d9ac2c8caf0267b53f831dbdfd53ba7eef9644ee4508a7637ba2424f;Path=/;HttpOnly;Domain=api.virtuoussoftware.com
+      - ARRAffinity=720ad350918348fce31b8fbef78811b9f1fbecff329b4238f20f9034308a1964;Path=/;HttpOnly;Domain=api.virtuoussoftware.com
       Date:
-      - Mon, 09 Oct 2017 21:10:44 GMT
+      - Thu, 19 Oct 2017 10:40:23 GMT
     body:
       encoding: ASCII-8BIT
       string: !binary |-
@@ -189,5 +189,5 @@ http_interactions:
         bmFsIElEMiAoQWN0cyAyOSBJbnRlcm5hbCkiLA0KICAgICAgInZhbHVlIjog
         bnVsbA0KICAgIH0NCiAgXQ0KfQ==
     http_version: 
-  recorded_at: Mon, 09 Oct 2017 21:10:45 GMT
+  recorded_at: Thu, 19 Oct 2017 10:40:22 GMT
 recorded_with: VCR 3.0.3

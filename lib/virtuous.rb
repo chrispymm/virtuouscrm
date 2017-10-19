@@ -7,9 +7,12 @@ require "virtuous/connection"
 require "virtuous/error"
 
 require "virtuous/contact"
-require "virtuous/contact_individual"
 require "virtuous/contact_address"
+require "virtuous/contact_individual"
 require "virtuous/contact_method"
+require "virtuous/contact_note"
+require "virtuous/contact_tag"
+require "virtuous/relationship"
 require "virtuous/tag"
 
 module Virtuous

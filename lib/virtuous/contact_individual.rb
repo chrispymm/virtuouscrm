@@ -29,9 +29,9 @@ module Virtuous
 
             # Gets the contact individuals for the specified contact
             # @param contactId [Int] The ContactID of a specific contact
-            # @return [Virtuous::Contact]
+            # @return [Hash] 
             def find_by_contact(contactId)
-                contact_individual = Virtuous::ContactIndividual.new JSON.parse(connection.get("/ContactIndividual/#{contactId}").body)
+                contact_individual = JSON.parse(connection.get("/ContactIndividual/ByContact/#{contactId}").body)
             end
 
             # Gets the avatar for a specified contact individual
@@ -47,7 +47,6 @@ module Virtuous
             # @return [Virtuous::Contact]
             def update_avatar(id)
                 contact_avatar = Virtuous::ContactIndividual.new JSON.parse(connection.post("/ContactIndividual/#{id}/Avatar").body)
-                # gave a bad response 400
             end
 
             # Get Custom Fields for contact individuals

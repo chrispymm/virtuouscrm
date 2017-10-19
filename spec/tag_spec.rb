@@ -15,7 +15,7 @@ RSpec.describe Virtuous::Tag do
         let(:query) { "Applicant" }
 
         it "returns an Array of Virtuous::Tags" do
-            VCR.use_cassette("search_tags") do
+            VCR.use_cassette("tags") do
                 @tags = Virtuous::Tag.search(query)
             end
             expect(@tags).to be_a Array
@@ -23,7 +23,7 @@ RSpec.describe Virtuous::Tag do
         end
 
         it "returns correct number of tags" do
-            VCR.use_cassette("search_tags") do
+            VCR.use_cassette("tags") do
                 @tags = Virtuous::Tag.search(query)
             end
             expect(@tags.size).to eq(3)
@@ -31,16 +31,11 @@ RSpec.describe Virtuous::Tag do
         end
 
         it "first result is correct" do
-            VCR.use_cassette("search_tags") do
+            VCR.use_cassette("tags") do
                 @tags = Virtuous::Tag.search(query)
             end
             expect(@tags.first.tagName).to eq("InitialApplicant")
-        end
-
-
-        
-
-
+        end     
     end
 
 

@@ -33,11 +33,11 @@ module Virtuous
             # @return [Array] An array of Virtuous::Contact records
             def find_by_tag_id(tag_id, filter='', skip=0, take=10 )
                 params = {
-                    filter: filter,
                     skip:   skip,
                     take:   take
                 }
-                parse_list(connection.get("/Contact/ByTag/#{tag_id}", params).body)
+                params[:filter] = filter unless filter.empty?
+                parse_list( connection.get("/Contact/ByTag/#{tag_id}", params).body )
             end
 
             # Update a contact by id
@@ -78,7 +78,7 @@ module Virtuous
             end
 
             # Get available query options for contacts
-            # @return [Array]
+            # @return [Hash]
             def query_options
                 options = JSON.parse(connection.get("/Contact/QueryOptions").body )
             end
@@ -86,25 +86,25 @@ module Virtuous
             # Gets the activity for the contacts the (current) user is following.
             # @param skip [Int] Number of records to skip (pagination start number).
             # @param take [Int] Number of records to take (records per page).
-            # @return [Array] An array of activity entries
+            # @return [Array] An array of contacts (with limited data)
             def activity(skip=0, take=10)
                 params = {
                     skip:   skip,
                     take:   take
                 }
-                activity = JSON.parse(connection.get("/Contact/Activity", params).body )
+                activity = parse_list(connection.get("/Contact/Activity", params).body )
             end
 
             # Gets the contacts the (current) user is following.
             # @param skip [Int] Number of records to skip (pagination start number).
             # @param take [Int] Number of records to take (records per page).
-            # @return [Array] An array of activity entries
+            # @return [Array] An array of contacts
             def following(skip=0, take=10)
                 params = {
                     skip:   skip,
                     take:   take
                 }
-                activity = JSON.parse(connection.get("/Contact/Following", params).body )
+                parse_list(connection.get("/Contact/Following", params).body )
             end
 
             # Posts and creates a contact batch that will be processed for changes and duplicates.
@@ -125,7 +125,7 @@ module Virtuous
             # @param distance [Int] distance in miles for search radius
             # @param skip [Int] Number of records to skip (pagination start number).
             # @param take [Int] Number of records to take (records per page).
-            # @return [Array]  of randonmly structuired contact information (for some reason)
+            # @return [Array]  of randomly structured contact information (for some reason)
             def search_nearby(lat=0, lng=0, distance=0, skip=0, take=10)
                 body = {
                     latitude: lat,

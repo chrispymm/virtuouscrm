@@ -29,9 +29,9 @@ module Virtuous
 
             # Gets the contact addresses for the specified contact
             # @param contactId [Int] The ContactID of a specific contact
-            # @return [Virtuous::Contact]
+            # @return [Array] of the contact address
             def find_by_contact(contactId)
-                contact_address = Virtuous::ContactAddress.new JSON.parse(connection.get("/ContactAddress/#{contactId}").body)
+                contact_address = JSON.parse(connection.get("/ContactAddress/ByContact/#{contactId}").body)
             end
 
             # Creates a new contact address
@@ -45,7 +45,7 @@ module Virtuous
             private
             
             def parse_list(json)
-                JSON.parse(json)["list"].map { |contact| new contact }
+                JSON.parse(json)["list"].map { |contact_address| new contact_address }
             end
 
         end

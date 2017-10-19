@@ -6,13 +6,12 @@ module Virtuous
             # Gets the tags for the specified contact
             # @param id [Int] The contactID of the specified contact tag
             # @return [String] related to specified contact tag
-            def find(id, attributes={}, skip=0, take=10 )
-                body = attributes
+            def find_by_contact(id, skip=0, take=10 )
                 params = {
                     skip:   skip,
                     take:   take
                 }
-                contact_method = JSON.parse(connection.get("/ContactTag/ByContact/#{id}", body, params ).body )
+                parse_list(connection.get("/ContactTag/ByContact/#{id}", params ).body )
             end   
 
             # Deletes the specified contact tag 
@@ -26,7 +25,7 @@ module Virtuous
             # Create a new contact tag for the specified contact
             # @param id [Int] the id of the contact tag created
             # @param attributes [Hash] attributes of the contact tag created
-            # @return [Virtuous::Contact] the created contact tag
+            # @return [Virtuous::ContactTag] the created contact tag
             def create( attributes = {} )
                 body = attributes
                 contact_method = Virtuous::ContactAddress.new JSON.parse(connection.post("/ContactTag", body).body)
@@ -35,7 +34,7 @@ module Virtuous
             private
             
             def parse_list(json)
-                JSON.parse(json)["list"].map { |contact| new contact }
+                JSON.parse(json)["list"].map { |contact_tag| new contact_tag }
             end            
 
         end
