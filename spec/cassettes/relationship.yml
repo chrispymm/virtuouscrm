@@ -2,7 +2,7 @@
 http_interactions:
 - request:
     method: get
-    uri: https://api.virtuoussoftware.com/api/ContactAddress/33
+    uri: https://api.virtuoussoftware.com/api/Relationship/ByContact/33?skip=0&take=10
     body:
       encoding: US-ASCII
       string: ''
@@ -21,52 +21,7 @@ http_interactions:
       Pragma:
       - no-cache
       Content-Length:
-      - '303'
-      Content-Type:
-      - application/json; charset=utf-8
-      Expires:
-      - "-1"
-      Server:
-      - Microsoft-IIS/8.0
-      X-Aspnet-Version:
-      - 4.0.30319
-      X-Powered-By:
-      - ASP.NET
-      Set-Cookie:
-      - ARRAffinity=720ad350918348fce31b8fbef78811b9f1fbecff329b4238f20f9034308a1964;Path=/;HttpOnly;Domain=api.virtuoussoftware.com
-      Date:
-      - Mon, 23 Oct 2017 14:10:47 GMT
-    body:
-      encoding: UTF-8
-      string: "{\r\n  \"id\": 33,\r\n  \"label\": \"Imported Address\",\r\n  \"address1\":
-        null,\r\n  \"address2\": null,\r\n  \"city\": \"Richmond\",\r\n  \"state\":
-        \"Nelson\",\r\n  \"postal\": \"\",\r\n  \"country\": \"New Zealand\",\r\n
-        \ \"isPrimary\": true,\r\n  \"canBePrimary\": false,\r\n  \"startMonth\":
-        1,\r\n  \"startDay\": 1,\r\n  \"endMonth\": 12,\r\n  \"endDay\": 31\r\n}"
-    http_version: 
-  recorded_at: Mon, 23 Oct 2017 14:10:46 GMT
-- request:
-    method: get
-    uri: https://api.virtuoussoftware.com/api/ContactAddress/ByContact/2526
-    body:
-      encoding: US-ASCII
-      string: ''
-    headers:
-      Accept-Version:
-      - v1
-      Authorization:
-      - Bearer v1iO46y9qiqyXiz8D4ZTugnpIVIv6KXEsReKZ8EuOFHJT29thIXQW1XUWbtykR66_4UtSoQIaUTTjuFcFY5iidQin8SE17IF7PebkqgeC0UPT-Z4G4v6fPVJ1IDLGxCSTfYe_CZ3tlSnQdzcT7ICmEAPI6i_GsL4TL4uCPFfmIgB0Cqn68kh3BBKtMCOWbsYdhP_U4OJDlCgYBG3AkKqpgDAH0H9Cb1DJO1x3o4TVn06_QQHDLDHfAccZHn2lUPbB_7s6f7UtKc_X_YmAcTMUFOd8POeyF3mNRbOY6xSM0cMvhLnPj93yEA_WI75WB-swJyHILIyv6ccUUZ6KmS16SAWOqzjKho9ccQg6-TKCoezQ2yvDlLrsA2H-V7X09PU7MWX6mn9nyGD1SDmt_5y-skiPhekNLoYnvp-2LOo619-HuVOChY0-_N3r5k6xwiimX797esP7KZIvveU5oOYjRY1QuFb0S8eg5aIZi9apWjBN9WfX4XfTcwTSVisZo0O3Xs34NyVERTvMfL-CX3sOoKSOB5hnc2V1gy7c8m08mD0jyRh
-  response:
-    status:
-      code: 200
-      message: OK
-    headers:
-      Cache-Control:
-      - no-cache
-      Pragma:
-      - no-cache
-      Content-Length:
-      - '2'
+      - '33'
       Content-Type:
       - application/json; charset=utf-8
       Expires:
@@ -80,10 +35,69 @@ http_interactions:
       Set-Cookie:
       - ARRAffinity=04b540972e1c012e738022c305d1961787cab4ffa0f5d54ddfe72413739a7870;Path=/;HttpOnly;Domain=api.virtuoussoftware.com
       Date:
-      - Mon, 23 Oct 2017 14:10:52 GMT
+      - Mon, 23 Oct 2017 15:38:52 GMT
     body:
       encoding: UTF-8
-      string: "[]"
+      string: "{\r\n  \"list\": [],\r\n  \"total\": 0\r\n}"
     http_version: 
-  recorded_at: Mon, 23 Oct 2017 14:10:51 GMT
+  recorded_at: Mon, 23 Oct 2017 15:38:51 GMT
+- request:
+    method: get
+    uri: https://api.virtuoussoftware.com/api/Relationship/Types
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Version:
+      - v1
+      Authorization:
+      - Bearer v1iO46y9qiqyXiz8D4ZTugnpIVIv6KXEsReKZ8EuOFHJT29thIXQW1XUWbtykR66_4UtSoQIaUTTjuFcFY5iidQin8SE17IF7PebkqgeC0UPT-Z4G4v6fPVJ1IDLGxCSTfYe_CZ3tlSnQdzcT7ICmEAPI6i_GsL4TL4uCPFfmIgB0Cqn68kh3BBKtMCOWbsYdhP_U4OJDlCgYBG3AkKqpgDAH0H9Cb1DJO1x3o4TVn06_QQHDLDHfAccZHn2lUPbB_7s6f7UtKc_X_YmAcTMUFOd8POeyF3mNRbOY6xSM0cMvhLnPj93yEA_WI75WB-swJyHILIyv6ccUUZ6KmS16SAWOqzjKho9ccQg6-TKCoezQ2yvDlLrsA2H-V7X09PU7MWX6mn9nyGD1SDmt_5y-skiPhekNLoYnvp-2LOo619-HuVOChY0-_N3r5k6xwiimX797esP7KZIvveU5oOYjRY1QuFb0S8eg5aIZi9apWjBN9WfX4XfTcwTSVisZo0O3Xs34NyVERTvMfL-CX3sOoKSOB5hnc2V1gy7c8m08mD0jyRh
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Cache-Control:
+      - no-cache
+      Pragma:
+      - no-cache
+      Content-Length:
+      - '1280'
+      Content-Type:
+      - application/json; charset=utf-8
+      Expires:
+      - "-1"
+      Server:
+      - Microsoft-IIS/8.0
+      X-Aspnet-Version:
+      - 4.0.30319
+      X-Powered-By:
+      - ASP.NET
+      Set-Cookie:
+      - ARRAffinity=04b540972e1c012e738022c305d1961787cab4ffa0f5d54ddfe72413739a7870;Path=/;HttpOnly;Domain=api.virtuoussoftware.com
+      Date:
+      - Mon, 23 Oct 2017 15:38:52 GMT
+    body:
+      encoding: UTF-8
+      string: "[\r\n  {\r\n    \"group\": \"General\",\r\n    \"relationship\": \"Member\",\r\n
+        \   \"inverseRelationship\": \"Member\"\r\n  },\r\n  {\r\n    \"group\": \"Personal\",\r\n
+        \   \"relationship\": \"Friend\",\r\n    \"inverseRelationship\": \"Friend\"\r\n
+        \ },\r\n  {\r\n    \"group\": \"Personal\",\r\n    \"relationship\": \"Sibling\",\r\n
+        \   \"inverseRelationship\": \"Sibling\"\r\n  },\r\n  {\r\n    \"group\":
+        \"Personal\",\r\n    \"relationship\": \"Spouse\",\r\n    \"inverseRelationship\":
+        \"Spouse\"\r\n  },\r\n  {\r\n    \"group\": \"Personal\",\r\n    \"relationship\":
+        \"Parent\",\r\n    \"inverseRelationship\": \"Child\"\r\n  },\r\n  {\r\n    \"group\":
+        \"Personal\",\r\n    \"relationship\": \"Child\",\r\n    \"inverseRelationship\":
+        \"Parent\"\r\n  },\r\n  {\r\n    \"group\": \"Personal\",\r\n    \"relationship\":
+        \"Coworker\",\r\n    \"inverseRelationship\": \"Coworker\"\r\n  },\r\n  {\r\n
+        \   \"group\": \"Personal\",\r\n    \"relationship\": \"Family\",\r\n    \"inverseRelationship\":
+        \"Family\"\r\n  },\r\n  {\r\n    \"group\": \"Personal\",\r\n    \"relationship\":
+        \"Other\",\r\n    \"inverseRelationship\": \"Other\"\r\n  },\r\n  {\r\n    \"group\":
+        \"Professional\",\r\n    \"relationship\": \"Employer\",\r\n    \"inverseRelationship\":
+        \"Employee\"\r\n  },\r\n  {\r\n    \"group\": \"Professional\",\r\n    \"relationship\":
+        \"Employee\",\r\n    \"inverseRelationship\": \"Employer\"\r\n  },\r\n  {\r\n
+        \   \"group\": \"Religous\",\r\n    \"relationship\": \"Pastor\",\r\n    \"inverseRelationship\":
+        \"Pastor\"\r\n  }\r\n]"
+    http_version: 
+  recorded_at: Mon, 23 Oct 2017 15:38:52 GMT
 recorded_with: VCR 3.0.3

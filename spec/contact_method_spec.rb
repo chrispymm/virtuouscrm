@@ -22,7 +22,7 @@ RSpec.describe Virtuous::ContactMethod do
 
     describe "#find_contact_method" do
         let(:contact_id) { 3306 }
-        it "returns a response 200 / 400" do
+        it "returns a hash" do
             VCR.use_cassette("contact_method") do
                 @contact_method = Virtuous::ContactMethod.find(contact_id)
             end 
@@ -33,7 +33,7 @@ RSpec.describe Virtuous::ContactMethod do
 
     describe "#update_contact_method" do
         let(:contact_id) { 4699 } #ContactMethodID for ContactID 2526 (Chris Pymm)
-        let(:attributes) {{ type: "Home Email", value: "chris@adozeneggs.co.uk" }} 
+        let(:attributes) {{ type: "Home Email", value: "chris@adozeneggs.co.uk", isOptedIn: true }} 
 
         it "requires_attributes" do
             expect {
@@ -43,12 +43,14 @@ RSpec.describe Virtuous::ContactMethod do
 
         it "returns the contact method" do
             VCR.use_cassette("contact_method_update") do
-                @method_update = Virtuous::ContactMethod.update(contact_id, attributes)
+                @contact_method = Virtuous::ContactMethod.update(contact_id, attributes)
             end
-            expect(@method_update).to be_instance_of Virtuous::ContactMethod          
-            expect(@method_update.id).to eq(contact_id) 
+            expect(@contact_method).to be_instance_of Virtuous::ContactMethod          
+            expect(@contact_method.id).to eq(contact_id) 
         end
 
     end
+
+    #Not testing the Creation Method
 
 end

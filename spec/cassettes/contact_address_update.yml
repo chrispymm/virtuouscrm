@@ -33,9 +33,9 @@ http_interactions:
       X-Powered-By:
       - ASP.NET
       Set-Cookie:
-      - ARRAffinity=720ad350918348fce31b8fbef78811b9f1fbecff329b4238f20f9034308a1964;Path=/;HttpOnly;Domain=api.virtuoussoftware.com
+      - ARRAffinity=04b540972e1c012e738022c305d1961787cab4ffa0f5d54ddfe72413739a7870;Path=/;HttpOnly;Domain=api.virtuoussoftware.com
       Date:
-      - Thu, 19 Oct 2017 10:40:15 GMT
+      - Mon, 23 Oct 2017 14:10:51 GMT
     body:
       encoding: UTF-8
       string: "{\r\n  \"id\": 2526,\r\n  \"label\": \"Imported Address\",\r\n  \"address1\":
@@ -44,5 +44,5 @@ http_interactions:
         \ \"canBePrimary\": false,\r\n  \"startMonth\": 1,\r\n  \"startDay\": 1,\r\n
         \ \"endMonth\": 12,\r\n  \"endDay\": 31\r\n}"
     http_version: 
-  recorded_at: Thu, 19 Oct 2017 10:40:15 GMT
+  recorded_at: Mon, 23 Oct 2017 14:10:50 GMT
 recorded_with: VCR 3.0.3

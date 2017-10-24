@@ -35,10 +35,10 @@ http_interactions:
       Set-Cookie:
       - ARRAffinity=720ad350918348fce31b8fbef78811b9f1fbecff329b4238f20f9034308a1964;Path=/;HttpOnly;Domain=api.virtuoussoftware.com
       Date:
-      - Thu, 19 Oct 2017 10:40:32 GMT
+      - Mon, 23 Oct 2017 14:11:22 GMT
     body:
       encoding: UTF-8
       string: "{\r\n  \"message\": \"The argument cannot be null\"\r\n}"
     http_version: 
-  recorded_at: Thu, 19 Oct 2017 10:40:32 GMT
+  recorded_at: Mon, 23 Oct 2017 14:11:21 GMT
 recorded_with: VCR 3.0.3

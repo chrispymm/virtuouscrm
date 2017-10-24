@@ -1,0 +1,259 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api.virtuoussoftware.com/api/ContactNote/Important/ByContact/33?skip=0&take=10
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Version:
+      - v1
+      Authorization:
+      - Bearer v1iO46y9qiqyXiz8D4ZTugnpIVIv6KXEsReKZ8EuOFHJT29thIXQW1XUWbtykR66_4UtSoQIaUTTjuFcFY5iidQin8SE17IF7PebkqgeC0UPT-Z4G4v6fPVJ1IDLGxCSTfYe_CZ3tlSnQdzcT7ICmEAPI6i_GsL4TL4uCPFfmIgB0Cqn68kh3BBKtMCOWbsYdhP_U4OJDlCgYBG3AkKqpgDAH0H9Cb1DJO1x3o4TVn06_QQHDLDHfAccZHn2lUPbB_7s6f7UtKc_X_YmAcTMUFOd8POeyF3mNRbOY6xSM0cMvhLnPj93yEA_WI75WB-swJyHILIyv6ccUUZ6KmS16SAWOqzjKho9ccQg6-TKCoezQ2yvDlLrsA2H-V7X09PU7MWX6mn9nyGD1SDmt_5y-skiPhekNLoYnvp-2LOo619-HuVOChY0-_N3r5k6xwiimX797esP7KZIvveU5oOYjRY1QuFb0S8eg5aIZi9apWjBN9WfX4XfTcwTSVisZo0O3Xs34NyVERTvMfL-CX3sOoKSOB5hnc2V1gy7c8m08mD0jyRh
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Cache-Control:
+      - no-cache
+      Pragma:
+      - no-cache
+      Content-Length:
+      - '33'
+      Content-Type:
+      - application/json; charset=utf-8
+      Expires:
+      - "-1"
+      Server:
+      - Microsoft-IIS/8.0
+      X-Aspnet-Version:
+      - 4.0.30319
+      X-Powered-By:
+      - ASP.NET
+      Set-Cookie:
+      - ARRAffinity=04b540972e1c012e738022c305d1961787cab4ffa0f5d54ddfe72413739a7870;Path=/;HttpOnly;Domain=api.virtuoussoftware.com
+      Date:
+      - Mon, 23 Oct 2017 16:02:49 GMT
+    body:
+      encoding: UTF-8
+      string: "{\r\n  \"list\": [],\r\n  \"total\": 0\r\n}"
+    http_version: 
+  recorded_at: Mon, 23 Oct 2017 16:02:48 GMT
+- request:
+    method: get
+    uri: https://api.virtuoussoftware.com/api/ContactNote/ByContact/33?skip=0&take=10
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Version:
+      - v1
+      Authorization:
+      - Bearer v1iO46y9qiqyXiz8D4ZTugnpIVIv6KXEsReKZ8EuOFHJT29thIXQW1XUWbtykR66_4UtSoQIaUTTjuFcFY5iidQin8SE17IF7PebkqgeC0UPT-Z4G4v6fPVJ1IDLGxCSTfYe_CZ3tlSnQdzcT7ICmEAPI6i_GsL4TL4uCPFfmIgB0Cqn68kh3BBKtMCOWbsYdhP_U4OJDlCgYBG3AkKqpgDAH0H9Cb1DJO1x3o4TVn06_QQHDLDHfAccZHn2lUPbB_7s6f7UtKc_X_YmAcTMUFOd8POeyF3mNRbOY6xSM0cMvhLnPj93yEA_WI75WB-swJyHILIyv6ccUUZ6KmS16SAWOqzjKho9ccQg6-TKCoezQ2yvDlLrsA2H-V7X09PU7MWX6mn9nyGD1SDmt_5y-skiPhekNLoYnvp-2LOo619-HuVOChY0-_N3r5k6xwiimX797esP7KZIvveU5oOYjRY1QuFb0S8eg5aIZi9apWjBN9WfX4XfTcwTSVisZo0O3Xs34NyVERTvMfL-CX3sOoKSOB5hnc2V1gy7c8m08mD0jyRh
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Cache-Control:
+      - no-cache
+      Pragma:
+      - no-cache
+      Content-Length:
+      - '33'
+      Content-Type:
+      - application/json; charset=utf-8
+      Expires:
+      - "-1"
+      Server:
+      - Microsoft-IIS/8.0
+      X-Aspnet-Version:
+      - 4.0.30319
+      X-Powered-By:
+      - ASP.NET
+      Set-Cookie:
+      - ARRAffinity=720ad350918348fce31b8fbef78811b9f1fbecff329b4238f20f9034308a1964;Path=/;HttpOnly;Domain=api.virtuoussoftware.com
+      Date:
+      - Mon, 23 Oct 2017 16:02:57 GMT
+    body:
+      encoding: UTF-8
+      string: "{\r\n  \"list\": [],\r\n  \"total\": 0\r\n}"
+    http_version: 
+  recorded_at: Mon, 23 Oct 2017 16:02:56 GMT
+- request:
+    method: get
+    uri: https://api.virtuoussoftware.com/api/ContactNote/Types
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Version:
+      - v1
+      Authorization:
+      - Bearer v1iO46y9qiqyXiz8D4ZTugnpIVIv6KXEsReKZ8EuOFHJT29thIXQW1XUWbtykR66_4UtSoQIaUTTjuFcFY5iidQin8SE17IF7PebkqgeC0UPT-Z4G4v6fPVJ1IDLGxCSTfYe_CZ3tlSnQdzcT7ICmEAPI6i_GsL4TL4uCPFfmIgB0Cqn68kh3BBKtMCOWbsYdhP_U4OJDlCgYBG3AkKqpgDAH0H9Cb1DJO1x3o4TVn06_QQHDLDHfAccZHn2lUPbB_7s6f7UtKc_X_YmAcTMUFOd8POeyF3mNRbOY6xSM0cMvhLnPj93yEA_WI75WB-swJyHILIyv6ccUUZ6KmS16SAWOqzjKho9ccQg6-TKCoezQ2yvDlLrsA2H-V7X09PU7MWX6mn9nyGD1SDmt_5y-skiPhekNLoYnvp-2LOo619-HuVOChY0-_N3r5k6xwiimX797esP7KZIvveU5oOYjRY1QuFb0S8eg5aIZi9apWjBN9WfX4XfTcwTSVisZo0O3Xs34NyVERTvMfL-CX3sOoKSOB5hnc2V1gy7c8m08mD0jyRh
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Cache-Control:
+      - no-cache
+      Pragma:
+      - no-cache
+      Content-Length:
+      - '327'
+      Content-Type:
+      - application/json; charset=utf-8
+      Expires:
+      - "-1"
+      Server:
+      - Microsoft-IIS/8.0
+      X-Aspnet-Version:
+      - 4.0.30319
+      X-Powered-By:
+      - ASP.NET
+      Set-Cookie:
+      - ARRAffinity=720ad350918348fce31b8fbef78811b9f1fbecff329b4238f20f9034308a1964;Path=/;HttpOnly;Domain=api.virtuoussoftware.com
+      Date:
+      - Mon, 23 Oct 2017 16:02:59 GMT
+    body:
+      encoding: UTF-8
+      string: "{\r\n  \"general\": \"General\",\r\n  \"call\": \"Call\",\r\n  \"text
+        Message\": \"Text Message\",\r\n  \"letter\": \"Letter\",\r\n  \"direct Mail\":
+        \"Direct Mail\",\r\n  \"social Media\": \"Social Media\",\r\n  \"email\":
+        \"Email\",\r\n  \"in Person\": \"In Person\",\r\n  \"event\": \"Event\",\r\n
+        \ \"alert\": \"Alert\",\r\n  \"thank You\": \"Thank You\",\r\n  \"admin Notes\":
+        \"Admin Notes\"\r\n}"
+    http_version: 
+  recorded_at: Mon, 23 Oct 2017 16:02:57 GMT
+- request:
+    method: get
+    uri: https://api.virtuoussoftware.com/api/ContactNote/0
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Version:
+      - v1
+      Authorization:
+      - Bearer v1iO46y9qiqyXiz8D4ZTugnpIVIv6KXEsReKZ8EuOFHJT29thIXQW1XUWbtykR66_4UtSoQIaUTTjuFcFY5iidQin8SE17IF7PebkqgeC0UPT-Z4G4v6fPVJ1IDLGxCSTfYe_CZ3tlSnQdzcT7ICmEAPI6i_GsL4TL4uCPFfmIgB0Cqn68kh3BBKtMCOWbsYdhP_U4OJDlCgYBG3AkKqpgDAH0H9Cb1DJO1x3o4TVn06_QQHDLDHfAccZHn2lUPbB_7s6f7UtKc_X_YmAcTMUFOd8POeyF3mNRbOY6xSM0cMvhLnPj93yEA_WI75WB-swJyHILIyv6ccUUZ6KmS16SAWOqzjKho9ccQg6-TKCoezQ2yvDlLrsA2H-V7X09PU7MWX6mn9nyGD1SDmt_5y-skiPhekNLoYnvp-2LOo619-HuVOChY0-_N3r5k6xwiimX797esP7KZIvveU5oOYjRY1QuFb0S8eg5aIZi9apWjBN9WfX4XfTcwTSVisZo0O3Xs34NyVERTvMfL-CX3sOoKSOB5hnc2V1gy7c8m08mD0jyRh
+  response:
+    status:
+      code: 404
+      message: Not Found
+    headers:
+      Cache-Control:
+      - no-cache
+      Pragma:
+      - no-cache
+      Content-Length:
+      - '0'
+      Expires:
+      - "-1"
+      Server:
+      - Microsoft-IIS/8.0
+      X-Aspnet-Version:
+      - 4.0.30319
+      X-Powered-By:
+      - ASP.NET
+      Set-Cookie:
+      - ARRAffinity=720ad350918348fce31b8fbef78811b9f1fbecff329b4238f20f9034308a1964;Path=/;HttpOnly;Domain=api.virtuoussoftware.com
+      Date:
+      - Mon, 23 Oct 2017 16:02:58 GMT
+    body:
+      encoding: UTF-8
+      string: ''
+    http_version: 
+  recorded_at: Mon, 23 Oct 2017 16:02:58 GMT
+- request:
+    method: post
+    uri: https://api.virtuoussoftware.com/api/ContactNote/Email
+    body:
+      encoding: UTF-8
+      string: fromEmail=danny%40adozeneggs.co.uk&toEmail=chris%40adozeneggs.co.uk&subject=email%20note&body=message
+    headers:
+      Accept-Version:
+      - v1
+      Authorization:
+      - Bearer v1iO46y9qiqyXiz8D4ZTugnpIVIv6KXEsReKZ8EuOFHJT29thIXQW1XUWbtykR66_4UtSoQIaUTTjuFcFY5iidQin8SE17IF7PebkqgeC0UPT-Z4G4v6fPVJ1IDLGxCSTfYe_CZ3tlSnQdzcT7ICmEAPI6i_GsL4TL4uCPFfmIgB0Cqn68kh3BBKtMCOWbsYdhP_U4OJDlCgYBG3AkKqpgDAH0H9Cb1DJO1x3o4TVn06_QQHDLDHfAccZHn2lUPbB_7s6f7UtKc_X_YmAcTMUFOd8POeyF3mNRbOY6xSM0cMvhLnPj93yEA_WI75WB-swJyHILIyv6ccUUZ6KmS16SAWOqzjKho9ccQg6-TKCoezQ2yvDlLrsA2H-V7X09PU7MWX6mn9nyGD1SDmt_5y-skiPhekNLoYnvp-2LOo619-HuVOChY0-_N3r5k6xwiimX797esP7KZIvveU5oOYjRY1QuFb0S8eg5aIZi9apWjBN9WfX4XfTcwTSVisZo0O3Xs34NyVERTvMfL-CX3sOoKSOB5hnc2V1gy7c8m08mD0jyRh
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Cache-Control:
+      - no-cache
+      Pragma:
+      - no-cache
+      Content-Length:
+      - '338'
+      Content-Type:
+      - application/json; charset=utf-8
+      Expires:
+      - "-1"
+      Server:
+      - Microsoft-IIS/8.0
+      X-Aspnet-Version:
+      - 4.0.30319
+      X-Powered-By:
+      - ASP.NET
+      Set-Cookie:
+      - ARRAffinity=720ad350918348fce31b8fbef78811b9f1fbecff329b4238f20f9034308a1964;Path=/;HttpOnly;Domain=api.virtuoussoftware.com
+      Date:
+      - Mon, 23 Oct 2017 16:03:01 GMT
+    body:
+      encoding: UTF-8
+      string: "[\r\n  {\r\n    \"id\": 31,\r\n    \"createdDate\": \"23/10/2017\",\r\n
+        \   \"createdBy\": \"Chris Pymm\",\r\n    \"createdByAvatarUrl\": null,\r\n
+        \   \"type\": \"Email\",\r\n    \"note\": \"Sender: danny@adozeneggs.co.uk\\r\\nSubject:
+        email note\\r\\nBody: message\\r\\n\",\r\n    \"important\": false,\r\n    \"isPrivate\":
+        false,\r\n    \"binaryPath\": null,\r\n    \"reminder\": null\r\n  }\r\n]"
+    http_version: 
+  recorded_at: Mon, 23 Oct 2017 16:03:02 GMT
+- request:
+    method: post
+    uri: https://api.virtuoussoftware.com/api/ContactNote
+    body:
+      encoding: UTF-8
+      string: contactId=2526&type=General&note=A%20general%20note
+    headers:
+      Accept-Version:
+      - v1
+      Authorization:
+      - Bearer v1iO46y9qiqyXiz8D4ZTugnpIVIv6KXEsReKZ8EuOFHJT29thIXQW1XUWbtykR66_4UtSoQIaUTTjuFcFY5iidQin8SE17IF7PebkqgeC0UPT-Z4G4v6fPVJ1IDLGxCSTfYe_CZ3tlSnQdzcT7ICmEAPI6i_GsL4TL4uCPFfmIgB0Cqn68kh3BBKtMCOWbsYdhP_U4OJDlCgYBG3AkKqpgDAH0H9Cb1DJO1x3o4TVn06_QQHDLDHfAccZHn2lUPbB_7s6f7UtKc_X_YmAcTMUFOd8POeyF3mNRbOY6xSM0cMvhLnPj93yEA_WI75WB-swJyHILIyv6ccUUZ6KmS16SAWOqzjKho9ccQg6-TKCoezQ2yvDlLrsA2H-V7X09PU7MWX6mn9nyGD1SDmt_5y-skiPhekNLoYnvp-2LOo619-HuVOChY0-_N3r5k6xwiimX797esP7KZIvveU5oOYjRY1QuFb0S8eg5aIZi9apWjBN9WfX4XfTcwTSVisZo0O3Xs34NyVERTvMfL-CX3sOoKSOB5hnc2V1gy7c8m08mD0jyRh
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Cache-Control:
+      - no-cache
+      Pragma:
+      - no-cache
+      Content-Length:
+      - '250'
+      Content-Type:
+      - application/json; charset=utf-8
+      Expires:
+      - "-1"
+      Server:
+      - Microsoft-IIS/8.0
+      X-Aspnet-Version:
+      - 4.0.30319
+      X-Powered-By:
+      - ASP.NET
+      Set-Cookie:
+      - ARRAffinity=04b540972e1c012e738022c305d1961787cab4ffa0f5d54ddfe72413739a7870;Path=/;HttpOnly;Domain=api.virtuoussoftware.com
+      Date:
+      - Mon, 23 Oct 2017 16:03:04 GMT
+    body:
+      encoding: UTF-8
+      string: "{\r\n  \"id\": 32,\r\n  \"createdDate\": \"23/10/2017\",\r\n  \"createdBy\":
+        \"Chris Pymm\",\r\n  \"createdByAvatarUrl\": null,\r\n  \"type\": \"General\",\r\n
+        \ \"note\": \"A general note\",\r\n  \"important\": false,\r\n  \"isPrivate\":
+        false,\r\n  \"binaryPath\": null,\r\n  \"reminder\": null\r\n}"
+    http_version: 
+  recorded_at: Mon, 23 Oct 2017 16:03:03 GMT
+recorded_with: VCR 3.0.3

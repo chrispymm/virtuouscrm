@@ -4,15 +4,19 @@ module Virtuous
         class << self
 
             # Gets the relationships for the specified contact
-            # @param id [Int] The contactID of the contact to return relationships for
+            # @param contact_id [Int] The Reference Id of the contact to retrieve.
+            # @param filter [String] String to filter by.
+            # @param skip [Int] Number of records to skip (pagination start number).
+            # @param take [Int] Number of records to take (records per page).
             # @return [Array] related to specified contact
-            def find_by_contact( id, skip=0, take=10 )
+            def find_by_contact( contact_id, filter='', skip=0, take=10 )
                 params = {
                     skip:  skip,
                     take:  take
                 }
-                parse_list(connection.get("/Relationship/ByContact/#{id}", params ).body )
-            end            
+                params[:filter] = filter unless filter.empty?
+                parse_list(connection.get("/Relationship/ByContact/#{contact_id}", params ).body )
+            end         
             
             # Gets the types of relationships
             def types

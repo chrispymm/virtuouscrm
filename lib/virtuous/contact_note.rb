@@ -60,11 +60,16 @@ module Virtuous
             # @return [Virtuous::ContactNote] the created contact note
             def create( attributes = {} )
                 body = attributes
-                contact_note = Virtuous::ContactNote.new JSON.parse(connection.post("/ContactNote", body).body)
+                # contact_note = Virtuous::ContactNote.new JSON.parse(connection.post("/ContactNote", body).body)
+                response = connection.post("/ContactNote", body )
+                status = response.respond_to?(:status) ? response.status : response.code
             end
 
             # Posts the email as a contact note
-            # @param attributes [Hash] attributes of the contact note created
+            # @body from [String] attributes of the contact note created
+            # @body to [String] attributes of the contact note created
+            # @body subject [String] attributes of the contact note created
+            # @body message [String] attributes of the contact note created 
             # @return [Virtuous::ContactNote] the email
             def create_from_email( from="", to="", subject="", message="" )
                 body = {
@@ -74,6 +79,8 @@ module Virtuous
                     body: message
                 }
                 contact_note = Virtuous::ContactNote.new JSON.parse(connection.post("/ContactNote/Email", body).body)
+                # response = JSON.parse(connection.post("/ContactNote/Email", body).body)
+                # status = response.respond_to?(:status) ? response.status : response.code
             end
 
             private

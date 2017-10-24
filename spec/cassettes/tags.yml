@@ -33,9 +33,9 @@ http_interactions:
       X-Powered-By:
       - ASP.NET
       Set-Cookie:
-      - ARRAffinity=720ad350918348fce31b8fbef78811b9f1fbecff329b4238f20f9034308a1964;Path=/;HttpOnly;Domain=api.virtuoussoftware.com
+      - ARRAffinity=04b540972e1c012e738022c305d1961787cab4ffa0f5d54ddfe72413739a7870;Path=/;HttpOnly;Domain=api.virtuoussoftware.com
       Date:
-      - Thu, 19 Oct 2017 10:40:35 GMT
+      - Mon, 23 Oct 2017 14:11:25 GMT
     body:
       encoding: UTF-8
       string: "{\r\n  \"list\": [\r\n    {\r\n      \"id\": 33,\r\n      \"tagName\":
@@ -62,7 +62,7 @@ http_interactions:
         \"Candidate\",\r\n      \"tagGroupName\": \"Imported Tags\",\r\n      \"contactsByTagUrl\":
         \"/api/Contact/ByTag/39\"\r\n    }\r\n  ],\r\n  \"total\": 75\r\n}"
     http_version: 
-  recorded_at: Thu, 19 Oct 2017 10:40:36 GMT
+  recorded_at: Mon, 23 Oct 2017 14:11:25 GMT
 - request:
     method: post
     uri: https://api.virtuoussoftware.com/api/Tag/Search?skip=0&take=10
@@ -96,9 +96,9 @@ http_interactions:
       X-Powered-By:
       - ASP.NET
       Set-Cookie:
-      - ARRAffinity=720ad350918348fce31b8fbef78811b9f1fbecff329b4238f20f9034308a1964;Path=/;HttpOnly;Domain=api.virtuoussoftware.com
+      - ARRAffinity=04b540972e1c012e738022c305d1961787cab4ffa0f5d54ddfe72413739a7870;Path=/;HttpOnly;Domain=api.virtuoussoftware.com
       Date:
-      - Thu, 19 Oct 2017 10:40:37 GMT
+      - Mon, 23 Oct 2017 14:11:27 GMT
     body:
       encoding: UTF-8
       string: "{\r\n  \"list\": [\r\n    {\r\n      \"id\": 41,\r\n      \"tagName\":
@@ -109,5 +109,5 @@ http_interactions:
         \"PreApplicant\",\r\n      \"tagGroupName\": \"Imported Tags\",\r\n      \"contactsByTagUrl\":
         \"/api/Contact/ByTag/46\"\r\n    }\r\n  ],\r\n  \"total\": 3\r\n}"
     http_version: 
-  recorded_at: Thu, 19 Oct 2017 10:40:37 GMT
+  recorded_at: Mon, 23 Oct 2017 14:11:26 GMT
 recorded_with: VCR 3.0.3
