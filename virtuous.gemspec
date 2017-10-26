@@ -4,7 +4,7 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require "virtuous/version"
 
 Gem::Specification.new do |spec|
-  spec.name          = "Virtuous"
+  spec.name          = "virtuous"
   spec.version       = Virtuous::VERSION
   spec.authors       = ["Chris Pymm"]
   spec.email         = ["chris@adozeneggs.co.uk"]
@@ -37,4 +37,5 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency "rspec", "~> 3.0"
   spec.add_development_dependency "vcr"
   spec.add_development_dependency "webmock"
+  spec.add_development_dependency "yard"
 end

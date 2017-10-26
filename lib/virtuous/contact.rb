@@ -139,7 +139,7 @@ module Virtuous
                 response = JSON.parse(connection.post("/Contact/Proximity", body, params).body)
             end
 
-            # Find all contacts that match, fully or partially, the given search parameter
+            # Find all contacts that match, fully or partially, the given search string
             # @param search [String] The search query.
             # @param skip [Int] Number of records to skip (pagination start number).
             # @param take [Int] Number of records to take (records per page).
@@ -153,6 +153,24 @@ module Virtuous
                     take:   take
                 }
                 parse_list(connection.post("/Contact/Search", body, params).body)
+            end
+
+            # Find all contacts that match, fully or partially, the given query attributes
+            # 
+            # Query attributes shoudl be made up of elements from Virtuous::Contact.query_options
+            #
+            # @param query [Hash] The query attributes.
+            # @param skip [Int] Number of records to skip (pagination start number).
+            # @param take [Int] Number of records to take (records per page).
+            # @return [Array] An array of Virtuous::Contact records
+            def query(query={}, skip=0, take=10 )
+                body = query.to_json
+                params = {
+                    skip:   skip,
+                    take:   take
+                }
+                headers = { "Content-Type" => "application/json" }
+                parse_list(connection.post("/Contact/Query", body, params, headers).body)
             end
 
 

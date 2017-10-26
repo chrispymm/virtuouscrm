@@ -2,6 +2,7 @@ module Virtuous #:nodoc:
     
   class Connection
     include HTTParty
+    debug_output $stdout
 
     # The version of the API being used if unspecified.
     DEFAULT_VERSION  = "v1"
@@ -33,16 +34,16 @@ module Virtuous #:nodoc:
     # Perform a PUT request.
     # @param path [String] The path at which to make ther request.
     # @param params [Hash] A hash of request parameters.
-    def put(path, body = {}, params = {})
-      request :put, path, body, params
+    def put(path, body={}, params={}, headers={} )
+      request :put, path, body, params, headers
     end
 
     # Perform a POST request.
     # @param path [String] The path at which to make ther request.
     # @param body [Hash] A hash of body parameters.
     # @param params [Hash] A hash of query parameters.
-    def post(path, body = {}, params = {})
-      request :post, path, body, params
+    def post(path, body={}, params={}, headers={} )
+      request :post, path, body, params, headers
     end
 
     # Perform a DELETE request.
@@ -54,13 +55,18 @@ module Virtuous #:nodoc:
 
     private
 
-    def request(verb, path, body = {}, params = {})
+    def request( verb, path, body = {}, params = {}, headers = {} )
       raise ArgumentError.new "Invalid http verb #{verb}" if ![:get, :post, :put, :delete].include?(verb)
 
-      headers = {
-      "Accept-Version" => @api_version,
-      "Authorization" => "Bearer #{@token}"
+      default_headers = {
+        "Accept-Version" => @api_version,
+        "Authorization" => "Bearer #{@token}"
       }
+
+      headers.merge!(default_headers)
+
+      puts "HEADERS: #{headers}"
+
       if verb == :get 
         response =  self.class.public_send verb, path, query: params, headers: headers
       else
