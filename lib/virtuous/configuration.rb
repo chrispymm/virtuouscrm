@@ -4,13 +4,15 @@ module Virtuous
         attr_accessor :logger
         attr_accessor :http_debug
         attr_accessor :http_log
+        attr_accessor :http_log_format
         attr_accessor :env
     
         def initialize
           @env = 'development'
           @http_debug = ( @env == 'development' ? true : false )
           @http_log = ( @env == 'development' ? true : true )
-          @logger = ( @env == 'development' ? ::Logger.new($stdout) : ::Logger.new('virtuous.log') )
+          @http_log_format = :apache
+          @logger = ( @env == 'development' ? ::Logger.new($stdout) : ::Logger.new('log/virtuous.log') )
         end
     
         def test?

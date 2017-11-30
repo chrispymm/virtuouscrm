@@ -26,7 +26,7 @@ module Virtuous #:nodoc:
       #@http_log           = Virtuous.configuration.http_log
       
       self.class.debug_output $stdout if Virtuous.configuration.http_debug
-      self.class.logger ::Logger.new("virtuous_http.log"), :debug if Virtuous.configuration.http_log #, :curl
+      self.class.logger ::Logger.new("log/virtuous_http.log"), :info, Virtuous.configuration.http_log_format  if Virtuous.configuration.http_log #, :curl
 
       Virtuous::Connection.base_uri @api_base_uri
     end
