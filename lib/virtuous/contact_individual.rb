@@ -23,7 +23,7 @@ module Virtuous
             # @param attributes [Hash] attributes of the contact to update
             # @return [Virtuous::Contact] the updated contact
             def update( id, attributes = {} )
-                body = attributes
+                body = attributes.to_json
                 contact_individual = Virtuous::ContactIndividual.new JSON.parse(connection.put("/ContactIndividual/#{id}", body).body)
             end
 
@@ -31,7 +31,8 @@ module Virtuous
             # @param contactId [Int] The ContactID of a specific contact
             # @return [Hash] 
             def find_by_contact(contactId)
-                contact_individual = JSON.parse(connection.get("/ContactIndividual/ByContact/#{contactId}").body)
+                contact_individuals = JSON.parse(connection.get("/ContactIndividual/ByContact/#{contactId}").body)
+                contact_individuals.map { |individual| Virtuous::ContactIndividual.new( individual ) }
             end
 
             # Gets the avatar for a specified contact individual
@@ -59,7 +60,7 @@ module Virtuous
             # @param attributes [Hash] attributes of the contact to create
             # @return [Virtuouscrm::Contact] the new contact
             def create(attributes={})
-                body = attributes
+                body = attributes.to_json
                 contact_individual = Virtuous::ContactIndividual.new JSON.parse(connection.post("/ContactIndividual", body ).body )    
             end
 

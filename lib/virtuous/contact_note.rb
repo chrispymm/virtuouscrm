@@ -42,7 +42,7 @@ module Virtuous
             # @param id [Int] The contactID of the contact to return notes for
             # @return [Virtuous::ContactNote]
             def find( id )
-                contact_note = Virtuous::ContactNote.new JSON.parse(connection.get("/ContactNote/#{id}" ) )
+                contact_note = Virtuous::ContactNote.new JSON.parse(connection.get("/ContactNote/#{id}" ).body )
             end
 
             # Updates the specified contact note

@@ -5,12 +5,14 @@ http_interactions:
     uri: https://api.virtuoussoftware.com/api/ContactAddress/2526
     body:
       encoding: UTF-8
-      string: label=Imported%20Address&city=Loughborough
+      string: '{"label":"Imported Address","city":"Loughborough"}'
     headers:
       Accept-Version:
       - v1
       Authorization:
       - Bearer v1iO46y9qiqyXiz8D4ZTugnpIVIv6KXEsReKZ8EuOFHJT29thIXQW1XUWbtykR66_4UtSoQIaUTTjuFcFY5iidQin8SE17IF7PebkqgeC0UPT-Z4G4v6fPVJ1IDLGxCSTfYe_CZ3tlSnQdzcT7ICmEAPI6i_GsL4TL4uCPFfmIgB0Cqn68kh3BBKtMCOWbsYdhP_U4OJDlCgYBG3AkKqpgDAH0H9Cb1DJO1x3o4TVn06_QQHDLDHfAccZHn2lUPbB_7s6f7UtKc_X_YmAcTMUFOd8POeyF3mNRbOY6xSM0cMvhLnPj93yEA_WI75WB-swJyHILIyv6ccUUZ6KmS16SAWOqzjKho9ccQg6-TKCoezQ2yvDlLrsA2H-V7X09PU7MWX6mn9nyGD1SDmt_5y-skiPhekNLoYnvp-2LOo619-HuVOChY0-_N3r5k6xwiimX797esP7KZIvveU5oOYjRY1QuFb0S8eg5aIZi9apWjBN9WfX4XfTcwTSVisZo0O3Xs34NyVERTvMfL-CX3sOoKSOB5hnc2V1gy7c8m08mD0jyRh
+      Content-Type:
+      - application/json
   response:
     status:
       code: 200
@@ -33,9 +35,9 @@ http_interactions:
       X-Powered-By:
       - ASP.NET
       Set-Cookie:
-      - ARRAffinity=04b540972e1c012e738022c305d1961787cab4ffa0f5d54ddfe72413739a7870;Path=/;HttpOnly;Domain=api.virtuoussoftware.com
+      - ARRAffinity=3415176493f3d594e6622a1bc200b5d3c404de5a36f56201c08b83e47ed986ca;Path=/;HttpOnly;Domain=api.virtuoussoftware.com
       Date:
-      - Mon, 23 Oct 2017 14:10:51 GMT
+      - Tue, 31 Oct 2017 13:22:31 GMT
     body:
       encoding: UTF-8
       string: "{\r\n  \"id\": 2526,\r\n  \"label\": \"Imported Address\",\r\n  \"address1\":
@@ -44,5 +46,5 @@ http_interactions:
         \ \"canBePrimary\": false,\r\n  \"startMonth\": 1,\r\n  \"startDay\": 1,\r\n
         \ \"endMonth\": 12,\r\n  \"endDay\": 31\r\n}"
     http_version: 
-  recorded_at: Mon, 23 Oct 2017 14:10:50 GMT
+  recorded_at: Tue, 31 Oct 2017 13:22:32 GMT
 recorded_with: VCR 3.0.3

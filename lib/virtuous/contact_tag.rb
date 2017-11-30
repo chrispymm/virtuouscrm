@@ -27,8 +27,8 @@ module Virtuous
             # @param attributes [Hash] attributes of the contact tag created
             # @return [Virtuous::ContactTag] the created contact tag
             def create( attributes = {} )
-                body = attributes
-                contact_method = Virtuous::ContactAddress.new JSON.parse(connection.post("/ContactTag", body).body)
+                body = attributes.to_json
+                contact_method = Virtuous::ContactTag.new JSON.parse(connection.post("/ContactTag", body).body)
             end
 
             private

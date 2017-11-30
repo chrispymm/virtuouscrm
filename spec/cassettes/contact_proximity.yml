@@ -11,6 +11,8 @@ http_interactions:
       - v1
       Authorization:
       - Bearer v1iO46y9qiqyXiz8D4ZTugnpIVIv6KXEsReKZ8EuOFHJT29thIXQW1XUWbtykR66_4UtSoQIaUTTjuFcFY5iidQin8SE17IF7PebkqgeC0UPT-Z4G4v6fPVJ1IDLGxCSTfYe_CZ3tlSnQdzcT7ICmEAPI6i_GsL4TL4uCPFfmIgB0Cqn68kh3BBKtMCOWbsYdhP_U4OJDlCgYBG3AkKqpgDAH0H9Cb1DJO1x3o4TVn06_QQHDLDHfAccZHn2lUPbB_7s6f7UtKc_X_YmAcTMUFOd8POeyF3mNRbOY6xSM0cMvhLnPj93yEA_WI75WB-swJyHILIyv6ccUUZ6KmS16SAWOqzjKho9ccQg6-TKCoezQ2yvDlLrsA2H-V7X09PU7MWX6mn9nyGD1SDmt_5y-skiPhekNLoYnvp-2LOo619-HuVOChY0-_N3r5k6xwiimX797esP7KZIvveU5oOYjRY1QuFb0S8eg5aIZi9apWjBN9WfX4XfTcwTSVisZo0O3Xs34NyVERTvMfL-CX3sOoKSOB5hnc2V1gy7c8m08mD0jyRh
+      Content-Type:
+      - application/json
   response:
     status:
       code: 400
@@ -21,7 +23,7 @@ http_interactions:
       Pragma:
       - no-cache
       Content-Length:
-      - '269'
+      - '141'
       Content-Type:
       - application/json; charset=utf-8
       Expires:
@@ -33,15 +35,14 @@ http_interactions:
       X-Powered-By:
       - ASP.NET
       Set-Cookie:
-      - ARRAffinity=720ad350918348fce31b8fbef78811b9f1fbecff329b4238f20f9034308a1964;Path=/;HttpOnly;Domain=api.virtuoussoftware.com
+      - ARRAffinity=3415176493f3d594e6622a1bc200b5d3c404de5a36f56201c08b83e47ed986ca;Path=/;HttpOnly;Domain=api.virtuoussoftware.com
       Date:
-      - Mon, 23 Oct 2017 14:11:23 GMT
+      - Tue, 31 Oct 2017 13:23:11 GMT
     body:
       encoding: UTF-8
       string: "{\r\n  \"message\": \"The request is invalid.\",\r\n  \"modelState\":
-        {\r\n    \"contactProximitySearch.Latitude\": [\r\n      \"The Latitude property
-        is required.\"\r\n    ],\r\n    \"contactProximitySearch.DistanceInMiles\":
-        [\r\n      \"Distance must be within 1 and 100 miles.\"\r\n    ]\r\n  }\r\n}"
+        {\r\n    \"contactProximitySearch\": [\r\n      \"An error has occurred.\"\r\n
+        \   ]\r\n  }\r\n}"
     http_version: 
-  recorded_at: Mon, 23 Oct 2017 14:11:23 GMT
+  recorded_at: Tue, 31 Oct 2017 13:23:11 GMT
 recorded_with: VCR 3.0.3

@@ -11,6 +11,8 @@ http_interactions:
       - v1
       Authorization:
       - Bearer v1iO46y9qiqyXiz8D4ZTugnpIVIv6KXEsReKZ8EuOFHJT29thIXQW1XUWbtykR66_4UtSoQIaUTTjuFcFY5iidQin8SE17IF7PebkqgeC0UPT-Z4G4v6fPVJ1IDLGxCSTfYe_CZ3tlSnQdzcT7ICmEAPI6i_GsL4TL4uCPFfmIgB0Cqn68kh3BBKtMCOWbsYdhP_U4OJDlCgYBG3AkKqpgDAH0H9Cb1DJO1x3o4TVn06_QQHDLDHfAccZHn2lUPbB_7s6f7UtKc_X_YmAcTMUFOd8POeyF3mNRbOY6xSM0cMvhLnPj93yEA_WI75WB-swJyHILIyv6ccUUZ6KmS16SAWOqzjKho9ccQg6-TKCoezQ2yvDlLrsA2H-V7X09PU7MWX6mn9nyGD1SDmt_5y-skiPhekNLoYnvp-2LOo619-HuVOChY0-_N3r5k6xwiimX797esP7KZIvveU5oOYjRY1QuFb0S8eg5aIZi9apWjBN9WfX4XfTcwTSVisZo0O3Xs34NyVERTvMfL-CX3sOoKSOB5hnc2V1gy7c8m08mD0jyRh
+      Content-Type:
+      - application/json
   response:
     status:
       code: 200
@@ -21,7 +23,7 @@ http_interactions:
       Pragma:
       - no-cache
       Content-Length:
-      - '2868'
+      - '1448'
       Content-Type:
       - application/json; charset=utf-8
       Expires:
@@ -33,65 +35,47 @@ http_interactions:
       X-Powered-By:
       - ASP.NET
       Set-Cookie:
-      - ARRAffinity=720ad350918348fce31b8fbef78811b9f1fbecff329b4238f20f9034308a1964;Path=/;HttpOnly;Domain=api.virtuoussoftware.com
+      - ARRAffinity=ff1776aaaffbe99ffb4f021bbc3c9cfef3d23b90858b122afe3616743ca43f73;Path=/;HttpOnly;Domain=api.virtuoussoftware.com
       Date:
-      - Mon, 23 Oct 2017 14:11:13 GMT
+      - Tue, 31 Oct 2017 13:22:58 GMT
     body:
       encoding: UTF-8
-      string: "{\r\n  \"list\": [\r\n    {\r\n      \"id\": 1246,\r\n      \"name\":
-        \"Chris Amaro\",\r\n      \"contactType\": \"Household\",\r\n      \"contactName\":
-        \"Chris Amaro\",\r\n      \"address\": \"Mesa, AZ\",\r\n      \"email\": \"chrisamaro@redemptionaz.com\",\r\n
-        \     \"phone\": \"6026289858\",\r\n      \"contactViewUrl\": \"/api/Contact/1246\"\r\n
-        \   },\r\n    {\r\n      \"id\": 1251,\r\n      \"name\": \"Peter Jannetti\",\r\n
-        \     \"contactType\": \"Household\",\r\n      \"contactName\": \"Peter Jannetti\",\r\n
-        \     \"address\": \"Farmingville, NY\",\r\n      \"email\": \"pjannetti@optonline.net\",\r\n
-        \     \"phone\": \"6314959055\",\r\n      \"contactViewUrl\": \"/api/Contact/1251\"\r\n
-        \   },\r\n    {\r\n      \"id\": 1252,\r\n      \"name\": \"Sam Pedigo\",\r\n
-        \     \"contactType\": \"Household\",\r\n      \"contactName\": \"Sam Pedigo\",\r\n
-        \     \"address\": \"Prosper, TX\",\r\n      \"email\": \"spedigo@legacyprosper.com\",\r\n
-        \     \"phone\": \"\",\r\n      \"contactViewUrl\": \"/api/Contact/1252\"\r\n
-        \   },\r\n    {\r\n      \"id\": 1253,\r\n      \"name\": \"Chris Wiegand\",\r\n
-        \     \"contactType\": \"Household\",\r\n      \"contactName\": \"Chris Wiegand\",\r\n
-        \     \"address\": \"Lakeport, MI\",\r\n      \"email\": \"4livingwater@gmail.com\",\r\n
-        \     \"phone\": \"8103858561\",\r\n      \"contactViewUrl\": \"/api/Contact/1253\"\r\n
-        \   },\r\n    {\r\n      \"id\": 1254,\r\n      \"name\": \"Andy Stager\",\r\n
-        \     \"contactType\": \"Household\",\r\n      \"contactName\": \"Andy Stager\",\r\n
-        \     \"address\": \"Rock Hill, SC\",\r\n      \"email\": \"arstager@gmail.com\",\r\n
-        \     \"phone\": \"8037278202\",\r\n      \"contactViewUrl\": \"/api/Contact/1254\"\r\n
-        \   },\r\n    {\r\n      \"id\": 1256,\r\n      \"name\": \"Scott Sullivan\",\r\n
-        \     \"contactType\": \"Household\",\r\n      \"contactName\": \"Scott Sullivan\",\r\n
-        \     \"address\": \"Ada, OK\",\r\n      \"email\": \"scottpatricksullivan@gmail.com\",\r\n
-        \     \"phone\": \"5803102490\",\r\n      \"contactViewUrl\": \"/api/Contact/1256\"\r\n
-        \   },\r\n    {\r\n      \"id\": 1260,\r\n      \"name\": \"Caleb Klontz\",\r\n
-        \     \"contactType\": \"Household\",\r\n      \"contactName\": \"Caleb Klontz\",\r\n
-        \     \"address\": \"Trieste, TS Italy\",\r\n      \"email\": \"caleb.klontz@gmail.com\",\r\n
-        \     \"phone\": \"3924755010\",\r\n      \"contactViewUrl\": \"/api/Contact/1260\"\r\n
-        \   },\r\n    {\r\n      \"id\": 1262,\r\n      \"name\": \"Jeremy Tuinstra\",\r\n
-        \     \"contactType\": \"Household\",\r\n      \"contactName\": \"Jeremy Tuinstra\",\r\n
-        \     \"address\": \"\",\r\n      \"email\": \"jjtuinstra@hotmail.com\",\r\n
-        \     \"phone\": \"\",\r\n      \"contactViewUrl\": \"/api/Contact/1262\"\r\n
-        \   },\r\n    {\r\n      \"id\": 1268,\r\n      \"name\": \"Bo Bray\",\r\n
-        \     \"contactType\": \"Household\",\r\n      \"contactName\": \"Bo Bray\",\r\n
-        \     \"address\": \"\",\r\n      \"email\": \"bobray14@gmail.com\",\r\n      \"phone\":
-        \"\",\r\n      \"contactViewUrl\": \"/api/Contact/1268\"\r\n    },\r\n    {\r\n
-        \     \"id\": 1270,\r\n      \"name\": \"Brent Christian\",\r\n      \"contactType\":
-        \"Household\",\r\n      \"contactName\": \"Brent Christian\",\r\n      \"address\":
-        \"\",\r\n      \"email\": \"christian.brent@gmail.com\",\r\n      \"phone\":
-        \"\",\r\n      \"contactViewUrl\": \"/api/Contact/1270\"\r\n    }\r\n  ],\r\n
-        \ \"total\": 433\r\n}"
+      string: "{\r\n  \"list\": [\r\n    {\r\n      \"id\": 706,\r\n      \"name\":
+        \"Lucas and Su Parks\",\r\n      \"contactType\": \"Household\",\r\n      \"contactName\":
+        \"Lucas and Su Parks\",\r\n      \"address\": \"3 Kincora Mews Belfast, Northern
+        Ireland BT4 3NG United Kingdom\",\r\n      \"email\": \"lucas@villagebelfast.com\",\r\n
+        \     \"phone\": \"07784141013\",\r\n      \"contactViewUrl\": \"/api/Contact/706\"\r\n
+        \   },\r\n    {\r\n      \"id\": 713,\r\n      \"name\": \"Todd and Brooke
+        Perkins\",\r\n      \"contactType\": \"Household\",\r\n      \"contactName\":
+        \"Todd and Brooke Perkins\",\r\n      \"address\": \"178 Ingleaok Ln Greenville,
+        SC 29615\",\r\n      \"email\": \"todd@eastnorthchurch.com\",\r\n      \"phone\":
+        \"864-365-7063\",\r\n      \"contactViewUrl\": \"/api/Contact/713\"\r\n    },\r\n
+        \   {\r\n      \"id\": 816,\r\n      \"name\": \"Josh and Aneliese Walsh\",\r\n
+        \     \"contactType\": \"Household\",\r\n      \"contactName\": \"Josh and
+        Aneliese Walsh\",\r\n      \"address\": \"4 Boundary Road Port Sunlight Wirral,
+        Merseyside CH62 5ES United Kingdom\",\r\n      \"email\": \"josh@cornerstonechurchwirral.org\",\r\n
+        \     \"phone\": \"07912304496\",\r\n      \"contactViewUrl\": \"/api/Contact/816\"\r\n
+        \   },\r\n    {\r\n      \"id\": 1806,\r\n      \"name\": \"Gary and Claudia
+        Cousins\",\r\n      \"contactType\": \"Household\",\r\n      \"contactName\":
+        \"Gary and Claudia Cousins\",\r\n      \"address\": \"Seilerweg 6 Binzen,
+        Europe 79589 Germany\",\r\n      \"email\": \"garycousins@acts29.com\",\r\n
+        \     \"phone\": \"4.91577e+12\",\r\n      \"contactViewUrl\": \"/api/Contact/1806\"\r\n
+        \   }\r\n  ],\r\n  \"total\": 4\r\n}"
     http_version: 
-  recorded_at: Mon, 23 Oct 2017 14:11:12 GMT
+  recorded_at: Tue, 31 Oct 2017 13:22:58 GMT
 - request:
-    method: post
-    uri: https://api.virtuoussoftware.com/api/Contact/Search?skip=0&take=10
+    method: get
+    uri: https://api.virtuoussoftware.com/api/Contact/Following?skip=0&take=10
     body:
-      encoding: UTF-8
-      string: search[search]=Chris
+      encoding: US-ASCII
+      string: ''
     headers:
       Accept-Version:
       - v1
       Authorization:
       - Bearer v1iO46y9qiqyXiz8D4ZTugnpIVIv6KXEsReKZ8EuOFHJT29thIXQW1XUWbtykR66_4UtSoQIaUTTjuFcFY5iidQin8SE17IF7PebkqgeC0UPT-Z4G4v6fPVJ1IDLGxCSTfYe_CZ3tlSnQdzcT7ICmEAPI6i_GsL4TL4uCPFfmIgB0Cqn68kh3BBKtMCOWbsYdhP_U4OJDlCgYBG3AkKqpgDAH0H9Cb1DJO1x3o4TVn06_QQHDLDHfAccZHn2lUPbB_7s6f7UtKc_X_YmAcTMUFOd8POeyF3mNRbOY6xSM0cMvhLnPj93yEA_WI75WB-swJyHILIyv6ccUUZ6KmS16SAWOqzjKho9ccQg6-TKCoezQ2yvDlLrsA2H-V7X09PU7MWX6mn9nyGD1SDmt_5y-skiPhekNLoYnvp-2LOo619-HuVOChY0-_N3r5k6xwiimX797esP7KZIvveU5oOYjRY1QuFb0S8eg5aIZi9apWjBN9WfX4XfTcwTSVisZo0O3Xs34NyVERTvMfL-CX3sOoKSOB5hnc2V1gy7c8m08mD0jyRh
+      Content-Type:
+      - application/json
   response:
     status:
       code: 200
@@ -114,12 +98,101 @@ http_interactions:
       X-Powered-By:
       - ASP.NET
       Set-Cookie:
-      - ARRAffinity=720ad350918348fce31b8fbef78811b9f1fbecff329b4238f20f9034308a1964;Path=/;HttpOnly;Domain=api.virtuoussoftware.com
+      - ARRAffinity=ff1776aaaffbe99ffb4f021bbc3c9cfef3d23b90858b122afe3616743ca43f73;Path=/;HttpOnly;Domain=api.virtuoussoftware.com
       Date:
-      - Mon, 23 Oct 2017 14:11:25 GMT
+      - Tue, 31 Oct 2017 13:23:08 GMT
     body:
       encoding: UTF-8
       string: "{\r\n  \"list\": [],\r\n  \"total\": 0\r\n}"
     http_version: 
-  recorded_at: Mon, 23 Oct 2017 14:11:24 GMT
+  recorded_at: Tue, 31 Oct 2017 13:23:08 GMT
+- request:
+    method: post
+    uri: https://api.virtuoussoftware.com/api/Contact/Search?skip=0&take=10
+    body:
+      encoding: UTF-8
+      string: '{"search":"Chris"}'
+    headers:
+      Accept-Version:
+      - v1
+      Authorization:
+      - Bearer v1iO46y9qiqyXiz8D4ZTugnpIVIv6KXEsReKZ8EuOFHJT29thIXQW1XUWbtykR66_4UtSoQIaUTTjuFcFY5iidQin8SE17IF7PebkqgeC0UPT-Z4G4v6fPVJ1IDLGxCSTfYe_CZ3tlSnQdzcT7ICmEAPI6i_GsL4TL4uCPFfmIgB0Cqn68kh3BBKtMCOWbsYdhP_U4OJDlCgYBG3AkKqpgDAH0H9Cb1DJO1x3o4TVn06_QQHDLDHfAccZHn2lUPbB_7s6f7UtKc_X_YmAcTMUFOd8POeyF3mNRbOY6xSM0cMvhLnPj93yEA_WI75WB-swJyHILIyv6ccUUZ6KmS16SAWOqzjKho9ccQg6-TKCoezQ2yvDlLrsA2H-V7X09PU7MWX6mn9nyGD1SDmt_5y-skiPhekNLoYnvp-2LOo619-HuVOChY0-_N3r5k6xwiimX797esP7KZIvveU5oOYjRY1QuFb0S8eg5aIZi9apWjBN9WfX4XfTcwTSVisZo0O3Xs34NyVERTvMfL-CX3sOoKSOB5hnc2V1gy7c8m08mD0jyRh
+      Content-Type:
+      - application/json
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Cache-Control:
+      - no-cache
+      Pragma:
+      - no-cache
+      Content-Length:
+      - '3351'
+      Content-Type:
+      - application/json; charset=utf-8
+      Expires:
+      - "-1"
+      Server:
+      - Microsoft-IIS/8.0
+      X-Aspnet-Version:
+      - 4.0.30319
+      X-Powered-By:
+      - ASP.NET
+      Set-Cookie:
+      - ARRAffinity=ff1776aaaffbe99ffb4f021bbc3c9cfef3d23b90858b122afe3616743ca43f73;Path=/;HttpOnly;Domain=api.virtuoussoftware.com
+      Date:
+      - Tue, 31 Oct 2017 13:23:13 GMT
+    body:
+      encoding: UTF-8
+      string: "{\r\n  \"list\": [\r\n    {\r\n      \"individualId\": 804,\r\n      \"id\":
+        395,\r\n      \"name\": \"Christine Adachi\",\r\n      \"contactType\": \"Household\",\r\n
+        \     \"contactName\": \"Kenji and Christine Adachi\",\r\n      \"address\":
+        \"4513 Rhett Lane Fairfax, VA 22030\",\r\n      \"email\": \"christinebadachi@yahoo.com\",\r\n
+        \     \"phone\": \"\",\r\n      \"contactViewUrl\": \"/api/Contact/395\"\r\n
+        \   },\r\n    {\r\n      \"individualId\": 2282,\r\n      \"id\": 1257,\r\n
+        \     \"name\": \"Chris Alston\",\r\n      \"contactType\": \"Household\",\r\n
+        \     \"contactName\": \"Chris Alston\",\r\n      \"address\": null,\r\n      \"email\":
+        \"calston@clearcreek.org\",\r\n      \"phone\": \"\",\r\n      \"contactViewUrl\":
+        \"/api/Contact/1257\"\r\n    },\r\n    {\r\n      \"individualId\": 2806,\r\n
+        \     \"id\": 1273,\r\n      \"name\": \"Chris Amaro\",\r\n      \"contactType\":
+        \"Household\",\r\n      \"contactName\": \"Chris Amaro\",\r\n      \"address\":
+        \"Mesa, AZ\",\r\n      \"email\": \"chrisamaro@redemptionaz.com\",\r\n      \"phone\":
+        \"6026289858\",\r\n      \"contactViewUrl\": \"/api/Contact/1273\"\r\n    },\r\n
+        \   {\r\n      \"individualId\": 2502,\r\n      \"id\": 2277,\r\n      \"name\":
+        \"Christy Antle\",\r\n      \"contactType\": \"Household\",\r\n      \"contactName\":
+        \"Johnny and Christy Antle\",\r\n      \"address\": \"Alexandria, VA\",\r\n
+        \     \"email\": \"christy.antle2016@gmail.com\",\r\n      \"phone\": \"\",\r\n
+        \     \"contactViewUrl\": \"/api/Contact/2277\"\r\n    },\r\n    {\r\n      \"individualId\":
+        837,\r\n      \"id\": 412,\r\n      \"name\": \"Chris Atwell\",\r\n      \"contactType\":
+        \"Household\",\r\n      \"contactName\": \"Chris and Jennifer Atwell\",\r\n
+        \     \"address\": \"1721 Concord Drive Charlottesville, VA 22901\",\r\n      \"email\":
+        \"catwell@porticocville.org\",\r\n      \"phone\": \"434-242-8113\",\r\n      \"contactViewUrl\":
+        \"/api/Contact/412\"\r\n    },\r\n    {\r\n      \"individualId\": 7070,\r\n
+        \     \"id\": 3948,\r\n      \"name\": \"Christine Benn\",\r\n      \"contactType\":
+        \"Household\",\r\n      \"contactName\": \"jessica & Brent gordon\",\r\n      \"address\":
+        \"767 Harbor View Rd Charleston, SC 29412\",\r\n      \"email\": \"jess.riverlandkids@gmail.com\",\r\n
+        \     \"phone\": \"8432613750\",\r\n      \"contactViewUrl\": \"/api/Contact/3948\"\r\n
+        \   },\r\n    {\r\n      \"individualId\": 4787,\r\n      \"id\": 3098,\r\n
+        \     \"name\": \"Chris Boggus\",\r\n      \"contactType\": \"Church\",\r\n
+        \     \"contactName\": \"Grace Church\",\r\n      \"address\": \"4610 Bosque
+        Blvd. Waco, TX 76707\",\r\n      \"email\": \"chris@gracewaco.com\",\r\n      \"phone\":
+        \"254-340-0002\",\r\n      \"contactViewUrl\": \"/api/Contact/3098\"\r\n    },\r\n
+        \   {\r\n      \"individualId\": 3128,\r\n      \"id\": 1673,\r\n      \"name\":
+        \"Chris Boggus\",\r\n      \"contactType\": \"Household\",\r\n      \"contactName\":
+        \"Chris and Becky Boggus\",\r\n      \"address\": \"Waco, TX\",\r\n      \"email\":
+        \"chris.boggus@gmail.com\",\r\n      \"phone\": \"9792296068\",\r\n      \"contactViewUrl\":
+        \"/api/Contact/1673\"\r\n    },\r\n    {\r\n      \"individualId\": 3079,\r\n
+        \     \"id\": 1636,\r\n      \"name\": \"Chris Bower\",\r\n      \"contactType\":
+        \"Household\",\r\n      \"contactName\": \"Chris Bower\",\r\n      \"address\":
+        null,\r\n      \"email\": \"bchrisbower@gmail.com\",\r\n      \"phone\": \"\",\r\n
+        \     \"contactViewUrl\": \"/api/Contact/1636\"\r\n    },\r\n    {\r\n      \"individualId\":
+        906,\r\n      \"id\": 446,\r\n      \"name\": \"Christy Boys\",\r\n      \"contactType\":
+        \"Household\",\r\n      \"contactName\": \"Michael and Christy Boys\",\r\n
+        \     \"address\": \"13426 Amber Queen Ln Houston, TX 77041\",\r\n      \"email\":
+        \"christyboys@gmail.com\",\r\n      \"phone\": \"\",\r\n      \"contactViewUrl\":
+        \"/api/Contact/446\"\r\n    }\r\n  ],\r\n  \"total\": 10\r\n}"
+    http_version: 
+  recorded_at: Tue, 31 Oct 2017 13:23:14 GMT
 recorded_with: VCR 3.0.3

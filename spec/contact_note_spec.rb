@@ -35,14 +35,15 @@ RSpec.describe Virtuous::ContactNote do
         let(:nonexistant_id)  { 0000 }
 
         it "returns an array of notes for specified contact" do 
-            expect {
-                @contact_note = Virtuous::ContactNote.find(id)
-            }.to raise_error Virtuous::Error
+            VCR.use_cassette("contact_note") do
+                @contact_notes = Virtuous::ContactNote.find(id)
+            end
+            expect(@contact_notes).to be_instance_of Virtuous::ContactNote
         end
 
         it "errors if the contact doesn't exist" do
             expect {
-                VCR.use_cassette("contact_note") do
+                VCR.use_cassette("contact_note_error") do
                     @contact = Virtuous::ContactNote.find(nonexistant_id)
                 end
             }.to raise_error Virtuous::Error

@@ -38,7 +38,7 @@ module Virtuous
             # @param attributes [Hash] attributes of the contact method to update
             # @return [Virtuous::Contact] the updated contact method
             def update( id, attributes = {} )
-                body = attributes
+                body = attributes.to_json
                 contact_method = Virtuous::ContactMethod.new JSON.parse(connection.put("/ContactMethod/#{id}", body).body)
             end
 
@@ -47,7 +47,7 @@ module Virtuous
             # @param attributes [Hash] attributes of the contact method created
             # @return [Virtuous::Contact] the created contact method
             def create( attributes = {} )
-                body = attributes
+                body = attributes.to_json
                 contact_method = Virtuous::ContactMethod.new JSON.parse(connection.post("/ContactMethod", body).body)
             end
 

@@ -5,27 +5,25 @@ http_interactions:
     uri: https://api.virtuoussoftware.com/api/Contact/2526
     body:
       encoding: UTF-8
-      string: contactType=Household&informalName=Test%20Name
+      string: '{"contactType":"Household","informalName":"Test Name"}'
     headers:
       Accept-Version:
       - v1
       Authorization:
       - Bearer v1iO46y9qiqyXiz8D4ZTugnpIVIv6KXEsReKZ8EuOFHJT29thIXQW1XUWbtykR66_4UtSoQIaUTTjuFcFY5iidQin8SE17IF7PebkqgeC0UPT-Z4G4v6fPVJ1IDLGxCSTfYe_CZ3tlSnQdzcT7ICmEAPI6i_GsL4TL4uCPFfmIgB0Cqn68kh3BBKtMCOWbsYdhP_U4OJDlCgYBG3AkKqpgDAH0H9Cb1DJO1x3o4TVn06_QQHDLDHfAccZHn2lUPbB_7s6f7UtKc_X_YmAcTMUFOd8POeyF3mNRbOY6xSM0cMvhLnPj93yEA_WI75WB-swJyHILIyv6ccUUZ6KmS16SAWOqzjKho9ccQg6-TKCoezQ2yvDlLrsA2H-V7X09PU7MWX6mn9nyGD1SDmt_5y-skiPhekNLoYnvp-2LOo619-HuVOChY0-_N3r5k6xwiimX797esP7KZIvveU5oOYjRY1QuFb0S8eg5aIZi9apWjBN9WfX4XfTcwTSVisZo0O3Xs34NyVERTvMfL-CX3sOoKSOB5hnc2V1gy7c8m08mD0jyRh
+      Content-Type:
+      - application/json
   response:
     status:
-      code: 200
-      message: OK
+      code: 500
+      message: Internal Server Error
     headers:
       Cache-Control:
-      - no-cache
-      Pragma:
-      - no-cache
+      - private
       Content-Length:
-      - '5338'
+      - '43'
       Content-Type:
       - application/json; charset=utf-8
-      Expires:
-      - "-1"
       Server:
       - Microsoft-IIS/8.0
       X-Aspnet-Version:
@@ -33,131 +31,12 @@ http_interactions:
       X-Powered-By:
       - ASP.NET
       Set-Cookie:
-      - ARRAffinity=720ad350918348fce31b8fbef78811b9f1fbecff329b4238f20f9034308a1964;Path=/;HttpOnly;Domain=api.virtuoussoftware.com
+      - ARRAffinity=ff1776aaaffbe99ffb4f021bbc3c9cfef3d23b90858b122afe3616743ca43f73;Path=/;HttpOnly;Domain=api.virtuoussoftware.com
       Date:
-      - Mon, 23 Oct 2017 14:11:16 GMT
+      - Tue, 31 Oct 2017 13:23:01 GMT
     body:
-      encoding: ASCII-8BIT
-      string: !binary |-
-        ew0KICAiaWQiOiAyNTI2LA0KICAiY29udGFjdFR5cGUiOiAiSG91c2Vob2xk
-        IiwNCiAgImlzUHJpdmF0ZSI6IGZhbHNlLA0KICAibmFtZSI6ICJDaHJpcyBQ
-        eW1tIiwNCiAgImluZm9ybWFsTmFtZSI6ICJUZXN0IE5hbWUiLA0KICAiZGVz
-        Y3JpcHRpb24iOiBudWxsLA0KICAid2Vic2l0ZSI6IG51bGwsDQogICJhbm5p
-        dmVyc2FyeU1vbnRoIjogbnVsbCwNCiAgImFubml2ZXJzYXJ5RGF5IjogbnVs
-        bCwNCiAgImFkZHJlc3MiOiBudWxsLA0KICAiZ2lmdEFza0Ftb3VudCI6ICIi
-        LA0KICAiZ2lmdEFza1R5cGUiOiBudWxsLA0KICAibGlmZVRvRGF0ZUdpdmlu
-        ZyI6ICLCozAiLA0KICAieWVhclRvRGF0ZUdpdmluZyI6ICLCozAiLA0KICAi
-        bGFzdEdpZnRBbW91bnQiOiAiwqMwIiwNCiAgImxhc3RHaWZ0RGF0ZSI6ICJV
-        bmF2YWlsYWJsZSIsDQogICJjb250YWN0SW5kaXZpZHVhbHMiOiBbDQogICAg
-        ew0KICAgICAgImlkIjogMzg5MiwNCiAgICAgICJwcmVmaXgiOiBudWxsLA0K
-        ICAgICAgImZpcnN0TmFtZSI6ICJDaHJpcyIsDQogICAgICAibWlkZGxlTmFt
-        ZSI6IG51bGwsDQogICAgICAibGFzdE5hbWUiOiAiUHltbSIsDQogICAgICAi
-        c3VmZml4IjogbnVsbCwNCiAgICAgICJnZW5kZXIiOiBudWxsLA0KICAgICAg
-        ImlzUHJpbWFyeSI6IHRydWUsDQogICAgICAiY2FuQmVQcmltYXJ5IjogZmFs
-        c2UsDQogICAgICAiYmlydGhNb250aCI6IG51bGwsDQogICAgICAiYmlydGhE
-        YXkiOiBudWxsLA0KICAgICAgImJpcnRoWWVhciI6IG51bGwsDQogICAgICAi
-        YmlydGhEYXRlIjogIiIsDQogICAgICAiYXBwcm94aW1hdGVBZ2UiOiBudWxs
-        LA0KICAgICAgImlzRGVjZWFzZWQiOiBmYWxzZSwNCiAgICAgICJwYXNzaW9u
-        IjogbnVsbCwNCiAgICAgICJhdmF0YXJVcmwiOiAiaHR0cHM6Ly9zMy5hbWF6
-        b25hd3MuY29tL2FjdHMyOS1wcm9jZXNzL2ZpbGVzL3VzZXJzL2F2YXRhci8z
-        OTIwL3gxMDAvQ2hyaXNfLV9mYWNlX2NvbG91ci5wbmciLA0KICAgICAgImNv
-        bnRhY3RNZXRob2RzIjogWw0KICAgICAgICB7DQogICAgICAgICAgImlkIjog
-        NDY5OSwNCiAgICAgICAgICAidHlwZSI6ICJIb21lIEVtYWlsIiwNCiAgICAg
-        ICAgICAidmFsdWUiOiAiY2hyaXNAYWRvemVuZWdncy5jby51ayIsDQogICAg
-        ICAgICAgImlzT3B0ZWRJbiI6IHRydWUsDQogICAgICAgICAgImlzUHJpbWFy
-        eSI6IHRydWUsDQogICAgICAgICAgImNhbkJlUHJpbWFyeSI6IGZhbHNlDQog
-        ICAgICAgIH0NCiAgICAgIF0sDQogICAgICAiY3VzdG9tRmllbGRzIjogW10N
-        CiAgICB9DQogIF0sDQogICJpc0N1cnJlbnRVc2VyRm9sbG93aW5nIjogZmFs
-        c2UsDQogICJjb250YWN0R2lmdHNVcmwiOiAiL2FwaS9HaWZ0L0J5Q29udGFj
-        dC8yNTI2IiwNCiAgImNvbnRhY3RQYXNzdGhyb3VnaEdpZnRzVXJsIjogIi9h
-        cGkvR2lmdC9QYXNzdGhyb3VnaC9CeUNvbnRhY3QvMjUyNiIsDQogICJjb250
-        YWN0UGxhbm5lZEdpZnRzVXJsIjogIi9hcGkvUGxhbm5lZEdpZnQvQnlDb250
-        YWN0LzI1MjYiLA0KICAiY29udGFjdFBsZWRnZXNVcmwiOiAiL2FwaS9QbGVk
-        Z2UvQnlDb250YWN0LzI1MjYiLA0KICAiY29udGFjdEltcG9ydGFudE5vdGVz
-        VXJsIjogIi9hcGkvQ29udGFjdE5vdGUvSW1wb3J0YW50L0J5Q29udGFjdC8y
-        NTI2IiwNCiAgImNvbnRhY3ROb3Rlc1VybCI6ICIvYXBpL0NvbnRhY3ROb3Rl
-        L0J5Q29udGFjdC8yNTI2IiwNCiAgImNvbnRhY3RUYWdzVXJsIjogIi9hcGkv
-        Q29udGFjdFRhZy9CeUNvbnRhY3QvMjUyNiIsDQogICJjb250YWN0UmVsYXRp
-        b25zaGlwc1VybCI6ICIvYXBpL1JlbGF0aW9uc2hpcC9CeUNvbnRhY3QvMjUy
-        NiIsDQogICJwcmltYXJ5QXZhdGFyVXJsIjogImh0dHBzOi8vczMuYW1hem9u
-        YXdzLmNvbS9hY3RzMjktcHJvY2Vzcy9maWxlcy91c2Vycy9hdmF0YXIvMzky
-        MC94MTAwL0NocmlzXy1fZmFjZV9jb2xvdXIucG5nIiwNCiAgImN1c3RvbUZp
-        ZWxkcyI6IFsNCiAgICB7DQogICAgICAiZGF0YVR5cGUiOiAiQm9vbGVhbiIs
-        DQogICAgICAibmFtZSI6ICJSZWdpc3RyYXRpb24gQXJjaGl2ZWQiLA0KICAg
-        ICAgInZhbHVlIjogIlRSVUUiDQogICAgfSwNCiAgICB7DQogICAgICAiZGF0
-        YVR5cGUiOiAiVGV4dCIsDQogICAgICAibmFtZSI6ICJOZXR3b3JrIFJlZ2lv
-        biIsDQogICAgICAidmFsdWUiOiAiTlVMTCINCiAgICB9LA0KICAgIHsNCiAg
-        ICAgICJkYXRhVHlwZSI6ICJUZXh0IiwNCiAgICAgICJuYW1lIjogIk5ldHdv
-        cmsgTmFtZSIsDQogICAgICAidmFsdWUiOiAiQ2FuYWRhIg0KICAgIH0sDQog
-        ICAgew0KICAgICAgImRhdGFUeXBlIjogIkxpc3QiLA0KICAgICAgIm5hbWUi
-        OiAiUHJpbWFyeSBUcmFjayIsDQogICAgICAidmFsdWUiOiAiQWN0cyAyOSBB
-        cHBsaWNhdGlvbiAtIFByZXBhcmluZyB0byBQbGFudCAtIE5vcnRoIEFtZXJp
-        Y2EgKEFSQ0hJVkVEKSINCiAgICB9LA0KICAgIHsNCiAgICAgICJkYXRhVHlw
-        ZSI6ICJEZWNpbWFsIiwNCiAgICAgICJuYW1lIjogIk5ldHdvcmsgSUQiLA0K
-        ICAgICAgInZhbHVlIjogIjExIg0KICAgIH0sDQogICAgew0KICAgICAgImRh
-        dGFUeXBlIjogIkxpc3QiLA0KICAgICAgIm5hbWUiOiAiQXNzZXNzbWVudCBT
-        dGF0dXMiLA0KICAgICAgInZhbHVlIjogbnVsbA0KICAgIH0sDQogICAgew0K
-        ICAgICAgImRhdGFUeXBlIjogIkxpc3QiLA0KICAgICAgIm5hbWUiOiAiUHJp
-        bWFyeSBMYW5ndWFnZSIsDQogICAgICAidmFsdWUiOiBudWxsDQogICAgfSwN
-        CiAgICB7DQogICAgICAiZGF0YVR5cGUiOiAiVGV4dCIsDQogICAgICAibmFt
-        ZSI6ICJPdGhlciBMYW5ndWFnZXMiLA0KICAgICAgInZhbHVlIjogbnVsbA0K
-        ICAgIH0sDQogICAgew0KICAgICAgImRhdGFUeXBlIjogIkRhdGVUaW1lIiwN
-        CiAgICAgICJuYW1lIjogIk1lbWJlciBTaW5jZSIsDQogICAgICAidmFsdWUi
-        OiBudWxsDQogICAgfSwNCiAgICB7DQogICAgICAiZGF0YVR5cGUiOiAiRGF0
-        ZVRpbWUiLA0KICAgICAgIm5hbWUiOiAiQ292ZW5hbnQgUmVuZXdhbCBEYXRl
-        IiwNCiAgICAgICJ2YWx1ZSI6IG51bGwNCiAgICB9LA0KICAgIHsNCiAgICAg
-        ICJkYXRhVHlwZSI6ICJUZXh0IiwNCiAgICAgICJuYW1lIjogIkNodXJjaCBO
-        YW1lIiwNCiAgICAgICJ2YWx1ZSI6IG51bGwNCiAgICB9LA0KICAgIHsNCiAg
-        ICAgICJkYXRhVHlwZSI6ICJUZXh0IiwNCiAgICAgICJuYW1lIjogIkNodXJj
-        aCBNZWV0aW5nIEFkZHJlc3MiLA0KICAgICAgInZhbHVlIjogbnVsbA0KICAg
-        IH0sDQogICAgew0KICAgICAgImRhdGFUeXBlIjogIlRleHQiLA0KICAgICAg
-        Im5hbWUiOiAiQ2h1cmNoIE1haWxpbmcgQWRkcmVzcyIsDQogICAgICAidmFs
-        dWUiOiBudWxsDQogICAgfSwNCiAgICB7DQogICAgICAiZGF0YVR5cGUiOiAi
-        VGV4dCIsDQogICAgICAibmFtZSI6ICJDaHVyY2ggQWRtaW5pc3RyYXRvciBO
-        YW1lIiwNCiAgICAgICJ2YWx1ZSI6IG51bGwNCiAgICB9LA0KICAgIHsNCiAg
-        ICAgICJkYXRhVHlwZSI6ICJUZXh0IiwNCiAgICAgICJuYW1lIjogIkNodXJj
-        aCBBZG1pbmlzdHJhdG9yIEVtYWlsIiwNCiAgICAgICJ2YWx1ZSI6IG51bGwN
-        CiAgICB9LA0KICAgIHsNCiAgICAgICJkYXRhVHlwZSI6ICJUZXh0IiwNCiAg
-        ICAgICJuYW1lIjogIkNodXJjaCBXZWJzaXRlIiwNCiAgICAgICJ2YWx1ZSI6
-        IG51bGwNCiAgICB9LA0KICAgIHsNCiAgICAgICJkYXRhVHlwZSI6ICJUZXh0
-        IiwNCiAgICAgICJuYW1lIjogIlBsYW50aW5nIENpdHkiLA0KICAgICAgInZh
-        bHVlIjogbnVsbA0KICAgIH0sDQogICAgew0KICAgICAgImRhdGFUeXBlIjog
-        IlRleHQiLA0KICAgICAgIm5hbWUiOiAiUGxhbnRpbmcgUmVnaW9uIiwNCiAg
-        ICAgICJ2YWx1ZSI6IG51bGwNCiAgICB9LA0KICAgIHsNCiAgICAgICJkYXRh
-        VHlwZSI6ICJMaXN0IiwNCiAgICAgICJuYW1lIjogIlBsYW50aW5nIENvdW50
-        cnkiLA0KICAgICAgInZhbHVlIjogbnVsbA0KICAgIH0sDQogICAgew0KICAg
-        ICAgImRhdGFUeXBlIjogIkJvb2xlYW4iLA0KICAgICAgIm5hbWUiOiAiUmVn
-        aXN0cmF0aW9uIENvbXBsZXRlZCIsDQogICAgICAidmFsdWUiOiBudWxsDQog
-        ICAgfSwNCiAgICB7DQogICAgICAiZGF0YVR5cGUiOiAiTGlzdCIsDQogICAg
-        ICAibmFtZSI6ICJBc3Nlc3NtZW50IE91dGNvbWUiLA0KICAgICAgInZhbHVl
-        IjogbnVsbA0KICAgIH0sDQogICAgew0KICAgICAgImRhdGFUeXBlIjogIkJv
-        b2xlYW4iLA0KICAgICAgIm5hbWUiOiAiQ2FtcHVzIFBhc3RvciIsDQogICAg
-        ICAidmFsdWUiOiBudWxsDQogICAgfSwNCiAgICB7DQogICAgICAiZGF0YVR5
-        cGUiOiAiQm9vbGVhbiIsDQogICAgICAibmFtZSI6ICJBZmZpbGlhdGUgUGFz
-        dG9yIiwNCiAgICAgICJ2YWx1ZSI6IG51bGwNCiAgICB9LA0KICAgIHsNCiAg
-        ICAgICJkYXRhVHlwZSI6ICJCb29sZWFuIiwNCiAgICAgICJuYW1lIjogIlRy
-        YW5zaXRpb24gUGFzdG9yIiwNCiAgICAgICJ2YWx1ZSI6IG51bGwNCiAgICB9
-        LA0KICAgIHsNCiAgICAgICJkYXRhVHlwZSI6ICJCb29sZWFuIiwNCiAgICAg
-        ICJuYW1lIjogIlByZS1Bc3Nlc3NtZW50IiwNCiAgICAgICJ2YWx1ZSI6IG51
-        bGwNCiAgICB9LA0KICAgIHsNCiAgICAgICJkYXRhVHlwZSI6ICJCb29sZWFu
-        IiwNCiAgICAgICJuYW1lIjogIkFzc2Vzc29yIFRyYWluaW5nIiwNCiAgICAg
-        ICJ2YWx1ZSI6IG51bGwNCiAgICB9LA0KICAgIHsNCiAgICAgICJkYXRhVHlw
-        ZSI6ICJEZWNpbWFsIiwNCiAgICAgICJuYW1lIjogIk5ldHdvcmsgUmVnaW9u
-        IElEIiwNCiAgICAgICJ2YWx1ZSI6IG51bGwNCiAgICB9LA0KICAgIHsNCiAg
-        ICAgICJkYXRhVHlwZSI6ICJMaXN0IiwNCiAgICAgICJuYW1lIjogIk5vbi1Q
-        cmltYXJ5IENvdXJzZSAxIiwNCiAgICAgICJ2YWx1ZSI6IG51bGwNCiAgICB9
-        LA0KICAgIHsNCiAgICAgICJkYXRhVHlwZSI6ICJMaXN0IiwNCiAgICAgICJu
-        YW1lIjogIk5vbi1QcmltYXJ5IENvdXJzZSAyIiwNCiAgICAgICJ2YWx1ZSI6
-        IG51bGwNCiAgICB9LA0KICAgIHsNCiAgICAgICJkYXRhVHlwZSI6ICJUZXh0
-        IiwNCiAgICAgICJuYW1lIjogIkNoaWxkcmVuIiwNCiAgICAgICJ2YWx1ZSI6
-        IG51bGwNCiAgICB9LA0KICAgIHsNCiAgICAgICJkYXRhVHlwZSI6ICJMaXN0
-        IiwNCiAgICAgICJuYW1lIjogIk1hcml0YWwgU3RhdHVzIiwNCiAgICAgICJ2
-        YWx1ZSI6IG51bGwNCiAgICB9LA0KICAgIHsNCiAgICAgICJkYXRhVHlwZSI6
-        ICJUZXh0IiwNCiAgICAgICJuYW1lIjogIkV4dGVybmFsIElEIChRdWlja2Jv
-        b2tzIE5hbWUpIiwNCiAgICAgICJ2YWx1ZSI6IG51bGwNCiAgICB9LA0KICAg
-        IHsNCiAgICAgICJkYXRhVHlwZSI6ICJEZWNpbWFsIiwNCiAgICAgICJuYW1l
-        IjogIkV4dGVybmFsIElEMiAoQWN0cyAyOSBJbnRlcm5hbCkiLA0KICAgICAg
-        InZhbHVlIjogbnVsbA0KICAgIH0NCiAgXQ0KfQ==
+      encoding: UTF-8
+      string: "{\r\n  \"message\": \"An error has occurred.\"\r\n}"
     http_version: 
-  recorded_at: Mon, 23 Oct 2017 14:11:15 GMT
+  recorded_at: Tue, 31 Oct 2017 13:23:02 GMT
 recorded_with: VCR 3.0.3

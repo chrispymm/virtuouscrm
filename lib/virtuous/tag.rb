@@ -7,7 +7,7 @@ module Virtuous
             # @param skip [Int] Number of records to skip (pagination start number).
             # @param take [Int] Number of records to take (records per page).
             # @return [Array] an array of [Vituouscrm::Tag] objects
-            def all(skip=0, take=10)
+            def all(skip=0, take=100)
                 params = {
                     skip:   skip,
                     take:   take
@@ -18,7 +18,7 @@ module Virtuous
             def search(search="", skip=0,take=10)
                 body = {
                     search: search
-                }
+            }.to_json
                 params = {
                     skip:   skip,
                     take:   take

@@ -2,7 +2,8 @@ module Virtuous #:nodoc:
     
   class Connection
     include HTTParty
-    debug_output $stdout
+    #debug_output $stdout if http_debug
+    #
 
     # The version of the API being used if unspecified.
     DEFAULT_VERSION  = "v1"
@@ -10,6 +11,8 @@ module Virtuous #:nodoc:
     # Base URI for the Unsplash API..
     DEFAULT_API_BASE_URI   = "https://api.virtuoussoftware.com/api"
 
+    attr_accessor :http_debug
+    attr_accessor :http_log
 
     # Create a Connection object.
     # @param version [String] The API version to use.
@@ -19,6 +22,11 @@ module Virtuous #:nodoc:
       @token              = Virtuous.configuration.token
       @api_version        = version
       @api_base_uri       = api_base_uri
+      #@http_debug         = Virtuous.configuration.http_debug
+      #@http_log           = Virtuous.configuration.http_log
+      
+      self.class.debug_output $stdout if Virtuous.configuration.http_debug
+      self.class.logger ::Logger.new("virtuous_http.log"), :debug if Virtuous.configuration.http_log #, :curl
 
       Virtuous::Connection.base_uri @api_base_uri
     end
@@ -60,12 +68,11 @@ module Virtuous #:nodoc:
 
       default_headers = {
         "Accept-Version" => @api_version,
-        "Authorization" => "Bearer #{@token}"
+        "Authorization" => "Bearer #{@token}",
+        "Content-Type" => "application/json"
       }
 
       headers.merge!(default_headers)
-
-      puts "HEADERS: #{headers}"
 
       if verb == :get 
         response =  self.class.public_send verb, path, query: params, headers: headers
@@ -86,7 +93,8 @@ module Virtuous #:nodoc:
         else
           message ="Status: #{status_code}"
         end
-        raise Virtuous::Error.new message
+        Virtuous.configuration.logger.warn "Virtuous::Error #{message}"
+        raise Virtuous::Error.new message        
       end
 
       response

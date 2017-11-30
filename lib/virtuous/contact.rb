@@ -45,7 +45,7 @@ module Virtuous
             # @param attributes [Hash] attributes of the contact to update
             # @return [Virtuous::Contact] the updated contact
             def update( id, attributes = {} )
-                body = attributes
+                body = attributes.to_json
                 contact = Virtuous::Contact.new JSON.parse(connection.put("/Contact/#{id}", body).body)
             end
 
@@ -54,7 +54,7 @@ module Virtuous
             # @param attributes [Hash] attributes of the contact to create
             # @return [Virtuouscrm::Contact] the new contact
             def create(attributes={})
-                body = attributes
+                body = attributes.to_json
                 contact = Virtuous::Contact.new JSON.parse(connection.post("/Contact", body).body)
             end
 
@@ -104,7 +104,8 @@ module Virtuous
                     skip:   skip,
                     take:   take
                 }
-                parse_list(connection.get("/Contact/Following", params).body )
+                contacts = parse_list(connection.get("/Contact/Following", params).body )
+                # contacts = []
             end
 
             # Posts and creates a contact batch that will be processed for changes and duplicates.
@@ -113,7 +114,7 @@ module Virtuous
             def batch(contacts=[])
                 body = {
                     contacts: contacts 
-                }
+                }.to_json
                 response = connection.post("/Contact/Batch", body )
                 status = response.respond_to?(:status) ? response.status : response.code
             end
@@ -147,7 +148,7 @@ module Virtuous
             def search(search="", skip=0, take=10 )
                 body = {
                     search: search
-                }
+            }.to_json
                 params = {
                     skip:   skip,
                     take:   take

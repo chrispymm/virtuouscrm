@@ -133,13 +133,13 @@ RSpec.describe Virtuous::Contact do
             VCR.use_cassette("contact_list", :match_requests_on => [:method] ) do
                 @following = Virtuous::Contact.following
             end
-            expect(@following).to be_a Array
-            expect(@following.first).to be_instance_of Virtuous::Contact
+            expect(@following).to be_a Array            
+            expect(@following.first).to be_instance_of Virtuous::Contact if @following.size > 0
         end
     end              
 
     describe "#batch" do
-        let(:contact_batch) {{ contact: [] }}
+        let(:contact_batch) { [] }
 
         it "requires a contacts array to be posted" do
             expect {
@@ -175,11 +175,11 @@ RSpec.describe Virtuous::Contact do
 
 
     describe "#search" do
-        let(:search_contact) {{ search: "Chris" }}
+        let(:search_query) { "Chris" }
 
         it "Find all contacts that match, fully or partially, the given search parameter" do
             VCR.use_cassette("contact_list", :match_requests_on => [:method] ) do 
-                @search = Virtuous::Contact.search(search_contact)
+                @search = Virtuous::Contact.search(search_query)
             end
             expect(@search).to be_a Array
         end

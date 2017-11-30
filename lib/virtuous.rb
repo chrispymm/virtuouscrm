@@ -1,4 +1,5 @@
 require "httparty"
+require 'logger'
 
 require "virtuous/version"
 require "virtuous/configuration"
@@ -12,6 +13,7 @@ require "virtuous/contact_individual"
 require "virtuous/contact_method"
 require "virtuous/contact_note"
 require "virtuous/contact_tag"
+require "virtuous/organization"
 require "virtuous/relationship"
 require "virtuous/tag"
 
