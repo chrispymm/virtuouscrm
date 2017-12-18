@@ -21,7 +21,7 @@ module Virtuous
                 body = {
                     OrganizationUserId: organizationUserId 
                 }
-                response = connection.put("/Organization/Switch", body )
+                response = connection.put("/Organization/Switch", body.to_json )
                 status = response.respond_to?(:status) ? response.status : response.code
             end
 
