@@ -94,7 +94,7 @@ module Virtuous #:nodoc:
           message ="Status: #{status_code}"
         end
         Virtuous.configuration.logger.warn "Virtuous::Error #{message}"
-        raise Virtuous::Error.new message        
+        # raise Virtuous::Error.new message        
       end
 
       response
