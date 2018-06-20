@@ -33,25 +33,25 @@ RSpec.describe Virtuous::ContactAddress do
         let(:contact_id) {2526}
         let(:attributes) { { label: "Imported Address", city: "Loughborough" } }
 
-        it "requres attributes" do 
+        it "requres attributes" do
             expect {
                 @contact_address = Virtuous::ContactAddress.update(contact_id)
             }.to raise_error Virtuous::Error
         end
 
-        it "returns the contact address record" do 
+        it "returns the contact address record" do
             VCR.use_cassette("contact_address_update") do
                 @contact_address = Virtuous::ContactAddress.update(contact_id, attributes)
             end
-            expect(@contact_address).to be_instance_of Virtuous::ContactAddress          
-            expect(@contact_address.id).to eq(contact_id) 
+            expect(@contact_address).to be_instance_of Virtuous::ContactAddress
+            expect(@contact_address.id).to eq(contact_id)
         end
 
-        it "updates the attributes" do 
+        it "updates the attributes" do
             VCR.use_cassette("contact_address_update") do
                 @contact_address = Virtuous::ContactAddress.update(contact_id, attributes)
             end
-            expect(@contact_address.city).to eq(attributes[:city])          
+            expect(@contact_address.city).to eq(attributes[:city])
         end
 
     end
@@ -66,7 +66,7 @@ RSpec.describe Virtuous::ContactAddress do
             expect(@contact_address).to be_a Array
             # expect(@contact_address.first).to be_instance_of Virtuous::ContactAddress
         end
-        
+
     end
 
 

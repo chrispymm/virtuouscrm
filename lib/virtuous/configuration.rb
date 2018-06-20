@@ -4,6 +4,7 @@ module Virtuous
         attr_accessor :refresh_token
         attr_accessor :refresh_threshold
         attr_accessor :logger
+        attr_accessor :error_with
         attr_accessor :http_debug
         attr_accessor :http_log
         attr_accessor :http_log_format

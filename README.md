@@ -107,6 +107,7 @@ result = Virtuous::Contact.create(attrs)
 This will return an instance of `Virtuous::Contact` on success. This is an OpenStruct containing the attributes of the returned Contact object from the api.
 
 On failure the Virtuous API will return a 4XX or 5XX status.  The gem will respond to this with a `Virtuous::Error` and provide the message from the api
+Again, you probably want to rescue from this exception in your app, and provide some notification/log of the error.
 
 The gem api methods generally fall into two categories:  Individual object actions and list actions.  Individual object method calls should always respond with an instance of their of their api class.  e.g. as above a call to `Virtuous::Contact.create` will respond with an instance of `Virtuous::Contact`.  Similarly a call to `Virtuous::ContactNote.find` will respond with an instance of `Virtuous::ContactNote`.  List actions will generally respond with an Array of instances.  e.g. `Virtuous::Contact.search` will respond with `[<Virtuous::Contact>, <Virtuous::Contact>, ...]`.  However the Virtuous API is inconsistent, and sometimes does not respond with instances. So consult the api documentation carefully to see what response to expect.
 
@@ -132,6 +133,9 @@ Either `:curl` or `:apache`.  Curl is very verbose.  Apache is a nice compact ou
 
 **logger:**
 Possibility to provide your own logger for Virtuous Logs.
+
+**error_with**
+Can be set to `:log` or `raise`. `:raise` with raise a `Virtuous::Error`, log will add an entry in the log (level=error).
 
 
 ## Development

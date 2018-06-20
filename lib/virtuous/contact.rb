@@ -3,7 +3,7 @@ module Virtuous
 
         class << self
 
-            # Get a contact. 
+            # Get a contact.
             # @param id [Int] The ContactID of the contact to retrieve.
             # @return [Virtuous::Contact]
             def find(id)
@@ -113,13 +113,13 @@ module Virtuous
             # @return status [String] HTTP status code  200 / 400 etc
             def batch(contacts=[])
                 body = {
-                    contacts: contacts 
+                    contacts: contacts
                 }.to_json
                 response = connection.post("/Contact/Batch", body )
                 status = response.respond_to?(:status) ? response.status : response.code
             end
 
-            
+
             # Find Contacts near a location
             # @param lat [Int] latitude
             # @param lng [Int] logitude
@@ -157,7 +157,7 @@ module Virtuous
             end
 
             # Find all contacts that match, fully or partially, the given query attributes
-            # 
+            #
             # Query attributes shoudl be made up of elements from Virtuous::Contact.query_options
             #
             # @param query [Hash] The query attributes.
@@ -176,7 +176,7 @@ module Virtuous
 
 
             private
-            
+
             def parse_list(json)
                 JSON.parse(json)["list"].map { |contact| new contact }
             end

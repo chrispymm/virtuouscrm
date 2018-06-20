@@ -7,6 +7,7 @@ require "virtuous/configuration"
 require "virtuous/client"
 require "virtuous/connection"
 require "virtuous/error"
+require "virtuous/virtuous_token_error"
 
 require "virtuous/contact"
 require "virtuous/contact_address"

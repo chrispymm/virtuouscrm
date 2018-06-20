@@ -80,23 +80,19 @@ module Virtuous #:nodoc:
         response =  self.class.public_send verb, path, body: body, query: params, headers: headers
       end
 
-    #   if response.headers["Warning"]
-    #     Virtuous.configuration.logger.warn response.headers["Warning"]
-    #   end
-
       status_code = response.respond_to?(:status) ? response.status : response.code
 
       if !(200..299).include?(status_code)
         if !response.body.empty?
           body = JSON.parse(response.body)
-          message = "Status: #{status_code}\n\r Message: #{body["message"]}" #body["error"] || body["errors"].join(" ")
+          message = "Status: #{status_code}\n\r Message: #{body.inspect}" #body["error"] || body["errors"].join(" ")
         else
           message ="Status: #{status_code}"
         end
-        Virtuous.configuration.logger.error "Virtuous::Error #{message}" if Virtuous.configuration.logger
-        raise Virtuous::Error.new message
+        Virtuous.configuration.logger.error "Virtuous::Error #{message}." if Virtuous.configuration.logger && Virtuous.configuration.error_with == :log
+        raise Virtuous::Error.new message if Virtuous.configuration.error_with == :raise
       end
-
+        #raise Virtuous::Error.new message
       response
     end
 
