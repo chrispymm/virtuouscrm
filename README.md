@@ -84,10 +84,11 @@ If there is an error refreshing the token, then the gem will rescue the error an
 In `controllers/ApplicationController.rb`
 
 ```ruby
-rescue Virtuous::VirtuousTokenError => e
+rescue_from Virtuous::VirtuousTokenError, with: notify_virtuous_token_failure
+def notify_virtuous_token_failure(exception)
   # Implement a mailer to send yourself an email.  You can access the following methods on e
-  #  - e.message => generic message for the error
-  #  - e.data => the original exception that was raised.
+  #  - exception.message => generic message for the error
+  #  - exception.data => the original exception that was raised.
 end
 
 ```
@@ -135,7 +136,7 @@ Possibility to provide your own logger for Virtuous Logs.
 
 ## Development
 
-After checking out the repo, run `bin/setup` to install dependencies. 
+After checking out the repo, run `bin/setup` to install dependencies.
 Then, run `rake spec` to run the tests. You can also run `bin/console` for an interactive prompt that will allow you to experiment.
 
 To install this gem onto your local machine, run `bundle exec rake install`. To release a new version, update the version number in `version.rb`, and then run `bundle exec rake release`, which will create a git tag for the version, push git commits and tags, and push the `.gem` file to [rubygems.org](https://rubygems.org).
