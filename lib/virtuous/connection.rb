@@ -1,5 +1,5 @@
 module Virtuous #:nodoc:
-    
+
   class Connection
     include HTTParty
     #debug_output $stdout if http_debug
@@ -19,12 +19,12 @@ module Virtuous #:nodoc:
     # @param api_base_uri [String] Base URI at which to make API calls.
     # @param oauth_base_uri [String] Base URI for OAuth requests.
     def initialize(version: DEFAULT_VERSION, api_base_uri: DEFAULT_API_BASE_URI)
-      @token              = Virtuous.configuration.token
+      @token              = Virtuous::VirtuousAccessToken.current_token
       @api_version        = version
       @api_base_uri       = api_base_uri
       #@http_debug         = Virtuous.configuration.http_debug
       #@http_log           = Virtuous.configuration.http_log
-      
+
       self.class.debug_output $stdout if Virtuous.configuration.http_debug
       self.class.logger ::Logger.new("log/virtuous_http.log"), :info, Virtuous.configuration.http_log_format  if Virtuous.configuration.http_log #, :curl
 
@@ -74,7 +74,7 @@ module Virtuous #:nodoc:
 
       headers.merge!(default_headers)
 
-      if verb == :get 
+      if verb == :get
         response =  self.class.public_send verb, path, query: params, headers: headers
       else
         response =  self.class.public_send verb, path, body: body, query: params, headers: headers
@@ -89,12 +89,12 @@ module Virtuous #:nodoc:
       if !(200..299).include?(status_code)
         if !response.body.empty?
           body = JSON.parse(response.body)
-          message = "Status: #{status_code}\n\r Message: #{body["message"]}" #body["error"] || body["errors"].join(" ") 
+          message = "Status: #{status_code}\n\r Message: #{body["message"]}" #body["error"] || body["errors"].join(" ")
         else
           message ="Status: #{status_code}"
         end
-        Virtuous.configuration.logger.error "Virtuous::Error #{message}"
-        # raise Virtuous::Error.new message        
+        Virtuous.configuration.logger.error "Virtuous::Error #{message}" if Virtuous.configuration.logger
+        # raise Virtuous::Error.new message
       end
 
       response
