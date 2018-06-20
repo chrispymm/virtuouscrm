@@ -15,7 +15,12 @@ require "virtuous/contact_note"
 require "virtuous/contact_tag"
 require "virtuous/organization"
 require "virtuous/relationship"
+require "virtuous/token"
 require "virtuous/tag"
+
+require "virtuous/railtie" if defined?(Rails)
+
+require "app/models/virtuous_access_token"
 
 module Virtuous
   class << self
