@@ -1,13 +1,19 @@
 module Virtuous
-  class VirtuousAccessToken < ActiveRecord::Base
+  class VirtuousTokenError < StandardError
+    attr_reader :data
 
+    def initialize(data)
+      super
+      @data = data
+    end
+  end
+  class VirtuousAccessToken < ActiveRecord::Base
     attr_accessor :current_token
 
     default_scope -> { order(created_at: :desc) }
     scope :active, -> { where(active: true) }
 
     class << self
-
       def current
         self.active.first
       end
@@ -15,6 +21,11 @@ module Virtuous
       def current_token
         @current_token ||= self.current.try(:token)
       end
+
+      def current_token=(token_string)
+        @current_token = token_string
+      end
+
 
       def get_initial(email, password)
         response = Virtuous::Token.get(email, password)
@@ -33,10 +44,14 @@ module Virtuous
           response = Virtuous::Token.refresh
           expiry = self.set_expiry(response.expires_in)
           new_token = Virtuous::VirtuousAccessToken.new(token: response.access_token, expiry: expiry, active: true )
-          ActiveRecord::Base.transaction do
-            if new_token.save
-              current_token.update_columns( active: false )
+          begin
+            ActiveRecord::Base.transaction do
+              if new_token.save
+                current_token.update_columns( active: false )
+              end
             end
+          rescue => e
+            raise VirtuousTokenError.new(data: e), "There was an error refreshing your Virtuous access token"
           end
         end
       end
@@ -44,8 +59,6 @@ module Virtuous
       def set_expiry(expires_in)
         Time.now + expires_in.seconds
       end
-
-
     end
   end
 end

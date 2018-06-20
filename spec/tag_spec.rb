@@ -26,16 +26,16 @@ RSpec.describe Virtuous::Tag do
             VCR.use_cassette("tags") do
                 @tags = Virtuous::Tag.search(query)
             end
-            expect(@tags.size).to eq(3)
-            
+            expect(@tags.size).to eq(9)
+
         end
 
         it "first result is correct" do
             VCR.use_cassette("tags") do
                 @tags = Virtuous::Tag.search(query)
             end
-            expect(@tags.first.tagName).to eq("InitialApplicant")
-        end     
+            expect(@tags.first.tagName).to eq("Initial Applicant Church Archived")
+        end
     end
 
 

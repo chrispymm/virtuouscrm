@@ -10,33 +10,100 @@ http_interactions:
       Accept-Version:
       - v1
       Authorization:
-      - Bearer v1iO46y9qiqyXiz8D4ZTugnpIVIv6KXEsReKZ8EuOFHJT29thIXQW1XUWbtykR66_4UtSoQIaUTTjuFcFY5iidQin8SE17IF7PebkqgeC0UPT-Z4G4v6fPVJ1IDLGxCSTfYe_CZ3tlSnQdzcT7ICmEAPI6i_GsL4TL4uCPFfmIgB0Cqn68kh3BBKtMCOWbsYdhP_U4OJDlCgYBG3AkKqpgDAH0H9Cb1DJO1x3o4TVn06_QQHDLDHfAccZHn2lUPbB_7s6f7UtKc_X_YmAcTMUFOd8POeyF3mNRbOY6xSM0cMvhLnPj93yEA_WI75WB-swJyHILIyv6ccUUZ6KmS16SAWOqzjKho9ccQg6-TKCoezQ2yvDlLrsA2H-V7X09PU7MWX6mn9nyGD1SDmt_5y-skiPhekNLoYnvp-2LOo619-HuVOChY0-_N3r5k6xwiimX797esP7KZIvveU5oOYjRY1QuFb0S8eg5aIZi9apWjBN9WfX4XfTcwTSVisZo0O3Xs34NyVERTvMfL-CX3sOoKSOB5hnc2V1gy7c8m08mD0jyRh
+      - Bearer CxvNvNzQjkXnwScptEMB2UK6nNjPt5iaZffqqd8vdUq_UMD9UyHgC2OsKa5IHirrC8UpWuuMp96YP_U4iFXEB6XGOrSfW3IU3bb5iPDrEVss4rY8f0Hprte3xU2sZNSO4EP4EQiwiw2wNRsdZKrgS_xOSfiRdaftLzM69tzp91uUy2o26VVWS-nZy5IUNnM6vjHhfOOSkh98zvOT8t8jSnLVUSL5na-3UdmFrKkwA5XfPbKQBN2JpAdNYlPURgdjMbRuPceb9F9Y66WXDipZFaDO_2HepIIcyv1O_EtDO1H3D6CVAK6dQPTb0hewmJJsv-jkYvCpU23_7iVbKL1ZIk_VspxhAG8ApE0gxLR0WLPA-GvI5Gzhx225LoQdkl7nOGYj5QQW84OQaiwWAIb96MLLs0CM9dNFcJV7hPBcJ9OvoIEW3X65TWTTw8afN_18ygGI-j96AXCXZ1KfjHLSsQAzj-tSpNbkFaJ3uWg4EY4KS0ADDEjNyabRZnQoN3z-OfrCVRYuRHnjAVXlg018b6WAqUngnHT9_E2uSu9hLecfzaHppgkkoN24hgimhPXi7XYL3w
       Content-Type:
       - application/json
   response:
     status:
-      code: 500
-      message: Internal Server Error
+      code: 200
+      message: OK
     headers:
       Cache-Control:
-      - private
+      - no-cache
+      Pragma:
+      - no-cache
       Content-Length:
-      - '43'
+      - '4439'
       Content-Type:
       - application/json; charset=utf-8
+      Expires:
+      - "-1"
       Server:
-      - Microsoft-IIS/8.0
+      - Microsoft-IIS/10.0
       X-Aspnet-Version:
       - 4.0.30319
       X-Powered-By:
       - ASP.NET
       Set-Cookie:
-      - ARRAffinity=ff1776aaaffbe99ffb4f021bbc3c9cfef3d23b90858b122afe3616743ca43f73;Path=/;HttpOnly;Domain=api.virtuoussoftware.com
+      - ARRAffinity=d4eb6173cd26a711780884b70e61533787c576bc2ea8fa4f9d8e7c930815111a;Path=/;HttpOnly;Domain=api.virtuoussoftware.com
       Date:
-      - Tue, 31 Oct 2017 13:23:01 GMT
+      - Wed, 20 Jun 2018 11:38:33 GMT
     body:
       encoding: UTF-8
-      string: "{\r\n  \"message\": \"An error has occurred.\"\r\n}"
+      string: "{\r\n  \"id\": 2526,\r\n  \"contactType\": \"Household\",\r\n  \"isPrivate\":
+        false,\r\n  \"name\": \"Samuel Orrico\",\r\n  \"informalName\": \"Test Name\",\r\n
+        \ \"description\": null,\r\n  \"website\": null,\r\n  \"anniversaryMonth\":
+        null,\r\n  \"anniversaryDay\": null,\r\n  \"address\": {\r\n    \"id\": 2872,\r\n
+        \   \"label\": \"Church\",\r\n    \"address1\": \"Miguel Alem n #15\",\r\n
+        \   \"address2\": null,\r\n    \"city\": \"Xalapa\",\r\n    \"state\": \"Veracruz\",\r\n
+        \   \"postal\": \"\",\r\n    \"country\": \"Mexico\",\r\n    \"isPrimary\":
+        true,\r\n    \"canBePrimary\": false,\r\n    \"startMonth\": 1,\r\n    \"startDay\":
+        1,\r\n    \"endMonth\": 12,\r\n    \"endDay\": 31\r\n  },\r\n  \"giftAskAmount\":
+        \"\",\r\n  \"giftAskType\": null,\r\n  \"lifeToDateGiving\": \"$0\",\r\n  \"yearToDateGiving\":
+        \"$0\",\r\n  \"lastGiftAmount\": \"$0\",\r\n  \"lastGiftDate\": \"Unavailable\",\r\n
+        \ \"contactIndividuals\": [\r\n    {\r\n      \"id\": 3733,\r\n      \"prefix\":
+        null,\r\n      \"firstName\": \"Samuel\",\r\n      \"middleName\": \"\",\r\n
+        \     \"lastName\": \"Orrico\",\r\n      \"suffix\": null,\r\n      \"gender\":
+        null,\r\n      \"isPrimary\": true,\r\n      \"canBePrimary\": false,\r\n
+        \     \"birthMonth\": null,\r\n      \"birthDay\": null,\r\n      \"birthYear\":
+        null,\r\n      \"birthDate\": \"\",\r\n      \"approximateAge\": null,\r\n
+        \     \"isDeceased\": false,\r\n      \"passion\": null,\r\n      \"avatarUrl\":
+        null,\r\n      \"contactMethods\": [\r\n        {\r\n          \"id\": 3335,\r\n
+        \         \"type\": \"Twitter\",\r\n          \"value\": \"@comunidadnova\",\r\n
+        \         \"isOptedIn\": true,\r\n          \"isPrimary\": false,\r\n          \"canBePrimary\":
+        false\r\n        }\r\n      ],\r\n      \"createDateTimeUtc\": \"2017-12-07T20:37:02.8933333\",\r\n
+        \     \"modifiedDateTimeUtc\": \"2017-12-07T20:37:02.8933333\",\r\n      \"customFields\":
+        [\r\n        {\r\n          \"dataType\": \"Text\",\r\n          \"name\":
+        \"Job Title\",\r\n          \"value\": \"Lead Pastor\"\r\n        },\r\n        {\r\n
+        \         \"dataType\": \"Text\",\r\n          \"name\": \"Alternative Individual
+        Name\",\r\n          \"value\": null\r\n        }\r\n      ]\r\n    }\r\n
+        \ ],\r\n  \"isCurrentUserFollowing\": false,\r\n  \"contactGiftsUrl\": \"/api/Gift/ByContact/2526\",\r\n
+        \ \"contactPassthroughGiftsUrl\": \"/api/Gift/Passthrough/ByContact/2526\",\r\n
+        \ \"contactPlannedGiftsUrl\": \"/api/PlannedGift/ByContact/2526\",\r\n  \"contactPledgesUrl\":
+        \"/api/Pledge/ByContact/2526\",\r\n  \"contactImportantNotesUrl\": \"/api/ContactNote/Important/ByContact/2526\",\r\n
+        \ \"contactNotesUrl\": \"/api/ContactNote/ByContact/2526\",\r\n  \"contactTagsUrl\":
+        \"/api/ContactTag/ByContact/2526\",\r\n  \"contactRelationshipsUrl\": \"/api/Relationship/ByContact/2526\",\r\n
+        \ \"primaryAvatarUrl\": null,\r\n  \"createDateTimeUtc\": \"2016-02-10T00:00:00\",\r\n
+        \ \"modifiedDateTimeUtc\": \"2018-06-20T11:38:33.0424771Z\",\r\n  \"customFields\":
+        [\r\n    {\r\n      \"dataType\": \"Text\",\r\n      \"name\": \"Acts 29 ID\",\r\n
+        \     \"value\": \"155427\"\r\n    },\r\n    {\r\n      \"dataType\": \"List\",\r\n
+        \     \"name\": \"Network\",\r\n      \"value\": \"Latin America\"\r\n    },\r\n
+        \   {\r\n      \"dataType\": \"List\",\r\n      \"name\": \"Region\",\r\n
+        \     \"value\": \"Spanish Latin America\"\r\n    },\r\n    {\r\n      \"dataType\":
+        \"Text\",\r\n      \"name\": \"Launch Date\",\r\n      \"value\": \"4/23/2016\"\r\n
+        \   },\r\n    {\r\n      \"dataType\": \"Text\",\r\n      \"name\": \"Assessment
+        App ID\",\r\n      \"value\": \"3332\"\r\n    },\r\n    {\r\n      \"dataType\":
+        \"Boolean\",\r\n      \"name\": \"Public in Application App\",\r\n      \"value\":
+        \"True\"\r\n    },\r\n    {\r\n      \"dataType\": \"Text\",\r\n      \"name\":
+        \"Children's Names\",\r\n      \"value\": null\r\n    },\r\n    {\r\n      \"dataType\":
+        \"Text\",\r\n      \"name\": \"Church\",\r\n      \"value\": null\r\n    },\r\n
+        \   {\r\n      \"dataType\": \"DateTime\",\r\n      \"name\": \"Covenant Renewal
+        Date\",\r\n      \"value\": null\r\n    },\r\n    {\r\n      \"dataType\":
+        \"List\",\r\n      \"name\": \"Marital Status\",\r\n      \"value\": null\r\n
+        \   },\r\n    {\r\n      \"dataType\": \"Text\",\r\n      \"name\": \"Number
+        of Locations\",\r\n      \"value\": null\r\n    },\r\n    {\r\n      \"dataType\":
+        \"Text\",\r\n      \"name\": \"Other Languages\",\r\n      \"value\": null\r\n
+        \   },\r\n    {\r\n      \"dataType\": \"List\",\r\n      \"name\": \"Primary
+        Language\",\r\n      \"value\": null\r\n    },\r\n    {\r\n      \"dataType\":
+        \"List\",\r\n      \"name\": \"Primary Track\",\r\n      \"value\": null\r\n
+        \   },\r\n    {\r\n      \"dataType\": \"Text\",\r\n      \"name\": \"Quickbooks
+        ID\",\r\n      \"value\": null\r\n    },\r\n    {\r\n      \"dataType\": \"Text\",\r\n
+        \     \"name\": \"Service Language\",\r\n      \"value\": null\r\n    },\r\n
+        \   {\r\n      \"dataType\": \"Text\",\r\n      \"name\": \"Size of Church\",\r\n
+        \     \"value\": null\r\n    },\r\n    {\r\n      \"dataType\": \"List\",\r\n
+        \     \"name\": \"Ethnicity\",\r\n      \"value\": null\r\n    },\r\n    {\r\n
+        \     \"dataType\": \"Text\",\r\n      \"name\": \"Language\",\r\n      \"value\":
+        null\r\n    }\r\n  ]\r\n}"
     http_version: 
-  recorded_at: Tue, 31 Oct 2017 13:23:02 GMT
-recorded_with: VCR 3.0.3
+  recorded_at: Wed, 20 Jun 2018 11:38:40 GMT
+recorded_with: VCR 4.0.0

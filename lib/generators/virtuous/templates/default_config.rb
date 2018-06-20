@@ -1,8 +1,6 @@
 Virtuous.configure do |config|
     #Refresh token for getting new Virtuous Tokens
     config.refresh_token = Rails.application.secrets.virtuous_refresh_token
-    #API Token to access virtuous
-    #config.token = Virtuous::VirtuousAccessToken.current
     #How long before the token expires shoudl we attempt to refresh the token
     config.refresh_threshold = 72.hours
     #By default if development http_debug: true, http_log: false
