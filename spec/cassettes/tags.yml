@@ -2,7 +2,7 @@
 http_interactions:
 - request:
     method: get
-    uri: https://api.virtuoussoftware.com/api/Tag?skip=0&take=10
+    uri: https://api.virtuoussoftware.com/api/Tag?skip=0&take=100
     body:
       encoding: US-ASCII
       string: ''
@@ -10,7 +10,7 @@ http_interactions:
       Accept-Version:
       - v1
       Authorization:
-      - Bearer v1iO46y9qiqyXiz8D4ZTugnpIVIv6KXEsReKZ8EuOFHJT29thIXQW1XUWbtykR66_4UtSoQIaUTTjuFcFY5iidQin8SE17IF7PebkqgeC0UPT-Z4G4v6fPVJ1IDLGxCSTfYe_CZ3tlSnQdzcT7ICmEAPI6i_GsL4TL4uCPFfmIgB0Cqn68kh3BBKtMCOWbsYdhP_U4OJDlCgYBG3AkKqpgDAH0H9Cb1DJO1x3o4TVn06_QQHDLDHfAccZHn2lUPbB_7s6f7UtKc_X_YmAcTMUFOd8POeyF3mNRbOY6xSM0cMvhLnPj93yEA_WI75WB-swJyHILIyv6ccUUZ6KmS16SAWOqzjKho9ccQg6-TKCoezQ2yvDlLrsA2H-V7X09PU7MWX6mn9nyGD1SDmt_5y-skiPhekNLoYnvp-2LOo619-HuVOChY0-_N3r5k6xwiimX797esP7KZIvveU5oOYjRY1QuFb0S8eg5aIZi9apWjBN9WfX4XfTcwTSVisZo0O3Xs34NyVERTvMfL-CX3sOoKSOB5hnc2V1gy7c8m08mD0jyRh
+      - Bearer CxvNvNzQjkXnwScptEMB2UK6nNjPt5iaZffqqd8vdUq_UMD9UyHgC2OsKa5IHirrC8UpWuuMp96YP_U4iFXEB6XGOrSfW3IU3bb5iPDrEVss4rY8f0Hprte3xU2sZNSO4EP4EQiwiw2wNRsdZKrgS_xOSfiRdaftLzM69tzp91uUy2o26VVWS-nZy5IUNnM6vjHhfOOSkh98zvOT8t8jSnLVUSL5na-3UdmFrKkwA5XfPbKQBN2JpAdNYlPURgdjMbRuPceb9F9Y66WXDipZFaDO_2HepIIcyv1O_EtDO1H3D6CVAK6dQPTb0hewmJJsv-jkYvCpU23_7iVbKL1ZIk_VspxhAG8ApE0gxLR0WLPA-GvI5Gzhx225LoQdkl7nOGYj5QQW84OQaiwWAIb96MLLs0CM9dNFcJV7hPBcJ9OvoIEW3X65TWTTw8afN_18ygGI-j96AXCXZ1KfjHLSsQAzj-tSpNbkFaJ3uWg4EY4KS0ADDEjNyabRZnQoN3z-OfrCVRYuRHnjAVXlg018b6WAqUngnHT9_E2uSu9hLecfzaHppgkkoN24hgimhPXi7XYL3w
       Content-Type:
       - application/json
   response:
@@ -23,46 +23,209 @@ http_interactions:
       Pragma:
       - no-cache
       Content-Length:
-      - '1610'
+      - '13239'
       Content-Type:
       - application/json; charset=utf-8
       Expires:
       - "-1"
       Server:
-      - Microsoft-IIS/8.0
+      - Microsoft-IIS/10.0
       X-Aspnet-Version:
       - 4.0.30319
       X-Powered-By:
       - ASP.NET
       Set-Cookie:
-      - ARRAffinity=ff1776aaaffbe99ffb4f021bbc3c9cfef3d23b90858b122afe3616743ca43f73;Path=/;HttpOnly;Domain=api.virtuoussoftware.com
+      - ARRAffinity=b498f45d1b9ed2e3104b0b8b79dfde17d6cdeb3a08ec8a7b885c8297e1188d99;Path=/;HttpOnly;Domain=api.virtuoussoftware.com
       Date:
-      - Tue, 31 Oct 2017 13:23:18 GMT
+      - Wed, 20 Jun 2018 11:37:17 GMT
     body:
       encoding: UTF-8
-      string: "{\r\n  \"list\": [\r\n    {\r\n      \"id\": 34,\r\n      \"tagName\":
-        \"Affiliate Pastor\",\r\n      \"tagGroupName\": \"Imported Tags\",\r\n      \"contactsByTagUrl\":
-        \"/api/Contact/ByTag/34\"\r\n    },\r\n    {\r\n      \"id\": 25,\r\n      \"tagName\":
-        \"Applicant Pastor\",\r\n      \"tagGroupName\": \"Imported Tags\",\r\n      \"contactsByTagUrl\":
-        \"/api/Contact/ByTag/25\"\r\n    },\r\n    {\r\n      \"id\": 26,\r\n      \"tagName\":
-        \"Archived\",\r\n      \"tagGroupName\": \"Imported Tags\",\r\n      \"contactsByTagUrl\":
-        \"/api/Contact/ByTag/26\"\r\n    },\r\n    {\r\n      \"id\": 47,\r\n      \"tagName\":
-        \"Archived | Member\",\r\n      \"tagGroupName\": \"Groups\",\r\n      \"contactsByTagUrl\":
-        \"/api/Contact/ByTag/47\"\r\n    },\r\n    {\r\n      \"id\": 28,\r\n      \"tagName\":
+      string: "{\r\n  \"list\": [\r\n    {\r\n      \"id\": 39,\r\n      \"tagName\":
+        \"Academy Leadership Team\",\r\n      \"tagGroupName\": \"Imported Tags\",\r\n
+        \     \"contactsByTagUrl\": \"/api/Contact/ByTag/39\"\r\n    },\r\n    {\r\n
+        \     \"id\": 28,\r\n      \"tagName\": \"Affiliate Pastor\",\r\n      \"tagGroupName\":
+        \"Imported Tags\",\r\n      \"contactsByTagUrl\": \"/api/Contact/ByTag/28\"\r\n
+        \   },\r\n    {\r\n      \"id\": 47,\r\n      \"tagName\": \"Applicant\",\r\n
+        \     \"tagGroupName\": \"Groups\",\r\n      \"contactsByTagUrl\": \"/api/Contact/ByTag/47\"\r\n
+        \   },\r\n    {\r\n      \"id\": 48,\r\n      \"tagName\": \"Applicant Archived\",\r\n
+        \     \"tagGroupName\": \"Groups\",\r\n      \"contactsByTagUrl\": \"/api/Contact/ByTag/48\"\r\n
+        \   },\r\n    {\r\n      \"id\": 61,\r\n      \"tagName\": \"Applicant Church\",\r\n
+        \     \"tagGroupName\": \"Imported Tags\",\r\n      \"contactsByTagUrl\":
+        \"/api/Contact/ByTag/61\"\r\n    },\r\n    {\r\n      \"id\": 72,\r\n      \"tagName\":
+        \"Applicant Church Archived\",\r\n      \"tagGroupName\": \"Imported Tags\",\r\n
+        \     \"contactsByTagUrl\": \"/api/Contact/ByTag/72\"\r\n    },\r\n    {\r\n
+        \     \"id\": 49,\r\n      \"tagName\": \"Archive | C\",\r\n      \"tagGroupName\":
+        \"Groups\",\r\n      \"contactsByTagUrl\": \"/api/Contact/ByTag/49\"\r\n    },\r\n
+        \   {\r\n      \"id\": 50,\r\n      \"tagName\": \"Archive | M\",\r\n      \"tagGroupName\":
+        \"Groups\",\r\n      \"contactsByTagUrl\": \"/api/Contact/ByTag/50\"\r\n    },\r\n
+        \   {\r\n      \"id\": 51,\r\n      \"tagName\": \"Archive | M\",\r\n      \"tagGroupName\":
+        \"Groups\",\r\n      \"contactsByTagUrl\": \"/api/Contact/ByTag/51\"\r\n    },\r\n
+        \   {\r\n      \"id\": 80,\r\n      \"tagName\": \"Archived Completed Potential
+        Planter Track\",\r\n      \"tagGroupName\": \"Groups\",\r\n      \"contactsByTagUrl\":
+        \"/api/Contact/ByTag/80\"\r\n    },\r\n    {\r\n      \"id\": 81,\r\n      \"tagName\":
+        \"Archived Trained Assessor\",\r\n      \"tagGroupName\": \"Groups\",\r\n
+        \     \"contactsByTagUrl\": \"/api/Contact/ByTag/81\"\r\n    },\r\n    {\r\n
+        \     \"id\": 79,\r\n      \"tagName\": \"Archived Undertaking Potential Planter
+        Track\",\r\n      \"tagGroupName\": \"Groups\",\r\n      \"contactsByTagUrl\":
+        \"/api/Contact/ByTag/79\"\r\n    },\r\n    {\r\n      \"id\": 36,\r\n      \"tagName\":
+        \"Area Director\",\r\n      \"tagGroupName\": \"Imported Tags\",\r\n      \"contactsByTagUrl\":
+        \"/api/Contact/ByTag/36\"\r\n    },\r\n    {\r\n      \"id\": 75,\r\n      \"tagName\":
         \"Assessment\",\r\n      \"tagGroupName\": \"Imported Tags\",\r\n      \"contactsByTagUrl\":
-        \"/api/Contact/ByTag/28\"\r\n    },\r\n    {\r\n      \"id\": 33,\r\n      \"tagName\":
-        \"Assessor\",\r\n      \"tagGroupName\": \"Imported Tags\",\r\n      \"contactsByTagUrl\":
-        \"/api/Contact/ByTag/33\"\r\n    },\r\n    {\r\n      \"id\": 37,\r\n      \"tagName\":
+        \"/api/Contact/ByTag/75\"\r\n    },\r\n    {\r\n      \"id\": 29,\r\n      \"tagName\":
+        \"Assessment Coordinator\",\r\n      \"tagGroupName\": \"Imported Tags\",\r\n
+        \     \"contactsByTagUrl\": \"/api/Contact/ByTag/29\"\r\n    },\r\n    {\r\n
+        \     \"id\": 38,\r\n      \"tagName\": \"Assessment Director\",\r\n      \"tagGroupName\":
+        \"Imported Tags\",\r\n      \"contactsByTagUrl\": \"/api/Contact/ByTag/38\"\r\n
+        \   },\r\n    {\r\n      \"id\": 34,\r\n      \"tagName\": \"Assessor\",\r\n
+        \     \"tagGroupName\": \"Imported Tags\",\r\n      \"contactsByTagUrl\":
+        \"/api/Contact/ByTag/34\"\r\n    },\r\n    {\r\n      \"id\": 35,\r\n      \"tagName\":
         \"Assessor Training\",\r\n      \"tagGroupName\": \"Imported Tags\",\r\n      \"contactsByTagUrl\":
-        \"/api/Contact/ByTag/37\"\r\n    },\r\n    {\r\n      \"id\": 32,\r\n      \"tagName\":
+        \"/api/Contact/ByTag/35\"\r\n    },\r\n    {\r\n      \"id\": 32,\r\n      \"tagName\":
+        \"Board Member\",\r\n      \"tagGroupName\": \"Imported Tags\",\r\n      \"contactsByTagUrl\":
+        \"/api/Contact/ByTag/32\"\r\n    },\r\n    {\r\n      \"id\": 27,\r\n      \"tagName\":
         \"Campus Pastor\",\r\n      \"tagGroupName\": \"Imported Tags\",\r\n      \"contactsByTagUrl\":
-        \"/api/Contact/ByTag/32\"\r\n    },\r\n    {\r\n      \"id\": 29,\r\n      \"tagName\":
-        \"Candidate Pastor\",\r\n      \"tagGroupName\": \"Imported Tags\",\r\n      \"contactsByTagUrl\":
-        \"/api/Contact/ByTag/29\"\r\n    },\r\n    {\r\n      \"id\": 44,\r\n      \"tagName\":
-        \"Completed\",\r\n      \"tagGroupName\": \"Imported Tags\",\r\n      \"contactsByTagUrl\":
-        \"/api/Contact/ByTag/44\"\r\n    }\r\n  ],\r\n  \"total\": 48\r\n}"
+        \"/api/Contact/ByTag/27\"\r\n    },\r\n    {\r\n      \"id\": 52,\r\n      \"tagName\":
+        \"Candidate\",\r\n      \"tagGroupName\": \"Groups\",\r\n      \"contactsByTagUrl\":
+        \"/api/Contact/ByTag/52\"\r\n    },\r\n    {\r\n      \"id\": 62,\r\n      \"tagName\":
+        \"Candidate Archived\",\r\n      \"tagGroupName\": \"Imported Tags\",\r\n
+        \     \"contactsByTagUrl\": \"/api/Contact/ByTag/62\"\r\n    },\r\n    {\r\n
+        \     \"id\": 63,\r\n      \"tagName\": \"Candidate Church\",\r\n      \"tagGroupName\":
+        \"Imported Tags\",\r\n      \"contactsByTagUrl\": \"/api/Contact/ByTag/63\"\r\n
+        \   },\r\n    {\r\n      \"id\": 40,\r\n      \"tagName\": \"Central Resource
+        Team\",\r\n      \"tagGroupName\": \"Imported Tags\",\r\n      \"contactsByTagUrl\":
+        \"/api/Contact/ByTag/40\"\r\n    },\r\n    {\r\n      \"id\": 45,\r\n      \"tagName\":
+        \"Church Admin\",\r\n      \"tagGroupName\": \"Imported Tags\",\r\n      \"contactsByTagUrl\":
+        \"/api/Contact/ByTag/45\"\r\n    },\r\n    {\r\n      \"id\": 77,\r\n      \"tagName\":
+        \"Completed Potential Planter Track\",\r\n      \"tagGroupName\": \"Communication
+        Preferences\",\r\n      \"contactsByTagUrl\": \"/api/Contact/ByTag/77\"\r\n
+        \   },\r\n    {\r\n      \"id\": 1,\r\n      \"tagName\": \"Do not call\",\r\n
+        \     \"tagGroupName\": \"Communication Preferences\",\r\n      \"contactsByTagUrl\":
+        \"/api/Contact/ByTag/1\"\r\n    },\r\n    {\r\n      \"id\": 33,\r\n      \"tagName\":
+        \"Europe Board Member\",\r\n      \"tagGroupName\": \"Imported Tags\",\r\n
+        \     \"contactsByTagUrl\": \"/api/Contact/ByTag/33\"\r\n    },\r\n    {\r\n
+        \     \"id\": 46,\r\n      \"tagName\": \"Finance Admin\",\r\n      \"tagGroupName\":
+        \"Imported Tags\",\r\n      \"contactsByTagUrl\": \"/api/Contact/ByTag/46\"\r\n
+        \   },\r\n    {\r\n      \"id\": 20,\r\n      \"tagName\": \"First-time Donor\",\r\n
+        \     \"tagGroupName\": \"Prospect Pipeline\",\r\n      \"contactsByTagUrl\":
+        \"/api/Contact/ByTag/20\"\r\n    },\r\n    {\r\n      \"id\": 8,\r\n      \"tagName\":
+        \"Influencer\",\r\n      \"tagGroupName\": \"Prospect Pipeline\",\r\n      \"contactsByTagUrl\":
+        \"/api/Contact/ByTag/8\"\r\n    },\r\n    {\r\n      \"id\": 65,\r\n      \"tagName\":
+        \"Initial Applicant\",\r\n      \"tagGroupName\": \"Imported Tags\",\r\n      \"contactsByTagUrl\":
+        \"/api/Contact/ByTag/65\"\r\n    },\r\n    {\r\n      \"id\": 74,\r\n      \"tagName\":
+        \"Initial Applicant\",\r\n      \"tagGroupName\": \"Imported Tags\",\r\n      \"contactsByTagUrl\":
+        \"/api/Contact/ByTag/74\"\r\n    },\r\n    {\r\n      \"id\": 66,\r\n      \"tagName\":
+        \"Initial Applicant Archived\",\r\n      \"tagGroupName\": \"Imported Tags\",\r\n
+        \     \"contactsByTagUrl\": \"/api/Contact/ByTag/66\"\r\n    },\r\n    {\r\n
+        \     \"id\": 70,\r\n      \"tagName\": \"Initial Applicant Church\",\r\n
+        \     \"tagGroupName\": \"Imported Tags\",\r\n      \"contactsByTagUrl\":
+        \"/api/Contact/ByTag/70\"\r\n    },\r\n    {\r\n      \"id\": 71,\r\n      \"tagName\":
+        \"Initial Applicant Church Archived\",\r\n      \"tagGroupName\": \"Imported
+        Tags\",\r\n      \"contactsByTagUrl\": \"/api/Contact/ByTag/71\"\r\n    },\r\n
+        \   {\r\n      \"id\": 53,\r\n      \"tagName\": \"Interested Party\",\r\n
+        \     \"tagGroupName\": \"Groups\",\r\n      \"contactsByTagUrl\": \"/api/Contact/ByTag/53\"\r\n
+        \   },\r\n    {\r\n      \"id\": 24,\r\n      \"tagName\": \"Lapsed Donor\",\r\n
+        \     \"tagGroupName\": \"Prospect Pipeline\",\r\n      \"contactsByTagUrl\":
+        \"/api/Contact/ByTag/24\"\r\n    },\r\n    {\r\n      \"id\": 10,\r\n      \"tagName\":
+        \"Large Giver\",\r\n      \"tagGroupName\": \"Prospect Pipeline\",\r\n      \"contactsByTagUrl\":
+        \"/api/Contact/ByTag/10\"\r\n    },\r\n    {\r\n      \"id\": 37,\r\n      \"tagName\":
+        \"Lead Pastor\",\r\n      \"tagGroupName\": \"Imported Tags\",\r\n      \"contactsByTagUrl\":
+        \"/api/Contact/ByTag/37\"\r\n    },\r\n    {\r\n      \"id\": 22,\r\n      \"tagName\":
+        \"Major Donor\",\r\n      \"tagGroupName\": \"Prospect Pipeline\",\r\n      \"contactsByTagUrl\":
+        \"/api/Contact/ByTag/22\"\r\n    },\r\n    {\r\n      \"id\": 54,\r\n      \"tagName\":
+        \"Member\",\r\n      \"tagGroupName\": \"Groups\",\r\n      \"contactsByTagUrl\":
+        \"/api/Contact/ByTag/54\"\r\n    },\r\n    {\r\n      \"id\": 55,\r\n      \"tagName\":
+        \"Member\",\r\n      \"tagGroupName\": \"Groups\",\r\n      \"contactsByTagUrl\":
+        \"/api/Contact/ByTag/55\"\r\n    },\r\n    {\r\n      \"id\": 44,\r\n      \"tagName\":
+        \"Member (Campus Church)\",\r\n      \"tagGroupName\": \"Imported Tags\",\r\n
+        \     \"contactsByTagUrl\": \"/api/Contact/ByTag/44\"\r\n    },\r\n    {\r\n
+        \     \"id\": 43,\r\n      \"tagName\": \"Member (Co-Pastor)\",\r\n      \"tagGroupName\":
+        \"Imported Tags\",\r\n      \"contactsByTagUrl\": \"/api/Contact/ByTag/43\"\r\n
+        \   },\r\n    {\r\n      \"id\": 56,\r\n      \"tagName\": \"Member (Transition
+        Pastor)\",\r\n      \"tagGroupName\": \"Groups\",\r\n      \"contactsByTagUrl\":
+        \"/api/Contact/ByTag/56\"\r\n    },\r\n    {\r\n      \"id\": 60,\r\n      \"tagName\":
+        \"Member Archived\",\r\n      \"tagGroupName\": \"Imported Tags\",\r\n      \"contactsByTagUrl\":
+        \"/api/Contact/ByTag/60\"\r\n    },\r\n    {\r\n      \"id\": 41,\r\n      \"tagName\":
+        \"Member Campus Church\",\r\n      \"tagGroupName\": \"Imported Tags\",\r\n
+        \     \"contactsByTagUrl\": \"/api/Contact/ByTag/41\"\r\n    },\r\n    {\r\n
+        \     \"id\": 59,\r\n      \"tagName\": \"Member Church\",\r\n      \"tagGroupName\":
+        \"Imported Tags\",\r\n      \"contactsByTagUrl\": \"/api/Contact/ByTag/59\"\r\n
+        \   },\r\n    {\r\n      \"id\": 31,\r\n      \"tagName\": \"Network Director\",\r\n
+        \     \"tagGroupName\": \"Imported Tags\",\r\n      \"contactsByTagUrl\":
+        \"/api/Contact/ByTag/31\"\r\n    },\r\n    {\r\n      \"id\": 6,\r\n      \"tagName\":
+        \"New Contact\",\r\n      \"tagGroupName\": \"Prospect Pipeline\",\r\n      \"contactsByTagUrl\":
+        \"/api/Contact/ByTag/6\"\r\n    },\r\n    {\r\n      \"id\": 2,\r\n      \"tagName\":
+        \"Newsletter Only\",\r\n      \"tagGroupName\": \"Communication Preferences\",\r\n
+        \     \"contactsByTagUrl\": \"/api/Contact/ByTag/2\"\r\n    },\r\n    {\r\n
+        \     \"id\": 3,\r\n      \"tagName\": \"No direct mail\",\r\n      \"tagGroupName\":
+        \"Communication Preferences\",\r\n      \"contactsByTagUrl\": \"/api/Contact/ByTag/3\"\r\n
+        \   },\r\n    {\r\n      \"id\": 4,\r\n      \"tagName\": \"No email\",\r\n
+        \     \"tagGroupName\": \"Communication Preferences\",\r\n      \"contactsByTagUrl\":
+        \"/api/Contact/ByTag/4\"\r\n    },\r\n    {\r\n      \"id\": 19,\r\n      \"tagName\":
+        \"Nondonor\",\r\n      \"tagGroupName\": \"Prospect Pipeline\",\r\n      \"contactsByTagUrl\":
+        \"/api/Contact/ByTag/19\"\r\n    },\r\n    {\r\n      \"id\": 18,\r\n      \"tagName\":
+        \"Peer to Peer Fundraiser\",\r\n      \"tagGroupName\": \"Prospect Pipeline\",\r\n
+        \     \"contactsByTagUrl\": \"/api/Contact/ByTag/18\"\r\n    },\r\n    {\r\n
+        \     \"id\": 14,\r\n      \"tagName\": \"Planned Giver\",\r\n      \"tagGroupName\":
+        \"Prospect Pipeline\",\r\n      \"contactsByTagUrl\": \"/api/Contact/ByTag/14\"\r\n
+        \   },\r\n    {\r\n      \"id\": 7,\r\n      \"tagName\": \"Potential Influencer\",\r\n
+        \     \"tagGroupName\": \"Prospect Pipeline\",\r\n      \"contactsByTagUrl\":
+        \"/api/Contact/ByTag/7\"\r\n    },\r\n    {\r\n      \"id\": 9,\r\n      \"tagName\":
+        \"Potential Large Giver\",\r\n      \"tagGroupName\": \"Prospect Pipeline\",\r\n
+        \     \"contactsByTagUrl\": \"/api/Contact/ByTag/9\"\r\n    },\r\n    {\r\n
+        \     \"id\": 17,\r\n      \"tagName\": \"Potential Peer to Peer Fundraiser\",\r\n
+        \     \"tagGroupName\": \"Prospect Pipeline\",\r\n      \"contactsByTagUrl\":
+        \"/api/Contact/ByTag/17\"\r\n    },\r\n    {\r\n      \"id\": 13,\r\n      \"tagName\":
+        \"Potential Planned Giver\",\r\n      \"tagGroupName\": \"Prospect Pipeline\",\r\n
+        \     \"contactsByTagUrl\": \"/api/Contact/ByTag/13\"\r\n    },\r\n    {\r\n
+        \     \"id\": 15,\r\n      \"tagName\": \"Potential Recurring Giver\",\r\n
+        \     \"tagGroupName\": \"Prospect Pipeline\",\r\n      \"contactsByTagUrl\":
+        \"/api/Contact/ByTag/15\"\r\n    },\r\n    {\r\n      \"id\": 11,\r\n      \"tagName\":
+        \"Potential Volunteer\",\r\n      \"tagGroupName\": \"Prospect Pipeline\",\r\n
+        \     \"contactsByTagUrl\": \"/api/Contact/ByTag/11\"\r\n    },\r\n    {\r\n
+        \     \"id\": 57,\r\n      \"tagName\": \"Pre Assessment\",\r\n      \"tagGroupName\":
+        \"Groups\",\r\n      \"contactsByTagUrl\": \"/api/Contact/ByTag/57\"\r\n    },\r\n
+        \   {\r\n      \"id\": 64,\r\n      \"tagName\": \"Pre Assessment Active\",\r\n
+        \     \"tagGroupName\": \"Imported Tags\",\r\n      \"contactsByTagUrl\":
+        \"/api/Contact/ByTag/64\"\r\n    },\r\n    {\r\n      \"id\": 67,\r\n      \"tagName\":
+        \"Pre Assessment Archived\",\r\n      \"tagGroupName\": \"Imported Tags\",\r\n
+        \     \"contactsByTagUrl\": \"/api/Contact/ByTag/67\"\r\n    },\r\n    {\r\n
+        \     \"id\": 69,\r\n      \"tagName\": \"Pre Assessment Church Active\",\r\n
+        \     \"tagGroupName\": \"Imported Tags\",\r\n      \"contactsByTagUrl\":
+        \"/api/Contact/ByTag/69\"\r\n    },\r\n    {\r\n      \"id\": 73,\r\n      \"tagName\":
+        \"Pre Assessment Church Complete\",\r\n      \"tagGroupName\": \"Imported
+        Tags\",\r\n      \"contactsByTagUrl\": \"/api/Contact/ByTag/73\"\r\n    },\r\n
+        \   {\r\n      \"id\": 68,\r\n      \"tagName\": \"Pre Assessment Complete\",\r\n
+        \     \"tagGroupName\": \"Imported Tags\",\r\n      \"contactsByTagUrl\":
+        \"/api/Contact/ByTag/68\"\r\n    },\r\n    {\r\n      \"id\": 23,\r\n      \"tagName\":
+        \"Prelapsed Donor\",\r\n      \"tagGroupName\": \"Prospect Pipeline\",\r\n
+        \     \"contactsByTagUrl\": \"/api/Contact/ByTag/23\"\r\n    },\r\n    {\r\n
+        \     \"id\": 5,\r\n      \"tagName\": \"President's Club\",\r\n      \"tagGroupName\":
+        \"Groups\",\r\n      \"contactsByTagUrl\": \"/api/Contact/ByTag/5\"\r\n    },\r\n
+        \   {\r\n      \"id\": 16,\r\n      \"tagName\": \"Recurring Giver\",\r\n
+        \     \"tagGroupName\": \"Prospect Pipeline\",\r\n      \"contactsByTagUrl\":
+        \"/api/Contact/ByTag/16\"\r\n    },\r\n    {\r\n      \"id\": 25,\r\n      \"tagName\":
+        \"Regional Director\",\r\n      \"tagGroupName\": \"Imported Tags\",\r\n      \"contactsByTagUrl\":
+        \"/api/Contact/ByTag/25\"\r\n    },\r\n    {\r\n      \"id\": 58,\r\n      \"tagName\":
+        \"Staff\",\r\n      \"tagGroupName\": \"Groups\",\r\n      \"contactsByTagUrl\":
+        \"/api/Contact/ByTag/58\"\r\n    },\r\n    {\r\n      \"id\": 21,\r\n      \"tagName\":
+        \"Sustaining Donor\",\r\n      \"tagGroupName\": \"Prospect Pipeline\",\r\n
+        \     \"contactsByTagUrl\": \"/api/Contact/ByTag/21\"\r\n    },\r\n    {\r\n
+        \     \"id\": 78,\r\n      \"tagName\": \"Trained Assessor\",\r\n      \"tagGroupName\":
+        \"Communication Preferences\",\r\n      \"contactsByTagUrl\": \"/api/Contact/ByTag/78\"\r\n
+        \   },\r\n    {\r\n      \"id\": 42,\r\n      \"tagName\": \"Transition Church\",\r\n
+        \     \"tagGroupName\": \"Imported Tags\",\r\n      \"contactsByTagUrl\":
+        \"/api/Contact/ByTag/42\"\r\n    },\r\n    {\r\n      \"id\": 30,\r\n      \"tagName\":
+        \"Transition Pastor\",\r\n      \"tagGroupName\": \"Imported Tags\",\r\n      \"contactsByTagUrl\":
+        \"/api/Contact/ByTag/30\"\r\n    },\r\n    {\r\n      \"id\": 76,\r\n      \"tagName\":
+        \"Undertaking Potential Planter Track\",\r\n      \"tagGroupName\": \"Communication
+        Preferences\",\r\n      \"contactsByTagUrl\": \"/api/Contact/ByTag/76\"\r\n
+        \   },\r\n    {\r\n      \"id\": 26,\r\n      \"tagName\": \"Vice-President\",\r\n
+        \     \"tagGroupName\": \"Imported Tags\",\r\n      \"contactsByTagUrl\":
+        \"/api/Contact/ByTag/26\"\r\n    },\r\n    {\r\n      \"id\": 12,\r\n      \"tagName\":
+        \"Volunteer\",\r\n      \"tagGroupName\": \"Prospect Pipeline\",\r\n      \"contactsByTagUrl\":
+        \"/api/Contact/ByTag/12\"\r\n    }\r\n  ],\r\n  \"total\": 81\r\n}"
     http_version: 
-  recorded_at: Tue, 31 Oct 2017 13:23:19 GMT
+  recorded_at: Wed, 20 Jun 2018 11:37:24 GMT
 - request:
     method: post
     uri: https://api.virtuoussoftware.com/api/Tag/Search?skip=0&take=10
@@ -73,7 +236,7 @@ http_interactions:
       Accept-Version:
       - v1
       Authorization:
-      - Bearer v1iO46y9qiqyXiz8D4ZTugnpIVIv6KXEsReKZ8EuOFHJT29thIXQW1XUWbtykR66_4UtSoQIaUTTjuFcFY5iidQin8SE17IF7PebkqgeC0UPT-Z4G4v6fPVJ1IDLGxCSTfYe_CZ3tlSnQdzcT7ICmEAPI6i_GsL4TL4uCPFfmIgB0Cqn68kh3BBKtMCOWbsYdhP_U4OJDlCgYBG3AkKqpgDAH0H9Cb1DJO1x3o4TVn06_QQHDLDHfAccZHn2lUPbB_7s6f7UtKc_X_YmAcTMUFOd8POeyF3mNRbOY6xSM0cMvhLnPj93yEA_WI75WB-swJyHILIyv6ccUUZ6KmS16SAWOqzjKho9ccQg6-TKCoezQ2yvDlLrsA2H-V7X09PU7MWX6mn9nyGD1SDmt_5y-skiPhekNLoYnvp-2LOo619-HuVOChY0-_N3r5k6xwiimX797esP7KZIvveU5oOYjRY1QuFb0S8eg5aIZi9apWjBN9WfX4XfTcwTSVisZo0O3Xs34NyVERTvMfL-CX3sOoKSOB5hnc2V1gy7c8m08mD0jyRh
+      - Bearer CxvNvNzQjkXnwScptEMB2UK6nNjPt5iaZffqqd8vdUq_UMD9UyHgC2OsKa5IHirrC8UpWuuMp96YP_U4iFXEB6XGOrSfW3IU3bb5iPDrEVss4rY8f0Hprte3xU2sZNSO4EP4EQiwiw2wNRsdZKrgS_xOSfiRdaftLzM69tzp91uUy2o26VVWS-nZy5IUNnM6vjHhfOOSkh98zvOT8t8jSnLVUSL5na-3UdmFrKkwA5XfPbKQBN2JpAdNYlPURgdjMbRuPceb9F9Y66WXDipZFaDO_2HepIIcyv1O_EtDO1H3D6CVAK6dQPTb0hewmJJsv-jkYvCpU23_7iVbKL1ZIk_VspxhAG8ApE0gxLR0WLPA-GvI5Gzhx225LoQdkl7nOGYj5QQW84OQaiwWAIb96MLLs0CM9dNFcJV7hPBcJ9OvoIEW3X65TWTTw8afN_18ygGI-j96AXCXZ1KfjHLSsQAzj-tSpNbkFaJ3uWg4EY4KS0ADDEjNyabRZnQoN3z-OfrCVRYuRHnjAVXlg018b6WAqUngnHT9_E2uSu9hLecfzaHppgkkoN24hgimhPXi7XYL3w
       Content-Type:
       - application/json
   response:
@@ -86,30 +249,45 @@ http_interactions:
       Pragma:
       - no-cache
       Content-Length:
-      - '515'
+      - '1512'
       Content-Type:
       - application/json; charset=utf-8
       Expires:
       - "-1"
       Server:
-      - Microsoft-IIS/8.0
+      - Microsoft-IIS/10.0
       X-Aspnet-Version:
       - 4.0.30319
       X-Powered-By:
       - ASP.NET
       Set-Cookie:
-      - ARRAffinity=ff1776aaaffbe99ffb4f021bbc3c9cfef3d23b90858b122afe3616743ca43f73;Path=/;HttpOnly;Domain=api.virtuoussoftware.com
+      - ARRAffinity=b498f45d1b9ed2e3104b0b8b79dfde17d6cdeb3a08ec8a7b885c8297e1188d99;Path=/;HttpOnly;Domain=api.virtuoussoftware.com
       Date:
-      - Tue, 31 Oct 2017 13:23:22 GMT
+      - Wed, 20 Jun 2018 11:37:19 GMT
     body:
       encoding: UTF-8
-      string: "{\r\n  \"list\": [\r\n    {\r\n      \"id\": 27,\r\n      \"tagName\":
-        \"InitialApplicant\",\r\n      \"tagGroupName\": \"Imported Tags\",\r\n      \"contactsByTagUrl\":
-        \"/api/Contact/ByTag/27\"\r\n    },\r\n    {\r\n      \"id\": 25,\r\n      \"tagName\":
-        \"Applicant Pastor\",\r\n      \"tagGroupName\": \"Imported Tags\",\r\n      \"contactsByTagUrl\":
-        \"/api/Contact/ByTag/25\"\r\n    },\r\n    {\r\n      \"id\": 45,\r\n      \"tagName\":
-        \"PreApplicant\",\r\n      \"tagGroupName\": \"Imported Tags\",\r\n      \"contactsByTagUrl\":
-        \"/api/Contact/ByTag/45\"\r\n    }\r\n  ],\r\n  \"total\": 3\r\n}"
+      string: "{\r\n  \"list\": [\r\n    {\r\n      \"id\": 71,\r\n      \"tagName\":
+        \"Initial Applicant Church Archived\",\r\n      \"tagGroupName\": \"Imported
+        Tags\",\r\n      \"contactsByTagUrl\": \"/api/Contact/ByTag/71\"\r\n    },\r\n
+        \   {\r\n      \"id\": 70,\r\n      \"tagName\": \"Initial Applicant Church\",\r\n
+        \     \"tagGroupName\": \"Imported Tags\",\r\n      \"contactsByTagUrl\":
+        \"/api/Contact/ByTag/70\"\r\n    },\r\n    {\r\n      \"id\": 66,\r\n      \"tagName\":
+        \"Initial Applicant Archived\",\r\n      \"tagGroupName\": \"Imported Tags\",\r\n
+        \     \"contactsByTagUrl\": \"/api/Contact/ByTag/66\"\r\n    },\r\n    {\r\n
+        \     \"id\": 65,\r\n      \"tagName\": \"Initial Applicant\",\r\n      \"tagGroupName\":
+        \"Imported Tags\",\r\n      \"contactsByTagUrl\": \"/api/Contact/ByTag/65\"\r\n
+        \   },\r\n    {\r\n      \"id\": 74,\r\n      \"tagName\": \"Initial Applicant\",\r\n
+        \     \"tagGroupName\": \"Imported Tags\",\r\n      \"contactsByTagUrl\":
+        \"/api/Contact/ByTag/74\"\r\n    },\r\n    {\r\n      \"id\": 72,\r\n      \"tagName\":
+        \"Applicant Church Archived\",\r\n      \"tagGroupName\": \"Imported Tags\",\r\n
+        \     \"contactsByTagUrl\": \"/api/Contact/ByTag/72\"\r\n    },\r\n    {\r\n
+        \     \"id\": 61,\r\n      \"tagName\": \"Applicant Church\",\r\n      \"tagGroupName\":
+        \"Imported Tags\",\r\n      \"contactsByTagUrl\": \"/api/Contact/ByTag/61\"\r\n
+        \   },\r\n    {\r\n      \"id\": 48,\r\n      \"tagName\": \"Applicant Archived\",\r\n
+        \     \"tagGroupName\": \"Groups\",\r\n      \"contactsByTagUrl\": \"/api/Contact/ByTag/48\"\r\n
+        \   },\r\n    {\r\n      \"id\": 47,\r\n      \"tagName\": \"Applicant\",\r\n
+        \     \"tagGroupName\": \"Groups\",\r\n      \"contactsByTagUrl\": \"/api/Contact/ByTag/47\"\r\n
+        \   }\r\n  ],\r\n  \"total\": 9\r\n}"
     http_version: 
-  recorded_at: Tue, 31 Oct 2017 13:23:23 GMT
-recorded_with: VCR 3.0.3
+  recorded_at: Wed, 20 Jun 2018 11:37:25 GMT
+recorded_with: VCR 4.0.0

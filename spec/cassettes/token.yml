@@ -1,0 +1,49 @@
+---
+http_interactions:
+- request:
+    method: post
+    uri: https://api.virtuoussoftware.com/Token
+    body:
+      encoding: UTF-8
+      string: grant_type=password&username=staging.virtuous.app@acts29.com&password=KD9F^Qir2OHLkvXX%4hh
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Cache-Control:
+      - no-cache
+      Pragma:
+      - no-cache
+      Content-Length:
+      - '1597'
+      Content-Type:
+      - application/json;charset=UTF-8
+      Expires:
+      - "-1"
+      Vary:
+      - Accept-Encoding
+      Server:
+      - Microsoft-IIS/10.0
+      Set-Cookie:
+      - ".AspNet.Cookies=ZhY2jiSHut0Or9jRsd3dqG44LpBNH4goprVEy7tnjwvJ7lZQ-XNUW97UiQncKL6UIBjOJcRHOaw9V5r7bfKySWKppKAl9hO_w9lF_16rtTEQsCJa36Uba3Du1xBuZBNl9vt-3i2lKrnKZm9a0feEaW-4MIuvBwpb98DQB9XPmD4N_3XMnbZ-PVXLICDbH9skLMVBVmsJpoFt7DRRk8d5u2QERYdb7OXZOIUmlQeE9pWmIdNgdzm-QYm67NNAC2D9G7dsGXiA_Daus20fRfJB0vMjjhEdmbCRqG8sgooAq7epeT18DnUnM6ilUz24w40O-_RDhBwhWDyN3DejnaHI08p0Y9mCYr1OECRECTgCqwHQMfGVThlfw49j1Qe1qzsk7isJoZaTejUc7t2CbDK-Bd7Tb94RP1oqVxIfdZe5Z9D_nrkWc0v7qh45vrHfsu8lbfor9DIdmT5Op9Jm2o781ZcMtoNEHLBNDnUxafm9vBPQ0g2TBPskpBgkES71qNg8oLRQeSt0AJy9n_Vh8HN9rIv8eyU;
+        path=/; secure; HttpOnly"
+      - ARRAffinity=d4eb6173cd26a711780884b70e61533787c576bc2ea8fa4f9d8e7c930815111a;Path=/;HttpOnly;Domain=api.virtuoussoftware.com
+      X-Powered-By:
+      - ASP.NET
+      Date:
+      - Wed, 20 Jun 2018 11:31:10 GMT
+    body:
+      encoding: ASCII-8BIT
+      string: '{"access_token":"CxvNvNzQjkXnwScptEMB2UK6nNjPt5iaZffqqd8vdUq_UMD9UyHgC2OsKa5IHirrC8UpWuuMp96YP_U4iFXEB6XGOrSfW3IU3bb5iPDrEVss4rY8f0Hprte3xU2sZNSO4EP4EQiwiw2wNRsdZKrgS_xOSfiRdaftLzM69tzp91uUy2o26VVWS-nZy5IUNnM6vjHhfOOSkh98zvOT8t8jSnLVUSL5na-3UdmFrKkwA5XfPbKQBN2JpAdNYlPURgdjMbRuPceb9F9Y66WXDipZFaDO_2HepIIcyv1O_EtDO1H3D6CVAK6dQPTb0hewmJJsv-jkYvCpU23_7iVbKL1ZIk_VspxhAG8ApE0gxLR0WLPA-GvI5Gzhx225LoQdkl7nOGYj5QQW84OQaiwWAIb96MLLs0CM9dNFcJV7hPBcJ9OvoIEW3X65TWTTw8afN_18ygGI-j96AXCXZ1KfjHLSsQAzj-tSpNbkFaJ3uWg4EY4KS0ADDEjNyabRZnQoN3z-OfrCVRYuRHnjAVXlg018b6WAqUngnHT9_E2uSu9hLecfzaHppgkkoN24hgimhPXi7XYL3w","token_type":"bearer","expires_in":1295999,"refresh_token":"P2oezqYDAlmH2LxHXU-DBZs2ewNm1OM29w5bk07ZgQPhstP4yNeAX-cgp6j7Xzk5G0DFQNwBnac_ts1S_7YqlILb4kLa4oINcvWB1PTAIX3mBmsMhI8nfgLjVcI6LA-kgak0hSWudKZqNNjcmVUfnQq1Uty8ewUhtL_tEfFrSvbm66IC3VEkzwO68ABfCSsaGMF37vAkRdSFlkH0g8t6dJOOUg0NChRAt55XxiUMEpbKkQ_FX80-GjLL2HviRLSWISlWHcOX5XXDCmRe1KF0q3P4JY_7u0n4eH5jXYcPrph6qw8WyvZ7h4x6OPYJbaXzU9vRWw5vhRt_7qB6lAbpw1Zsea_n3ul43ZHZJddKDVetNiIUMc9cFAvYA9rFBOAQu3XkLi0SUzcPjC7XK4FDiRI3604dm1jyohsdNJ08MNMrX0i15Nj0Q6s-UoOIipD0uqv6o3nca0Ij4J0T3mlXMtimJlfX7nTo8ny1bMbXOAKKdEHBcD6VNRFbikIRU9JhMbfJB5DzWsOqBTvHgqZrXB_jG51mV7Bdu4-PEQqbGiS3aXUfc8SzCoSCDHe-gln-bJ8pZQ","userName":"staging.virtuous.app@acts29.com","twoFactorEnabled":"False",".issued":"Wed,
+        20 Jun 2018 11:31:09 GMT",".expires":"Thu, 05 Jul 2018 11:31:09 GMT"}'
+    http_version: 
+  recorded_at: Wed, 20 Jun 2018 11:31:16 GMT
+recorded_with: VCR 4.0.0

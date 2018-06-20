@@ -19,7 +19,7 @@ module Virtuous #:nodoc:
     # @param api_base_uri [String] Base URI at which to make API calls.
     # @param oauth_base_uri [String] Base URI for OAuth requests.
     def initialize(version: DEFAULT_VERSION, api_base_uri: DEFAULT_API_BASE_URI)
-      @token              = Virtuous::VirtuousAccessToken.current_token
+      # @token              = Virtuous::VirtuousAccessToken.current_token
       @api_version        = version
       @api_base_uri       = api_base_uri
       #@http_debug         = Virtuous.configuration.http_debug
@@ -68,7 +68,7 @@ module Virtuous #:nodoc:
 
       default_headers = {
         "Accept-Version" => @api_version,
-        "Authorization" => "Bearer #{@token}",
+        "Authorization" => "Bearer #{Virtuous::VirtuousAccessToken.current_token}",
         "Content-Type" => "application/json"
       }
 

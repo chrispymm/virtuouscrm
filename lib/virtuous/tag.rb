@@ -18,7 +18,7 @@ module Virtuous
             def search(search="", skip=0,take=10)
                 body = {
                     search: search
-            }.to_json
+                }.to_json
                 params = {
                     skip:   skip,
                     take:   take

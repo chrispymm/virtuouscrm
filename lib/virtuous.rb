@@ -1,5 +1,6 @@
 require "httparty"
 require 'logger'
+require 'active_record'
 
 require "virtuous/version"
 require "virtuous/configuration"
