@@ -11,7 +11,7 @@ Virtuous.configure do |config|
     config.http_log = true
     #HTTP Log format values :apache or :curl (:curl gives very verbose output - as per debug log above)
     config.http_log_format = :apache
-    #If an API error occurs e.g. 4XX / 5XX from Virtuous, what shoudl we do? Default is :log, Tests expect :raise - in production you probably want :log 
+    #If an API error occurs e.g. 4XX / 5XX from Virtuous, what shoudl we do? Default is :log, Tests expect :raise - in production you probably want :log
     config.error_with = :log
     #Log File
     config.logger = ( Rails.env.development? ? Rails.logger :  ::Logger.new('log/virtuous.log') )

@@ -17,7 +17,7 @@ Virtuous.configure do |config|
   config.http_log_format = :apache
   #Log File
   config.logger = nil
-  config.error_with = :raise 
+  config.error_with = :raise
 end
 
 VCR.configure do |config|
