@@ -1,5 +1,5 @@
 module Virtuous
-  class VirtuousAccessToken < ActiveRecord::Base
+  class VirtuousAccessToken < Virtuous::ApplicationRecord
     attr_accessor :current_token
 
     default_scope -> { order(created_at: :desc) }
