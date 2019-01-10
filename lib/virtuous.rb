@@ -22,6 +22,7 @@ require "virtuous/tag"
 
 require "virtuous/railtie" if defined?(Rails)
 
+require "app/models/application_record"
 require "app/models/virtuous_access_token"
 
 module Virtuous

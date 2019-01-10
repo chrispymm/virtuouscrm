@@ -68,7 +68,7 @@ module Virtuous #:nodoc:
 
       default_headers = {
         "Accept-Version" => @api_version,
-        "Authorization" => "Bearer #{Virtuous::VirtuousAccessToken.current_token}",
+        "Authorization" => "Bearer #{Virtuous::VirtuousAccessToken.current.try(:token)}",
         "Content-Type" => "application/json"
       }
 
