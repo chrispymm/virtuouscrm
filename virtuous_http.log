@@ -3,3 +3,2464 @@ D, [2017-11-30T12:15:06.117985 #12216] DEBUG -- : [HTTParty] [2017-11-30 12:15:0
 D, [2017-11-30T12:16:18.178817 #12216] DEBUG -- : [HTTParty] [2017-11-30 12:16:18 +0000] 401 "GET /Tag" 68 
 D, [2017-11-30T12:16:27.033330 #12226] DEBUG -- : [HTTParty] [2017-11-30 12:16:27 +0000] 401 "GET /Tag" 68 
 D, [2017-11-30T12:17:03.245896 #12234] DEBUG -- : [HTTParty] [2017-11-30 12:17:03 +0000] 401 "GET /Tag" 68 
+I, [2019-02-12T09:44:10.967329 #71485]  INFO -- : [HTTParty] [2019-02-12 09:44:10 +0000] > GET https://api.virtuoussoftware.com/api/OrganizationGroup
+[HTTParty] [2019-02-12 09:44:10 +0000] > Headers: 
+[HTTParty] [2019-02-12 09:44:10 +0000] > Accept-Version: v1
+[HTTParty] [2019-02-12 09:44:10 +0000] > Authorization: Bearer xZWwyjMsUbsGaLXqsVzNBrJhkJgkuWvshN2ZvPgn7RLvm2gj1V2gSoHDYtQEHSoJ3IwbX0mZw8VRNP4qIecC0MIRtf1h-Lq_-Sa6m4jfUWDS3TPDCygd9uX_ZFxdiqqpYuhhoO-gsjz4d9eqQ6H7qF0nZi6ndHcfn9UJH3EWRJNE-z1SSXNapZScTBoBp7oJVE3vxjyMMfVWkbuqscvz8BSgxLclhYi0u660ZelwZSZOAylgqQ5onxK9-vuHm75lrhMASvaevyjkFeyzerPSEmbd-kntCbv3BVVjMaQCTADCezGuqHrSgh-OkhwtEU-WHpF-ra3ayap6NZnVkLBetgkft91U_93K055kDNEYroYTms1mBA9l5JJVenU4wWLRNrDJo_TyNzLDrvyxR2qIas0iejZDXUfWGrcRQYIFeSelpDIRzOw9dMCgmYC48sgS_VbHWdu5hHhELycSqwIm6mwQIJgUMf2i-y9SIDylODXuZ6w7ZPUkovgE1wg_YQlosVTmeLgcOlW2kDpv7Tjnvjynd7ke5m2SQKRsEwytGuusICXgJq94zB6hi48J6SKseo3XUg
+[HTTParty] [2019-02-12 09:44:10 +0000] > Content-Type: application/json
+[HTTParty] [2019-02-12 09:44:10 +0000] > Query: 
+[HTTParty] [2019-02-12 09:44:10 +0000] > skip: 0
+[HTTParty] [2019-02-12 09:44:10 +0000] > take: 10
+[HTTParty] [2019-02-12 09:44:10 +0000] > 
+[HTTParty] [2019-02-12 09:44:10 +0000] < HTTP/1.0 401
+[HTTParty] [2019-02-12 09:44:10 +0000] < Cache-control: no-cache
+[HTTParty] [2019-02-12 09:44:10 +0000] < Pragma: no-cache
+[HTTParty] [2019-02-12 09:44:10 +0000] < Content-length: 68
+[HTTParty] [2019-02-12 09:44:10 +0000] < Content-type: application/json; charset=utf-8
+[HTTParty] [2019-02-12 09:44:10 +0000] < Expires: -1
+[HTTParty] [2019-02-12 09:44:10 +0000] < Server: Microsoft-IIS/10.0
+[HTTParty] [2019-02-12 09:44:10 +0000] < Www-authenticate: Bearer
+[HTTParty] [2019-02-12 09:44:10 +0000] < X-aspnet-version: 4.0.30319
+[HTTParty] [2019-02-12 09:44:10 +0000] < Request-context: appId=cid-v1:d5256cef-83ae-4057-8380-1ed09cd521cb
+[HTTParty] [2019-02-12 09:44:10 +0000] < Access-control-expose-headers: Request-Context
+[HTTParty] [2019-02-12 09:44:10 +0000] < X-powered-by: ASP.NET
+[HTTParty] [2019-02-12 09:44:10 +0000] < Date: Mon, 11 Feb 2019 11:39:43 GMT
+[HTTParty] [2019-02-12 09:44:10 +0000] < 
+{
+  "message": "Authorization has been denied for this request."
+}
+[HTTParty] [2019-02-12 09:44:10 +0000] < 
+I, [2019-02-12T09:47:18.896477 #71638]  INFO -- : [HTTParty] [2019-02-12 09:47:18 +0000] > GET https://api.virtuoussoftware.com/api/OrganizationGroup
+[HTTParty] [2019-02-12 09:47:18 +0000] > Headers: 
+[HTTParty] [2019-02-12 09:47:18 +0000] > Accept-Version: v1
+[HTTParty] [2019-02-12 09:47:18 +0000] > Authorization: Bearer xZWwyjMsUbsGaLXqsVzNBrJhkJgkuWvshN2ZvPgn7RLvm2gj1V2gSoHDYtQEHSoJ3IwbX0mZw8VRNP4qIecC0MIRtf1h-Lq_-Sa6m4jfUWDS3TPDCygd9uX_ZFxdiqqpYuhhoO-gsjz4d9eqQ6H7qF0nZi6ndHcfn9UJH3EWRJNE-z1SSXNapZScTBoBp7oJVE3vxjyMMfVWkbuqscvz8BSgxLclhYi0u660ZelwZSZOAylgqQ5onxK9-vuHm75lrhMASvaevyjkFeyzerPSEmbd-kntCbv3BVVjMaQCTADCezGuqHrSgh-OkhwtEU-WHpF-ra3ayap6NZnVkLBetgkft91U_93K055kDNEYroYTms1mBA9l5JJVenU4wWLRNrDJo_TyNzLDrvyxR2qIas0iejZDXUfWGrcRQYIFeSelpDIRzOw9dMCgmYC48sgS_VbHWdu5hHhELycSqwIm6mwQIJgUMf2i-y9SIDylODXuZ6w7ZPUkovgE1wg_YQlosVTmeLgcOlW2kDpv7Tjnvjynd7ke5m2SQKRsEwytGuusICXgJq94zB6hi48J6SKseo3XUg
+[HTTParty] [2019-02-12 09:47:18 +0000] > Content-Type: application/json
+[HTTParty] [2019-02-12 09:47:18 +0000] > Query: 
+[HTTParty] [2019-02-12 09:47:18 +0000] > 
+[HTTParty] [2019-02-12 09:47:18 +0000] < HTTP/1.1 200
+[HTTParty] [2019-02-12 09:47:18 +0000] < Cache-control: no-cache
+[HTTParty] [2019-02-12 09:47:18 +0000] < Pragma: no-cache
+[HTTParty] [2019-02-12 09:47:18 +0000] < Content-length: 373
+[HTTParty] [2019-02-12 09:47:18 +0000] < Content-type: application/json; charset=utf-8
+[HTTParty] [2019-02-12 09:47:18 +0000] < Expires: -1
+[HTTParty] [2019-02-12 09:47:18 +0000] < Server: Microsoft-IIS/10.0
+[HTTParty] [2019-02-12 09:47:18 +0000] < X-aspnet-version: 4.0.30319
+[HTTParty] [2019-02-12 09:47:18 +0000] < Request-context: appId=cid-v1:d5256cef-83ae-4057-8380-1ed09cd521cb
+[HTTParty] [2019-02-12 09:47:18 +0000] < Access-control-expose-headers: Request-Context
+[HTTParty] [2019-02-12 09:47:18 +0000] < X-powered-by: ASP.NET
+[HTTParty] [2019-02-12 09:47:18 +0000] < Date: Tue, 12 Feb 2019 09:47:18 GMT
+[HTTParty] [2019-02-12 09:47:18 +0000] < 
+{
+  "list": [
+    {
+      "id": 1,
+      "organizationGroupUrl": "/api/OrganizationGroup/1",
+      "organizationId": 655,
+      "organizationName": "Acts 29 - API Testing Final",
+      "name": "US Southeast",
+      "location": null,
+      "description": null,
+      "organizationGroupContactsUrl": "/api/OrganizationGroup/1/contacts"
+    }
+  ],
+  "total": 1
+}
+[HTTParty] [2019-02-12 09:47:18 +0000] < 
+I, [2019-02-12T09:49:32.835945 #71744]  INFO -- : [HTTParty] [2019-02-12 09:49:32 +0000] > GET https://api.virtuoussoftware.com/api/OrganizationGroup
+[HTTParty] [2019-02-12 09:49:32 +0000] > Headers: 
+[HTTParty] [2019-02-12 09:49:32 +0000] > Accept-Version: v1
+[HTTParty] [2019-02-12 09:49:32 +0000] > Authorization: Bearer xZWwyjMsUbsGaLXqsVzNBrJhkJgkuWvshN2ZvPgn7RLvm2gj1V2gSoHDYtQEHSoJ3IwbX0mZw8VRNP4qIecC0MIRtf1h-Lq_-Sa6m4jfUWDS3TPDCygd9uX_ZFxdiqqpYuhhoO-gsjz4d9eqQ6H7qF0nZi6ndHcfn9UJH3EWRJNE-z1SSXNapZScTBoBp7oJVE3vxjyMMfVWkbuqscvz8BSgxLclhYi0u660ZelwZSZOAylgqQ5onxK9-vuHm75lrhMASvaevyjkFeyzerPSEmbd-kntCbv3BVVjMaQCTADCezGuqHrSgh-OkhwtEU-WHpF-ra3ayap6NZnVkLBetgkft91U_93K055kDNEYroYTms1mBA9l5JJVenU4wWLRNrDJo_TyNzLDrvyxR2qIas0iejZDXUfWGrcRQYIFeSelpDIRzOw9dMCgmYC48sgS_VbHWdu5hHhELycSqwIm6mwQIJgUMf2i-y9SIDylODXuZ6w7ZPUkovgE1wg_YQlosVTmeLgcOlW2kDpv7Tjnvjynd7ke5m2SQKRsEwytGuusICXgJq94zB6hi48J6SKseo3XUg
+[HTTParty] [2019-02-12 09:49:32 +0000] > Content-Type: application/json
+[HTTParty] [2019-02-12 09:49:32 +0000] > Query: 
+[HTTParty] [2019-02-12 09:49:32 +0000] > 
+[HTTParty] [2019-02-12 09:49:32 +0000] < HTTP/1.1 200
+[HTTParty] [2019-02-12 09:49:32 +0000] < Cache-control: no-cache
+[HTTParty] [2019-02-12 09:49:32 +0000] < Pragma: no-cache
+[HTTParty] [2019-02-12 09:49:32 +0000] < Content-length: 373
+[HTTParty] [2019-02-12 09:49:32 +0000] < Content-type: application/json; charset=utf-8
+[HTTParty] [2019-02-12 09:49:32 +0000] < Expires: -1
+[HTTParty] [2019-02-12 09:49:32 +0000] < Server: Microsoft-IIS/10.0
+[HTTParty] [2019-02-12 09:49:32 +0000] < X-aspnet-version: 4.0.30319
+[HTTParty] [2019-02-12 09:49:32 +0000] < Request-context: appId=cid-v1:d5256cef-83ae-4057-8380-1ed09cd521cb
+[HTTParty] [2019-02-12 09:49:32 +0000] < Access-control-expose-headers: Request-Context
+[HTTParty] [2019-02-12 09:49:32 +0000] < X-powered-by: ASP.NET
+[HTTParty] [2019-02-12 09:49:32 +0000] < Date: Tue, 12 Feb 2019 09:49:32 GMT
+[HTTParty] [2019-02-12 09:49:32 +0000] < 
+{
+  "list": [
+    {
+      "id": 1,
+      "organizationGroupUrl": "/api/OrganizationGroup/1",
+      "organizationId": 655,
+      "organizationName": "Acts 29 - API Testing Final",
+      "name": "US Southeast",
+      "location": null,
+      "description": null,
+      "organizationGroupContactsUrl": "/api/OrganizationGroup/1/contacts"
+    }
+  ],
+  "total": 1
+}
+[HTTParty] [2019-02-12 09:49:32 +0000] < 
+I, [2019-02-12T09:50:44.878015 #71886]  INFO -- : [HTTParty] [2019-02-12 09:50:44 +0000] > GET https://api.virtuoussoftware.com/api/OrganizationGroup
+[HTTParty] [2019-02-12 09:50:44 +0000] > Headers: 
+[HTTParty] [2019-02-12 09:50:44 +0000] > Accept-Version: v1
+[HTTParty] [2019-02-12 09:50:44 +0000] > Authorization: Bearer xZWwyjMsUbsGaLXqsVzNBrJhkJgkuWvshN2ZvPgn7RLvm2gj1V2gSoHDYtQEHSoJ3IwbX0mZw8VRNP4qIecC0MIRtf1h-Lq_-Sa6m4jfUWDS3TPDCygd9uX_ZFxdiqqpYuhhoO-gsjz4d9eqQ6H7qF0nZi6ndHcfn9UJH3EWRJNE-z1SSXNapZScTBoBp7oJVE3vxjyMMfVWkbuqscvz8BSgxLclhYi0u660ZelwZSZOAylgqQ5onxK9-vuHm75lrhMASvaevyjkFeyzerPSEmbd-kntCbv3BVVjMaQCTADCezGuqHrSgh-OkhwtEU-WHpF-ra3ayap6NZnVkLBetgkft91U_93K055kDNEYroYTms1mBA9l5JJVenU4wWLRNrDJo_TyNzLDrvyxR2qIas0iejZDXUfWGrcRQYIFeSelpDIRzOw9dMCgmYC48sgS_VbHWdu5hHhELycSqwIm6mwQIJgUMf2i-y9SIDylODXuZ6w7ZPUkovgE1wg_YQlosVTmeLgcOlW2kDpv7Tjnvjynd7ke5m2SQKRsEwytGuusICXgJq94zB6hi48J6SKseo3XUg
+[HTTParty] [2019-02-12 09:50:44 +0000] > Content-Type: application/json
+[HTTParty] [2019-02-12 09:50:44 +0000] > Query: 
+[HTTParty] [2019-02-12 09:50:44 +0000] > 
+[HTTParty] [2019-02-12 09:50:44 +0000] < HTTP/1.1 200
+[HTTParty] [2019-02-12 09:50:44 +0000] < Cache-control: no-cache
+[HTTParty] [2019-02-12 09:50:44 +0000] < Pragma: no-cache
+[HTTParty] [2019-02-12 09:50:44 +0000] < Content-length: 373
+[HTTParty] [2019-02-12 09:50:44 +0000] < Content-type: application/json; charset=utf-8
+[HTTParty] [2019-02-12 09:50:44 +0000] < Expires: -1
+[HTTParty] [2019-02-12 09:50:44 +0000] < Server: Microsoft-IIS/10.0
+[HTTParty] [2019-02-12 09:50:44 +0000] < X-aspnet-version: 4.0.30319
+[HTTParty] [2019-02-12 09:50:44 +0000] < Request-context: appId=cid-v1:d5256cef-83ae-4057-8380-1ed09cd521cb
+[HTTParty] [2019-02-12 09:50:44 +0000] < Access-control-expose-headers: Request-Context
+[HTTParty] [2019-02-12 09:50:44 +0000] < X-powered-by: ASP.NET
+[HTTParty] [2019-02-12 09:50:44 +0000] < Date: Tue, 12 Feb 2019 09:50:43 GMT
+[HTTParty] [2019-02-12 09:50:44 +0000] < 
+{
+  "list": [
+    {
+      "id": 1,
+      "organizationGroupUrl": "/api/OrganizationGroup/1",
+      "organizationId": 655,
+      "organizationName": "Acts 29 - API Testing Final",
+      "name": "US Southeast",
+      "location": null,
+      "description": null,
+      "organizationGroupContactsUrl": "/api/OrganizationGroup/1/contacts"
+    }
+  ],
+  "total": 1
+}
+[HTTParty] [2019-02-12 09:50:44 +0000] < 
+I, [2019-02-12T09:51:33.426488 #72006]  INFO -- : [HTTParty] [2019-02-12 09:51:33 +0000] > GET https://api.virtuoussoftware.com/api/OrganizationGroup
+[HTTParty] [2019-02-12 09:51:33 +0000] > Headers: 
+[HTTParty] [2019-02-12 09:51:33 +0000] > Accept-Version: v1
+[HTTParty] [2019-02-12 09:51:33 +0000] > Authorization: Bearer xZWwyjMsUbsGaLXqsVzNBrJhkJgkuWvshN2ZvPgn7RLvm2gj1V2gSoHDYtQEHSoJ3IwbX0mZw8VRNP4qIecC0MIRtf1h-Lq_-Sa6m4jfUWDS3TPDCygd9uX_ZFxdiqqpYuhhoO-gsjz4d9eqQ6H7qF0nZi6ndHcfn9UJH3EWRJNE-z1SSXNapZScTBoBp7oJVE3vxjyMMfVWkbuqscvz8BSgxLclhYi0u660ZelwZSZOAylgqQ5onxK9-vuHm75lrhMASvaevyjkFeyzerPSEmbd-kntCbv3BVVjMaQCTADCezGuqHrSgh-OkhwtEU-WHpF-ra3ayap6NZnVkLBetgkft91U_93K055kDNEYroYTms1mBA9l5JJVenU4wWLRNrDJo_TyNzLDrvyxR2qIas0iejZDXUfWGrcRQYIFeSelpDIRzOw9dMCgmYC48sgS_VbHWdu5hHhELycSqwIm6mwQIJgUMf2i-y9SIDylODXuZ6w7ZPUkovgE1wg_YQlosVTmeLgcOlW2kDpv7Tjnvjynd7ke5m2SQKRsEwytGuusICXgJq94zB6hi48J6SKseo3XUg
+[HTTParty] [2019-02-12 09:51:33 +0000] > Content-Type: application/json
+[HTTParty] [2019-02-12 09:51:33 +0000] > Query: 
+[HTTParty] [2019-02-12 09:51:33 +0000] > 
+[HTTParty] [2019-02-12 09:51:33 +0000] < HTTP/1.0 200
+[HTTParty] [2019-02-12 09:51:33 +0000] < Cache-control: no-cache
+[HTTParty] [2019-02-12 09:51:33 +0000] < Pragma: no-cache
+[HTTParty] [2019-02-12 09:51:33 +0000] < Content-length: 373
+[HTTParty] [2019-02-12 09:51:33 +0000] < Content-type: application/json; charset=utf-8
+[HTTParty] [2019-02-12 09:51:33 +0000] < Expires: -1
+[HTTParty] [2019-02-12 09:51:33 +0000] < Server: Microsoft-IIS/10.0
+[HTTParty] [2019-02-12 09:51:33 +0000] < X-aspnet-version: 4.0.30319
+[HTTParty] [2019-02-12 09:51:33 +0000] < Request-context: appId=cid-v1:d5256cef-83ae-4057-8380-1ed09cd521cb
+[HTTParty] [2019-02-12 09:51:33 +0000] < Access-control-expose-headers: Request-Context
+[HTTParty] [2019-02-12 09:51:33 +0000] < X-powered-by: ASP.NET
+[HTTParty] [2019-02-12 09:51:33 +0000] < Date: Tue, 12 Feb 2019 09:50:43 GMT
+[HTTParty] [2019-02-12 09:51:33 +0000] < 
+{
+  "list": [
+    {
+      "id": 1,
+      "organizationGroupUrl": "/api/OrganizationGroup/1",
+      "organizationId": 655,
+      "organizationName": "Acts 29 - API Testing Final",
+      "name": "US Southeast",
+      "location": null,
+      "description": null,
+      "organizationGroupContactsUrl": "/api/OrganizationGroup/1/contacts"
+    }
+  ],
+  "total": 1
+}
+[HTTParty] [2019-02-12 09:51:33 +0000] < 
+I, [2019-02-12T14:24:44.880886 #73000]  INFO -- : [HTTParty] [2019-02-12 14:24:44 +0000] > GET https://api.virtuoussoftware.com/api/OrganizationGroup
+[HTTParty] [2019-02-12 14:24:44 +0000] > Headers: 
+[HTTParty] [2019-02-12 14:24:44 +0000] > Accept-Version: v1
+[HTTParty] [2019-02-12 14:24:44 +0000] > Authorization: Bearer xZWwyjMsUbsGaLXqsVzNBrJhkJgkuWvshN2ZvPgn7RLvm2gj1V2gSoHDYtQEHSoJ3IwbX0mZw8VRNP4qIecC0MIRtf1h-Lq_-Sa6m4jfUWDS3TPDCygd9uX_ZFxdiqqpYuhhoO-gsjz4d9eqQ6H7qF0nZi6ndHcfn9UJH3EWRJNE-z1SSXNapZScTBoBp7oJVE3vxjyMMfVWkbuqscvz8BSgxLclhYi0u660ZelwZSZOAylgqQ5onxK9-vuHm75lrhMASvaevyjkFeyzerPSEmbd-kntCbv3BVVjMaQCTADCezGuqHrSgh-OkhwtEU-WHpF-ra3ayap6NZnVkLBetgkft91U_93K055kDNEYroYTms1mBA9l5JJVenU4wWLRNrDJo_TyNzLDrvyxR2qIas0iejZDXUfWGrcRQYIFeSelpDIRzOw9dMCgmYC48sgS_VbHWdu5hHhELycSqwIm6mwQIJgUMf2i-y9SIDylODXuZ6w7ZPUkovgE1wg_YQlosVTmeLgcOlW2kDpv7Tjnvjynd7ke5m2SQKRsEwytGuusICXgJq94zB6hi48J6SKseo3XUg
+[HTTParty] [2019-02-12 14:24:44 +0000] > Content-Type: application/json
+[HTTParty] [2019-02-12 14:24:44 +0000] > Query: 
+[HTTParty] [2019-02-12 14:24:44 +0000] > 
+[HTTParty] [2019-02-12 14:24:44 +0000] < HTTP/1.0 200
+[HTTParty] [2019-02-12 14:24:44 +0000] < Cache-control: no-cache
+[HTTParty] [2019-02-12 14:24:44 +0000] < Pragma: no-cache
+[HTTParty] [2019-02-12 14:24:44 +0000] < Content-length: 373
+[HTTParty] [2019-02-12 14:24:44 +0000] < Content-type: application/json; charset=utf-8
+[HTTParty] [2019-02-12 14:24:44 +0000] < Expires: -1
+[HTTParty] [2019-02-12 14:24:44 +0000] < Server: Microsoft-IIS/10.0
+[HTTParty] [2019-02-12 14:24:44 +0000] < X-aspnet-version: 4.0.30319
+[HTTParty] [2019-02-12 14:24:44 +0000] < Request-context: appId=cid-v1:d5256cef-83ae-4057-8380-1ed09cd521cb
+[HTTParty] [2019-02-12 14:24:44 +0000] < Access-control-expose-headers: Request-Context
+[HTTParty] [2019-02-12 14:24:44 +0000] < X-powered-by: ASP.NET
+[HTTParty] [2019-02-12 14:24:44 +0000] < Date: Tue, 12 Feb 2019 09:50:43 GMT
+[HTTParty] [2019-02-12 14:24:44 +0000] < 
+{
+  "list": [
+    {
+      "id": 1,
+      "organizationGroupUrl": "/api/OrganizationGroup/1",
+      "organizationId": 655,
+      "organizationName": "Acts 29 - API Testing Final",
+      "name": "US Southeast",
+      "location": null,
+      "description": null,
+      "organizationGroupContactsUrl": "/api/OrganizationGroup/1/contacts"
+    }
+  ],
+  "total": 1
+}
+[HTTParty] [2019-02-12 14:24:44 +0000] < 
+I, [2019-02-12T14:24:46.951550 #73000]  INFO -- : [HTTParty] [2019-02-12 14:24:46 +0000] > GET https://api.virtuoussoftware.com/api/OrganizationGroup/1
+[HTTParty] [2019-02-12 14:24:46 +0000] > Headers: 
+[HTTParty] [2019-02-12 14:24:46 +0000] > Accept-Version: v1
+[HTTParty] [2019-02-12 14:24:46 +0000] > Authorization: Bearer xZWwyjMsUbsGaLXqsVzNBrJhkJgkuWvshN2ZvPgn7RLvm2gj1V2gSoHDYtQEHSoJ3IwbX0mZw8VRNP4qIecC0MIRtf1h-Lq_-Sa6m4jfUWDS3TPDCygd9uX_ZFxdiqqpYuhhoO-gsjz4d9eqQ6H7qF0nZi6ndHcfn9UJH3EWRJNE-z1SSXNapZScTBoBp7oJVE3vxjyMMfVWkbuqscvz8BSgxLclhYi0u660ZelwZSZOAylgqQ5onxK9-vuHm75lrhMASvaevyjkFeyzerPSEmbd-kntCbv3BVVjMaQCTADCezGuqHrSgh-OkhwtEU-WHpF-ra3ayap6NZnVkLBetgkft91U_93K055kDNEYroYTms1mBA9l5JJVenU4wWLRNrDJo_TyNzLDrvyxR2qIas0iejZDXUfWGrcRQYIFeSelpDIRzOw9dMCgmYC48sgS_VbHWdu5hHhELycSqwIm6mwQIJgUMf2i-y9SIDylODXuZ6w7ZPUkovgE1wg_YQlosVTmeLgcOlW2kDpv7Tjnvjynd7ke5m2SQKRsEwytGuusICXgJq94zB6hi48J6SKseo3XUg
+[HTTParty] [2019-02-12 14:24:46 +0000] > Content-Type: application/json
+[HTTParty] [2019-02-12 14:24:46 +0000] > Query: 
+[HTTParty] [2019-02-12 14:24:46 +0000] > 
+[HTTParty] [2019-02-12 14:24:46 +0000] < HTTP/1.1 200
+[HTTParty] [2019-02-12 14:24:46 +0000] < Cache-control: no-cache
+[HTTParty] [2019-02-12 14:24:46 +0000] < Pragma: no-cache
+[HTTParty] [2019-02-12 14:24:46 +0000] < Content-length: 294
+[HTTParty] [2019-02-12 14:24:46 +0000] < Content-type: application/json; charset=utf-8
+[HTTParty] [2019-02-12 14:24:46 +0000] < Expires: -1
+[HTTParty] [2019-02-12 14:24:46 +0000] < Server: Microsoft-IIS/10.0
+[HTTParty] [2019-02-12 14:24:46 +0000] < X-aspnet-version: 4.0.30319
+[HTTParty] [2019-02-12 14:24:46 +0000] < Request-context: appId=cid-v1:d5256cef-83ae-4057-8380-1ed09cd521cb
+[HTTParty] [2019-02-12 14:24:46 +0000] < Access-control-expose-headers: Request-Context
+[HTTParty] [2019-02-12 14:24:46 +0000] < X-powered-by: ASP.NET
+[HTTParty] [2019-02-12 14:24:46 +0000] < Date: Tue, 12 Feb 2019 14:24:46 GMT
+[HTTParty] [2019-02-12 14:24:46 +0000] < 
+{
+  "id": 1,
+  "organizationGroupUrl": "/api/OrganizationGroup/1",
+  "organizationId": 655,
+  "organizationName": "Acts 29 - API Testing Final",
+  "name": "US Southeast",
+  "location": null,
+  "description": null,
+  "organizationGroupContactsUrl": "/api/OrganizationGroup/1/contacts"
+}
+[HTTParty] [2019-02-12 14:24:46 +0000] < 
+I, [2019-02-12T14:25:30.015360 #73055]  INFO -- : [HTTParty] [2019-02-12 14:25:30 +0000] > GET https://api.virtuoussoftware.com/api/OrganizationGroup
+[HTTParty] [2019-02-12 14:25:30 +0000] > Headers: 
+[HTTParty] [2019-02-12 14:25:30 +0000] > Accept-Version: v1
+[HTTParty] [2019-02-12 14:25:30 +0000] > Authorization: Bearer xZWwyjMsUbsGaLXqsVzNBrJhkJgkuWvshN2ZvPgn7RLvm2gj1V2gSoHDYtQEHSoJ3IwbX0mZw8VRNP4qIecC0MIRtf1h-Lq_-Sa6m4jfUWDS3TPDCygd9uX_ZFxdiqqpYuhhoO-gsjz4d9eqQ6H7qF0nZi6ndHcfn9UJH3EWRJNE-z1SSXNapZScTBoBp7oJVE3vxjyMMfVWkbuqscvz8BSgxLclhYi0u660ZelwZSZOAylgqQ5onxK9-vuHm75lrhMASvaevyjkFeyzerPSEmbd-kntCbv3BVVjMaQCTADCezGuqHrSgh-OkhwtEU-WHpF-ra3ayap6NZnVkLBetgkft91U_93K055kDNEYroYTms1mBA9l5JJVenU4wWLRNrDJo_TyNzLDrvyxR2qIas0iejZDXUfWGrcRQYIFeSelpDIRzOw9dMCgmYC48sgS_VbHWdu5hHhELycSqwIm6mwQIJgUMf2i-y9SIDylODXuZ6w7ZPUkovgE1wg_YQlosVTmeLgcOlW2kDpv7Tjnvjynd7ke5m2SQKRsEwytGuusICXgJq94zB6hi48J6SKseo3XUg
+[HTTParty] [2019-02-12 14:25:30 +0000] > Content-Type: application/json
+[HTTParty] [2019-02-12 14:25:30 +0000] > Query: 
+[HTTParty] [2019-02-12 14:25:30 +0000] > 
+[HTTParty] [2019-02-12 14:25:30 +0000] < HTTP/1.0 200
+[HTTParty] [2019-02-12 14:25:30 +0000] < Cache-control: no-cache
+[HTTParty] [2019-02-12 14:25:30 +0000] < Pragma: no-cache
+[HTTParty] [2019-02-12 14:25:30 +0000] < Content-length: 373
+[HTTParty] [2019-02-12 14:25:30 +0000] < Content-type: application/json; charset=utf-8
+[HTTParty] [2019-02-12 14:25:30 +0000] < Expires: -1
+[HTTParty] [2019-02-12 14:25:30 +0000] < Server: Microsoft-IIS/10.0
+[HTTParty] [2019-02-12 14:25:30 +0000] < X-aspnet-version: 4.0.30319
+[HTTParty] [2019-02-12 14:25:30 +0000] < Request-context: appId=cid-v1:d5256cef-83ae-4057-8380-1ed09cd521cb
+[HTTParty] [2019-02-12 14:25:30 +0000] < Access-control-expose-headers: Request-Context
+[HTTParty] [2019-02-12 14:25:30 +0000] < X-powered-by: ASP.NET
+[HTTParty] [2019-02-12 14:25:30 +0000] < Date: Tue, 12 Feb 2019 09:50:43 GMT
+[HTTParty] [2019-02-12 14:25:30 +0000] < 
+{
+  "list": [
+    {
+      "id": 1,
+      "organizationGroupUrl": "/api/OrganizationGroup/1",
+      "organizationId": 655,
+      "organizationName": "Acts 29 - API Testing Final",
+      "name": "US Southeast",
+      "location": null,
+      "description": null,
+      "organizationGroupContactsUrl": "/api/OrganizationGroup/1/contacts"
+    }
+  ],
+  "total": 1
+}
+[HTTParty] [2019-02-12 14:25:30 +0000] < 
+I, [2019-02-12T14:25:31.814239 #73055]  INFO -- : [HTTParty] [2019-02-12 14:25:31 +0000] > GET https://api.virtuoussoftware.com/api/OrganizationGroup/1
+[HTTParty] [2019-02-12 14:25:31 +0000] > Headers: 
+[HTTParty] [2019-02-12 14:25:31 +0000] > Accept-Version: v1
+[HTTParty] [2019-02-12 14:25:31 +0000] > Authorization: Bearer xZWwyjMsUbsGaLXqsVzNBrJhkJgkuWvshN2ZvPgn7RLvm2gj1V2gSoHDYtQEHSoJ3IwbX0mZw8VRNP4qIecC0MIRtf1h-Lq_-Sa6m4jfUWDS3TPDCygd9uX_ZFxdiqqpYuhhoO-gsjz4d9eqQ6H7qF0nZi6ndHcfn9UJH3EWRJNE-z1SSXNapZScTBoBp7oJVE3vxjyMMfVWkbuqscvz8BSgxLclhYi0u660ZelwZSZOAylgqQ5onxK9-vuHm75lrhMASvaevyjkFeyzerPSEmbd-kntCbv3BVVjMaQCTADCezGuqHrSgh-OkhwtEU-WHpF-ra3ayap6NZnVkLBetgkft91U_93K055kDNEYroYTms1mBA9l5JJVenU4wWLRNrDJo_TyNzLDrvyxR2qIas0iejZDXUfWGrcRQYIFeSelpDIRzOw9dMCgmYC48sgS_VbHWdu5hHhELycSqwIm6mwQIJgUMf2i-y9SIDylODXuZ6w7ZPUkovgE1wg_YQlosVTmeLgcOlW2kDpv7Tjnvjynd7ke5m2SQKRsEwytGuusICXgJq94zB6hi48J6SKseo3XUg
+[HTTParty] [2019-02-12 14:25:31 +0000] > Content-Type: application/json
+[HTTParty] [2019-02-12 14:25:31 +0000] > Query: 
+[HTTParty] [2019-02-12 14:25:31 +0000] > 
+[HTTParty] [2019-02-12 14:25:31 +0000] < HTTP/1.1 200
+[HTTParty] [2019-02-12 14:25:31 +0000] < Cache-control: no-cache
+[HTTParty] [2019-02-12 14:25:31 +0000] < Pragma: no-cache
+[HTTParty] [2019-02-12 14:25:31 +0000] < Content-length: 294
+[HTTParty] [2019-02-12 14:25:31 +0000] < Content-type: application/json; charset=utf-8
+[HTTParty] [2019-02-12 14:25:31 +0000] < Expires: -1
+[HTTParty] [2019-02-12 14:25:31 +0000] < Server: Microsoft-IIS/10.0
+[HTTParty] [2019-02-12 14:25:31 +0000] < X-aspnet-version: 4.0.30319
+[HTTParty] [2019-02-12 14:25:31 +0000] < Request-context: appId=cid-v1:d5256cef-83ae-4057-8380-1ed09cd521cb
+[HTTParty] [2019-02-12 14:25:31 +0000] < Access-control-expose-headers: Request-Context
+[HTTParty] [2019-02-12 14:25:31 +0000] < X-powered-by: ASP.NET
+[HTTParty] [2019-02-12 14:25:31 +0000] < Date: Tue, 12 Feb 2019 14:25:31 GMT
+[HTTParty] [2019-02-12 14:25:31 +0000] < 
+{
+  "id": 1,
+  "organizationGroupUrl": "/api/OrganizationGroup/1",
+  "organizationId": 655,
+  "organizationName": "Acts 29 - API Testing Final",
+  "name": "US Southeast",
+  "location": null,
+  "description": null,
+  "organizationGroupContactsUrl": "/api/OrganizationGroup/1/contacts"
+}
+[HTTParty] [2019-02-12 14:25:31 +0000] < 
+I, [2019-02-12T14:25:33.824058 #73055]  INFO -- : [HTTParty] [2019-02-12 14:25:33 +0000] > GET https://api.virtuoussoftware.com/api/OrganizationGroup/ByContact/1661
+[HTTParty] [2019-02-12 14:25:33 +0000] > Headers: 
+[HTTParty] [2019-02-12 14:25:33 +0000] > Accept-Version: v1
+[HTTParty] [2019-02-12 14:25:33 +0000] > Authorization: Bearer xZWwyjMsUbsGaLXqsVzNBrJhkJgkuWvshN2ZvPgn7RLvm2gj1V2gSoHDYtQEHSoJ3IwbX0mZw8VRNP4qIecC0MIRtf1h-Lq_-Sa6m4jfUWDS3TPDCygd9uX_ZFxdiqqpYuhhoO-gsjz4d9eqQ6H7qF0nZi6ndHcfn9UJH3EWRJNE-z1SSXNapZScTBoBp7oJVE3vxjyMMfVWkbuqscvz8BSgxLclhYi0u660ZelwZSZOAylgqQ5onxK9-vuHm75lrhMASvaevyjkFeyzerPSEmbd-kntCbv3BVVjMaQCTADCezGuqHrSgh-OkhwtEU-WHpF-ra3ayap6NZnVkLBetgkft91U_93K055kDNEYroYTms1mBA9l5JJVenU4wWLRNrDJo_TyNzLDrvyxR2qIas0iejZDXUfWGrcRQYIFeSelpDIRzOw9dMCgmYC48sgS_VbHWdu5hHhELycSqwIm6mwQIJgUMf2i-y9SIDylODXuZ6w7ZPUkovgE1wg_YQlosVTmeLgcOlW2kDpv7Tjnvjynd7ke5m2SQKRsEwytGuusICXgJq94zB6hi48J6SKseo3XUg
+[HTTParty] [2019-02-12 14:25:33 +0000] > Content-Type: application/json
+[HTTParty] [2019-02-12 14:25:33 +0000] > Query: 
+[HTTParty] [2019-02-12 14:25:33 +0000] > 
+[HTTParty] [2019-02-12 14:25:33 +0000] < HTTP/1.1 200
+[HTTParty] [2019-02-12 14:25:33 +0000] < Cache-control: no-cache
+[HTTParty] [2019-02-12 14:25:33 +0000] < Pragma: no-cache
+[HTTParty] [2019-02-12 14:25:33 +0000] < Content-length: 2
+[HTTParty] [2019-02-12 14:25:33 +0000] < Content-type: application/json; charset=utf-8
+[HTTParty] [2019-02-12 14:25:33 +0000] < Expires: -1
+[HTTParty] [2019-02-12 14:25:33 +0000] < Server: Microsoft-IIS/10.0
+[HTTParty] [2019-02-12 14:25:33 +0000] < X-aspnet-version: 4.0.30319
+[HTTParty] [2019-02-12 14:25:33 +0000] < Request-context: appId=cid-v1:d5256cef-83ae-4057-8380-1ed09cd521cb
+[HTTParty] [2019-02-12 14:25:33 +0000] < Access-control-expose-headers: Request-Context
+[HTTParty] [2019-02-12 14:25:33 +0000] < X-powered-by: ASP.NET
+[HTTParty] [2019-02-12 14:25:33 +0000] < Date: Tue, 12 Feb 2019 14:25:33 GMT
+[HTTParty] [2019-02-12 14:25:33 +0000] < 
+[]
+[HTTParty] [2019-02-12 14:25:33 +0000] < 
+I, [2019-02-12T14:26:51.169348 #73091]  INFO -- : [HTTParty] [2019-02-12 14:26:51 +0000] > GET https://api.virtuoussoftware.com/api/OrganizationGroup
+[HTTParty] [2019-02-12 14:26:51 +0000] > Headers: 
+[HTTParty] [2019-02-12 14:26:51 +0000] > Accept-Version: v1
+[HTTParty] [2019-02-12 14:26:51 +0000] > Authorization: Bearer xZWwyjMsUbsGaLXqsVzNBrJhkJgkuWvshN2ZvPgn7RLvm2gj1V2gSoHDYtQEHSoJ3IwbX0mZw8VRNP4qIecC0MIRtf1h-Lq_-Sa6m4jfUWDS3TPDCygd9uX_ZFxdiqqpYuhhoO-gsjz4d9eqQ6H7qF0nZi6ndHcfn9UJH3EWRJNE-z1SSXNapZScTBoBp7oJVE3vxjyMMfVWkbuqscvz8BSgxLclhYi0u660ZelwZSZOAylgqQ5onxK9-vuHm75lrhMASvaevyjkFeyzerPSEmbd-kntCbv3BVVjMaQCTADCezGuqHrSgh-OkhwtEU-WHpF-ra3ayap6NZnVkLBetgkft91U_93K055kDNEYroYTms1mBA9l5JJVenU4wWLRNrDJo_TyNzLDrvyxR2qIas0iejZDXUfWGrcRQYIFeSelpDIRzOw9dMCgmYC48sgS_VbHWdu5hHhELycSqwIm6mwQIJgUMf2i-y9SIDylODXuZ6w7ZPUkovgE1wg_YQlosVTmeLgcOlW2kDpv7Tjnvjynd7ke5m2SQKRsEwytGuusICXgJq94zB6hi48J6SKseo3XUg
+[HTTParty] [2019-02-12 14:26:51 +0000] > Content-Type: application/json
+[HTTParty] [2019-02-12 14:26:51 +0000] > Query: 
+[HTTParty] [2019-02-12 14:26:51 +0000] > 
+[HTTParty] [2019-02-12 14:26:51 +0000] < HTTP/1.0 200
+[HTTParty] [2019-02-12 14:26:51 +0000] < Cache-control: no-cache
+[HTTParty] [2019-02-12 14:26:51 +0000] < Pragma: no-cache
+[HTTParty] [2019-02-12 14:26:51 +0000] < Content-length: 373
+[HTTParty] [2019-02-12 14:26:51 +0000] < Content-type: application/json; charset=utf-8
+[HTTParty] [2019-02-12 14:26:51 +0000] < Expires: -1
+[HTTParty] [2019-02-12 14:26:51 +0000] < Server: Microsoft-IIS/10.0
+[HTTParty] [2019-02-12 14:26:51 +0000] < X-aspnet-version: 4.0.30319
+[HTTParty] [2019-02-12 14:26:51 +0000] < Request-context: appId=cid-v1:d5256cef-83ae-4057-8380-1ed09cd521cb
+[HTTParty] [2019-02-12 14:26:51 +0000] < Access-control-expose-headers: Request-Context
+[HTTParty] [2019-02-12 14:26:51 +0000] < X-powered-by: ASP.NET
+[HTTParty] [2019-02-12 14:26:51 +0000] < Date: Tue, 12 Feb 2019 09:50:43 GMT
+[HTTParty] [2019-02-12 14:26:51 +0000] < 
+{
+  "list": [
+    {
+      "id": 1,
+      "organizationGroupUrl": "/api/OrganizationGroup/1",
+      "organizationId": 655,
+      "organizationName": "Acts 29 - API Testing Final",
+      "name": "US Southeast",
+      "location": null,
+      "description": null,
+      "organizationGroupContactsUrl": "/api/OrganizationGroup/1/contacts"
+    }
+  ],
+  "total": 1
+}
+[HTTParty] [2019-02-12 14:26:51 +0000] < 
+I, [2019-02-12T14:26:52.701738 #73091]  INFO -- : [HTTParty] [2019-02-12 14:26:52 +0000] > GET https://api.virtuoussoftware.com/api/OrganizationGroup/1
+[HTTParty] [2019-02-12 14:26:52 +0000] > Headers: 
+[HTTParty] [2019-02-12 14:26:52 +0000] > Accept-Version: v1
+[HTTParty] [2019-02-12 14:26:52 +0000] > Authorization: Bearer xZWwyjMsUbsGaLXqsVzNBrJhkJgkuWvshN2ZvPgn7RLvm2gj1V2gSoHDYtQEHSoJ3IwbX0mZw8VRNP4qIecC0MIRtf1h-Lq_-Sa6m4jfUWDS3TPDCygd9uX_ZFxdiqqpYuhhoO-gsjz4d9eqQ6H7qF0nZi6ndHcfn9UJH3EWRJNE-z1SSXNapZScTBoBp7oJVE3vxjyMMfVWkbuqscvz8BSgxLclhYi0u660ZelwZSZOAylgqQ5onxK9-vuHm75lrhMASvaevyjkFeyzerPSEmbd-kntCbv3BVVjMaQCTADCezGuqHrSgh-OkhwtEU-WHpF-ra3ayap6NZnVkLBetgkft91U_93K055kDNEYroYTms1mBA9l5JJVenU4wWLRNrDJo_TyNzLDrvyxR2qIas0iejZDXUfWGrcRQYIFeSelpDIRzOw9dMCgmYC48sgS_VbHWdu5hHhELycSqwIm6mwQIJgUMf2i-y9SIDylODXuZ6w7ZPUkovgE1wg_YQlosVTmeLgcOlW2kDpv7Tjnvjynd7ke5m2SQKRsEwytGuusICXgJq94zB6hi48J6SKseo3XUg
+[HTTParty] [2019-02-12 14:26:52 +0000] > Content-Type: application/json
+[HTTParty] [2019-02-12 14:26:52 +0000] > Query: 
+[HTTParty] [2019-02-12 14:26:52 +0000] > 
+[HTTParty] [2019-02-12 14:26:52 +0000] < HTTP/1.1 200
+[HTTParty] [2019-02-12 14:26:52 +0000] < Cache-control: no-cache
+[HTTParty] [2019-02-12 14:26:52 +0000] < Pragma: no-cache
+[HTTParty] [2019-02-12 14:26:52 +0000] < Content-length: 294
+[HTTParty] [2019-02-12 14:26:52 +0000] < Content-type: application/json; charset=utf-8
+[HTTParty] [2019-02-12 14:26:52 +0000] < Expires: -1
+[HTTParty] [2019-02-12 14:26:52 +0000] < Server: Microsoft-IIS/10.0
+[HTTParty] [2019-02-12 14:26:52 +0000] < X-aspnet-version: 4.0.30319
+[HTTParty] [2019-02-12 14:26:52 +0000] < Request-context: appId=cid-v1:d5256cef-83ae-4057-8380-1ed09cd521cb
+[HTTParty] [2019-02-12 14:26:52 +0000] < Access-control-expose-headers: Request-Context
+[HTTParty] [2019-02-12 14:26:52 +0000] < X-powered-by: ASP.NET
+[HTTParty] [2019-02-12 14:26:52 +0000] < Date: Tue, 12 Feb 2019 14:26:52 GMT
+[HTTParty] [2019-02-12 14:26:52 +0000] < 
+{
+  "id": 1,
+  "organizationGroupUrl": "/api/OrganizationGroup/1",
+  "organizationId": 655,
+  "organizationName": "Acts 29 - API Testing Final",
+  "name": "US Southeast",
+  "location": null,
+  "description": null,
+  "organizationGroupContactsUrl": "/api/OrganizationGroup/1/contacts"
+}
+[HTTParty] [2019-02-12 14:26:52 +0000] < 
+I, [2019-02-12T14:26:53.932246 #73091]  INFO -- : [HTTParty] [2019-02-12 14:26:53 +0000] > GET https://api.virtuoussoftware.com/api/OrganizationGroup/ByContact/1661
+[HTTParty] [2019-02-12 14:26:53 +0000] > Headers: 
+[HTTParty] [2019-02-12 14:26:53 +0000] > Accept-Version: v1
+[HTTParty] [2019-02-12 14:26:53 +0000] > Authorization: Bearer xZWwyjMsUbsGaLXqsVzNBrJhkJgkuWvshN2ZvPgn7RLvm2gj1V2gSoHDYtQEHSoJ3IwbX0mZw8VRNP4qIecC0MIRtf1h-Lq_-Sa6m4jfUWDS3TPDCygd9uX_ZFxdiqqpYuhhoO-gsjz4d9eqQ6H7qF0nZi6ndHcfn9UJH3EWRJNE-z1SSXNapZScTBoBp7oJVE3vxjyMMfVWkbuqscvz8BSgxLclhYi0u660ZelwZSZOAylgqQ5onxK9-vuHm75lrhMASvaevyjkFeyzerPSEmbd-kntCbv3BVVjMaQCTADCezGuqHrSgh-OkhwtEU-WHpF-ra3ayap6NZnVkLBetgkft91U_93K055kDNEYroYTms1mBA9l5JJVenU4wWLRNrDJo_TyNzLDrvyxR2qIas0iejZDXUfWGrcRQYIFeSelpDIRzOw9dMCgmYC48sgS_VbHWdu5hHhELycSqwIm6mwQIJgUMf2i-y9SIDylODXuZ6w7ZPUkovgE1wg_YQlosVTmeLgcOlW2kDpv7Tjnvjynd7ke5m2SQKRsEwytGuusICXgJq94zB6hi48J6SKseo3XUg
+[HTTParty] [2019-02-12 14:26:53 +0000] > Content-Type: application/json
+[HTTParty] [2019-02-12 14:26:53 +0000] > Query: 
+[HTTParty] [2019-02-12 14:26:53 +0000] > 
+[HTTParty] [2019-02-12 14:26:53 +0000] < HTTP/1.1 200
+[HTTParty] [2019-02-12 14:26:53 +0000] < Cache-control: no-cache
+[HTTParty] [2019-02-12 14:26:53 +0000] < Pragma: no-cache
+[HTTParty] [2019-02-12 14:26:53 +0000] < Content-length: 320
+[HTTParty] [2019-02-12 14:26:53 +0000] < Content-type: application/json; charset=utf-8
+[HTTParty] [2019-02-12 14:26:53 +0000] < Expires: -1
+[HTTParty] [2019-02-12 14:26:53 +0000] < Server: Microsoft-IIS/10.0
+[HTTParty] [2019-02-12 14:26:53 +0000] < X-aspnet-version: 4.0.30319
+[HTTParty] [2019-02-12 14:26:53 +0000] < Request-context: appId=cid-v1:d5256cef-83ae-4057-8380-1ed09cd521cb
+[HTTParty] [2019-02-12 14:26:53 +0000] < Access-control-expose-headers: Request-Context
+[HTTParty] [2019-02-12 14:26:53 +0000] < X-powered-by: ASP.NET
+[HTTParty] [2019-02-12 14:26:53 +0000] < Date: Tue, 12 Feb 2019 14:26:53 GMT
+[HTTParty] [2019-02-12 14:26:53 +0000] < 
+[
+  {
+    "id": 1,
+    "organizationGroupUrl": "/api/OrganizationGroup/1",
+    "organizationId": 655,
+    "organizationName": "Acts 29 - API Testing Final",
+    "name": "US Southeast",
+    "location": null,
+    "description": null,
+    "organizationGroupContactsUrl": "/api/OrganizationGroup/1/contacts"
+  }
+]
+[HTTParty] [2019-02-12 14:26:53 +0000] < 
+I, [2019-02-12T14:28:19.556645 #73231]  INFO -- : [HTTParty] [2019-02-12 14:28:19 +0000] > GET https://api.virtuoussoftware.com/api/OrganizationGroup
+[HTTParty] [2019-02-12 14:28:19 +0000] > Headers: 
+[HTTParty] [2019-02-12 14:28:19 +0000] > Accept-Version: v1
+[HTTParty] [2019-02-12 14:28:19 +0000] > Authorization: Bearer xZWwyjMsUbsGaLXqsVzNBrJhkJgkuWvshN2ZvPgn7RLvm2gj1V2gSoHDYtQEHSoJ3IwbX0mZw8VRNP4qIecC0MIRtf1h-Lq_-Sa6m4jfUWDS3TPDCygd9uX_ZFxdiqqpYuhhoO-gsjz4d9eqQ6H7qF0nZi6ndHcfn9UJH3EWRJNE-z1SSXNapZScTBoBp7oJVE3vxjyMMfVWkbuqscvz8BSgxLclhYi0u660ZelwZSZOAylgqQ5onxK9-vuHm75lrhMASvaevyjkFeyzerPSEmbd-kntCbv3BVVjMaQCTADCezGuqHrSgh-OkhwtEU-WHpF-ra3ayap6NZnVkLBetgkft91U_93K055kDNEYroYTms1mBA9l5JJVenU4wWLRNrDJo_TyNzLDrvyxR2qIas0iejZDXUfWGrcRQYIFeSelpDIRzOw9dMCgmYC48sgS_VbHWdu5hHhELycSqwIm6mwQIJgUMf2i-y9SIDylODXuZ6w7ZPUkovgE1wg_YQlosVTmeLgcOlW2kDpv7Tjnvjynd7ke5m2SQKRsEwytGuusICXgJq94zB6hi48J6SKseo3XUg
+[HTTParty] [2019-02-12 14:28:19 +0000] > Content-Type: application/json
+[HTTParty] [2019-02-12 14:28:19 +0000] > Query: 
+[HTTParty] [2019-02-12 14:28:19 +0000] > 
+[HTTParty] [2019-02-12 14:28:19 +0000] < HTTP/1.0 200
+[HTTParty] [2019-02-12 14:28:19 +0000] < Cache-control: no-cache
+[HTTParty] [2019-02-12 14:28:19 +0000] < Pragma: no-cache
+[HTTParty] [2019-02-12 14:28:19 +0000] < Content-length: 373
+[HTTParty] [2019-02-12 14:28:19 +0000] < Content-type: application/json; charset=utf-8
+[HTTParty] [2019-02-12 14:28:19 +0000] < Expires: -1
+[HTTParty] [2019-02-12 14:28:19 +0000] < Server: Microsoft-IIS/10.0
+[HTTParty] [2019-02-12 14:28:19 +0000] < X-aspnet-version: 4.0.30319
+[HTTParty] [2019-02-12 14:28:19 +0000] < Request-context: appId=cid-v1:d5256cef-83ae-4057-8380-1ed09cd521cb
+[HTTParty] [2019-02-12 14:28:19 +0000] < Access-control-expose-headers: Request-Context
+[HTTParty] [2019-02-12 14:28:19 +0000] < X-powered-by: ASP.NET
+[HTTParty] [2019-02-12 14:28:19 +0000] < Date: Tue, 12 Feb 2019 09:50:43 GMT
+[HTTParty] [2019-02-12 14:28:19 +0000] < 
+{
+  "list": [
+    {
+      "id": 1,
+      "organizationGroupUrl": "/api/OrganizationGroup/1",
+      "organizationId": 655,
+      "organizationName": "Acts 29 - API Testing Final",
+      "name": "US Southeast",
+      "location": null,
+      "description": null,
+      "organizationGroupContactsUrl": "/api/OrganizationGroup/1/contacts"
+    }
+  ],
+  "total": 1
+}
+[HTTParty] [2019-02-12 14:28:19 +0000] < 
+I, [2019-02-12T14:28:20.860701 #73231]  INFO -- : [HTTParty] [2019-02-12 14:28:20 +0000] > GET https://api.virtuoussoftware.com/api/OrganizationGroup/1
+[HTTParty] [2019-02-12 14:28:20 +0000] > Headers: 
+[HTTParty] [2019-02-12 14:28:20 +0000] > Accept-Version: v1
+[HTTParty] [2019-02-12 14:28:20 +0000] > Authorization: Bearer xZWwyjMsUbsGaLXqsVzNBrJhkJgkuWvshN2ZvPgn7RLvm2gj1V2gSoHDYtQEHSoJ3IwbX0mZw8VRNP4qIecC0MIRtf1h-Lq_-Sa6m4jfUWDS3TPDCygd9uX_ZFxdiqqpYuhhoO-gsjz4d9eqQ6H7qF0nZi6ndHcfn9UJH3EWRJNE-z1SSXNapZScTBoBp7oJVE3vxjyMMfVWkbuqscvz8BSgxLclhYi0u660ZelwZSZOAylgqQ5onxK9-vuHm75lrhMASvaevyjkFeyzerPSEmbd-kntCbv3BVVjMaQCTADCezGuqHrSgh-OkhwtEU-WHpF-ra3ayap6NZnVkLBetgkft91U_93K055kDNEYroYTms1mBA9l5JJVenU4wWLRNrDJo_TyNzLDrvyxR2qIas0iejZDXUfWGrcRQYIFeSelpDIRzOw9dMCgmYC48sgS_VbHWdu5hHhELycSqwIm6mwQIJgUMf2i-y9SIDylODXuZ6w7ZPUkovgE1wg_YQlosVTmeLgcOlW2kDpv7Tjnvjynd7ke5m2SQKRsEwytGuusICXgJq94zB6hi48J6SKseo3XUg
+[HTTParty] [2019-02-12 14:28:20 +0000] > Content-Type: application/json
+[HTTParty] [2019-02-12 14:28:20 +0000] > Query: 
+[HTTParty] [2019-02-12 14:28:20 +0000] > 
+[HTTParty] [2019-02-12 14:28:20 +0000] < HTTP/1.1 200
+[HTTParty] [2019-02-12 14:28:20 +0000] < Cache-control: no-cache
+[HTTParty] [2019-02-12 14:28:20 +0000] < Pragma: no-cache
+[HTTParty] [2019-02-12 14:28:20 +0000] < Content-length: 294
+[HTTParty] [2019-02-12 14:28:20 +0000] < Content-type: application/json; charset=utf-8
+[HTTParty] [2019-02-12 14:28:20 +0000] < Expires: -1
+[HTTParty] [2019-02-12 14:28:20 +0000] < Server: Microsoft-IIS/10.0
+[HTTParty] [2019-02-12 14:28:20 +0000] < X-aspnet-version: 4.0.30319
+[HTTParty] [2019-02-12 14:28:20 +0000] < Request-context: appId=cid-v1:d5256cef-83ae-4057-8380-1ed09cd521cb
+[HTTParty] [2019-02-12 14:28:20 +0000] < Access-control-expose-headers: Request-Context
+[HTTParty] [2019-02-12 14:28:20 +0000] < X-powered-by: ASP.NET
+[HTTParty] [2019-02-12 14:28:20 +0000] < Date: Tue, 12 Feb 2019 14:28:19 GMT
+[HTTParty] [2019-02-12 14:28:20 +0000] < 
+{
+  "id": 1,
+  "organizationGroupUrl": "/api/OrganizationGroup/1",
+  "organizationId": 655,
+  "organizationName": "Acts 29 - API Testing Final",
+  "name": "US Southeast",
+  "location": null,
+  "description": null,
+  "organizationGroupContactsUrl": "/api/OrganizationGroup/1/contacts"
+}
+[HTTParty] [2019-02-12 14:28:20 +0000] < 
+I, [2019-02-12T14:28:21.995445 #73231]  INFO -- : [HTTParty] [2019-02-12 14:28:21 +0000] > GET https://api.virtuoussoftware.com/api/OrganizationGroup/ByContact/1661
+[HTTParty] [2019-02-12 14:28:21 +0000] > Headers: 
+[HTTParty] [2019-02-12 14:28:21 +0000] > Accept-Version: v1
+[HTTParty] [2019-02-12 14:28:21 +0000] > Authorization: Bearer xZWwyjMsUbsGaLXqsVzNBrJhkJgkuWvshN2ZvPgn7RLvm2gj1V2gSoHDYtQEHSoJ3IwbX0mZw8VRNP4qIecC0MIRtf1h-Lq_-Sa6m4jfUWDS3TPDCygd9uX_ZFxdiqqpYuhhoO-gsjz4d9eqQ6H7qF0nZi6ndHcfn9UJH3EWRJNE-z1SSXNapZScTBoBp7oJVE3vxjyMMfVWkbuqscvz8BSgxLclhYi0u660ZelwZSZOAylgqQ5onxK9-vuHm75lrhMASvaevyjkFeyzerPSEmbd-kntCbv3BVVjMaQCTADCezGuqHrSgh-OkhwtEU-WHpF-ra3ayap6NZnVkLBetgkft91U_93K055kDNEYroYTms1mBA9l5JJVenU4wWLRNrDJo_TyNzLDrvyxR2qIas0iejZDXUfWGrcRQYIFeSelpDIRzOw9dMCgmYC48sgS_VbHWdu5hHhELycSqwIm6mwQIJgUMf2i-y9SIDylODXuZ6w7ZPUkovgE1wg_YQlosVTmeLgcOlW2kDpv7Tjnvjynd7ke5m2SQKRsEwytGuusICXgJq94zB6hi48J6SKseo3XUg
+[HTTParty] [2019-02-12 14:28:21 +0000] > Content-Type: application/json
+[HTTParty] [2019-02-12 14:28:21 +0000] > Query: 
+[HTTParty] [2019-02-12 14:28:21 +0000] > 
+[HTTParty] [2019-02-12 14:28:21 +0000] < HTTP/1.1 200
+[HTTParty] [2019-02-12 14:28:21 +0000] < Cache-control: no-cache
+[HTTParty] [2019-02-12 14:28:21 +0000] < Pragma: no-cache
+[HTTParty] [2019-02-12 14:28:21 +0000] < Content-length: 320
+[HTTParty] [2019-02-12 14:28:21 +0000] < Content-type: application/json; charset=utf-8
+[HTTParty] [2019-02-12 14:28:21 +0000] < Expires: -1
+[HTTParty] [2019-02-12 14:28:21 +0000] < Server: Microsoft-IIS/10.0
+[HTTParty] [2019-02-12 14:28:21 +0000] < X-aspnet-version: 4.0.30319
+[HTTParty] [2019-02-12 14:28:21 +0000] < Request-context: appId=cid-v1:d5256cef-83ae-4057-8380-1ed09cd521cb
+[HTTParty] [2019-02-12 14:28:21 +0000] < Access-control-expose-headers: Request-Context
+[HTTParty] [2019-02-12 14:28:21 +0000] < X-powered-by: ASP.NET
+[HTTParty] [2019-02-12 14:28:21 +0000] < Date: Tue, 12 Feb 2019 14:28:21 GMT
+[HTTParty] [2019-02-12 14:28:21 +0000] < 
+[
+  {
+    "id": 1,
+    "organizationGroupUrl": "/api/OrganizationGroup/1",
+    "organizationId": 655,
+    "organizationName": "Acts 29 - API Testing Final",
+    "name": "US Southeast",
+    "location": null,
+    "description": null,
+    "organizationGroupContactsUrl": "/api/OrganizationGroup/1/contacts"
+  }
+]
+[HTTParty] [2019-02-12 14:28:21 +0000] < 
+I, [2019-02-12T14:29:35.352041 #73301]  INFO -- : [HTTParty] [2019-02-12 14:29:35 +0000] > GET https://api.virtuoussoftware.com/api/OrganizationGroup
+[HTTParty] [2019-02-12 14:29:35 +0000] > Headers: 
+[HTTParty] [2019-02-12 14:29:35 +0000] > Accept-Version: v1
+[HTTParty] [2019-02-12 14:29:35 +0000] > Authorization: Bearer xZWwyjMsUbsGaLXqsVzNBrJhkJgkuWvshN2ZvPgn7RLvm2gj1V2gSoHDYtQEHSoJ3IwbX0mZw8VRNP4qIecC0MIRtf1h-Lq_-Sa6m4jfUWDS3TPDCygd9uX_ZFxdiqqpYuhhoO-gsjz4d9eqQ6H7qF0nZi6ndHcfn9UJH3EWRJNE-z1SSXNapZScTBoBp7oJVE3vxjyMMfVWkbuqscvz8BSgxLclhYi0u660ZelwZSZOAylgqQ5onxK9-vuHm75lrhMASvaevyjkFeyzerPSEmbd-kntCbv3BVVjMaQCTADCezGuqHrSgh-OkhwtEU-WHpF-ra3ayap6NZnVkLBetgkft91U_93K055kDNEYroYTms1mBA9l5JJVenU4wWLRNrDJo_TyNzLDrvyxR2qIas0iejZDXUfWGrcRQYIFeSelpDIRzOw9dMCgmYC48sgS_VbHWdu5hHhELycSqwIm6mwQIJgUMf2i-y9SIDylODXuZ6w7ZPUkovgE1wg_YQlosVTmeLgcOlW2kDpv7Tjnvjynd7ke5m2SQKRsEwytGuusICXgJq94zB6hi48J6SKseo3XUg
+[HTTParty] [2019-02-12 14:29:35 +0000] > Content-Type: application/json
+[HTTParty] [2019-02-12 14:29:35 +0000] > Query: 
+[HTTParty] [2019-02-12 14:29:35 +0000] > 
+[HTTParty] [2019-02-12 14:29:35 +0000] < HTTP/1.0 200
+[HTTParty] [2019-02-12 14:29:35 +0000] < Cache-control: no-cache
+[HTTParty] [2019-02-12 14:29:35 +0000] < Pragma: no-cache
+[HTTParty] [2019-02-12 14:29:35 +0000] < Content-length: 373
+[HTTParty] [2019-02-12 14:29:35 +0000] < Content-type: application/json; charset=utf-8
+[HTTParty] [2019-02-12 14:29:35 +0000] < Expires: -1
+[HTTParty] [2019-02-12 14:29:35 +0000] < Server: Microsoft-IIS/10.0
+[HTTParty] [2019-02-12 14:29:35 +0000] < X-aspnet-version: 4.0.30319
+[HTTParty] [2019-02-12 14:29:35 +0000] < Request-context: appId=cid-v1:d5256cef-83ae-4057-8380-1ed09cd521cb
+[HTTParty] [2019-02-12 14:29:35 +0000] < Access-control-expose-headers: Request-Context
+[HTTParty] [2019-02-12 14:29:35 +0000] < X-powered-by: ASP.NET
+[HTTParty] [2019-02-12 14:29:35 +0000] < Date: Tue, 12 Feb 2019 09:50:43 GMT
+[HTTParty] [2019-02-12 14:29:35 +0000] < 
+{
+  "list": [
+    {
+      "id": 1,
+      "organizationGroupUrl": "/api/OrganizationGroup/1",
+      "organizationId": 655,
+      "organizationName": "Acts 29 - API Testing Final",
+      "name": "US Southeast",
+      "location": null,
+      "description": null,
+      "organizationGroupContactsUrl": "/api/OrganizationGroup/1/contacts"
+    }
+  ],
+  "total": 1
+}
+[HTTParty] [2019-02-12 14:29:35 +0000] < 
+I, [2019-02-12T14:29:36.159041 #73301]  INFO -- : [HTTParty] [2019-02-12 14:29:36 +0000] > GET https://api.virtuoussoftware.com/api/OrganizationGroup/1
+[HTTParty] [2019-02-12 14:29:36 +0000] > Headers: 
+[HTTParty] [2019-02-12 14:29:36 +0000] > Accept-Version: v1
+[HTTParty] [2019-02-12 14:29:36 +0000] > Authorization: Bearer xZWwyjMsUbsGaLXqsVzNBrJhkJgkuWvshN2ZvPgn7RLvm2gj1V2gSoHDYtQEHSoJ3IwbX0mZw8VRNP4qIecC0MIRtf1h-Lq_-Sa6m4jfUWDS3TPDCygd9uX_ZFxdiqqpYuhhoO-gsjz4d9eqQ6H7qF0nZi6ndHcfn9UJH3EWRJNE-z1SSXNapZScTBoBp7oJVE3vxjyMMfVWkbuqscvz8BSgxLclhYi0u660ZelwZSZOAylgqQ5onxK9-vuHm75lrhMASvaevyjkFeyzerPSEmbd-kntCbv3BVVjMaQCTADCezGuqHrSgh-OkhwtEU-WHpF-ra3ayap6NZnVkLBetgkft91U_93K055kDNEYroYTms1mBA9l5JJVenU4wWLRNrDJo_TyNzLDrvyxR2qIas0iejZDXUfWGrcRQYIFeSelpDIRzOw9dMCgmYC48sgS_VbHWdu5hHhELycSqwIm6mwQIJgUMf2i-y9SIDylODXuZ6w7ZPUkovgE1wg_YQlosVTmeLgcOlW2kDpv7Tjnvjynd7ke5m2SQKRsEwytGuusICXgJq94zB6hi48J6SKseo3XUg
+[HTTParty] [2019-02-12 14:29:36 +0000] > Content-Type: application/json
+[HTTParty] [2019-02-12 14:29:36 +0000] > Query: 
+[HTTParty] [2019-02-12 14:29:36 +0000] > 
+[HTTParty] [2019-02-12 14:29:36 +0000] < HTTP/1.1 200
+[HTTParty] [2019-02-12 14:29:36 +0000] < Cache-control: no-cache
+[HTTParty] [2019-02-12 14:29:36 +0000] < Pragma: no-cache
+[HTTParty] [2019-02-12 14:29:36 +0000] < Content-length: 294
+[HTTParty] [2019-02-12 14:29:36 +0000] < Content-type: application/json; charset=utf-8
+[HTTParty] [2019-02-12 14:29:36 +0000] < Expires: -1
+[HTTParty] [2019-02-12 14:29:36 +0000] < Server: Microsoft-IIS/10.0
+[HTTParty] [2019-02-12 14:29:36 +0000] < X-aspnet-version: 4.0.30319
+[HTTParty] [2019-02-12 14:29:36 +0000] < Request-context: appId=cid-v1:d5256cef-83ae-4057-8380-1ed09cd521cb
+[HTTParty] [2019-02-12 14:29:36 +0000] < Access-control-expose-headers: Request-Context
+[HTTParty] [2019-02-12 14:29:36 +0000] < X-powered-by: ASP.NET
+[HTTParty] [2019-02-12 14:29:36 +0000] < Date: Tue, 12 Feb 2019 14:29:35 GMT
+[HTTParty] [2019-02-12 14:29:36 +0000] < 
+{
+  "id": 1,
+  "organizationGroupUrl": "/api/OrganizationGroup/1",
+  "organizationId": 655,
+  "organizationName": "Acts 29 - API Testing Final",
+  "name": "US Southeast",
+  "location": null,
+  "description": null,
+  "organizationGroupContactsUrl": "/api/OrganizationGroup/1/contacts"
+}
+[HTTParty] [2019-02-12 14:29:36 +0000] < 
+I, [2019-02-12T14:29:37.772710 #73301]  INFO -- : [HTTParty] [2019-02-12 14:29:37 +0000] > GET https://api.virtuoussoftware.com/api/OrganizationGroup/ByContact/1661
+[HTTParty] [2019-02-12 14:29:37 +0000] > Headers: 
+[HTTParty] [2019-02-12 14:29:37 +0000] > Accept-Version: v1
+[HTTParty] [2019-02-12 14:29:37 +0000] > Authorization: Bearer xZWwyjMsUbsGaLXqsVzNBrJhkJgkuWvshN2ZvPgn7RLvm2gj1V2gSoHDYtQEHSoJ3IwbX0mZw8VRNP4qIecC0MIRtf1h-Lq_-Sa6m4jfUWDS3TPDCygd9uX_ZFxdiqqpYuhhoO-gsjz4d9eqQ6H7qF0nZi6ndHcfn9UJH3EWRJNE-z1SSXNapZScTBoBp7oJVE3vxjyMMfVWkbuqscvz8BSgxLclhYi0u660ZelwZSZOAylgqQ5onxK9-vuHm75lrhMASvaevyjkFeyzerPSEmbd-kntCbv3BVVjMaQCTADCezGuqHrSgh-OkhwtEU-WHpF-ra3ayap6NZnVkLBetgkft91U_93K055kDNEYroYTms1mBA9l5JJVenU4wWLRNrDJo_TyNzLDrvyxR2qIas0iejZDXUfWGrcRQYIFeSelpDIRzOw9dMCgmYC48sgS_VbHWdu5hHhELycSqwIm6mwQIJgUMf2i-y9SIDylODXuZ6w7ZPUkovgE1wg_YQlosVTmeLgcOlW2kDpv7Tjnvjynd7ke5m2SQKRsEwytGuusICXgJq94zB6hi48J6SKseo3XUg
+[HTTParty] [2019-02-12 14:29:37 +0000] > Content-Type: application/json
+[HTTParty] [2019-02-12 14:29:37 +0000] > Query: 
+[HTTParty] [2019-02-12 14:29:37 +0000] > 
+[HTTParty] [2019-02-12 14:29:37 +0000] < HTTP/1.1 200
+[HTTParty] [2019-02-12 14:29:37 +0000] < Cache-control: no-cache
+[HTTParty] [2019-02-12 14:29:37 +0000] < Pragma: no-cache
+[HTTParty] [2019-02-12 14:29:37 +0000] < Content-length: 320
+[HTTParty] [2019-02-12 14:29:37 +0000] < Content-type: application/json; charset=utf-8
+[HTTParty] [2019-02-12 14:29:37 +0000] < Expires: -1
+[HTTParty] [2019-02-12 14:29:37 +0000] < Server: Microsoft-IIS/10.0
+[HTTParty] [2019-02-12 14:29:37 +0000] < X-aspnet-version: 4.0.30319
+[HTTParty] [2019-02-12 14:29:37 +0000] < Request-context: appId=cid-v1:d5256cef-83ae-4057-8380-1ed09cd521cb
+[HTTParty] [2019-02-12 14:29:37 +0000] < Access-control-expose-headers: Request-Context
+[HTTParty] [2019-02-12 14:29:37 +0000] < X-powered-by: ASP.NET
+[HTTParty] [2019-02-12 14:29:37 +0000] < Date: Tue, 12 Feb 2019 14:29:36 GMT
+[HTTParty] [2019-02-12 14:29:37 +0000] < 
+[
+  {
+    "id": 1,
+    "organizationGroupUrl": "/api/OrganizationGroup/1",
+    "organizationId": 655,
+    "organizationName": "Acts 29 - API Testing Final",
+    "name": "US Southeast",
+    "location": null,
+    "description": null,
+    "organizationGroupContactsUrl": "/api/OrganizationGroup/1/contacts"
+  }
+]
+[HTTParty] [2019-02-12 14:29:37 +0000] < 
+I, [2019-02-12T14:31:58.221498 #73427]  INFO -- : [HTTParty] [2019-02-12 14:31:58 +0000] > GET https://api.virtuoussoftware.com/api/OrganizationGroup
+[HTTParty] [2019-02-12 14:31:58 +0000] > Headers: 
+[HTTParty] [2019-02-12 14:31:58 +0000] > Accept-Version: v1
+[HTTParty] [2019-02-12 14:31:58 +0000] > Authorization: Bearer xZWwyjMsUbsGaLXqsVzNBrJhkJgkuWvshN2ZvPgn7RLvm2gj1V2gSoHDYtQEHSoJ3IwbX0mZw8VRNP4qIecC0MIRtf1h-Lq_-Sa6m4jfUWDS3TPDCygd9uX_ZFxdiqqpYuhhoO-gsjz4d9eqQ6H7qF0nZi6ndHcfn9UJH3EWRJNE-z1SSXNapZScTBoBp7oJVE3vxjyMMfVWkbuqscvz8BSgxLclhYi0u660ZelwZSZOAylgqQ5onxK9-vuHm75lrhMASvaevyjkFeyzerPSEmbd-kntCbv3BVVjMaQCTADCezGuqHrSgh-OkhwtEU-WHpF-ra3ayap6NZnVkLBetgkft91U_93K055kDNEYroYTms1mBA9l5JJVenU4wWLRNrDJo_TyNzLDrvyxR2qIas0iejZDXUfWGrcRQYIFeSelpDIRzOw9dMCgmYC48sgS_VbHWdu5hHhELycSqwIm6mwQIJgUMf2i-y9SIDylODXuZ6w7ZPUkovgE1wg_YQlosVTmeLgcOlW2kDpv7Tjnvjynd7ke5m2SQKRsEwytGuusICXgJq94zB6hi48J6SKseo3XUg
+[HTTParty] [2019-02-12 14:31:58 +0000] > Content-Type: application/json
+[HTTParty] [2019-02-12 14:31:58 +0000] > Query: 
+[HTTParty] [2019-02-12 14:31:58 +0000] > 
+[HTTParty] [2019-02-12 14:31:58 +0000] < HTTP/1.0 200
+[HTTParty] [2019-02-12 14:31:58 +0000] < Cache-control: no-cache
+[HTTParty] [2019-02-12 14:31:58 +0000] < Pragma: no-cache
+[HTTParty] [2019-02-12 14:31:58 +0000] < Content-length: 373
+[HTTParty] [2019-02-12 14:31:58 +0000] < Content-type: application/json; charset=utf-8
+[HTTParty] [2019-02-12 14:31:58 +0000] < Expires: -1
+[HTTParty] [2019-02-12 14:31:58 +0000] < Server: Microsoft-IIS/10.0
+[HTTParty] [2019-02-12 14:31:58 +0000] < X-aspnet-version: 4.0.30319
+[HTTParty] [2019-02-12 14:31:58 +0000] < Request-context: appId=cid-v1:d5256cef-83ae-4057-8380-1ed09cd521cb
+[HTTParty] [2019-02-12 14:31:58 +0000] < Access-control-expose-headers: Request-Context
+[HTTParty] [2019-02-12 14:31:58 +0000] < X-powered-by: ASP.NET
+[HTTParty] [2019-02-12 14:31:58 +0000] < Date: Tue, 12 Feb 2019 09:50:43 GMT
+[HTTParty] [2019-02-12 14:31:58 +0000] < 
+{
+  "list": [
+    {
+      "id": 1,
+      "organizationGroupUrl": "/api/OrganizationGroup/1",
+      "organizationId": 655,
+      "organizationName": "Acts 29 - API Testing Final",
+      "name": "US Southeast",
+      "location": null,
+      "description": null,
+      "organizationGroupContactsUrl": "/api/OrganizationGroup/1/contacts"
+    }
+  ],
+  "total": 1
+}
+[HTTParty] [2019-02-12 14:31:58 +0000] < 
+I, [2019-02-12T14:31:59.985699 #73427]  INFO -- : [HTTParty] [2019-02-12 14:31:59 +0000] > GET https://api.virtuoussoftware.com/api/OrganizationGroup/1
+[HTTParty] [2019-02-12 14:31:59 +0000] > Headers: 
+[HTTParty] [2019-02-12 14:31:59 +0000] > Accept-Version: v1
+[HTTParty] [2019-02-12 14:31:59 +0000] > Authorization: Bearer xZWwyjMsUbsGaLXqsVzNBrJhkJgkuWvshN2ZvPgn7RLvm2gj1V2gSoHDYtQEHSoJ3IwbX0mZw8VRNP4qIecC0MIRtf1h-Lq_-Sa6m4jfUWDS3TPDCygd9uX_ZFxdiqqpYuhhoO-gsjz4d9eqQ6H7qF0nZi6ndHcfn9UJH3EWRJNE-z1SSXNapZScTBoBp7oJVE3vxjyMMfVWkbuqscvz8BSgxLclhYi0u660ZelwZSZOAylgqQ5onxK9-vuHm75lrhMASvaevyjkFeyzerPSEmbd-kntCbv3BVVjMaQCTADCezGuqHrSgh-OkhwtEU-WHpF-ra3ayap6NZnVkLBetgkft91U_93K055kDNEYroYTms1mBA9l5JJVenU4wWLRNrDJo_TyNzLDrvyxR2qIas0iejZDXUfWGrcRQYIFeSelpDIRzOw9dMCgmYC48sgS_VbHWdu5hHhELycSqwIm6mwQIJgUMf2i-y9SIDylODXuZ6w7ZPUkovgE1wg_YQlosVTmeLgcOlW2kDpv7Tjnvjynd7ke5m2SQKRsEwytGuusICXgJq94zB6hi48J6SKseo3XUg
+[HTTParty] [2019-02-12 14:31:59 +0000] > Content-Type: application/json
+[HTTParty] [2019-02-12 14:31:59 +0000] > Query: 
+[HTTParty] [2019-02-12 14:31:59 +0000] > 
+[HTTParty] [2019-02-12 14:31:59 +0000] < HTTP/1.1 200
+[HTTParty] [2019-02-12 14:31:59 +0000] < Cache-control: no-cache
+[HTTParty] [2019-02-12 14:31:59 +0000] < Pragma: no-cache
+[HTTParty] [2019-02-12 14:31:59 +0000] < Content-length: 294
+[HTTParty] [2019-02-12 14:31:59 +0000] < Content-type: application/json; charset=utf-8
+[HTTParty] [2019-02-12 14:31:59 +0000] < Expires: -1
+[HTTParty] [2019-02-12 14:31:59 +0000] < Server: Microsoft-IIS/10.0
+[HTTParty] [2019-02-12 14:31:59 +0000] < X-aspnet-version: 4.0.30319
+[HTTParty] [2019-02-12 14:31:59 +0000] < Request-context: appId=cid-v1:d5256cef-83ae-4057-8380-1ed09cd521cb
+[HTTParty] [2019-02-12 14:31:59 +0000] < Access-control-expose-headers: Request-Context
+[HTTParty] [2019-02-12 14:31:59 +0000] < X-powered-by: ASP.NET
+[HTTParty] [2019-02-12 14:31:59 +0000] < Date: Tue, 12 Feb 2019 14:31:59 GMT
+[HTTParty] [2019-02-12 14:31:59 +0000] < 
+{
+  "id": 1,
+  "organizationGroupUrl": "/api/OrganizationGroup/1",
+  "organizationId": 655,
+  "organizationName": "Acts 29 - API Testing Final",
+  "name": "US Southeast",
+  "location": null,
+  "description": null,
+  "organizationGroupContactsUrl": "/api/OrganizationGroup/1/contacts"
+}
+[HTTParty] [2019-02-12 14:31:59 +0000] < 
+I, [2019-02-12T14:32:01.138019 #73427]  INFO -- : [HTTParty] [2019-02-12 14:32:01 +0000] > GET https://api.virtuoussoftware.com/api/OrganizationGroup/ByContact/1661
+[HTTParty] [2019-02-12 14:32:01 +0000] > Headers: 
+[HTTParty] [2019-02-12 14:32:01 +0000] > Accept-Version: v1
+[HTTParty] [2019-02-12 14:32:01 +0000] > Authorization: Bearer xZWwyjMsUbsGaLXqsVzNBrJhkJgkuWvshN2ZvPgn7RLvm2gj1V2gSoHDYtQEHSoJ3IwbX0mZw8VRNP4qIecC0MIRtf1h-Lq_-Sa6m4jfUWDS3TPDCygd9uX_ZFxdiqqpYuhhoO-gsjz4d9eqQ6H7qF0nZi6ndHcfn9UJH3EWRJNE-z1SSXNapZScTBoBp7oJVE3vxjyMMfVWkbuqscvz8BSgxLclhYi0u660ZelwZSZOAylgqQ5onxK9-vuHm75lrhMASvaevyjkFeyzerPSEmbd-kntCbv3BVVjMaQCTADCezGuqHrSgh-OkhwtEU-WHpF-ra3ayap6NZnVkLBetgkft91U_93K055kDNEYroYTms1mBA9l5JJVenU4wWLRNrDJo_TyNzLDrvyxR2qIas0iejZDXUfWGrcRQYIFeSelpDIRzOw9dMCgmYC48sgS_VbHWdu5hHhELycSqwIm6mwQIJgUMf2i-y9SIDylODXuZ6w7ZPUkovgE1wg_YQlosVTmeLgcOlW2kDpv7Tjnvjynd7ke5m2SQKRsEwytGuusICXgJq94zB6hi48J6SKseo3XUg
+[HTTParty] [2019-02-12 14:32:01 +0000] > Content-Type: application/json
+[HTTParty] [2019-02-12 14:32:01 +0000] > Query: 
+[HTTParty] [2019-02-12 14:32:01 +0000] > 
+[HTTParty] [2019-02-12 14:32:01 +0000] < HTTP/1.1 200
+[HTTParty] [2019-02-12 14:32:01 +0000] < Cache-control: no-cache
+[HTTParty] [2019-02-12 14:32:01 +0000] < Pragma: no-cache
+[HTTParty] [2019-02-12 14:32:01 +0000] < Content-length: 320
+[HTTParty] [2019-02-12 14:32:01 +0000] < Content-type: application/json; charset=utf-8
+[HTTParty] [2019-02-12 14:32:01 +0000] < Expires: -1
+[HTTParty] [2019-02-12 14:32:01 +0000] < Server: Microsoft-IIS/10.0
+[HTTParty] [2019-02-12 14:32:01 +0000] < X-aspnet-version: 4.0.30319
+[HTTParty] [2019-02-12 14:32:01 +0000] < Request-context: appId=cid-v1:d5256cef-83ae-4057-8380-1ed09cd521cb
+[HTTParty] [2019-02-12 14:32:01 +0000] < Access-control-expose-headers: Request-Context
+[HTTParty] [2019-02-12 14:32:01 +0000] < X-powered-by: ASP.NET
+[HTTParty] [2019-02-12 14:32:01 +0000] < Date: Tue, 12 Feb 2019 14:32:00 GMT
+[HTTParty] [2019-02-12 14:32:01 +0000] < 
+[
+  {
+    "id": 1,
+    "organizationGroupUrl": "/api/OrganizationGroup/1",
+    "organizationId": 655,
+    "organizationName": "Acts 29 - API Testing Final",
+    "name": "US Southeast",
+    "location": null,
+    "description": null,
+    "organizationGroupContactsUrl": "/api/OrganizationGroup/1/contacts"
+  }
+]
+[HTTParty] [2019-02-12 14:32:01 +0000] < 
+I, [2019-02-12T14:32:25.216731 #73465]  INFO -- : [HTTParty] [2019-02-12 14:32:25 +0000] > GET https://api.virtuoussoftware.com/api/OrganizationGroup
+[HTTParty] [2019-02-12 14:32:25 +0000] > Headers: 
+[HTTParty] [2019-02-12 14:32:25 +0000] > Accept-Version: v1
+[HTTParty] [2019-02-12 14:32:25 +0000] > Authorization: Bearer xZWwyjMsUbsGaLXqsVzNBrJhkJgkuWvshN2ZvPgn7RLvm2gj1V2gSoHDYtQEHSoJ3IwbX0mZw8VRNP4qIecC0MIRtf1h-Lq_-Sa6m4jfUWDS3TPDCygd9uX_ZFxdiqqpYuhhoO-gsjz4d9eqQ6H7qF0nZi6ndHcfn9UJH3EWRJNE-z1SSXNapZScTBoBp7oJVE3vxjyMMfVWkbuqscvz8BSgxLclhYi0u660ZelwZSZOAylgqQ5onxK9-vuHm75lrhMASvaevyjkFeyzerPSEmbd-kntCbv3BVVjMaQCTADCezGuqHrSgh-OkhwtEU-WHpF-ra3ayap6NZnVkLBetgkft91U_93K055kDNEYroYTms1mBA9l5JJVenU4wWLRNrDJo_TyNzLDrvyxR2qIas0iejZDXUfWGrcRQYIFeSelpDIRzOw9dMCgmYC48sgS_VbHWdu5hHhELycSqwIm6mwQIJgUMf2i-y9SIDylODXuZ6w7ZPUkovgE1wg_YQlosVTmeLgcOlW2kDpv7Tjnvjynd7ke5m2SQKRsEwytGuusICXgJq94zB6hi48J6SKseo3XUg
+[HTTParty] [2019-02-12 14:32:25 +0000] > Content-Type: application/json
+[HTTParty] [2019-02-12 14:32:25 +0000] > Query: 
+[HTTParty] [2019-02-12 14:32:25 +0000] > 
+[HTTParty] [2019-02-12 14:32:25 +0000] < HTTP/1.0 200
+[HTTParty] [2019-02-12 14:32:25 +0000] < Cache-control: no-cache
+[HTTParty] [2019-02-12 14:32:25 +0000] < Pragma: no-cache
+[HTTParty] [2019-02-12 14:32:25 +0000] < Content-length: 373
+[HTTParty] [2019-02-12 14:32:25 +0000] < Content-type: application/json; charset=utf-8
+[HTTParty] [2019-02-12 14:32:25 +0000] < Expires: -1
+[HTTParty] [2019-02-12 14:32:25 +0000] < Server: Microsoft-IIS/10.0
+[HTTParty] [2019-02-12 14:32:25 +0000] < X-aspnet-version: 4.0.30319
+[HTTParty] [2019-02-12 14:32:25 +0000] < Request-context: appId=cid-v1:d5256cef-83ae-4057-8380-1ed09cd521cb
+[HTTParty] [2019-02-12 14:32:25 +0000] < Access-control-expose-headers: Request-Context
+[HTTParty] [2019-02-12 14:32:25 +0000] < X-powered-by: ASP.NET
+[HTTParty] [2019-02-12 14:32:25 +0000] < Date: Tue, 12 Feb 2019 09:50:43 GMT
+[HTTParty] [2019-02-12 14:32:25 +0000] < 
+{
+  "list": [
+    {
+      "id": 1,
+      "organizationGroupUrl": "/api/OrganizationGroup/1",
+      "organizationId": 655,
+      "organizationName": "Acts 29 - API Testing Final",
+      "name": "US Southeast",
+      "location": null,
+      "description": null,
+      "organizationGroupContactsUrl": "/api/OrganizationGroup/1/contacts"
+    }
+  ],
+  "total": 1
+}
+[HTTParty] [2019-02-12 14:32:25 +0000] < 
+I, [2019-02-12T14:32:25.979688 #73465]  INFO -- : [HTTParty] [2019-02-12 14:32:25 +0000] > GET https://api.virtuoussoftware.com/api/OrganizationGroup/1
+[HTTParty] [2019-02-12 14:32:25 +0000] > Headers: 
+[HTTParty] [2019-02-12 14:32:25 +0000] > Accept-Version: v1
+[HTTParty] [2019-02-12 14:32:25 +0000] > Authorization: Bearer xZWwyjMsUbsGaLXqsVzNBrJhkJgkuWvshN2ZvPgn7RLvm2gj1V2gSoHDYtQEHSoJ3IwbX0mZw8VRNP4qIecC0MIRtf1h-Lq_-Sa6m4jfUWDS3TPDCygd9uX_ZFxdiqqpYuhhoO-gsjz4d9eqQ6H7qF0nZi6ndHcfn9UJH3EWRJNE-z1SSXNapZScTBoBp7oJVE3vxjyMMfVWkbuqscvz8BSgxLclhYi0u660ZelwZSZOAylgqQ5onxK9-vuHm75lrhMASvaevyjkFeyzerPSEmbd-kntCbv3BVVjMaQCTADCezGuqHrSgh-OkhwtEU-WHpF-ra3ayap6NZnVkLBetgkft91U_93K055kDNEYroYTms1mBA9l5JJVenU4wWLRNrDJo_TyNzLDrvyxR2qIas0iejZDXUfWGrcRQYIFeSelpDIRzOw9dMCgmYC48sgS_VbHWdu5hHhELycSqwIm6mwQIJgUMf2i-y9SIDylODXuZ6w7ZPUkovgE1wg_YQlosVTmeLgcOlW2kDpv7Tjnvjynd7ke5m2SQKRsEwytGuusICXgJq94zB6hi48J6SKseo3XUg
+[HTTParty] [2019-02-12 14:32:25 +0000] > Content-Type: application/json
+[HTTParty] [2019-02-12 14:32:25 +0000] > Query: 
+[HTTParty] [2019-02-12 14:32:25 +0000] > 
+[HTTParty] [2019-02-12 14:32:25 +0000] < HTTP/1.1 200
+[HTTParty] [2019-02-12 14:32:25 +0000] < Cache-control: no-cache
+[HTTParty] [2019-02-12 14:32:25 +0000] < Pragma: no-cache
+[HTTParty] [2019-02-12 14:32:25 +0000] < Content-length: 294
+[HTTParty] [2019-02-12 14:32:25 +0000] < Content-type: application/json; charset=utf-8
+[HTTParty] [2019-02-12 14:32:25 +0000] < Expires: -1
+[HTTParty] [2019-02-12 14:32:25 +0000] < Server: Microsoft-IIS/10.0
+[HTTParty] [2019-02-12 14:32:25 +0000] < X-aspnet-version: 4.0.30319
+[HTTParty] [2019-02-12 14:32:25 +0000] < Request-context: appId=cid-v1:d5256cef-83ae-4057-8380-1ed09cd521cb
+[HTTParty] [2019-02-12 14:32:25 +0000] < Access-control-expose-headers: Request-Context
+[HTTParty] [2019-02-12 14:32:25 +0000] < X-powered-by: ASP.NET
+[HTTParty] [2019-02-12 14:32:25 +0000] < Date: Tue, 12 Feb 2019 14:32:24 GMT
+[HTTParty] [2019-02-12 14:32:25 +0000] < 
+{
+  "id": 1,
+  "organizationGroupUrl": "/api/OrganizationGroup/1",
+  "organizationId": 655,
+  "organizationName": "Acts 29 - API Testing Final",
+  "name": "US Southeast",
+  "location": null,
+  "description": null,
+  "organizationGroupContactsUrl": "/api/OrganizationGroup/1/contacts"
+}
+[HTTParty] [2019-02-12 14:32:25 +0000] < 
+I, [2019-02-12T14:32:26.820451 #73465]  INFO -- : [HTTParty] [2019-02-12 14:32:26 +0000] > GET https://api.virtuoussoftware.com/api/OrganizationGroup/ByContact/1661
+[HTTParty] [2019-02-12 14:32:26 +0000] > Headers: 
+[HTTParty] [2019-02-12 14:32:26 +0000] > Accept-Version: v1
+[HTTParty] [2019-02-12 14:32:26 +0000] > Authorization: Bearer xZWwyjMsUbsGaLXqsVzNBrJhkJgkuWvshN2ZvPgn7RLvm2gj1V2gSoHDYtQEHSoJ3IwbX0mZw8VRNP4qIecC0MIRtf1h-Lq_-Sa6m4jfUWDS3TPDCygd9uX_ZFxdiqqpYuhhoO-gsjz4d9eqQ6H7qF0nZi6ndHcfn9UJH3EWRJNE-z1SSXNapZScTBoBp7oJVE3vxjyMMfVWkbuqscvz8BSgxLclhYi0u660ZelwZSZOAylgqQ5onxK9-vuHm75lrhMASvaevyjkFeyzerPSEmbd-kntCbv3BVVjMaQCTADCezGuqHrSgh-OkhwtEU-WHpF-ra3ayap6NZnVkLBetgkft91U_93K055kDNEYroYTms1mBA9l5JJVenU4wWLRNrDJo_TyNzLDrvyxR2qIas0iejZDXUfWGrcRQYIFeSelpDIRzOw9dMCgmYC48sgS_VbHWdu5hHhELycSqwIm6mwQIJgUMf2i-y9SIDylODXuZ6w7ZPUkovgE1wg_YQlosVTmeLgcOlW2kDpv7Tjnvjynd7ke5m2SQKRsEwytGuusICXgJq94zB6hi48J6SKseo3XUg
+[HTTParty] [2019-02-12 14:32:26 +0000] > Content-Type: application/json
+[HTTParty] [2019-02-12 14:32:26 +0000] > Query: 
+[HTTParty] [2019-02-12 14:32:26 +0000] > 
+[HTTParty] [2019-02-12 14:32:26 +0000] < HTTP/1.1 200
+[HTTParty] [2019-02-12 14:32:26 +0000] < Cache-control: no-cache
+[HTTParty] [2019-02-12 14:32:26 +0000] < Pragma: no-cache
+[HTTParty] [2019-02-12 14:32:26 +0000] < Content-length: 320
+[HTTParty] [2019-02-12 14:32:26 +0000] < Content-type: application/json; charset=utf-8
+[HTTParty] [2019-02-12 14:32:26 +0000] < Expires: -1
+[HTTParty] [2019-02-12 14:32:26 +0000] < Server: Microsoft-IIS/10.0
+[HTTParty] [2019-02-12 14:32:26 +0000] < X-aspnet-version: 4.0.30319
+[HTTParty] [2019-02-12 14:32:26 +0000] < Request-context: appId=cid-v1:d5256cef-83ae-4057-8380-1ed09cd521cb
+[HTTParty] [2019-02-12 14:32:26 +0000] < Access-control-expose-headers: Request-Context
+[HTTParty] [2019-02-12 14:32:26 +0000] < X-powered-by: ASP.NET
+[HTTParty] [2019-02-12 14:32:26 +0000] < Date: Tue, 12 Feb 2019 14:32:26 GMT
+[HTTParty] [2019-02-12 14:32:26 +0000] < 
+[
+  {
+    "id": 1,
+    "organizationGroupUrl": "/api/OrganizationGroup/1",
+    "organizationId": 655,
+    "organizationName": "Acts 29 - API Testing Final",
+    "name": "US Southeast",
+    "location": null,
+    "description": null,
+    "organizationGroupContactsUrl": "/api/OrganizationGroup/1/contacts"
+  }
+]
+[HTTParty] [2019-02-12 14:32:26 +0000] < 
+I, [2019-02-12T15:04:31.924831 #73720]  INFO -- : [HTTParty] [2019-02-12 15:04:31 +0000] > GET https://api.virtuoussoftware.com/api/OrganizationGroup
+[HTTParty] [2019-02-12 15:04:31 +0000] > Headers: 
+[HTTParty] [2019-02-12 15:04:31 +0000] > Accept-Version: v1
+[HTTParty] [2019-02-12 15:04:31 +0000] > Authorization: Bearer xZWwyjMsUbsGaLXqsVzNBrJhkJgkuWvshN2ZvPgn7RLvm2gj1V2gSoHDYtQEHSoJ3IwbX0mZw8VRNP4qIecC0MIRtf1h-Lq_-Sa6m4jfUWDS3TPDCygd9uX_ZFxdiqqpYuhhoO-gsjz4d9eqQ6H7qF0nZi6ndHcfn9UJH3EWRJNE-z1SSXNapZScTBoBp7oJVE3vxjyMMfVWkbuqscvz8BSgxLclhYi0u660ZelwZSZOAylgqQ5onxK9-vuHm75lrhMASvaevyjkFeyzerPSEmbd-kntCbv3BVVjMaQCTADCezGuqHrSgh-OkhwtEU-WHpF-ra3ayap6NZnVkLBetgkft91U_93K055kDNEYroYTms1mBA9l5JJVenU4wWLRNrDJo_TyNzLDrvyxR2qIas0iejZDXUfWGrcRQYIFeSelpDIRzOw9dMCgmYC48sgS_VbHWdu5hHhELycSqwIm6mwQIJgUMf2i-y9SIDylODXuZ6w7ZPUkovgE1wg_YQlosVTmeLgcOlW2kDpv7Tjnvjynd7ke5m2SQKRsEwytGuusICXgJq94zB6hi48J6SKseo3XUg
+[HTTParty] [2019-02-12 15:04:31 +0000] > Content-Type: application/json
+[HTTParty] [2019-02-12 15:04:31 +0000] > Query: 
+[HTTParty] [2019-02-12 15:04:31 +0000] > 
+[HTTParty] [2019-02-12 15:04:31 +0000] < HTTP/1.0 200
+[HTTParty] [2019-02-12 15:04:31 +0000] < Cache-control: no-cache
+[HTTParty] [2019-02-12 15:04:31 +0000] < Pragma: no-cache
+[HTTParty] [2019-02-12 15:04:31 +0000] < Content-length: 373
+[HTTParty] [2019-02-12 15:04:31 +0000] < Content-type: application/json; charset=utf-8
+[HTTParty] [2019-02-12 15:04:31 +0000] < Expires: -1
+[HTTParty] [2019-02-12 15:04:31 +0000] < Server: Microsoft-IIS/10.0
+[HTTParty] [2019-02-12 15:04:31 +0000] < X-aspnet-version: 4.0.30319
+[HTTParty] [2019-02-12 15:04:31 +0000] < Request-context: appId=cid-v1:d5256cef-83ae-4057-8380-1ed09cd521cb
+[HTTParty] [2019-02-12 15:04:31 +0000] < Access-control-expose-headers: Request-Context
+[HTTParty] [2019-02-12 15:04:31 +0000] < X-powered-by: ASP.NET
+[HTTParty] [2019-02-12 15:04:31 +0000] < Date: Tue, 12 Feb 2019 09:50:43 GMT
+[HTTParty] [2019-02-12 15:04:31 +0000] < 
+{
+  "list": [
+    {
+      "id": 1,
+      "organizationGroupUrl": "/api/OrganizationGroup/1",
+      "organizationId": 655,
+      "organizationName": "Acts 29 - API Testing Final",
+      "name": "US Southeast",
+      "location": null,
+      "description": null,
+      "organizationGroupContactsUrl": "/api/OrganizationGroup/1/contacts"
+    }
+  ],
+  "total": 1
+}
+[HTTParty] [2019-02-12 15:04:31 +0000] < 
+I, [2019-02-12T15:04:33.350794 #73720]  INFO -- : [HTTParty] [2019-02-12 15:04:33 +0000] > GET https://api.virtuoussoftware.com/api/OrganizationGroup/1
+[HTTParty] [2019-02-12 15:04:33 +0000] > Headers: 
+[HTTParty] [2019-02-12 15:04:33 +0000] > Accept-Version: v1
+[HTTParty] [2019-02-12 15:04:33 +0000] > Authorization: Bearer xZWwyjMsUbsGaLXqsVzNBrJhkJgkuWvshN2ZvPgn7RLvm2gj1V2gSoHDYtQEHSoJ3IwbX0mZw8VRNP4qIecC0MIRtf1h-Lq_-Sa6m4jfUWDS3TPDCygd9uX_ZFxdiqqpYuhhoO-gsjz4d9eqQ6H7qF0nZi6ndHcfn9UJH3EWRJNE-z1SSXNapZScTBoBp7oJVE3vxjyMMfVWkbuqscvz8BSgxLclhYi0u660ZelwZSZOAylgqQ5onxK9-vuHm75lrhMASvaevyjkFeyzerPSEmbd-kntCbv3BVVjMaQCTADCezGuqHrSgh-OkhwtEU-WHpF-ra3ayap6NZnVkLBetgkft91U_93K055kDNEYroYTms1mBA9l5JJVenU4wWLRNrDJo_TyNzLDrvyxR2qIas0iejZDXUfWGrcRQYIFeSelpDIRzOw9dMCgmYC48sgS_VbHWdu5hHhELycSqwIm6mwQIJgUMf2i-y9SIDylODXuZ6w7ZPUkovgE1wg_YQlosVTmeLgcOlW2kDpv7Tjnvjynd7ke5m2SQKRsEwytGuusICXgJq94zB6hi48J6SKseo3XUg
+[HTTParty] [2019-02-12 15:04:33 +0000] > Content-Type: application/json
+[HTTParty] [2019-02-12 15:04:33 +0000] > Query: 
+[HTTParty] [2019-02-12 15:04:33 +0000] > 
+[HTTParty] [2019-02-12 15:04:33 +0000] < HTTP/1.1 200
+[HTTParty] [2019-02-12 15:04:33 +0000] < Cache-control: no-cache
+[HTTParty] [2019-02-12 15:04:33 +0000] < Pragma: no-cache
+[HTTParty] [2019-02-12 15:04:33 +0000] < Content-length: 294
+[HTTParty] [2019-02-12 15:04:33 +0000] < Content-type: application/json; charset=utf-8
+[HTTParty] [2019-02-12 15:04:33 +0000] < Expires: -1
+[HTTParty] [2019-02-12 15:04:33 +0000] < Server: Microsoft-IIS/10.0
+[HTTParty] [2019-02-12 15:04:33 +0000] < X-aspnet-version: 4.0.30319
+[HTTParty] [2019-02-12 15:04:33 +0000] < Request-context: appId=cid-v1:d5256cef-83ae-4057-8380-1ed09cd521cb
+[HTTParty] [2019-02-12 15:04:33 +0000] < Access-control-expose-headers: Request-Context
+[HTTParty] [2019-02-12 15:04:33 +0000] < X-powered-by: ASP.NET
+[HTTParty] [2019-02-12 15:04:33 +0000] < Date: Tue, 12 Feb 2019 15:04:33 GMT
+[HTTParty] [2019-02-12 15:04:33 +0000] < 
+{
+  "id": 1,
+  "organizationGroupUrl": "/api/OrganizationGroup/1",
+  "organizationId": 655,
+  "organizationName": "Acts 29 - API Testing Final",
+  "name": "US Southeast",
+  "location": null,
+  "description": null,
+  "organizationGroupContactsUrl": "/api/OrganizationGroup/1/contacts"
+}
+[HTTParty] [2019-02-12 15:04:33 +0000] < 
+I, [2019-02-12T15:04:34.551729 #73720]  INFO -- : [HTTParty] [2019-02-12 15:04:34 +0000] > GET https://api.virtuoussoftware.com/api/OrganizationGroup/ByContact/1661
+[HTTParty] [2019-02-12 15:04:34 +0000] > Headers: 
+[HTTParty] [2019-02-12 15:04:34 +0000] > Accept-Version: v1
+[HTTParty] [2019-02-12 15:04:34 +0000] > Authorization: Bearer xZWwyjMsUbsGaLXqsVzNBrJhkJgkuWvshN2ZvPgn7RLvm2gj1V2gSoHDYtQEHSoJ3IwbX0mZw8VRNP4qIecC0MIRtf1h-Lq_-Sa6m4jfUWDS3TPDCygd9uX_ZFxdiqqpYuhhoO-gsjz4d9eqQ6H7qF0nZi6ndHcfn9UJH3EWRJNE-z1SSXNapZScTBoBp7oJVE3vxjyMMfVWkbuqscvz8BSgxLclhYi0u660ZelwZSZOAylgqQ5onxK9-vuHm75lrhMASvaevyjkFeyzerPSEmbd-kntCbv3BVVjMaQCTADCezGuqHrSgh-OkhwtEU-WHpF-ra3ayap6NZnVkLBetgkft91U_93K055kDNEYroYTms1mBA9l5JJVenU4wWLRNrDJo_TyNzLDrvyxR2qIas0iejZDXUfWGrcRQYIFeSelpDIRzOw9dMCgmYC48sgS_VbHWdu5hHhELycSqwIm6mwQIJgUMf2i-y9SIDylODXuZ6w7ZPUkovgE1wg_YQlosVTmeLgcOlW2kDpv7Tjnvjynd7ke5m2SQKRsEwytGuusICXgJq94zB6hi48J6SKseo3XUg
+[HTTParty] [2019-02-12 15:04:34 +0000] > Content-Type: application/json
+[HTTParty] [2019-02-12 15:04:34 +0000] > Query: 
+[HTTParty] [2019-02-12 15:04:34 +0000] > 
+[HTTParty] [2019-02-12 15:04:34 +0000] < HTTP/1.1 200
+[HTTParty] [2019-02-12 15:04:34 +0000] < Cache-control: no-cache
+[HTTParty] [2019-02-12 15:04:34 +0000] < Pragma: no-cache
+[HTTParty] [2019-02-12 15:04:34 +0000] < Content-length: 320
+[HTTParty] [2019-02-12 15:04:34 +0000] < Content-type: application/json; charset=utf-8
+[HTTParty] [2019-02-12 15:04:34 +0000] < Expires: -1
+[HTTParty] [2019-02-12 15:04:34 +0000] < Server: Microsoft-IIS/10.0
+[HTTParty] [2019-02-12 15:04:34 +0000] < X-aspnet-version: 4.0.30319
+[HTTParty] [2019-02-12 15:04:34 +0000] < Request-context: appId=cid-v1:d5256cef-83ae-4057-8380-1ed09cd521cb
+[HTTParty] [2019-02-12 15:04:34 +0000] < Access-control-expose-headers: Request-Context
+[HTTParty] [2019-02-12 15:04:34 +0000] < X-powered-by: ASP.NET
+[HTTParty] [2019-02-12 15:04:34 +0000] < Date: Tue, 12 Feb 2019 15:04:33 GMT
+[HTTParty] [2019-02-12 15:04:34 +0000] < 
+[
+  {
+    "id": 1,
+    "organizationGroupUrl": "/api/OrganizationGroup/1",
+    "organizationId": 655,
+    "organizationName": "Acts 29 - API Testing Final",
+    "name": "US Southeast",
+    "location": null,
+    "description": null,
+    "organizationGroupContactsUrl": "/api/OrganizationGroup/1/contacts"
+  }
+]
+[HTTParty] [2019-02-12 15:04:34 +0000] < 
+I, [2019-02-12T15:04:36.314241 #73720]  INFO -- : [HTTParty] [2019-02-12 15:04:36 +0000] > GET https://api.virtuoussoftware.com/api/OrganizationGroup/1/contacts
+[HTTParty] [2019-02-12 15:04:36 +0000] > Headers: 
+[HTTParty] [2019-02-12 15:04:36 +0000] > Accept-Version: v1
+[HTTParty] [2019-02-12 15:04:36 +0000] > Authorization: Bearer xZWwyjMsUbsGaLXqsVzNBrJhkJgkuWvshN2ZvPgn7RLvm2gj1V2gSoHDYtQEHSoJ3IwbX0mZw8VRNP4qIecC0MIRtf1h-Lq_-Sa6m4jfUWDS3TPDCygd9uX_ZFxdiqqpYuhhoO-gsjz4d9eqQ6H7qF0nZi6ndHcfn9UJH3EWRJNE-z1SSXNapZScTBoBp7oJVE3vxjyMMfVWkbuqscvz8BSgxLclhYi0u660ZelwZSZOAylgqQ5onxK9-vuHm75lrhMASvaevyjkFeyzerPSEmbd-kntCbv3BVVjMaQCTADCezGuqHrSgh-OkhwtEU-WHpF-ra3ayap6NZnVkLBetgkft91U_93K055kDNEYroYTms1mBA9l5JJVenU4wWLRNrDJo_TyNzLDrvyxR2qIas0iejZDXUfWGrcRQYIFeSelpDIRzOw9dMCgmYC48sgS_VbHWdu5hHhELycSqwIm6mwQIJgUMf2i-y9SIDylODXuZ6w7ZPUkovgE1wg_YQlosVTmeLgcOlW2kDpv7Tjnvjynd7ke5m2SQKRsEwytGuusICXgJq94zB6hi48J6SKseo3XUg
+[HTTParty] [2019-02-12 15:04:36 +0000] > Content-Type: application/json
+[HTTParty] [2019-02-12 15:04:36 +0000] > Query: 
+[HTTParty] [2019-02-12 15:04:36 +0000] > skip: 0
+[HTTParty] [2019-02-12 15:04:36 +0000] > take: 10
+[HTTParty] [2019-02-12 15:04:36 +0000] > 
+[HTTParty] [2019-02-12 15:04:36 +0000] < HTTP/1.1 200
+[HTTParty] [2019-02-12 15:04:36 +0000] < Cache-control: no-cache
+[HTTParty] [2019-02-12 15:04:36 +0000] < Pragma: no-cache
+[HTTParty] [2019-02-12 15:04:36 +0000] < Content-length: 4452
+[HTTParty] [2019-02-12 15:04:36 +0000] < Content-type: application/json; charset=utf-8
+[HTTParty] [2019-02-12 15:04:36 +0000] < Expires: -1
+[HTTParty] [2019-02-12 15:04:36 +0000] < Server: Microsoft-IIS/10.0
+[HTTParty] [2019-02-12 15:04:36 +0000] < X-aspnet-version: 4.0.30319
+[HTTParty] [2019-02-12 15:04:36 +0000] < Request-context: appId=cid-v1:d5256cef-83ae-4057-8380-1ed09cd521cb
+[HTTParty] [2019-02-12 15:04:36 +0000] < Access-control-expose-headers: Request-Context
+[HTTParty] [2019-02-12 15:04:36 +0000] < X-powered-by: ASP.NET
+[HTTParty] [2019-02-12 15:04:36 +0000] < Date: Tue, 12 Feb 2019 15:04:35 GMT
+[HTTParty] [2019-02-12 15:04:36 +0000] < 
+{
+  "list": [
+    {
+      "organizationGroupId": 1,
+      "organizationGroupUrl": "/api/OrganizationGroup/1",
+      "organizationId": 655,
+      "organizationName": "Acts 29 - API Testing Final",
+      "organizationGroupName": "US Southeast",
+      "organizationGroupLocation": null,
+      "organizationGroupDescription": null,
+      "contactId": 860,
+      "contactName": "Aaron and Ashlee Proffitt",
+      "contactUrl": "/api/Contact/860"
+    },
+    {
+      "organizationGroupId": 1,
+      "organizationGroupUrl": "/api/OrganizationGroup/1",
+      "organizationId": 655,
+      "organizationName": "Acts 29 - API Testing Final",
+      "organizationGroupName": "US Southeast",
+      "organizationGroupLocation": null,
+      "organizationGroupDescription": null,
+      "contactId": 1056,
+      "contactName": "Aaron and Caroline Nebrija",
+      "contactUrl": "/api/Contact/1056"
+    },
+    {
+      "organizationGroupId": 1,
+      "organizationGroupUrl": "/api/OrganizationGroup/1",
+      "organizationId": 655,
+      "organizationName": "Acts 29 - API Testing Final",
+      "organizationGroupName": "US Southeast",
+      "organizationGroupLocation": null,
+      "organizationGroupDescription": null,
+      "contactId": 592,
+      "contactName": "Aaron and Danielle Currin",
+      "contactUrl": "/api/Contact/592"
+    },
+    {
+      "organizationGroupId": 1,
+      "organizationGroupUrl": "/api/OrganizationGroup/1",
+      "organizationId": 655,
+      "organizationName": "Acts 29 - API Testing Final",
+      "organizationGroupName": "US Southeast",
+      "organizationGroupLocation": null,
+      "organizationGroupDescription": null,
+      "contactId": 3279,
+      "contactName": "Abby Alam",
+      "contactUrl": "/api/Contact/3279"
+    },
+    {
+      "organizationGroupId": 1,
+      "organizationGroupUrl": "/api/OrganizationGroup/1",
+      "organizationId": 655,
+      "organizationName": "Acts 29 - API Testing Final",
+      "organizationGroupName": "US Southeast",
+      "organizationGroupLocation": null,
+      "organizationGroupDescription": null,
+      "contactId": 777,
+      "contactName": "Adam and Kristen Flynt",
+      "contactUrl": "/api/Contact/777"
+    },
+    {
+      "organizationGroupId": 1,
+      "organizationGroupUrl": "/api/OrganizationGroup/1",
+      "organizationId": 655,
+      "organizationName": "Acts 29 - API Testing Final",
+      "organizationGroupName": "US Southeast",
+      "organizationGroupLocation": null,
+      "organizationGroupDescription": null,
+      "contactId": 4041,
+      "contactName": "Adam Weis",
+      "contactUrl": "/api/Contact/4041"
+    },
+    {
+      "organizationGroupId": 1,
+      "organizationGroupUrl": "/api/OrganizationGroup/1",
+      "organizationId": 655,
+      "organizationName": "Acts 29 - API Testing Final",
+      "organizationGroupName": "US Southeast",
+      "organizationGroupLocation": null,
+      "organizationGroupDescription": null,
+      "contactId": 1661,
+      "contactName": "Agape Baptist Church 123",
+      "contactUrl": "/api/Contact/1661"
+    },
+    {
+      "organizationGroupId": 1,
+      "organizationGroupUrl": "/api/OrganizationGroup/1",
+      "organizationId": 655,
+      "organizationName": "Acts 29 - API Testing Final",
+      "organizationGroupName": "US Southeast",
+      "organizationGroupLocation": null,
+      "organizationGroupDescription": null,
+      "contactId": 941,
+      "contactName": "Alan and Missy Trippe",
+      "contactUrl": "/api/Contact/941"
+    },
+    {
+      "organizationGroupId": 1,
+      "organizationGroupUrl": "/api/OrganizationGroup/1",
+      "organizationId": 655,
+      "organizationName": "Acts 29 - API Testing Final",
+      "organizationGroupName": "US Southeast",
+      "organizationGroupLocation": null,
+      "organizationGroupDescription": null,
+      "contactId": 750,
+      "contactName": "Aldo and Rebecca Leon",
+      "contactUrl": "/api/Contact/750"
+    },
+    {
+      "organizationGroupId": 1,
+      "organizationGroupUrl": "/api/OrganizationGroup/1",
+      "organizationId": 655,
+      "organizationName": "Acts 29 - API Testing Final",
+      "organizationGroupName": "US Southeast",
+      "organizationGroupLocation": null,
+      "organizationGroupDescription": null,
+      "contactId": 2333,
+      "contactName": "AletheChurch",
+      "contactUrl": "/api/Contact/2333"
+    }
+  ],
+  "total": 699
+}
+[HTTParty] [2019-02-12 15:04:36 +0000] < 
+I, [2019-02-12T15:05:24.584161 #73779]  INFO -- : [HTTParty] [2019-02-12 15:05:24 +0000] > GET https://api.virtuoussoftware.com/api/OrganizationGroup
+[HTTParty] [2019-02-12 15:05:24 +0000] > Headers: 
+[HTTParty] [2019-02-12 15:05:24 +0000] > Accept-Version: v1
+[HTTParty] [2019-02-12 15:05:24 +0000] > Authorization: Bearer xZWwyjMsUbsGaLXqsVzNBrJhkJgkuWvshN2ZvPgn7RLvm2gj1V2gSoHDYtQEHSoJ3IwbX0mZw8VRNP4qIecC0MIRtf1h-Lq_-Sa6m4jfUWDS3TPDCygd9uX_ZFxdiqqpYuhhoO-gsjz4d9eqQ6H7qF0nZi6ndHcfn9UJH3EWRJNE-z1SSXNapZScTBoBp7oJVE3vxjyMMfVWkbuqscvz8BSgxLclhYi0u660ZelwZSZOAylgqQ5onxK9-vuHm75lrhMASvaevyjkFeyzerPSEmbd-kntCbv3BVVjMaQCTADCezGuqHrSgh-OkhwtEU-WHpF-ra3ayap6NZnVkLBetgkft91U_93K055kDNEYroYTms1mBA9l5JJVenU4wWLRNrDJo_TyNzLDrvyxR2qIas0iejZDXUfWGrcRQYIFeSelpDIRzOw9dMCgmYC48sgS_VbHWdu5hHhELycSqwIm6mwQIJgUMf2i-y9SIDylODXuZ6w7ZPUkovgE1wg_YQlosVTmeLgcOlW2kDpv7Tjnvjynd7ke5m2SQKRsEwytGuusICXgJq94zB6hi48J6SKseo3XUg
+[HTTParty] [2019-02-12 15:05:24 +0000] > Content-Type: application/json
+[HTTParty] [2019-02-12 15:05:24 +0000] > Query: 
+[HTTParty] [2019-02-12 15:05:24 +0000] > 
+[HTTParty] [2019-02-12 15:05:24 +0000] < HTTP/1.0 200
+[HTTParty] [2019-02-12 15:05:24 +0000] < Cache-control: no-cache
+[HTTParty] [2019-02-12 15:05:24 +0000] < Pragma: no-cache
+[HTTParty] [2019-02-12 15:05:24 +0000] < Content-length: 373
+[HTTParty] [2019-02-12 15:05:24 +0000] < Content-type: application/json; charset=utf-8
+[HTTParty] [2019-02-12 15:05:24 +0000] < Expires: -1
+[HTTParty] [2019-02-12 15:05:24 +0000] < Server: Microsoft-IIS/10.0
+[HTTParty] [2019-02-12 15:05:24 +0000] < X-aspnet-version: 4.0.30319
+[HTTParty] [2019-02-12 15:05:24 +0000] < Request-context: appId=cid-v1:d5256cef-83ae-4057-8380-1ed09cd521cb
+[HTTParty] [2019-02-12 15:05:24 +0000] < Access-control-expose-headers: Request-Context
+[HTTParty] [2019-02-12 15:05:24 +0000] < X-powered-by: ASP.NET
+[HTTParty] [2019-02-12 15:05:24 +0000] < Date: Tue, 12 Feb 2019 09:50:43 GMT
+[HTTParty] [2019-02-12 15:05:24 +0000] < 
+{
+  "list": [
+    {
+      "id": 1,
+      "organizationGroupUrl": "/api/OrganizationGroup/1",
+      "organizationId": 655,
+      "organizationName": "Acts 29 - API Testing Final",
+      "name": "US Southeast",
+      "location": null,
+      "description": null,
+      "organizationGroupContactsUrl": "/api/OrganizationGroup/1/contacts"
+    }
+  ],
+  "total": 1
+}
+[HTTParty] [2019-02-12 15:05:24 +0000] < 
+I, [2019-02-12T15:05:26.570594 #73779]  INFO -- : [HTTParty] [2019-02-12 15:05:26 +0000] > GET https://api.virtuoussoftware.com/api/OrganizationGroup/1
+[HTTParty] [2019-02-12 15:05:26 +0000] > Headers: 
+[HTTParty] [2019-02-12 15:05:26 +0000] > Accept-Version: v1
+[HTTParty] [2019-02-12 15:05:26 +0000] > Authorization: Bearer xZWwyjMsUbsGaLXqsVzNBrJhkJgkuWvshN2ZvPgn7RLvm2gj1V2gSoHDYtQEHSoJ3IwbX0mZw8VRNP4qIecC0MIRtf1h-Lq_-Sa6m4jfUWDS3TPDCygd9uX_ZFxdiqqpYuhhoO-gsjz4d9eqQ6H7qF0nZi6ndHcfn9UJH3EWRJNE-z1SSXNapZScTBoBp7oJVE3vxjyMMfVWkbuqscvz8BSgxLclhYi0u660ZelwZSZOAylgqQ5onxK9-vuHm75lrhMASvaevyjkFeyzerPSEmbd-kntCbv3BVVjMaQCTADCezGuqHrSgh-OkhwtEU-WHpF-ra3ayap6NZnVkLBetgkft91U_93K055kDNEYroYTms1mBA9l5JJVenU4wWLRNrDJo_TyNzLDrvyxR2qIas0iejZDXUfWGrcRQYIFeSelpDIRzOw9dMCgmYC48sgS_VbHWdu5hHhELycSqwIm6mwQIJgUMf2i-y9SIDylODXuZ6w7ZPUkovgE1wg_YQlosVTmeLgcOlW2kDpv7Tjnvjynd7ke5m2SQKRsEwytGuusICXgJq94zB6hi48J6SKseo3XUg
+[HTTParty] [2019-02-12 15:05:26 +0000] > Content-Type: application/json
+[HTTParty] [2019-02-12 15:05:26 +0000] > Query: 
+[HTTParty] [2019-02-12 15:05:26 +0000] > 
+[HTTParty] [2019-02-12 15:05:26 +0000] < HTTP/1.1 200
+[HTTParty] [2019-02-12 15:05:26 +0000] < Cache-control: no-cache
+[HTTParty] [2019-02-12 15:05:26 +0000] < Pragma: no-cache
+[HTTParty] [2019-02-12 15:05:26 +0000] < Content-length: 294
+[HTTParty] [2019-02-12 15:05:26 +0000] < Content-type: application/json; charset=utf-8
+[HTTParty] [2019-02-12 15:05:26 +0000] < Expires: -1
+[HTTParty] [2019-02-12 15:05:26 +0000] < Server: Microsoft-IIS/10.0
+[HTTParty] [2019-02-12 15:05:26 +0000] < X-aspnet-version: 4.0.30319
+[HTTParty] [2019-02-12 15:05:26 +0000] < Request-context: appId=cid-v1:d5256cef-83ae-4057-8380-1ed09cd521cb
+[HTTParty] [2019-02-12 15:05:26 +0000] < Access-control-expose-headers: Request-Context
+[HTTParty] [2019-02-12 15:05:26 +0000] < X-powered-by: ASP.NET
+[HTTParty] [2019-02-12 15:05:26 +0000] < Date: Tue, 12 Feb 2019 15:05:25 GMT
+[HTTParty] [2019-02-12 15:05:26 +0000] < 
+{
+  "id": 1,
+  "organizationGroupUrl": "/api/OrganizationGroup/1",
+  "organizationId": 655,
+  "organizationName": "Acts 29 - API Testing Final",
+  "name": "US Southeast",
+  "location": null,
+  "description": null,
+  "organizationGroupContactsUrl": "/api/OrganizationGroup/1/contacts"
+}
+[HTTParty] [2019-02-12 15:05:26 +0000] < 
+I, [2019-02-12T15:05:27.834210 #73779]  INFO -- : [HTTParty] [2019-02-12 15:05:27 +0000] > GET https://api.virtuoussoftware.com/api/OrganizationGroup/ByContact/1661
+[HTTParty] [2019-02-12 15:05:27 +0000] > Headers: 
+[HTTParty] [2019-02-12 15:05:27 +0000] > Accept-Version: v1
+[HTTParty] [2019-02-12 15:05:27 +0000] > Authorization: Bearer xZWwyjMsUbsGaLXqsVzNBrJhkJgkuWvshN2ZvPgn7RLvm2gj1V2gSoHDYtQEHSoJ3IwbX0mZw8VRNP4qIecC0MIRtf1h-Lq_-Sa6m4jfUWDS3TPDCygd9uX_ZFxdiqqpYuhhoO-gsjz4d9eqQ6H7qF0nZi6ndHcfn9UJH3EWRJNE-z1SSXNapZScTBoBp7oJVE3vxjyMMfVWkbuqscvz8BSgxLclhYi0u660ZelwZSZOAylgqQ5onxK9-vuHm75lrhMASvaevyjkFeyzerPSEmbd-kntCbv3BVVjMaQCTADCezGuqHrSgh-OkhwtEU-WHpF-ra3ayap6NZnVkLBetgkft91U_93K055kDNEYroYTms1mBA9l5JJVenU4wWLRNrDJo_TyNzLDrvyxR2qIas0iejZDXUfWGrcRQYIFeSelpDIRzOw9dMCgmYC48sgS_VbHWdu5hHhELycSqwIm6mwQIJgUMf2i-y9SIDylODXuZ6w7ZPUkovgE1wg_YQlosVTmeLgcOlW2kDpv7Tjnvjynd7ke5m2SQKRsEwytGuusICXgJq94zB6hi48J6SKseo3XUg
+[HTTParty] [2019-02-12 15:05:27 +0000] > Content-Type: application/json
+[HTTParty] [2019-02-12 15:05:27 +0000] > Query: 
+[HTTParty] [2019-02-12 15:05:27 +0000] > 
+[HTTParty] [2019-02-12 15:05:27 +0000] < HTTP/1.1 200
+[HTTParty] [2019-02-12 15:05:27 +0000] < Cache-control: no-cache
+[HTTParty] [2019-02-12 15:05:27 +0000] < Pragma: no-cache
+[HTTParty] [2019-02-12 15:05:27 +0000] < Content-length: 320
+[HTTParty] [2019-02-12 15:05:27 +0000] < Content-type: application/json; charset=utf-8
+[HTTParty] [2019-02-12 15:05:27 +0000] < Expires: -1
+[HTTParty] [2019-02-12 15:05:27 +0000] < Server: Microsoft-IIS/10.0
+[HTTParty] [2019-02-12 15:05:27 +0000] < X-aspnet-version: 4.0.30319
+[HTTParty] [2019-02-12 15:05:27 +0000] < Request-context: appId=cid-v1:d5256cef-83ae-4057-8380-1ed09cd521cb
+[HTTParty] [2019-02-12 15:05:27 +0000] < Access-control-expose-headers: Request-Context
+[HTTParty] [2019-02-12 15:05:27 +0000] < X-powered-by: ASP.NET
+[HTTParty] [2019-02-12 15:05:27 +0000] < Date: Tue, 12 Feb 2019 15:05:27 GMT
+[HTTParty] [2019-02-12 15:05:27 +0000] < 
+[
+  {
+    "id": 1,
+    "organizationGroupUrl": "/api/OrganizationGroup/1",
+    "organizationId": 655,
+    "organizationName": "Acts 29 - API Testing Final",
+    "name": "US Southeast",
+    "location": null,
+    "description": null,
+    "organizationGroupContactsUrl": "/api/OrganizationGroup/1/contacts"
+  }
+]
+[HTTParty] [2019-02-12 15:05:27 +0000] < 
+I, [2019-02-12T15:05:29.440518 #73779]  INFO -- : [HTTParty] [2019-02-12 15:05:29 +0000] > GET https://api.virtuoussoftware.com/api/OrganizationGroup/1/contacts
+[HTTParty] [2019-02-12 15:05:29 +0000] > Headers: 
+[HTTParty] [2019-02-12 15:05:29 +0000] > Accept-Version: v1
+[HTTParty] [2019-02-12 15:05:29 +0000] > Authorization: Bearer xZWwyjMsUbsGaLXqsVzNBrJhkJgkuWvshN2ZvPgn7RLvm2gj1V2gSoHDYtQEHSoJ3IwbX0mZw8VRNP4qIecC0MIRtf1h-Lq_-Sa6m4jfUWDS3TPDCygd9uX_ZFxdiqqpYuhhoO-gsjz4d9eqQ6H7qF0nZi6ndHcfn9UJH3EWRJNE-z1SSXNapZScTBoBp7oJVE3vxjyMMfVWkbuqscvz8BSgxLclhYi0u660ZelwZSZOAylgqQ5onxK9-vuHm75lrhMASvaevyjkFeyzerPSEmbd-kntCbv3BVVjMaQCTADCezGuqHrSgh-OkhwtEU-WHpF-ra3ayap6NZnVkLBetgkft91U_93K055kDNEYroYTms1mBA9l5JJVenU4wWLRNrDJo_TyNzLDrvyxR2qIas0iejZDXUfWGrcRQYIFeSelpDIRzOw9dMCgmYC48sgS_VbHWdu5hHhELycSqwIm6mwQIJgUMf2i-y9SIDylODXuZ6w7ZPUkovgE1wg_YQlosVTmeLgcOlW2kDpv7Tjnvjynd7ke5m2SQKRsEwytGuusICXgJq94zB6hi48J6SKseo3XUg
+[HTTParty] [2019-02-12 15:05:29 +0000] > Content-Type: application/json
+[HTTParty] [2019-02-12 15:05:29 +0000] > Query: 
+[HTTParty] [2019-02-12 15:05:29 +0000] > skip: 0
+[HTTParty] [2019-02-12 15:05:29 +0000] > take: 10
+[HTTParty] [2019-02-12 15:05:29 +0000] > 
+[HTTParty] [2019-02-12 15:05:29 +0000] < HTTP/1.1 200
+[HTTParty] [2019-02-12 15:05:29 +0000] < Cache-control: no-cache
+[HTTParty] [2019-02-12 15:05:29 +0000] < Pragma: no-cache
+[HTTParty] [2019-02-12 15:05:29 +0000] < Content-length: 4452
+[HTTParty] [2019-02-12 15:05:29 +0000] < Content-type: application/json; charset=utf-8
+[HTTParty] [2019-02-12 15:05:29 +0000] < Expires: -1
+[HTTParty] [2019-02-12 15:05:29 +0000] < Server: Microsoft-IIS/10.0
+[HTTParty] [2019-02-12 15:05:29 +0000] < X-aspnet-version: 4.0.30319
+[HTTParty] [2019-02-12 15:05:29 +0000] < Request-context: appId=cid-v1:d5256cef-83ae-4057-8380-1ed09cd521cb
+[HTTParty] [2019-02-12 15:05:29 +0000] < Access-control-expose-headers: Request-Context
+[HTTParty] [2019-02-12 15:05:29 +0000] < X-powered-by: ASP.NET
+[HTTParty] [2019-02-12 15:05:29 +0000] < Date: Tue, 12 Feb 2019 15:05:28 GMT
+[HTTParty] [2019-02-12 15:05:29 +0000] < 
+{
+  "list": [
+    {
+      "organizationGroupId": 1,
+      "organizationGroupUrl": "/api/OrganizationGroup/1",
+      "organizationId": 655,
+      "organizationName": "Acts 29 - API Testing Final",
+      "organizationGroupName": "US Southeast",
+      "organizationGroupLocation": null,
+      "organizationGroupDescription": null,
+      "contactId": 860,
+      "contactName": "Aaron and Ashlee Proffitt",
+      "contactUrl": "/api/Contact/860"
+    },
+    {
+      "organizationGroupId": 1,
+      "organizationGroupUrl": "/api/OrganizationGroup/1",
+      "organizationId": 655,
+      "organizationName": "Acts 29 - API Testing Final",
+      "organizationGroupName": "US Southeast",
+      "organizationGroupLocation": null,
+      "organizationGroupDescription": null,
+      "contactId": 1056,
+      "contactName": "Aaron and Caroline Nebrija",
+      "contactUrl": "/api/Contact/1056"
+    },
+    {
+      "organizationGroupId": 1,
+      "organizationGroupUrl": "/api/OrganizationGroup/1",
+      "organizationId": 655,
+      "organizationName": "Acts 29 - API Testing Final",
+      "organizationGroupName": "US Southeast",
+      "organizationGroupLocation": null,
+      "organizationGroupDescription": null,
+      "contactId": 592,
+      "contactName": "Aaron and Danielle Currin",
+      "contactUrl": "/api/Contact/592"
+    },
+    {
+      "organizationGroupId": 1,
+      "organizationGroupUrl": "/api/OrganizationGroup/1",
+      "organizationId": 655,
+      "organizationName": "Acts 29 - API Testing Final",
+      "organizationGroupName": "US Southeast",
+      "organizationGroupLocation": null,
+      "organizationGroupDescription": null,
+      "contactId": 3279,
+      "contactName": "Abby Alam",
+      "contactUrl": "/api/Contact/3279"
+    },
+    {
+      "organizationGroupId": 1,
+      "organizationGroupUrl": "/api/OrganizationGroup/1",
+      "organizationId": 655,
+      "organizationName": "Acts 29 - API Testing Final",
+      "organizationGroupName": "US Southeast",
+      "organizationGroupLocation": null,
+      "organizationGroupDescription": null,
+      "contactId": 777,
+      "contactName": "Adam and Kristen Flynt",
+      "contactUrl": "/api/Contact/777"
+    },
+    {
+      "organizationGroupId": 1,
+      "organizationGroupUrl": "/api/OrganizationGroup/1",
+      "organizationId": 655,
+      "organizationName": "Acts 29 - API Testing Final",
+      "organizationGroupName": "US Southeast",
+      "organizationGroupLocation": null,
+      "organizationGroupDescription": null,
+      "contactId": 4041,
+      "contactName": "Adam Weis",
+      "contactUrl": "/api/Contact/4041"
+    },
+    {
+      "organizationGroupId": 1,
+      "organizationGroupUrl": "/api/OrganizationGroup/1",
+      "organizationId": 655,
+      "organizationName": "Acts 29 - API Testing Final",
+      "organizationGroupName": "US Southeast",
+      "organizationGroupLocation": null,
+      "organizationGroupDescription": null,
+      "contactId": 1661,
+      "contactName": "Agape Baptist Church 123",
+      "contactUrl": "/api/Contact/1661"
+    },
+    {
+      "organizationGroupId": 1,
+      "organizationGroupUrl": "/api/OrganizationGroup/1",
+      "organizationId": 655,
+      "organizationName": "Acts 29 - API Testing Final",
+      "organizationGroupName": "US Southeast",
+      "organizationGroupLocation": null,
+      "organizationGroupDescription": null,
+      "contactId": 941,
+      "contactName": "Alan and Missy Trippe",
+      "contactUrl": "/api/Contact/941"
+    },
+    {
+      "organizationGroupId": 1,
+      "organizationGroupUrl": "/api/OrganizationGroup/1",
+      "organizationId": 655,
+      "organizationName": "Acts 29 - API Testing Final",
+      "organizationGroupName": "US Southeast",
+      "organizationGroupLocation": null,
+      "organizationGroupDescription": null,
+      "contactId": 750,
+      "contactName": "Aldo and Rebecca Leon",
+      "contactUrl": "/api/Contact/750"
+    },
+    {
+      "organizationGroupId": 1,
+      "organizationGroupUrl": "/api/OrganizationGroup/1",
+      "organizationId": 655,
+      "organizationName": "Acts 29 - API Testing Final",
+      "organizationGroupName": "US Southeast",
+      "organizationGroupLocation": null,
+      "organizationGroupDescription": null,
+      "contactId": 2333,
+      "contactName": "AletheChurch",
+      "contactUrl": "/api/Contact/2333"
+    }
+  ],
+  "total": 699
+}
+[HTTParty] [2019-02-12 15:05:29 +0000] < 
+I, [2019-02-12T15:25:38.399626 #73898]  INFO -- : [HTTParty] [2019-02-12 15:25:38 +0000] > GET https://api.virtuoussoftware.com/api/OrganizationGroup
+[HTTParty] [2019-02-12 15:25:38 +0000] > Headers: 
+[HTTParty] [2019-02-12 15:25:38 +0000] > Accept-Version: v1
+[HTTParty] [2019-02-12 15:25:38 +0000] > Authorization: Bearer xZWwyjMsUbsGaLXqsVzNBrJhkJgkuWvshN2ZvPgn7RLvm2gj1V2gSoHDYtQEHSoJ3IwbX0mZw8VRNP4qIecC0MIRtf1h-Lq_-Sa6m4jfUWDS3TPDCygd9uX_ZFxdiqqpYuhhoO-gsjz4d9eqQ6H7qF0nZi6ndHcfn9UJH3EWRJNE-z1SSXNapZScTBoBp7oJVE3vxjyMMfVWkbuqscvz8BSgxLclhYi0u660ZelwZSZOAylgqQ5onxK9-vuHm75lrhMASvaevyjkFeyzerPSEmbd-kntCbv3BVVjMaQCTADCezGuqHrSgh-OkhwtEU-WHpF-ra3ayap6NZnVkLBetgkft91U_93K055kDNEYroYTms1mBA9l5JJVenU4wWLRNrDJo_TyNzLDrvyxR2qIas0iejZDXUfWGrcRQYIFeSelpDIRzOw9dMCgmYC48sgS_VbHWdu5hHhELycSqwIm6mwQIJgUMf2i-y9SIDylODXuZ6w7ZPUkovgE1wg_YQlosVTmeLgcOlW2kDpv7Tjnvjynd7ke5m2SQKRsEwytGuusICXgJq94zB6hi48J6SKseo3XUg
+[HTTParty] [2019-02-12 15:25:38 +0000] > Content-Type: application/json
+[HTTParty] [2019-02-12 15:25:38 +0000] > Query: 
+[HTTParty] [2019-02-12 15:25:38 +0000] > 
+[HTTParty] [2019-02-12 15:25:38 +0000] < HTTP/1.0 200
+[HTTParty] [2019-02-12 15:25:38 +0000] < Cache-control: no-cache
+[HTTParty] [2019-02-12 15:25:38 +0000] < Pragma: no-cache
+[HTTParty] [2019-02-12 15:25:38 +0000] < Content-length: 373
+[HTTParty] [2019-02-12 15:25:38 +0000] < Content-type: application/json; charset=utf-8
+[HTTParty] [2019-02-12 15:25:38 +0000] < Expires: -1
+[HTTParty] [2019-02-12 15:25:38 +0000] < Server: Microsoft-IIS/10.0
+[HTTParty] [2019-02-12 15:25:38 +0000] < X-aspnet-version: 4.0.30319
+[HTTParty] [2019-02-12 15:25:38 +0000] < Request-context: appId=cid-v1:d5256cef-83ae-4057-8380-1ed09cd521cb
+[HTTParty] [2019-02-12 15:25:38 +0000] < Access-control-expose-headers: Request-Context
+[HTTParty] [2019-02-12 15:25:38 +0000] < X-powered-by: ASP.NET
+[HTTParty] [2019-02-12 15:25:38 +0000] < Date: Tue, 12 Feb 2019 09:50:43 GMT
+[HTTParty] [2019-02-12 15:25:38 +0000] < 
+{
+  "list": [
+    {
+      "id": 1,
+      "organizationGroupUrl": "/api/OrganizationGroup/1",
+      "organizationId": 655,
+      "organizationName": "Acts 29 - API Testing Final",
+      "name": "US Southeast",
+      "location": null,
+      "description": null,
+      "organizationGroupContactsUrl": "/api/OrganizationGroup/1/contacts"
+    }
+  ],
+  "total": 1
+}
+[HTTParty] [2019-02-12 15:25:38 +0000] < 
+I, [2019-02-12T15:25:40.169434 #73898]  INFO -- : [HTTParty] [2019-02-12 15:25:40 +0000] > GET https://api.virtuoussoftware.com/api/OrganizationGroup/1
+[HTTParty] [2019-02-12 15:25:40 +0000] > Headers: 
+[HTTParty] [2019-02-12 15:25:40 +0000] > Accept-Version: v1
+[HTTParty] [2019-02-12 15:25:40 +0000] > Authorization: Bearer xZWwyjMsUbsGaLXqsVzNBrJhkJgkuWvshN2ZvPgn7RLvm2gj1V2gSoHDYtQEHSoJ3IwbX0mZw8VRNP4qIecC0MIRtf1h-Lq_-Sa6m4jfUWDS3TPDCygd9uX_ZFxdiqqpYuhhoO-gsjz4d9eqQ6H7qF0nZi6ndHcfn9UJH3EWRJNE-z1SSXNapZScTBoBp7oJVE3vxjyMMfVWkbuqscvz8BSgxLclhYi0u660ZelwZSZOAylgqQ5onxK9-vuHm75lrhMASvaevyjkFeyzerPSEmbd-kntCbv3BVVjMaQCTADCezGuqHrSgh-OkhwtEU-WHpF-ra3ayap6NZnVkLBetgkft91U_93K055kDNEYroYTms1mBA9l5JJVenU4wWLRNrDJo_TyNzLDrvyxR2qIas0iejZDXUfWGrcRQYIFeSelpDIRzOw9dMCgmYC48sgS_VbHWdu5hHhELycSqwIm6mwQIJgUMf2i-y9SIDylODXuZ6w7ZPUkovgE1wg_YQlosVTmeLgcOlW2kDpv7Tjnvjynd7ke5m2SQKRsEwytGuusICXgJq94zB6hi48J6SKseo3XUg
+[HTTParty] [2019-02-12 15:25:40 +0000] > Content-Type: application/json
+[HTTParty] [2019-02-12 15:25:40 +0000] > Query: 
+[HTTParty] [2019-02-12 15:25:40 +0000] > 
+[HTTParty] [2019-02-12 15:25:40 +0000] < HTTP/1.1 200
+[HTTParty] [2019-02-12 15:25:40 +0000] < Cache-control: no-cache
+[HTTParty] [2019-02-12 15:25:40 +0000] < Pragma: no-cache
+[HTTParty] [2019-02-12 15:25:40 +0000] < Content-length: 294
+[HTTParty] [2019-02-12 15:25:40 +0000] < Content-type: application/json; charset=utf-8
+[HTTParty] [2019-02-12 15:25:40 +0000] < Expires: -1
+[HTTParty] [2019-02-12 15:25:40 +0000] < Server: Microsoft-IIS/10.0
+[HTTParty] [2019-02-12 15:25:40 +0000] < X-aspnet-version: 4.0.30319
+[HTTParty] [2019-02-12 15:25:40 +0000] < Request-context: appId=cid-v1:d5256cef-83ae-4057-8380-1ed09cd521cb
+[HTTParty] [2019-02-12 15:25:40 +0000] < Access-control-expose-headers: Request-Context
+[HTTParty] [2019-02-12 15:25:40 +0000] < X-powered-by: ASP.NET
+[HTTParty] [2019-02-12 15:25:40 +0000] < Date: Tue, 12 Feb 2019 15:25:39 GMT
+[HTTParty] [2019-02-12 15:25:40 +0000] < 
+{
+  "id": 1,
+  "organizationGroupUrl": "/api/OrganizationGroup/1",
+  "organizationId": 655,
+  "organizationName": "Acts 29 - API Testing Final",
+  "name": "US Southeast",
+  "location": null,
+  "description": null,
+  "organizationGroupContactsUrl": "/api/OrganizationGroup/1/contacts"
+}
+[HTTParty] [2019-02-12 15:25:40 +0000] < 
+I, [2019-02-12T15:25:42.010485 #73898]  INFO -- : [HTTParty] [2019-02-12 15:25:42 +0000] > GET https://api.virtuoussoftware.com/api/OrganizationGroup/ByContact/1661
+[HTTParty] [2019-02-12 15:25:42 +0000] > Headers: 
+[HTTParty] [2019-02-12 15:25:42 +0000] > Accept-Version: v1
+[HTTParty] [2019-02-12 15:25:42 +0000] > Authorization: Bearer xZWwyjMsUbsGaLXqsVzNBrJhkJgkuWvshN2ZvPgn7RLvm2gj1V2gSoHDYtQEHSoJ3IwbX0mZw8VRNP4qIecC0MIRtf1h-Lq_-Sa6m4jfUWDS3TPDCygd9uX_ZFxdiqqpYuhhoO-gsjz4d9eqQ6H7qF0nZi6ndHcfn9UJH3EWRJNE-z1SSXNapZScTBoBp7oJVE3vxjyMMfVWkbuqscvz8BSgxLclhYi0u660ZelwZSZOAylgqQ5onxK9-vuHm75lrhMASvaevyjkFeyzerPSEmbd-kntCbv3BVVjMaQCTADCezGuqHrSgh-OkhwtEU-WHpF-ra3ayap6NZnVkLBetgkft91U_93K055kDNEYroYTms1mBA9l5JJVenU4wWLRNrDJo_TyNzLDrvyxR2qIas0iejZDXUfWGrcRQYIFeSelpDIRzOw9dMCgmYC48sgS_VbHWdu5hHhELycSqwIm6mwQIJgUMf2i-y9SIDylODXuZ6w7ZPUkovgE1wg_YQlosVTmeLgcOlW2kDpv7Tjnvjynd7ke5m2SQKRsEwytGuusICXgJq94zB6hi48J6SKseo3XUg
+[HTTParty] [2019-02-12 15:25:42 +0000] > Content-Type: application/json
+[HTTParty] [2019-02-12 15:25:42 +0000] > Query: 
+[HTTParty] [2019-02-12 15:25:42 +0000] > 
+[HTTParty] [2019-02-12 15:25:42 +0000] < HTTP/1.1 200
+[HTTParty] [2019-02-12 15:25:42 +0000] < Cache-control: no-cache
+[HTTParty] [2019-02-12 15:25:42 +0000] < Pragma: no-cache
+[HTTParty] [2019-02-12 15:25:42 +0000] < Content-length: 320
+[HTTParty] [2019-02-12 15:25:42 +0000] < Content-type: application/json; charset=utf-8
+[HTTParty] [2019-02-12 15:25:42 +0000] < Expires: -1
+[HTTParty] [2019-02-12 15:25:42 +0000] < Server: Microsoft-IIS/10.0
+[HTTParty] [2019-02-12 15:25:42 +0000] < X-aspnet-version: 4.0.30319
+[HTTParty] [2019-02-12 15:25:42 +0000] < Request-context: appId=cid-v1:d5256cef-83ae-4057-8380-1ed09cd521cb
+[HTTParty] [2019-02-12 15:25:42 +0000] < Access-control-expose-headers: Request-Context
+[HTTParty] [2019-02-12 15:25:42 +0000] < X-powered-by: ASP.NET
+[HTTParty] [2019-02-12 15:25:42 +0000] < Date: Tue, 12 Feb 2019 15:25:41 GMT
+[HTTParty] [2019-02-12 15:25:42 +0000] < 
+[
+  {
+    "id": 1,
+    "organizationGroupUrl": "/api/OrganizationGroup/1",
+    "organizationId": 655,
+    "organizationName": "Acts 29 - API Testing Final",
+    "name": "US Southeast",
+    "location": null,
+    "description": null,
+    "organizationGroupContactsUrl": "/api/OrganizationGroup/1/contacts"
+  }
+]
+[HTTParty] [2019-02-12 15:25:42 +0000] < 
+I, [2019-02-12T15:25:43.872975 #73898]  INFO -- : [HTTParty] [2019-02-12 15:25:43 +0000] > GET https://api.virtuoussoftware.com/api/OrganizationGroup/1/contacts
+[HTTParty] [2019-02-12 15:25:43 +0000] > Headers: 
+[HTTParty] [2019-02-12 15:25:43 +0000] > Accept-Version: v1
+[HTTParty] [2019-02-12 15:25:43 +0000] > Authorization: Bearer xZWwyjMsUbsGaLXqsVzNBrJhkJgkuWvshN2ZvPgn7RLvm2gj1V2gSoHDYtQEHSoJ3IwbX0mZw8VRNP4qIecC0MIRtf1h-Lq_-Sa6m4jfUWDS3TPDCygd9uX_ZFxdiqqpYuhhoO-gsjz4d9eqQ6H7qF0nZi6ndHcfn9UJH3EWRJNE-z1SSXNapZScTBoBp7oJVE3vxjyMMfVWkbuqscvz8BSgxLclhYi0u660ZelwZSZOAylgqQ5onxK9-vuHm75lrhMASvaevyjkFeyzerPSEmbd-kntCbv3BVVjMaQCTADCezGuqHrSgh-OkhwtEU-WHpF-ra3ayap6NZnVkLBetgkft91U_93K055kDNEYroYTms1mBA9l5JJVenU4wWLRNrDJo_TyNzLDrvyxR2qIas0iejZDXUfWGrcRQYIFeSelpDIRzOw9dMCgmYC48sgS_VbHWdu5hHhELycSqwIm6mwQIJgUMf2i-y9SIDylODXuZ6w7ZPUkovgE1wg_YQlosVTmeLgcOlW2kDpv7Tjnvjynd7ke5m2SQKRsEwytGuusICXgJq94zB6hi48J6SKseo3XUg
+[HTTParty] [2019-02-12 15:25:43 +0000] > Content-Type: application/json
+[HTTParty] [2019-02-12 15:25:43 +0000] > Query: 
+[HTTParty] [2019-02-12 15:25:43 +0000] > skip: 0
+[HTTParty] [2019-02-12 15:25:43 +0000] > take: 10
+[HTTParty] [2019-02-12 15:25:43 +0000] > 
+[HTTParty] [2019-02-12 15:25:43 +0000] < HTTP/1.1 200
+[HTTParty] [2019-02-12 15:25:43 +0000] < Cache-control: no-cache
+[HTTParty] [2019-02-12 15:25:43 +0000] < Pragma: no-cache
+[HTTParty] [2019-02-12 15:25:43 +0000] < Content-length: 4452
+[HTTParty] [2019-02-12 15:25:43 +0000] < Content-type: application/json; charset=utf-8
+[HTTParty] [2019-02-12 15:25:43 +0000] < Expires: -1
+[HTTParty] [2019-02-12 15:25:43 +0000] < Server: Microsoft-IIS/10.0
+[HTTParty] [2019-02-12 15:25:43 +0000] < X-aspnet-version: 4.0.30319
+[HTTParty] [2019-02-12 15:25:43 +0000] < Request-context: appId=cid-v1:d5256cef-83ae-4057-8380-1ed09cd521cb
+[HTTParty] [2019-02-12 15:25:43 +0000] < Access-control-expose-headers: Request-Context
+[HTTParty] [2019-02-12 15:25:43 +0000] < X-powered-by: ASP.NET
+[HTTParty] [2019-02-12 15:25:43 +0000] < Date: Tue, 12 Feb 2019 15:25:43 GMT
+[HTTParty] [2019-02-12 15:25:43 +0000] < 
+{
+  "list": [
+    {
+      "organizationGroupId": 1,
+      "organizationGroupUrl": "/api/OrganizationGroup/1",
+      "organizationId": 655,
+      "organizationName": "Acts 29 - API Testing Final",
+      "organizationGroupName": "US Southeast",
+      "organizationGroupLocation": null,
+      "organizationGroupDescription": null,
+      "contactId": 860,
+      "contactName": "Aaron and Ashlee Proffitt",
+      "contactUrl": "/api/Contact/860"
+    },
+    {
+      "organizationGroupId": 1,
+      "organizationGroupUrl": "/api/OrganizationGroup/1",
+      "organizationId": 655,
+      "organizationName": "Acts 29 - API Testing Final",
+      "organizationGroupName": "US Southeast",
+      "organizationGroupLocation": null,
+      "organizationGroupDescription": null,
+      "contactId": 1056,
+      "contactName": "Aaron and Caroline Nebrija",
+      "contactUrl": "/api/Contact/1056"
+    },
+    {
+      "organizationGroupId": 1,
+      "organizationGroupUrl": "/api/OrganizationGroup/1",
+      "organizationId": 655,
+      "organizationName": "Acts 29 - API Testing Final",
+      "organizationGroupName": "US Southeast",
+      "organizationGroupLocation": null,
+      "organizationGroupDescription": null,
+      "contactId": 592,
+      "contactName": "Aaron and Danielle Currin",
+      "contactUrl": "/api/Contact/592"
+    },
+    {
+      "organizationGroupId": 1,
+      "organizationGroupUrl": "/api/OrganizationGroup/1",
+      "organizationId": 655,
+      "organizationName": "Acts 29 - API Testing Final",
+      "organizationGroupName": "US Southeast",
+      "organizationGroupLocation": null,
+      "organizationGroupDescription": null,
+      "contactId": 3279,
+      "contactName": "Abby Alam",
+      "contactUrl": "/api/Contact/3279"
+    },
+    {
+      "organizationGroupId": 1,
+      "organizationGroupUrl": "/api/OrganizationGroup/1",
+      "organizationId": 655,
+      "organizationName": "Acts 29 - API Testing Final",
+      "organizationGroupName": "US Southeast",
+      "organizationGroupLocation": null,
+      "organizationGroupDescription": null,
+      "contactId": 777,
+      "contactName": "Adam and Kristen Flynt",
+      "contactUrl": "/api/Contact/777"
+    },
+    {
+      "organizationGroupId": 1,
+      "organizationGroupUrl": "/api/OrganizationGroup/1",
+      "organizationId": 655,
+      "organizationName": "Acts 29 - API Testing Final",
+      "organizationGroupName": "US Southeast",
+      "organizationGroupLocation": null,
+      "organizationGroupDescription": null,
+      "contactId": 4041,
+      "contactName": "Adam Weis",
+      "contactUrl": "/api/Contact/4041"
+    },
+    {
+      "organizationGroupId": 1,
+      "organizationGroupUrl": "/api/OrganizationGroup/1",
+      "organizationId": 655,
+      "organizationName": "Acts 29 - API Testing Final",
+      "organizationGroupName": "US Southeast",
+      "organizationGroupLocation": null,
+      "organizationGroupDescription": null,
+      "contactId": 1661,
+      "contactName": "Agape Baptist Church 123",
+      "contactUrl": "/api/Contact/1661"
+    },
+    {
+      "organizationGroupId": 1,
+      "organizationGroupUrl": "/api/OrganizationGroup/1",
+      "organizationId": 655,
+      "organizationName": "Acts 29 - API Testing Final",
+      "organizationGroupName": "US Southeast",
+      "organizationGroupLocation": null,
+      "organizationGroupDescription": null,
+      "contactId": 941,
+      "contactName": "Alan and Missy Trippe",
+      "contactUrl": "/api/Contact/941"
+    },
+    {
+      "organizationGroupId": 1,
+      "organizationGroupUrl": "/api/OrganizationGroup/1",
+      "organizationId": 655,
+      "organizationName": "Acts 29 - API Testing Final",
+      "organizationGroupName": "US Southeast",
+      "organizationGroupLocation": null,
+      "organizationGroupDescription": null,
+      "contactId": 750,
+      "contactName": "Aldo and Rebecca Leon",
+      "contactUrl": "/api/Contact/750"
+    },
+    {
+      "organizationGroupId": 1,
+      "organizationGroupUrl": "/api/OrganizationGroup/1",
+      "organizationId": 655,
+      "organizationName": "Acts 29 - API Testing Final",
+      "organizationGroupName": "US Southeast",
+      "organizationGroupLocation": null,
+      "organizationGroupDescription": null,
+      "contactId": 2333,
+      "contactName": "AletheChurch",
+      "contactUrl": "/api/Contact/2333"
+    }
+  ],
+  "total": 699
+}
+[HTTParty] [2019-02-12 15:25:43 +0000] < 
+I, [2019-02-12T15:31:14.115963 #74035]  INFO -- : [HTTParty] [2019-02-12 15:31:14 +0000] > GET https://api.virtuoussoftware.com/api/OrganizationGroup
+[HTTParty] [2019-02-12 15:31:14 +0000] > Headers: 
+[HTTParty] [2019-02-12 15:31:14 +0000] > Accept-Version: v1
+[HTTParty] [2019-02-12 15:31:14 +0000] > Authorization: Bearer xZWwyjMsUbsGaLXqsVzNBrJhkJgkuWvshN2ZvPgn7RLvm2gj1V2gSoHDYtQEHSoJ3IwbX0mZw8VRNP4qIecC0MIRtf1h-Lq_-Sa6m4jfUWDS3TPDCygd9uX_ZFxdiqqpYuhhoO-gsjz4d9eqQ6H7qF0nZi6ndHcfn9UJH3EWRJNE-z1SSXNapZScTBoBp7oJVE3vxjyMMfVWkbuqscvz8BSgxLclhYi0u660ZelwZSZOAylgqQ5onxK9-vuHm75lrhMASvaevyjkFeyzerPSEmbd-kntCbv3BVVjMaQCTADCezGuqHrSgh-OkhwtEU-WHpF-ra3ayap6NZnVkLBetgkft91U_93K055kDNEYroYTms1mBA9l5JJVenU4wWLRNrDJo_TyNzLDrvyxR2qIas0iejZDXUfWGrcRQYIFeSelpDIRzOw9dMCgmYC48sgS_VbHWdu5hHhELycSqwIm6mwQIJgUMf2i-y9SIDylODXuZ6w7ZPUkovgE1wg_YQlosVTmeLgcOlW2kDpv7Tjnvjynd7ke5m2SQKRsEwytGuusICXgJq94zB6hi48J6SKseo3XUg
+[HTTParty] [2019-02-12 15:31:14 +0000] > Content-Type: application/json
+[HTTParty] [2019-02-12 15:31:14 +0000] > Query: 
+[HTTParty] [2019-02-12 15:31:14 +0000] > 
+[HTTParty] [2019-02-12 15:31:14 +0000] < HTTP/1.0 200
+[HTTParty] [2019-02-12 15:31:14 +0000] < Cache-control: no-cache
+[HTTParty] [2019-02-12 15:31:14 +0000] < Pragma: no-cache
+[HTTParty] [2019-02-12 15:31:14 +0000] < Content-length: 373
+[HTTParty] [2019-02-12 15:31:14 +0000] < Content-type: application/json; charset=utf-8
+[HTTParty] [2019-02-12 15:31:14 +0000] < Expires: -1
+[HTTParty] [2019-02-12 15:31:14 +0000] < Server: Microsoft-IIS/10.0
+[HTTParty] [2019-02-12 15:31:14 +0000] < X-aspnet-version: 4.0.30319
+[HTTParty] [2019-02-12 15:31:14 +0000] < Request-context: appId=cid-v1:d5256cef-83ae-4057-8380-1ed09cd521cb
+[HTTParty] [2019-02-12 15:31:14 +0000] < Access-control-expose-headers: Request-Context
+[HTTParty] [2019-02-12 15:31:14 +0000] < X-powered-by: ASP.NET
+[HTTParty] [2019-02-12 15:31:14 +0000] < Date: Tue, 12 Feb 2019 09:50:43 GMT
+[HTTParty] [2019-02-12 15:31:14 +0000] < 
+{
+  "list": [
+    {
+      "id": 1,
+      "organizationGroupUrl": "/api/OrganizationGroup/1",
+      "organizationId": 655,
+      "organizationName": "Acts 29 - API Testing Final",
+      "name": "US Southeast",
+      "location": null,
+      "description": null,
+      "organizationGroupContactsUrl": "/api/OrganizationGroup/1/contacts"
+    }
+  ],
+  "total": 1
+}
+[HTTParty] [2019-02-12 15:31:14 +0000] < 
+I, [2019-02-12T15:31:16.402523 #74035]  INFO -- : [HTTParty] [2019-02-12 15:31:16 +0000] > GET https://api.virtuoussoftware.com/api/OrganizationGroup/1
+[HTTParty] [2019-02-12 15:31:16 +0000] > Headers: 
+[HTTParty] [2019-02-12 15:31:16 +0000] > Accept-Version: v1
+[HTTParty] [2019-02-12 15:31:16 +0000] > Authorization: Bearer xZWwyjMsUbsGaLXqsVzNBrJhkJgkuWvshN2ZvPgn7RLvm2gj1V2gSoHDYtQEHSoJ3IwbX0mZw8VRNP4qIecC0MIRtf1h-Lq_-Sa6m4jfUWDS3TPDCygd9uX_ZFxdiqqpYuhhoO-gsjz4d9eqQ6H7qF0nZi6ndHcfn9UJH3EWRJNE-z1SSXNapZScTBoBp7oJVE3vxjyMMfVWkbuqscvz8BSgxLclhYi0u660ZelwZSZOAylgqQ5onxK9-vuHm75lrhMASvaevyjkFeyzerPSEmbd-kntCbv3BVVjMaQCTADCezGuqHrSgh-OkhwtEU-WHpF-ra3ayap6NZnVkLBetgkft91U_93K055kDNEYroYTms1mBA9l5JJVenU4wWLRNrDJo_TyNzLDrvyxR2qIas0iejZDXUfWGrcRQYIFeSelpDIRzOw9dMCgmYC48sgS_VbHWdu5hHhELycSqwIm6mwQIJgUMf2i-y9SIDylODXuZ6w7ZPUkovgE1wg_YQlosVTmeLgcOlW2kDpv7Tjnvjynd7ke5m2SQKRsEwytGuusICXgJq94zB6hi48J6SKseo3XUg
+[HTTParty] [2019-02-12 15:31:16 +0000] > Content-Type: application/json
+[HTTParty] [2019-02-12 15:31:16 +0000] > Query: 
+[HTTParty] [2019-02-12 15:31:16 +0000] > 
+[HTTParty] [2019-02-12 15:31:16 +0000] < HTTP/1.1 200
+[HTTParty] [2019-02-12 15:31:16 +0000] < Cache-control: no-cache
+[HTTParty] [2019-02-12 15:31:16 +0000] < Pragma: no-cache
+[HTTParty] [2019-02-12 15:31:16 +0000] < Content-length: 294
+[HTTParty] [2019-02-12 15:31:16 +0000] < Content-type: application/json; charset=utf-8
+[HTTParty] [2019-02-12 15:31:16 +0000] < Expires: -1
+[HTTParty] [2019-02-12 15:31:16 +0000] < Server: Microsoft-IIS/10.0
+[HTTParty] [2019-02-12 15:31:16 +0000] < X-aspnet-version: 4.0.30319
+[HTTParty] [2019-02-12 15:31:16 +0000] < Request-context: appId=cid-v1:d5256cef-83ae-4057-8380-1ed09cd521cb
+[HTTParty] [2019-02-12 15:31:16 +0000] < Access-control-expose-headers: Request-Context
+[HTTParty] [2019-02-12 15:31:16 +0000] < X-powered-by: ASP.NET
+[HTTParty] [2019-02-12 15:31:16 +0000] < Date: Tue, 12 Feb 2019 15:31:15 GMT
+[HTTParty] [2019-02-12 15:31:16 +0000] < 
+{
+  "id": 1,
+  "organizationGroupUrl": "/api/OrganizationGroup/1",
+  "organizationId": 655,
+  "organizationName": "Acts 29 - API Testing Final",
+  "name": "US Southeast",
+  "location": null,
+  "description": null,
+  "organizationGroupContactsUrl": "/api/OrganizationGroup/1/contacts"
+}
+[HTTParty] [2019-02-12 15:31:16 +0000] < 
+I, [2019-02-12T15:31:18.162017 #74035]  INFO -- : [HTTParty] [2019-02-12 15:31:18 +0000] > GET https://api.virtuoussoftware.com/api/OrganizationGroup/ByContact/1661
+[HTTParty] [2019-02-12 15:31:18 +0000] > Headers: 
+[HTTParty] [2019-02-12 15:31:18 +0000] > Accept-Version: v1
+[HTTParty] [2019-02-12 15:31:18 +0000] > Authorization: Bearer xZWwyjMsUbsGaLXqsVzNBrJhkJgkuWvshN2ZvPgn7RLvm2gj1V2gSoHDYtQEHSoJ3IwbX0mZw8VRNP4qIecC0MIRtf1h-Lq_-Sa6m4jfUWDS3TPDCygd9uX_ZFxdiqqpYuhhoO-gsjz4d9eqQ6H7qF0nZi6ndHcfn9UJH3EWRJNE-z1SSXNapZScTBoBp7oJVE3vxjyMMfVWkbuqscvz8BSgxLclhYi0u660ZelwZSZOAylgqQ5onxK9-vuHm75lrhMASvaevyjkFeyzerPSEmbd-kntCbv3BVVjMaQCTADCezGuqHrSgh-OkhwtEU-WHpF-ra3ayap6NZnVkLBetgkft91U_93K055kDNEYroYTms1mBA9l5JJVenU4wWLRNrDJo_TyNzLDrvyxR2qIas0iejZDXUfWGrcRQYIFeSelpDIRzOw9dMCgmYC48sgS_VbHWdu5hHhELycSqwIm6mwQIJgUMf2i-y9SIDylODXuZ6w7ZPUkovgE1wg_YQlosVTmeLgcOlW2kDpv7Tjnvjynd7ke5m2SQKRsEwytGuusICXgJq94zB6hi48J6SKseo3XUg
+[HTTParty] [2019-02-12 15:31:18 +0000] > Content-Type: application/json
+[HTTParty] [2019-02-12 15:31:18 +0000] > Query: 
+[HTTParty] [2019-02-12 15:31:18 +0000] > 
+[HTTParty] [2019-02-12 15:31:18 +0000] < HTTP/1.1 200
+[HTTParty] [2019-02-12 15:31:18 +0000] < Cache-control: no-cache
+[HTTParty] [2019-02-12 15:31:18 +0000] < Pragma: no-cache
+[HTTParty] [2019-02-12 15:31:18 +0000] < Content-length: 320
+[HTTParty] [2019-02-12 15:31:18 +0000] < Content-type: application/json; charset=utf-8
+[HTTParty] [2019-02-12 15:31:18 +0000] < Expires: -1
+[HTTParty] [2019-02-12 15:31:18 +0000] < Server: Microsoft-IIS/10.0
+[HTTParty] [2019-02-12 15:31:18 +0000] < X-aspnet-version: 4.0.30319
+[HTTParty] [2019-02-12 15:31:18 +0000] < Request-context: appId=cid-v1:d5256cef-83ae-4057-8380-1ed09cd521cb
+[HTTParty] [2019-02-12 15:31:18 +0000] < Access-control-expose-headers: Request-Context
+[HTTParty] [2019-02-12 15:31:18 +0000] < X-powered-by: ASP.NET
+[HTTParty] [2019-02-12 15:31:18 +0000] < Date: Tue, 12 Feb 2019 15:31:17 GMT
+[HTTParty] [2019-02-12 15:31:18 +0000] < 
+[
+  {
+    "id": 1,
+    "organizationGroupUrl": "/api/OrganizationGroup/1",
+    "organizationId": 655,
+    "organizationName": "Acts 29 - API Testing Final",
+    "name": "US Southeast",
+    "location": null,
+    "description": null,
+    "organizationGroupContactsUrl": "/api/OrganizationGroup/1/contacts"
+  }
+]
+[HTTParty] [2019-02-12 15:31:18 +0000] < 
+I, [2019-02-12T15:31:21.031607 #74035]  INFO -- : [HTTParty] [2019-02-12 15:31:21 +0000] > GET https://api.virtuoussoftware.com/api/OrganizationGroup/1/contacts
+[HTTParty] [2019-02-12 15:31:21 +0000] > Headers: 
+[HTTParty] [2019-02-12 15:31:21 +0000] > Accept-Version: v1
+[HTTParty] [2019-02-12 15:31:21 +0000] > Authorization: Bearer xZWwyjMsUbsGaLXqsVzNBrJhkJgkuWvshN2ZvPgn7RLvm2gj1V2gSoHDYtQEHSoJ3IwbX0mZw8VRNP4qIecC0MIRtf1h-Lq_-Sa6m4jfUWDS3TPDCygd9uX_ZFxdiqqpYuhhoO-gsjz4d9eqQ6H7qF0nZi6ndHcfn9UJH3EWRJNE-z1SSXNapZScTBoBp7oJVE3vxjyMMfVWkbuqscvz8BSgxLclhYi0u660ZelwZSZOAylgqQ5onxK9-vuHm75lrhMASvaevyjkFeyzerPSEmbd-kntCbv3BVVjMaQCTADCezGuqHrSgh-OkhwtEU-WHpF-ra3ayap6NZnVkLBetgkft91U_93K055kDNEYroYTms1mBA9l5JJVenU4wWLRNrDJo_TyNzLDrvyxR2qIas0iejZDXUfWGrcRQYIFeSelpDIRzOw9dMCgmYC48sgS_VbHWdu5hHhELycSqwIm6mwQIJgUMf2i-y9SIDylODXuZ6w7ZPUkovgE1wg_YQlosVTmeLgcOlW2kDpv7Tjnvjynd7ke5m2SQKRsEwytGuusICXgJq94zB6hi48J6SKseo3XUg
+[HTTParty] [2019-02-12 15:31:21 +0000] > Content-Type: application/json
+[HTTParty] [2019-02-12 15:31:21 +0000] > Query: 
+[HTTParty] [2019-02-12 15:31:21 +0000] > skip: 0
+[HTTParty] [2019-02-12 15:31:21 +0000] > take: 10
+[HTTParty] [2019-02-12 15:31:21 +0000] > 
+[HTTParty] [2019-02-12 15:31:21 +0000] < HTTP/1.1 200
+[HTTParty] [2019-02-12 15:31:21 +0000] < Cache-control: no-cache
+[HTTParty] [2019-02-12 15:31:21 +0000] < Pragma: no-cache
+[HTTParty] [2019-02-12 15:31:21 +0000] < Content-length: 4452
+[HTTParty] [2019-02-12 15:31:21 +0000] < Content-type: application/json; charset=utf-8
+[HTTParty] [2019-02-12 15:31:21 +0000] < Expires: -1
+[HTTParty] [2019-02-12 15:31:21 +0000] < Server: Microsoft-IIS/10.0
+[HTTParty] [2019-02-12 15:31:21 +0000] < X-aspnet-version: 4.0.30319
+[HTTParty] [2019-02-12 15:31:21 +0000] < Request-context: appId=cid-v1:d5256cef-83ae-4057-8380-1ed09cd521cb
+[HTTParty] [2019-02-12 15:31:21 +0000] < Access-control-expose-headers: Request-Context
+[HTTParty] [2019-02-12 15:31:21 +0000] < X-powered-by: ASP.NET
+[HTTParty] [2019-02-12 15:31:21 +0000] < Date: Tue, 12 Feb 2019 15:31:20 GMT
+[HTTParty] [2019-02-12 15:31:21 +0000] < 
+{
+  "list": [
+    {
+      "organizationGroupId": 1,
+      "organizationGroupUrl": "/api/OrganizationGroup/1",
+      "organizationId": 655,
+      "organizationName": "Acts 29 - API Testing Final",
+      "organizationGroupName": "US Southeast",
+      "organizationGroupLocation": null,
+      "organizationGroupDescription": null,
+      "contactId": 860,
+      "contactName": "Aaron and Ashlee Proffitt",
+      "contactUrl": "/api/Contact/860"
+    },
+    {
+      "organizationGroupId": 1,
+      "organizationGroupUrl": "/api/OrganizationGroup/1",
+      "organizationId": 655,
+      "organizationName": "Acts 29 - API Testing Final",
+      "organizationGroupName": "US Southeast",
+      "organizationGroupLocation": null,
+      "organizationGroupDescription": null,
+      "contactId": 1056,
+      "contactName": "Aaron and Caroline Nebrija",
+      "contactUrl": "/api/Contact/1056"
+    },
+    {
+      "organizationGroupId": 1,
+      "organizationGroupUrl": "/api/OrganizationGroup/1",
+      "organizationId": 655,
+      "organizationName": "Acts 29 - API Testing Final",
+      "organizationGroupName": "US Southeast",
+      "organizationGroupLocation": null,
+      "organizationGroupDescription": null,
+      "contactId": 592,
+      "contactName": "Aaron and Danielle Currin",
+      "contactUrl": "/api/Contact/592"
+    },
+    {
+      "organizationGroupId": 1,
+      "organizationGroupUrl": "/api/OrganizationGroup/1",
+      "organizationId": 655,
+      "organizationName": "Acts 29 - API Testing Final",
+      "organizationGroupName": "US Southeast",
+      "organizationGroupLocation": null,
+      "organizationGroupDescription": null,
+      "contactId": 3279,
+      "contactName": "Abby Alam",
+      "contactUrl": "/api/Contact/3279"
+    },
+    {
+      "organizationGroupId": 1,
+      "organizationGroupUrl": "/api/OrganizationGroup/1",
+      "organizationId": 655,
+      "organizationName": "Acts 29 - API Testing Final",
+      "organizationGroupName": "US Southeast",
+      "organizationGroupLocation": null,
+      "organizationGroupDescription": null,
+      "contactId": 777,
+      "contactName": "Adam and Kristen Flynt",
+      "contactUrl": "/api/Contact/777"
+    },
+    {
+      "organizationGroupId": 1,
+      "organizationGroupUrl": "/api/OrganizationGroup/1",
+      "organizationId": 655,
+      "organizationName": "Acts 29 - API Testing Final",
+      "organizationGroupName": "US Southeast",
+      "organizationGroupLocation": null,
+      "organizationGroupDescription": null,
+      "contactId": 4041,
+      "contactName": "Adam Weis",
+      "contactUrl": "/api/Contact/4041"
+    },
+    {
+      "organizationGroupId": 1,
+      "organizationGroupUrl": "/api/OrganizationGroup/1",
+      "organizationId": 655,
+      "organizationName": "Acts 29 - API Testing Final",
+      "organizationGroupName": "US Southeast",
+      "organizationGroupLocation": null,
+      "organizationGroupDescription": null,
+      "contactId": 1661,
+      "contactName": "Agape Baptist Church 123",
+      "contactUrl": "/api/Contact/1661"
+    },
+    {
+      "organizationGroupId": 1,
+      "organizationGroupUrl": "/api/OrganizationGroup/1",
+      "organizationId": 655,
+      "organizationName": "Acts 29 - API Testing Final",
+      "organizationGroupName": "US Southeast",
+      "organizationGroupLocation": null,
+      "organizationGroupDescription": null,
+      "contactId": 941,
+      "contactName": "Alan and Missy Trippe",
+      "contactUrl": "/api/Contact/941"
+    },
+    {
+      "organizationGroupId": 1,
+      "organizationGroupUrl": "/api/OrganizationGroup/1",
+      "organizationId": 655,
+      "organizationName": "Acts 29 - API Testing Final",
+      "organizationGroupName": "US Southeast",
+      "organizationGroupLocation": null,
+      "organizationGroupDescription": null,
+      "contactId": 750,
+      "contactName": "Aldo and Rebecca Leon",
+      "contactUrl": "/api/Contact/750"
+    },
+    {
+      "organizationGroupId": 1,
+      "organizationGroupUrl": "/api/OrganizationGroup/1",
+      "organizationId": 655,
+      "organizationName": "Acts 29 - API Testing Final",
+      "organizationGroupName": "US Southeast",
+      "organizationGroupLocation": null,
+      "organizationGroupDescription": null,
+      "contactId": 2333,
+      "contactName": "AletheChurch",
+      "contactUrl": "/api/Contact/2333"
+    }
+  ],
+  "total": 699
+}
+[HTTParty] [2019-02-12 15:31:21 +0000] < 
+I, [2019-02-12T15:31:23.234502 #74035]  INFO -- : [HTTParty] [2019-02-12 15:31:23 +0000] > PUT https://api.virtuoussoftware.com/api/OrganizationGroup/1/contacts/3
+[HTTParty] [2019-02-12 15:31:23 +0000] > Headers: 
+[HTTParty] [2019-02-12 15:31:23 +0000] > Accept-Version: v1
+[HTTParty] [2019-02-12 15:31:23 +0000] > Authorization: Bearer xZWwyjMsUbsGaLXqsVzNBrJhkJgkuWvshN2ZvPgn7RLvm2gj1V2gSoHDYtQEHSoJ3IwbX0mZw8VRNP4qIecC0MIRtf1h-Lq_-Sa6m4jfUWDS3TPDCygd9uX_ZFxdiqqpYuhhoO-gsjz4d9eqQ6H7qF0nZi6ndHcfn9UJH3EWRJNE-z1SSXNapZScTBoBp7oJVE3vxjyMMfVWkbuqscvz8BSgxLclhYi0u660ZelwZSZOAylgqQ5onxK9-vuHm75lrhMASvaevyjkFeyzerPSEmbd-kntCbv3BVVjMaQCTADCezGuqHrSgh-OkhwtEU-WHpF-ra3ayap6NZnVkLBetgkft91U_93K055kDNEYroYTms1mBA9l5JJVenU4wWLRNrDJo_TyNzLDrvyxR2qIas0iejZDXUfWGrcRQYIFeSelpDIRzOw9dMCgmYC48sgS_VbHWdu5hHhELycSqwIm6mwQIJgUMf2i-y9SIDylODXuZ6w7ZPUkovgE1wg_YQlosVTmeLgcOlW2kDpv7Tjnvjynd7ke5m2SQKRsEwytGuusICXgJq94zB6hi48J6SKseo3XUg
+[HTTParty] [2019-02-12 15:31:23 +0000] > Content-Type: application/json
+[HTTParty] [2019-02-12 15:31:23 +0000] > Query: 
+[HTTParty] [2019-02-12 15:31:23 +0000] > 
+[HTTParty] [2019-02-12 15:31:23 +0000] > 
+[HTTParty] [2019-02-12 15:31:23 +0000] < HTTP/1.1 200
+[HTTParty] [2019-02-12 15:31:23 +0000] < Cache-control: no-cache
+[HTTParty] [2019-02-12 15:31:23 +0000] < Pragma: no-cache
+[HTTParty] [2019-02-12 15:31:23 +0000] < Content-length: 387
+[HTTParty] [2019-02-12 15:31:23 +0000] < Content-type: application/json; charset=utf-8
+[HTTParty] [2019-02-12 15:31:23 +0000] < Expires: -1
+[HTTParty] [2019-02-12 15:31:23 +0000] < Server: Microsoft-IIS/10.0
+[HTTParty] [2019-02-12 15:31:23 +0000] < X-aspnet-version: 4.0.30319
+[HTTParty] [2019-02-12 15:31:23 +0000] < Request-context: appId=cid-v1:d5256cef-83ae-4057-8380-1ed09cd521cb
+[HTTParty] [2019-02-12 15:31:23 +0000] < Access-control-expose-headers: Request-Context
+[HTTParty] [2019-02-12 15:31:23 +0000] < X-powered-by: ASP.NET
+[HTTParty] [2019-02-12 15:31:23 +0000] < Date: Tue, 12 Feb 2019 15:31:23 GMT
+[HTTParty] [2019-02-12 15:31:23 +0000] < 
+{
+  "organizationGroupId": 1,
+  "organizationGroupUrl": "/api/OrganizationGroup/1",
+  "organizationId": 655,
+  "organizationName": "Acts 29 - API Testing Final",
+  "organizationGroupName": "US Southeast",
+  "organizationGroupLocation": null,
+  "organizationGroupDescription": null,
+  "contactId": 3,
+  "contactName": "Josh and Faith Morgan",
+  "contactUrl": "/api/Contact/3"
+}
+[HTTParty] [2019-02-12 15:31:23 +0000] < 
+I, [2019-02-12T15:34:14.313293 #74240]  INFO -- : [HTTParty] [2019-02-12 15:34:14 +0000] > GET https://api.virtuoussoftware.com/api/OrganizationGroup
+[HTTParty] [2019-02-12 15:34:14 +0000] > Headers: 
+[HTTParty] [2019-02-12 15:34:14 +0000] > Accept-Version: v1
+[HTTParty] [2019-02-12 15:34:14 +0000] > Authorization: Bearer xZWwyjMsUbsGaLXqsVzNBrJhkJgkuWvshN2ZvPgn7RLvm2gj1V2gSoHDYtQEHSoJ3IwbX0mZw8VRNP4qIecC0MIRtf1h-Lq_-Sa6m4jfUWDS3TPDCygd9uX_ZFxdiqqpYuhhoO-gsjz4d9eqQ6H7qF0nZi6ndHcfn9UJH3EWRJNE-z1SSXNapZScTBoBp7oJVE3vxjyMMfVWkbuqscvz8BSgxLclhYi0u660ZelwZSZOAylgqQ5onxK9-vuHm75lrhMASvaevyjkFeyzerPSEmbd-kntCbv3BVVjMaQCTADCezGuqHrSgh-OkhwtEU-WHpF-ra3ayap6NZnVkLBetgkft91U_93K055kDNEYroYTms1mBA9l5JJVenU4wWLRNrDJo_TyNzLDrvyxR2qIas0iejZDXUfWGrcRQYIFeSelpDIRzOw9dMCgmYC48sgS_VbHWdu5hHhELycSqwIm6mwQIJgUMf2i-y9SIDylODXuZ6w7ZPUkovgE1wg_YQlosVTmeLgcOlW2kDpv7Tjnvjynd7ke5m2SQKRsEwytGuusICXgJq94zB6hi48J6SKseo3XUg
+[HTTParty] [2019-02-12 15:34:14 +0000] > Content-Type: application/json
+[HTTParty] [2019-02-12 15:34:14 +0000] > Query: 
+[HTTParty] [2019-02-12 15:34:14 +0000] > 
+[HTTParty] [2019-02-12 15:34:14 +0000] < HTTP/1.0 200
+[HTTParty] [2019-02-12 15:34:14 +0000] < Cache-control: no-cache
+[HTTParty] [2019-02-12 15:34:14 +0000] < Pragma: no-cache
+[HTTParty] [2019-02-12 15:34:14 +0000] < Content-length: 373
+[HTTParty] [2019-02-12 15:34:14 +0000] < Content-type: application/json; charset=utf-8
+[HTTParty] [2019-02-12 15:34:14 +0000] < Expires: -1
+[HTTParty] [2019-02-12 15:34:14 +0000] < Server: Microsoft-IIS/10.0
+[HTTParty] [2019-02-12 15:34:14 +0000] < X-aspnet-version: 4.0.30319
+[HTTParty] [2019-02-12 15:34:14 +0000] < Request-context: appId=cid-v1:d5256cef-83ae-4057-8380-1ed09cd521cb
+[HTTParty] [2019-02-12 15:34:14 +0000] < Access-control-expose-headers: Request-Context
+[HTTParty] [2019-02-12 15:34:14 +0000] < X-powered-by: ASP.NET
+[HTTParty] [2019-02-12 15:34:14 +0000] < Date: Tue, 12 Feb 2019 09:50:43 GMT
+[HTTParty] [2019-02-12 15:34:14 +0000] < 
+{
+  "list": [
+    {
+      "id": 1,
+      "organizationGroupUrl": "/api/OrganizationGroup/1",
+      "organizationId": 655,
+      "organizationName": "Acts 29 - API Testing Final",
+      "name": "US Southeast",
+      "location": null,
+      "description": null,
+      "organizationGroupContactsUrl": "/api/OrganizationGroup/1/contacts"
+    }
+  ],
+  "total": 1
+}
+[HTTParty] [2019-02-12 15:34:14 +0000] < 
+I, [2019-02-12T15:34:15.937309 #74240]  INFO -- : [HTTParty] [2019-02-12 15:34:15 +0000] > GET https://api.virtuoussoftware.com/api/OrganizationGroup/1
+[HTTParty] [2019-02-12 15:34:15 +0000] > Headers: 
+[HTTParty] [2019-02-12 15:34:15 +0000] > Accept-Version: v1
+[HTTParty] [2019-02-12 15:34:15 +0000] > Authorization: Bearer xZWwyjMsUbsGaLXqsVzNBrJhkJgkuWvshN2ZvPgn7RLvm2gj1V2gSoHDYtQEHSoJ3IwbX0mZw8VRNP4qIecC0MIRtf1h-Lq_-Sa6m4jfUWDS3TPDCygd9uX_ZFxdiqqpYuhhoO-gsjz4d9eqQ6H7qF0nZi6ndHcfn9UJH3EWRJNE-z1SSXNapZScTBoBp7oJVE3vxjyMMfVWkbuqscvz8BSgxLclhYi0u660ZelwZSZOAylgqQ5onxK9-vuHm75lrhMASvaevyjkFeyzerPSEmbd-kntCbv3BVVjMaQCTADCezGuqHrSgh-OkhwtEU-WHpF-ra3ayap6NZnVkLBetgkft91U_93K055kDNEYroYTms1mBA9l5JJVenU4wWLRNrDJo_TyNzLDrvyxR2qIas0iejZDXUfWGrcRQYIFeSelpDIRzOw9dMCgmYC48sgS_VbHWdu5hHhELycSqwIm6mwQIJgUMf2i-y9SIDylODXuZ6w7ZPUkovgE1wg_YQlosVTmeLgcOlW2kDpv7Tjnvjynd7ke5m2SQKRsEwytGuusICXgJq94zB6hi48J6SKseo3XUg
+[HTTParty] [2019-02-12 15:34:15 +0000] > Content-Type: application/json
+[HTTParty] [2019-02-12 15:34:15 +0000] > Query: 
+[HTTParty] [2019-02-12 15:34:15 +0000] > 
+[HTTParty] [2019-02-12 15:34:15 +0000] < HTTP/1.1 200
+[HTTParty] [2019-02-12 15:34:15 +0000] < Cache-control: no-cache
+[HTTParty] [2019-02-12 15:34:15 +0000] < Pragma: no-cache
+[HTTParty] [2019-02-12 15:34:15 +0000] < Content-length: 294
+[HTTParty] [2019-02-12 15:34:15 +0000] < Content-type: application/json; charset=utf-8
+[HTTParty] [2019-02-12 15:34:15 +0000] < Expires: -1
+[HTTParty] [2019-02-12 15:34:15 +0000] < Server: Microsoft-IIS/10.0
+[HTTParty] [2019-02-12 15:34:15 +0000] < X-aspnet-version: 4.0.30319
+[HTTParty] [2019-02-12 15:34:15 +0000] < Request-context: appId=cid-v1:d5256cef-83ae-4057-8380-1ed09cd521cb
+[HTTParty] [2019-02-12 15:34:15 +0000] < Access-control-expose-headers: Request-Context
+[HTTParty] [2019-02-12 15:34:15 +0000] < X-powered-by: ASP.NET
+[HTTParty] [2019-02-12 15:34:15 +0000] < Date: Tue, 12 Feb 2019 15:34:15 GMT
+[HTTParty] [2019-02-12 15:34:15 +0000] < 
+{
+  "id": 1,
+  "organizationGroupUrl": "/api/OrganizationGroup/1",
+  "organizationId": 655,
+  "organizationName": "Acts 29 - API Testing Final",
+  "name": "US Southeast",
+  "location": null,
+  "description": null,
+  "organizationGroupContactsUrl": "/api/OrganizationGroup/1/contacts"
+}
+[HTTParty] [2019-02-12 15:34:15 +0000] < 
+I, [2019-02-12T15:34:17.571919 #74240]  INFO -- : [HTTParty] [2019-02-12 15:34:17 +0000] > GET https://api.virtuoussoftware.com/api/OrganizationGroup/ByContact/1661
+[HTTParty] [2019-02-12 15:34:17 +0000] > Headers: 
+[HTTParty] [2019-02-12 15:34:17 +0000] > Accept-Version: v1
+[HTTParty] [2019-02-12 15:34:17 +0000] > Authorization: Bearer xZWwyjMsUbsGaLXqsVzNBrJhkJgkuWvshN2ZvPgn7RLvm2gj1V2gSoHDYtQEHSoJ3IwbX0mZw8VRNP4qIecC0MIRtf1h-Lq_-Sa6m4jfUWDS3TPDCygd9uX_ZFxdiqqpYuhhoO-gsjz4d9eqQ6H7qF0nZi6ndHcfn9UJH3EWRJNE-z1SSXNapZScTBoBp7oJVE3vxjyMMfVWkbuqscvz8BSgxLclhYi0u660ZelwZSZOAylgqQ5onxK9-vuHm75lrhMASvaevyjkFeyzerPSEmbd-kntCbv3BVVjMaQCTADCezGuqHrSgh-OkhwtEU-WHpF-ra3ayap6NZnVkLBetgkft91U_93K055kDNEYroYTms1mBA9l5JJVenU4wWLRNrDJo_TyNzLDrvyxR2qIas0iejZDXUfWGrcRQYIFeSelpDIRzOw9dMCgmYC48sgS_VbHWdu5hHhELycSqwIm6mwQIJgUMf2i-y9SIDylODXuZ6w7ZPUkovgE1wg_YQlosVTmeLgcOlW2kDpv7Tjnvjynd7ke5m2SQKRsEwytGuusICXgJq94zB6hi48J6SKseo3XUg
+[HTTParty] [2019-02-12 15:34:17 +0000] > Content-Type: application/json
+[HTTParty] [2019-02-12 15:34:17 +0000] > Query: 
+[HTTParty] [2019-02-12 15:34:17 +0000] > 
+[HTTParty] [2019-02-12 15:34:17 +0000] < HTTP/1.1 200
+[HTTParty] [2019-02-12 15:34:17 +0000] < Cache-control: no-cache
+[HTTParty] [2019-02-12 15:34:17 +0000] < Pragma: no-cache
+[HTTParty] [2019-02-12 15:34:17 +0000] < Content-length: 320
+[HTTParty] [2019-02-12 15:34:17 +0000] < Content-type: application/json; charset=utf-8
+[HTTParty] [2019-02-12 15:34:17 +0000] < Expires: -1
+[HTTParty] [2019-02-12 15:34:17 +0000] < Server: Microsoft-IIS/10.0
+[HTTParty] [2019-02-12 15:34:17 +0000] < X-aspnet-version: 4.0.30319
+[HTTParty] [2019-02-12 15:34:17 +0000] < Request-context: appId=cid-v1:d5256cef-83ae-4057-8380-1ed09cd521cb
+[HTTParty] [2019-02-12 15:34:17 +0000] < Access-control-expose-headers: Request-Context
+[HTTParty] [2019-02-12 15:34:17 +0000] < X-powered-by: ASP.NET
+[HTTParty] [2019-02-12 15:34:17 +0000] < Date: Tue, 12 Feb 2019 15:34:16 GMT
+[HTTParty] [2019-02-12 15:34:17 +0000] < 
+[
+  {
+    "id": 1,
+    "organizationGroupUrl": "/api/OrganizationGroup/1",
+    "organizationId": 655,
+    "organizationName": "Acts 29 - API Testing Final",
+    "name": "US Southeast",
+    "location": null,
+    "description": null,
+    "organizationGroupContactsUrl": "/api/OrganizationGroup/1/contacts"
+  }
+]
+[HTTParty] [2019-02-12 15:34:17 +0000] < 
+I, [2019-02-12T15:34:18.847663 #74240]  INFO -- : [HTTParty] [2019-02-12 15:34:18 +0000] > GET https://api.virtuoussoftware.com/api/OrganizationGroup/1/contacts
+[HTTParty] [2019-02-12 15:34:18 +0000] > Headers: 
+[HTTParty] [2019-02-12 15:34:18 +0000] > Accept-Version: v1
+[HTTParty] [2019-02-12 15:34:18 +0000] > Authorization: Bearer xZWwyjMsUbsGaLXqsVzNBrJhkJgkuWvshN2ZvPgn7RLvm2gj1V2gSoHDYtQEHSoJ3IwbX0mZw8VRNP4qIecC0MIRtf1h-Lq_-Sa6m4jfUWDS3TPDCygd9uX_ZFxdiqqpYuhhoO-gsjz4d9eqQ6H7qF0nZi6ndHcfn9UJH3EWRJNE-z1SSXNapZScTBoBp7oJVE3vxjyMMfVWkbuqscvz8BSgxLclhYi0u660ZelwZSZOAylgqQ5onxK9-vuHm75lrhMASvaevyjkFeyzerPSEmbd-kntCbv3BVVjMaQCTADCezGuqHrSgh-OkhwtEU-WHpF-ra3ayap6NZnVkLBetgkft91U_93K055kDNEYroYTms1mBA9l5JJVenU4wWLRNrDJo_TyNzLDrvyxR2qIas0iejZDXUfWGrcRQYIFeSelpDIRzOw9dMCgmYC48sgS_VbHWdu5hHhELycSqwIm6mwQIJgUMf2i-y9SIDylODXuZ6w7ZPUkovgE1wg_YQlosVTmeLgcOlW2kDpv7Tjnvjynd7ke5m2SQKRsEwytGuusICXgJq94zB6hi48J6SKseo3XUg
+[HTTParty] [2019-02-12 15:34:18 +0000] > Content-Type: application/json
+[HTTParty] [2019-02-12 15:34:18 +0000] > Query: 
+[HTTParty] [2019-02-12 15:34:18 +0000] > skip: 0
+[HTTParty] [2019-02-12 15:34:18 +0000] > take: 10
+[HTTParty] [2019-02-12 15:34:18 +0000] > 
+[HTTParty] [2019-02-12 15:34:18 +0000] < HTTP/1.1 200
+[HTTParty] [2019-02-12 15:34:18 +0000] < Cache-control: no-cache
+[HTTParty] [2019-02-12 15:34:18 +0000] < Pragma: no-cache
+[HTTParty] [2019-02-12 15:34:18 +0000] < Content-length: 4452
+[HTTParty] [2019-02-12 15:34:18 +0000] < Content-type: application/json; charset=utf-8
+[HTTParty] [2019-02-12 15:34:18 +0000] < Expires: -1
+[HTTParty] [2019-02-12 15:34:18 +0000] < Server: Microsoft-IIS/10.0
+[HTTParty] [2019-02-12 15:34:18 +0000] < X-aspnet-version: 4.0.30319
+[HTTParty] [2019-02-12 15:34:18 +0000] < Request-context: appId=cid-v1:d5256cef-83ae-4057-8380-1ed09cd521cb
+[HTTParty] [2019-02-12 15:34:18 +0000] < Access-control-expose-headers: Request-Context
+[HTTParty] [2019-02-12 15:34:18 +0000] < X-powered-by: ASP.NET
+[HTTParty] [2019-02-12 15:34:18 +0000] < Date: Tue, 12 Feb 2019 15:34:18 GMT
+[HTTParty] [2019-02-12 15:34:18 +0000] < 
+{
+  "list": [
+    {
+      "organizationGroupId": 1,
+      "organizationGroupUrl": "/api/OrganizationGroup/1",
+      "organizationId": 655,
+      "organizationName": "Acts 29 - API Testing Final",
+      "organizationGroupName": "US Southeast",
+      "organizationGroupLocation": null,
+      "organizationGroupDescription": null,
+      "contactId": 860,
+      "contactName": "Aaron and Ashlee Proffitt",
+      "contactUrl": "/api/Contact/860"
+    },
+    {
+      "organizationGroupId": 1,
+      "organizationGroupUrl": "/api/OrganizationGroup/1",
+      "organizationId": 655,
+      "organizationName": "Acts 29 - API Testing Final",
+      "organizationGroupName": "US Southeast",
+      "organizationGroupLocation": null,
+      "organizationGroupDescription": null,
+      "contactId": 1056,
+      "contactName": "Aaron and Caroline Nebrija",
+      "contactUrl": "/api/Contact/1056"
+    },
+    {
+      "organizationGroupId": 1,
+      "organizationGroupUrl": "/api/OrganizationGroup/1",
+      "organizationId": 655,
+      "organizationName": "Acts 29 - API Testing Final",
+      "organizationGroupName": "US Southeast",
+      "organizationGroupLocation": null,
+      "organizationGroupDescription": null,
+      "contactId": 592,
+      "contactName": "Aaron and Danielle Currin",
+      "contactUrl": "/api/Contact/592"
+    },
+    {
+      "organizationGroupId": 1,
+      "organizationGroupUrl": "/api/OrganizationGroup/1",
+      "organizationId": 655,
+      "organizationName": "Acts 29 - API Testing Final",
+      "organizationGroupName": "US Southeast",
+      "organizationGroupLocation": null,
+      "organizationGroupDescription": null,
+      "contactId": 3279,
+      "contactName": "Abby Alam",
+      "contactUrl": "/api/Contact/3279"
+    },
+    {
+      "organizationGroupId": 1,
+      "organizationGroupUrl": "/api/OrganizationGroup/1",
+      "organizationId": 655,
+      "organizationName": "Acts 29 - API Testing Final",
+      "organizationGroupName": "US Southeast",
+      "organizationGroupLocation": null,
+      "organizationGroupDescription": null,
+      "contactId": 777,
+      "contactName": "Adam and Kristen Flynt",
+      "contactUrl": "/api/Contact/777"
+    },
+    {
+      "organizationGroupId": 1,
+      "organizationGroupUrl": "/api/OrganizationGroup/1",
+      "organizationId": 655,
+      "organizationName": "Acts 29 - API Testing Final",
+      "organizationGroupName": "US Southeast",
+      "organizationGroupLocation": null,
+      "organizationGroupDescription": null,
+      "contactId": 4041,
+      "contactName": "Adam Weis",
+      "contactUrl": "/api/Contact/4041"
+    },
+    {
+      "organizationGroupId": 1,
+      "organizationGroupUrl": "/api/OrganizationGroup/1",
+      "organizationId": 655,
+      "organizationName": "Acts 29 - API Testing Final",
+      "organizationGroupName": "US Southeast",
+      "organizationGroupLocation": null,
+      "organizationGroupDescription": null,
+      "contactId": 1661,
+      "contactName": "Agape Baptist Church 123",
+      "contactUrl": "/api/Contact/1661"
+    },
+    {
+      "organizationGroupId": 1,
+      "organizationGroupUrl": "/api/OrganizationGroup/1",
+      "organizationId": 655,
+      "organizationName": "Acts 29 - API Testing Final",
+      "organizationGroupName": "US Southeast",
+      "organizationGroupLocation": null,
+      "organizationGroupDescription": null,
+      "contactId": 941,
+      "contactName": "Alan and Missy Trippe",
+      "contactUrl": "/api/Contact/941"
+    },
+    {
+      "organizationGroupId": 1,
+      "organizationGroupUrl": "/api/OrganizationGroup/1",
+      "organizationId": 655,
+      "organizationName": "Acts 29 - API Testing Final",
+      "organizationGroupName": "US Southeast",
+      "organizationGroupLocation": null,
+      "organizationGroupDescription": null,
+      "contactId": 750,
+      "contactName": "Aldo and Rebecca Leon",
+      "contactUrl": "/api/Contact/750"
+    },
+    {
+      "organizationGroupId": 1,
+      "organizationGroupUrl": "/api/OrganizationGroup/1",
+      "organizationId": 655,
+      "organizationName": "Acts 29 - API Testing Final",
+      "organizationGroupName": "US Southeast",
+      "organizationGroupLocation": null,
+      "organizationGroupDescription": null,
+      "contactId": 2333,
+      "contactName": "AletheChurch",
+      "contactUrl": "/api/Contact/2333"
+    }
+  ],
+  "total": 700
+}
+[HTTParty] [2019-02-12 15:34:18 +0000] < 
+I, [2019-02-12T15:34:20.438182 #74240]  INFO -- : [HTTParty] [2019-02-12 15:34:20 +0000] > PUT https://api.virtuoussoftware.com/api/OrganizationGroup/1/contacts/3
+[HTTParty] [2019-02-12 15:34:20 +0000] > Headers: 
+[HTTParty] [2019-02-12 15:34:20 +0000] > Accept-Version: v1
+[HTTParty] [2019-02-12 15:34:20 +0000] > Authorization: Bearer xZWwyjMsUbsGaLXqsVzNBrJhkJgkuWvshN2ZvPgn7RLvm2gj1V2gSoHDYtQEHSoJ3IwbX0mZw8VRNP4qIecC0MIRtf1h-Lq_-Sa6m4jfUWDS3TPDCygd9uX_ZFxdiqqpYuhhoO-gsjz4d9eqQ6H7qF0nZi6ndHcfn9UJH3EWRJNE-z1SSXNapZScTBoBp7oJVE3vxjyMMfVWkbuqscvz8BSgxLclhYi0u660ZelwZSZOAylgqQ5onxK9-vuHm75lrhMASvaevyjkFeyzerPSEmbd-kntCbv3BVVjMaQCTADCezGuqHrSgh-OkhwtEU-WHpF-ra3ayap6NZnVkLBetgkft91U_93K055kDNEYroYTms1mBA9l5JJVenU4wWLRNrDJo_TyNzLDrvyxR2qIas0iejZDXUfWGrcRQYIFeSelpDIRzOw9dMCgmYC48sgS_VbHWdu5hHhELycSqwIm6mwQIJgUMf2i-y9SIDylODXuZ6w7ZPUkovgE1wg_YQlosVTmeLgcOlW2kDpv7Tjnvjynd7ke5m2SQKRsEwytGuusICXgJq94zB6hi48J6SKseo3XUg
+[HTTParty] [2019-02-12 15:34:20 +0000] > Content-Type: application/json
+[HTTParty] [2019-02-12 15:34:20 +0000] > Query: 
+[HTTParty] [2019-02-12 15:34:20 +0000] > 
+[HTTParty] [2019-02-12 15:34:20 +0000] > 
+[HTTParty] [2019-02-12 15:34:20 +0000] < HTTP/1.1 200
+[HTTParty] [2019-02-12 15:34:20 +0000] < Cache-control: no-cache
+[HTTParty] [2019-02-12 15:34:20 +0000] < Pragma: no-cache
+[HTTParty] [2019-02-12 15:34:20 +0000] < Content-length: 387
+[HTTParty] [2019-02-12 15:34:20 +0000] < Content-type: application/json; charset=utf-8
+[HTTParty] [2019-02-12 15:34:20 +0000] < Expires: -1
+[HTTParty] [2019-02-12 15:34:20 +0000] < Server: Microsoft-IIS/10.0
+[HTTParty] [2019-02-12 15:34:20 +0000] < X-aspnet-version: 4.0.30319
+[HTTParty] [2019-02-12 15:34:20 +0000] < Request-context: appId=cid-v1:d5256cef-83ae-4057-8380-1ed09cd521cb
+[HTTParty] [2019-02-12 15:34:20 +0000] < Access-control-expose-headers: Request-Context
+[HTTParty] [2019-02-12 15:34:20 +0000] < X-powered-by: ASP.NET
+[HTTParty] [2019-02-12 15:34:20 +0000] < Date: Tue, 12 Feb 2019 15:34:19 GMT
+[HTTParty] [2019-02-12 15:34:20 +0000] < 
+{
+  "organizationGroupId": 1,
+  "organizationGroupUrl": "/api/OrganizationGroup/1",
+  "organizationId": 655,
+  "organizationName": "Acts 29 - API Testing Final",
+  "organizationGroupName": "US Southeast",
+  "organizationGroupLocation": null,
+  "organizationGroupDescription": null,
+  "contactId": 3,
+  "contactName": "Josh and Faith Morgan",
+  "contactUrl": "/api/Contact/3"
+}
+[HTTParty] [2019-02-12 15:34:20 +0000] < 
+I, [2019-02-12T15:34:21.743243 #74240]  INFO -- : [HTTParty] [2019-02-12 15:34:21 +0000] > DELETE https://api.virtuoussoftware.com/api/OrganizationGroup/1/contacts/3
+[HTTParty] [2019-02-12 15:34:21 +0000] > Headers: 
+[HTTParty] [2019-02-12 15:34:21 +0000] > Accept-Version: v1
+[HTTParty] [2019-02-12 15:34:21 +0000] > Authorization: Bearer xZWwyjMsUbsGaLXqsVzNBrJhkJgkuWvshN2ZvPgn7RLvm2gj1V2gSoHDYtQEHSoJ3IwbX0mZw8VRNP4qIecC0MIRtf1h-Lq_-Sa6m4jfUWDS3TPDCygd9uX_ZFxdiqqpYuhhoO-gsjz4d9eqQ6H7qF0nZi6ndHcfn9UJH3EWRJNE-z1SSXNapZScTBoBp7oJVE3vxjyMMfVWkbuqscvz8BSgxLclhYi0u660ZelwZSZOAylgqQ5onxK9-vuHm75lrhMASvaevyjkFeyzerPSEmbd-kntCbv3BVVjMaQCTADCezGuqHrSgh-OkhwtEU-WHpF-ra3ayap6NZnVkLBetgkft91U_93K055kDNEYroYTms1mBA9l5JJVenU4wWLRNrDJo_TyNzLDrvyxR2qIas0iejZDXUfWGrcRQYIFeSelpDIRzOw9dMCgmYC48sgS_VbHWdu5hHhELycSqwIm6mwQIJgUMf2i-y9SIDylODXuZ6w7ZPUkovgE1wg_YQlosVTmeLgcOlW2kDpv7Tjnvjynd7ke5m2SQKRsEwytGuusICXgJq94zB6hi48J6SKseo3XUg
+[HTTParty] [2019-02-12 15:34:21 +0000] > Content-Type: application/json
+[HTTParty] [2019-02-12 15:34:21 +0000] > Query: 
+[HTTParty] [2019-02-12 15:34:21 +0000] > 
+[HTTParty] [2019-02-12 15:34:21 +0000] > 
+[HTTParty] [2019-02-12 15:34:21 +0000] < HTTP/1.1 200
+[HTTParty] [2019-02-12 15:34:21 +0000] < Cache-control: no-cache
+[HTTParty] [2019-02-12 15:34:21 +0000] < Pragma: no-cache
+[HTTParty] [2019-02-12 15:34:21 +0000] < Expires: -1
+[HTTParty] [2019-02-12 15:34:21 +0000] < Server: Microsoft-IIS/10.0
+[HTTParty] [2019-02-12 15:34:21 +0000] < X-aspnet-version: 4.0.30319
+[HTTParty] [2019-02-12 15:34:21 +0000] < Request-context: appId=cid-v1:d5256cef-83ae-4057-8380-1ed09cd521cb
+[HTTParty] [2019-02-12 15:34:21 +0000] < Access-control-expose-headers: Request-Context
+[HTTParty] [2019-02-12 15:34:21 +0000] < X-powered-by: ASP.NET
+[HTTParty] [2019-02-12 15:34:21 +0000] < Date: Tue, 12 Feb 2019 15:34:21 GMT
+[HTTParty] [2019-02-12 15:34:21 +0000] < Content-length: 0
+[HTTParty] [2019-02-12 15:34:21 +0000] < 
+
+[HTTParty] [2019-02-12 15:34:21 +0000] < 
+I, [2019-02-12T15:35:49.446242 #74329]  INFO -- : [HTTParty] [2019-02-12 15:35:49 +0000] > GET https://api.virtuoussoftware.com/api/OrganizationGroup
+[HTTParty] [2019-02-12 15:35:49 +0000] > Headers: 
+[HTTParty] [2019-02-12 15:35:49 +0000] > Accept-Version: v1
+[HTTParty] [2019-02-12 15:35:49 +0000] > Authorization: Bearer xZWwyjMsUbsGaLXqsVzNBrJhkJgkuWvshN2ZvPgn7RLvm2gj1V2gSoHDYtQEHSoJ3IwbX0mZw8VRNP4qIecC0MIRtf1h-Lq_-Sa6m4jfUWDS3TPDCygd9uX_ZFxdiqqpYuhhoO-gsjz4d9eqQ6H7qF0nZi6ndHcfn9UJH3EWRJNE-z1SSXNapZScTBoBp7oJVE3vxjyMMfVWkbuqscvz8BSgxLclhYi0u660ZelwZSZOAylgqQ5onxK9-vuHm75lrhMASvaevyjkFeyzerPSEmbd-kntCbv3BVVjMaQCTADCezGuqHrSgh-OkhwtEU-WHpF-ra3ayap6NZnVkLBetgkft91U_93K055kDNEYroYTms1mBA9l5JJVenU4wWLRNrDJo_TyNzLDrvyxR2qIas0iejZDXUfWGrcRQYIFeSelpDIRzOw9dMCgmYC48sgS_VbHWdu5hHhELycSqwIm6mwQIJgUMf2i-y9SIDylODXuZ6w7ZPUkovgE1wg_YQlosVTmeLgcOlW2kDpv7Tjnvjynd7ke5m2SQKRsEwytGuusICXgJq94zB6hi48J6SKseo3XUg
+[HTTParty] [2019-02-12 15:35:49 +0000] > Content-Type: application/json
+[HTTParty] [2019-02-12 15:35:49 +0000] > Query: 
+[HTTParty] [2019-02-12 15:35:49 +0000] > 
+[HTTParty] [2019-02-12 15:35:49 +0000] < HTTP/1.0 200
+[HTTParty] [2019-02-12 15:35:49 +0000] < Cache-control: no-cache
+[HTTParty] [2019-02-12 15:35:49 +0000] < Pragma: no-cache
+[HTTParty] [2019-02-12 15:35:49 +0000] < Content-length: 373
+[HTTParty] [2019-02-12 15:35:49 +0000] < Content-type: application/json; charset=utf-8
+[HTTParty] [2019-02-12 15:35:49 +0000] < Expires: -1
+[HTTParty] [2019-02-12 15:35:49 +0000] < Server: Microsoft-IIS/10.0
+[HTTParty] [2019-02-12 15:35:49 +0000] < X-aspnet-version: 4.0.30319
+[HTTParty] [2019-02-12 15:35:49 +0000] < Request-context: appId=cid-v1:d5256cef-83ae-4057-8380-1ed09cd521cb
+[HTTParty] [2019-02-12 15:35:49 +0000] < Access-control-expose-headers: Request-Context
+[HTTParty] [2019-02-12 15:35:49 +0000] < X-powered-by: ASP.NET
+[HTTParty] [2019-02-12 15:35:49 +0000] < Date: Tue, 12 Feb 2019 09:50:43 GMT
+[HTTParty] [2019-02-12 15:35:49 +0000] < 
+{
+  "list": [
+    {
+      "id": 1,
+      "organizationGroupUrl": "/api/OrganizationGroup/1",
+      "organizationId": 655,
+      "organizationName": "Acts 29 - API Testing Final",
+      "name": "US Southeast",
+      "location": null,
+      "description": null,
+      "organizationGroupContactsUrl": "/api/OrganizationGroup/1/contacts"
+    }
+  ],
+  "total": 1
+}
+[HTTParty] [2019-02-12 15:35:49 +0000] < 
+I, [2019-02-12T15:35:51.123076 #74329]  INFO -- : [HTTParty] [2019-02-12 15:35:51 +0000] > GET https://api.virtuoussoftware.com/api/OrganizationGroup/1
+[HTTParty] [2019-02-12 15:35:51 +0000] > Headers: 
+[HTTParty] [2019-02-12 15:35:51 +0000] > Accept-Version: v1
+[HTTParty] [2019-02-12 15:35:51 +0000] > Authorization: Bearer xZWwyjMsUbsGaLXqsVzNBrJhkJgkuWvshN2ZvPgn7RLvm2gj1V2gSoHDYtQEHSoJ3IwbX0mZw8VRNP4qIecC0MIRtf1h-Lq_-Sa6m4jfUWDS3TPDCygd9uX_ZFxdiqqpYuhhoO-gsjz4d9eqQ6H7qF0nZi6ndHcfn9UJH3EWRJNE-z1SSXNapZScTBoBp7oJVE3vxjyMMfVWkbuqscvz8BSgxLclhYi0u660ZelwZSZOAylgqQ5onxK9-vuHm75lrhMASvaevyjkFeyzerPSEmbd-kntCbv3BVVjMaQCTADCezGuqHrSgh-OkhwtEU-WHpF-ra3ayap6NZnVkLBetgkft91U_93K055kDNEYroYTms1mBA9l5JJVenU4wWLRNrDJo_TyNzLDrvyxR2qIas0iejZDXUfWGrcRQYIFeSelpDIRzOw9dMCgmYC48sgS_VbHWdu5hHhELycSqwIm6mwQIJgUMf2i-y9SIDylODXuZ6w7ZPUkovgE1wg_YQlosVTmeLgcOlW2kDpv7Tjnvjynd7ke5m2SQKRsEwytGuusICXgJq94zB6hi48J6SKseo3XUg
+[HTTParty] [2019-02-12 15:35:51 +0000] > Content-Type: application/json
+[HTTParty] [2019-02-12 15:35:51 +0000] > Query: 
+[HTTParty] [2019-02-12 15:35:51 +0000] > 
+[HTTParty] [2019-02-12 15:35:51 +0000] < HTTP/1.1 200
+[HTTParty] [2019-02-12 15:35:51 +0000] < Cache-control: no-cache
+[HTTParty] [2019-02-12 15:35:51 +0000] < Pragma: no-cache
+[HTTParty] [2019-02-12 15:35:51 +0000] < Content-length: 294
+[HTTParty] [2019-02-12 15:35:51 +0000] < Content-type: application/json; charset=utf-8
+[HTTParty] [2019-02-12 15:35:51 +0000] < Expires: -1
+[HTTParty] [2019-02-12 15:35:51 +0000] < Server: Microsoft-IIS/10.0
+[HTTParty] [2019-02-12 15:35:51 +0000] < X-aspnet-version: 4.0.30319
+[HTTParty] [2019-02-12 15:35:51 +0000] < Request-context: appId=cid-v1:d5256cef-83ae-4057-8380-1ed09cd521cb
+[HTTParty] [2019-02-12 15:35:51 +0000] < Access-control-expose-headers: Request-Context
+[HTTParty] [2019-02-12 15:35:51 +0000] < X-powered-by: ASP.NET
+[HTTParty] [2019-02-12 15:35:51 +0000] < Date: Tue, 12 Feb 2019 15:35:50 GMT
+[HTTParty] [2019-02-12 15:35:51 +0000] < 
+{
+  "id": 1,
+  "organizationGroupUrl": "/api/OrganizationGroup/1",
+  "organizationId": 655,
+  "organizationName": "Acts 29 - API Testing Final",
+  "name": "US Southeast",
+  "location": null,
+  "description": null,
+  "organizationGroupContactsUrl": "/api/OrganizationGroup/1/contacts"
+}
+[HTTParty] [2019-02-12 15:35:51 +0000] < 
+I, [2019-02-12T15:35:52.599232 #74329]  INFO -- : [HTTParty] [2019-02-12 15:35:52 +0000] > GET https://api.virtuoussoftware.com/api/OrganizationGroup/ByContact/1661
+[HTTParty] [2019-02-12 15:35:52 +0000] > Headers: 
+[HTTParty] [2019-02-12 15:35:52 +0000] > Accept-Version: v1
+[HTTParty] [2019-02-12 15:35:52 +0000] > Authorization: Bearer xZWwyjMsUbsGaLXqsVzNBrJhkJgkuWvshN2ZvPgn7RLvm2gj1V2gSoHDYtQEHSoJ3IwbX0mZw8VRNP4qIecC0MIRtf1h-Lq_-Sa6m4jfUWDS3TPDCygd9uX_ZFxdiqqpYuhhoO-gsjz4d9eqQ6H7qF0nZi6ndHcfn9UJH3EWRJNE-z1SSXNapZScTBoBp7oJVE3vxjyMMfVWkbuqscvz8BSgxLclhYi0u660ZelwZSZOAylgqQ5onxK9-vuHm75lrhMASvaevyjkFeyzerPSEmbd-kntCbv3BVVjMaQCTADCezGuqHrSgh-OkhwtEU-WHpF-ra3ayap6NZnVkLBetgkft91U_93K055kDNEYroYTms1mBA9l5JJVenU4wWLRNrDJo_TyNzLDrvyxR2qIas0iejZDXUfWGrcRQYIFeSelpDIRzOw9dMCgmYC48sgS_VbHWdu5hHhELycSqwIm6mwQIJgUMf2i-y9SIDylODXuZ6w7ZPUkovgE1wg_YQlosVTmeLgcOlW2kDpv7Tjnvjynd7ke5m2SQKRsEwytGuusICXgJq94zB6hi48J6SKseo3XUg
+[HTTParty] [2019-02-12 15:35:52 +0000] > Content-Type: application/json
+[HTTParty] [2019-02-12 15:35:52 +0000] > Query: 
+[HTTParty] [2019-02-12 15:35:52 +0000] > 
+[HTTParty] [2019-02-12 15:35:52 +0000] < HTTP/1.1 200
+[HTTParty] [2019-02-12 15:35:52 +0000] < Cache-control: no-cache
+[HTTParty] [2019-02-12 15:35:52 +0000] < Pragma: no-cache
+[HTTParty] [2019-02-12 15:35:52 +0000] < Content-length: 320
+[HTTParty] [2019-02-12 15:35:52 +0000] < Content-type: application/json; charset=utf-8
+[HTTParty] [2019-02-12 15:35:52 +0000] < Expires: -1
+[HTTParty] [2019-02-12 15:35:52 +0000] < Server: Microsoft-IIS/10.0
+[HTTParty] [2019-02-12 15:35:52 +0000] < X-aspnet-version: 4.0.30319
+[HTTParty] [2019-02-12 15:35:52 +0000] < Request-context: appId=cid-v1:d5256cef-83ae-4057-8380-1ed09cd521cb
+[HTTParty] [2019-02-12 15:35:52 +0000] < Access-control-expose-headers: Request-Context
+[HTTParty] [2019-02-12 15:35:52 +0000] < X-powered-by: ASP.NET
+[HTTParty] [2019-02-12 15:35:52 +0000] < Date: Tue, 12 Feb 2019 15:35:51 GMT
+[HTTParty] [2019-02-12 15:35:52 +0000] < 
+[
+  {
+    "id": 1,
+    "organizationGroupUrl": "/api/OrganizationGroup/1",
+    "organizationId": 655,
+    "organizationName": "Acts 29 - API Testing Final",
+    "name": "US Southeast",
+    "location": null,
+    "description": null,
+    "organizationGroupContactsUrl": "/api/OrganizationGroup/1/contacts"
+  }
+]
+[HTTParty] [2019-02-12 15:35:52 +0000] < 
+I, [2019-02-12T15:35:53.832811 #74329]  INFO -- : [HTTParty] [2019-02-12 15:35:53 +0000] > GET https://api.virtuoussoftware.com/api/OrganizationGroup/1/contacts
+[HTTParty] [2019-02-12 15:35:53 +0000] > Headers: 
+[HTTParty] [2019-02-12 15:35:53 +0000] > Accept-Version: v1
+[HTTParty] [2019-02-12 15:35:53 +0000] > Authorization: Bearer xZWwyjMsUbsGaLXqsVzNBrJhkJgkuWvshN2ZvPgn7RLvm2gj1V2gSoHDYtQEHSoJ3IwbX0mZw8VRNP4qIecC0MIRtf1h-Lq_-Sa6m4jfUWDS3TPDCygd9uX_ZFxdiqqpYuhhoO-gsjz4d9eqQ6H7qF0nZi6ndHcfn9UJH3EWRJNE-z1SSXNapZScTBoBp7oJVE3vxjyMMfVWkbuqscvz8BSgxLclhYi0u660ZelwZSZOAylgqQ5onxK9-vuHm75lrhMASvaevyjkFeyzerPSEmbd-kntCbv3BVVjMaQCTADCezGuqHrSgh-OkhwtEU-WHpF-ra3ayap6NZnVkLBetgkft91U_93K055kDNEYroYTms1mBA9l5JJVenU4wWLRNrDJo_TyNzLDrvyxR2qIas0iejZDXUfWGrcRQYIFeSelpDIRzOw9dMCgmYC48sgS_VbHWdu5hHhELycSqwIm6mwQIJgUMf2i-y9SIDylODXuZ6w7ZPUkovgE1wg_YQlosVTmeLgcOlW2kDpv7Tjnvjynd7ke5m2SQKRsEwytGuusICXgJq94zB6hi48J6SKseo3XUg
+[HTTParty] [2019-02-12 15:35:53 +0000] > Content-Type: application/json
+[HTTParty] [2019-02-12 15:35:53 +0000] > Query: 
+[HTTParty] [2019-02-12 15:35:53 +0000] > skip: 0
+[HTTParty] [2019-02-12 15:35:53 +0000] > take: 10
+[HTTParty] [2019-02-12 15:35:53 +0000] > 
+[HTTParty] [2019-02-12 15:35:53 +0000] < HTTP/1.1 200
+[HTTParty] [2019-02-12 15:35:53 +0000] < Cache-control: no-cache
+[HTTParty] [2019-02-12 15:35:53 +0000] < Pragma: no-cache
+[HTTParty] [2019-02-12 15:35:53 +0000] < Content-length: 4452
+[HTTParty] [2019-02-12 15:35:53 +0000] < Content-type: application/json; charset=utf-8
+[HTTParty] [2019-02-12 15:35:53 +0000] < Expires: -1
+[HTTParty] [2019-02-12 15:35:53 +0000] < Server: Microsoft-IIS/10.0
+[HTTParty] [2019-02-12 15:35:53 +0000] < X-aspnet-version: 4.0.30319
+[HTTParty] [2019-02-12 15:35:53 +0000] < Request-context: appId=cid-v1:d5256cef-83ae-4057-8380-1ed09cd521cb
+[HTTParty] [2019-02-12 15:35:53 +0000] < Access-control-expose-headers: Request-Context
+[HTTParty] [2019-02-12 15:35:53 +0000] < X-powered-by: ASP.NET
+[HTTParty] [2019-02-12 15:35:53 +0000] < Date: Tue, 12 Feb 2019 15:35:53 GMT
+[HTTParty] [2019-02-12 15:35:53 +0000] < 
+{
+  "list": [
+    {
+      "organizationGroupId": 1,
+      "organizationGroupUrl": "/api/OrganizationGroup/1",
+      "organizationId": 655,
+      "organizationName": "Acts 29 - API Testing Final",
+      "organizationGroupName": "US Southeast",
+      "organizationGroupLocation": null,
+      "organizationGroupDescription": null,
+      "contactId": 860,
+      "contactName": "Aaron and Ashlee Proffitt",
+      "contactUrl": "/api/Contact/860"
+    },
+    {
+      "organizationGroupId": 1,
+      "organizationGroupUrl": "/api/OrganizationGroup/1",
+      "organizationId": 655,
+      "organizationName": "Acts 29 - API Testing Final",
+      "organizationGroupName": "US Southeast",
+      "organizationGroupLocation": null,
+      "organizationGroupDescription": null,
+      "contactId": 1056,
+      "contactName": "Aaron and Caroline Nebrija",
+      "contactUrl": "/api/Contact/1056"
+    },
+    {
+      "organizationGroupId": 1,
+      "organizationGroupUrl": "/api/OrganizationGroup/1",
+      "organizationId": 655,
+      "organizationName": "Acts 29 - API Testing Final",
+      "organizationGroupName": "US Southeast",
+      "organizationGroupLocation": null,
+      "organizationGroupDescription": null,
+      "contactId": 592,
+      "contactName": "Aaron and Danielle Currin",
+      "contactUrl": "/api/Contact/592"
+    },
+    {
+      "organizationGroupId": 1,
+      "organizationGroupUrl": "/api/OrganizationGroup/1",
+      "organizationId": 655,
+      "organizationName": "Acts 29 - API Testing Final",
+      "organizationGroupName": "US Southeast",
+      "organizationGroupLocation": null,
+      "organizationGroupDescription": null,
+      "contactId": 3279,
+      "contactName": "Abby Alam",
+      "contactUrl": "/api/Contact/3279"
+    },
+    {
+      "organizationGroupId": 1,
+      "organizationGroupUrl": "/api/OrganizationGroup/1",
+      "organizationId": 655,
+      "organizationName": "Acts 29 - API Testing Final",
+      "organizationGroupName": "US Southeast",
+      "organizationGroupLocation": null,
+      "organizationGroupDescription": null,
+      "contactId": 777,
+      "contactName": "Adam and Kristen Flynt",
+      "contactUrl": "/api/Contact/777"
+    },
+    {
+      "organizationGroupId": 1,
+      "organizationGroupUrl": "/api/OrganizationGroup/1",
+      "organizationId": 655,
+      "organizationName": "Acts 29 - API Testing Final",
+      "organizationGroupName": "US Southeast",
+      "organizationGroupLocation": null,
+      "organizationGroupDescription": null,
+      "contactId": 4041,
+      "contactName": "Adam Weis",
+      "contactUrl": "/api/Contact/4041"
+    },
+    {
+      "organizationGroupId": 1,
+      "organizationGroupUrl": "/api/OrganizationGroup/1",
+      "organizationId": 655,
+      "organizationName": "Acts 29 - API Testing Final",
+      "organizationGroupName": "US Southeast",
+      "organizationGroupLocation": null,
+      "organizationGroupDescription": null,
+      "contactId": 1661,
+      "contactName": "Agape Baptist Church 123",
+      "contactUrl": "/api/Contact/1661"
+    },
+    {
+      "organizationGroupId": 1,
+      "organizationGroupUrl": "/api/OrganizationGroup/1",
+      "organizationId": 655,
+      "organizationName": "Acts 29 - API Testing Final",
+      "organizationGroupName": "US Southeast",
+      "organizationGroupLocation": null,
+      "organizationGroupDescription": null,
+      "contactId": 941,
+      "contactName": "Alan and Missy Trippe",
+      "contactUrl": "/api/Contact/941"
+    },
+    {
+      "organizationGroupId": 1,
+      "organizationGroupUrl": "/api/OrganizationGroup/1",
+      "organizationId": 655,
+      "organizationName": "Acts 29 - API Testing Final",
+      "organizationGroupName": "US Southeast",
+      "organizationGroupLocation": null,
+      "organizationGroupDescription": null,
+      "contactId": 750,
+      "contactName": "Aldo and Rebecca Leon",
+      "contactUrl": "/api/Contact/750"
+    },
+    {
+      "organizationGroupId": 1,
+      "organizationGroupUrl": "/api/OrganizationGroup/1",
+      "organizationId": 655,
+      "organizationName": "Acts 29 - API Testing Final",
+      "organizationGroupName": "US Southeast",
+      "organizationGroupLocation": null,
+      "organizationGroupDescription": null,
+      "contactId": 2333,
+      "contactName": "AletheChurch",
+      "contactUrl": "/api/Contact/2333"
+    }
+  ],
+  "total": 699
+}
+[HTTParty] [2019-02-12 15:35:53 +0000] < 
+I, [2019-02-12T15:35:55.058478 #74329]  INFO -- : [HTTParty] [2019-02-12 15:35:55 +0000] > PUT https://api.virtuoussoftware.com/api/OrganizationGroup/1/contacts/3
+[HTTParty] [2019-02-12 15:35:55 +0000] > Headers: 
+[HTTParty] [2019-02-12 15:35:55 +0000] > Accept-Version: v1
+[HTTParty] [2019-02-12 15:35:55 +0000] > Authorization: Bearer xZWwyjMsUbsGaLXqsVzNBrJhkJgkuWvshN2ZvPgn7RLvm2gj1V2gSoHDYtQEHSoJ3IwbX0mZw8VRNP4qIecC0MIRtf1h-Lq_-Sa6m4jfUWDS3TPDCygd9uX_ZFxdiqqpYuhhoO-gsjz4d9eqQ6H7qF0nZi6ndHcfn9UJH3EWRJNE-z1SSXNapZScTBoBp7oJVE3vxjyMMfVWkbuqscvz8BSgxLclhYi0u660ZelwZSZOAylgqQ5onxK9-vuHm75lrhMASvaevyjkFeyzerPSEmbd-kntCbv3BVVjMaQCTADCezGuqHrSgh-OkhwtEU-WHpF-ra3ayap6NZnVkLBetgkft91U_93K055kDNEYroYTms1mBA9l5JJVenU4wWLRNrDJo_TyNzLDrvyxR2qIas0iejZDXUfWGrcRQYIFeSelpDIRzOw9dMCgmYC48sgS_VbHWdu5hHhELycSqwIm6mwQIJgUMf2i-y9SIDylODXuZ6w7ZPUkovgE1wg_YQlosVTmeLgcOlW2kDpv7Tjnvjynd7ke5m2SQKRsEwytGuusICXgJq94zB6hi48J6SKseo3XUg
+[HTTParty] [2019-02-12 15:35:55 +0000] > Content-Type: application/json
+[HTTParty] [2019-02-12 15:35:55 +0000] > Query: 
+[HTTParty] [2019-02-12 15:35:55 +0000] > 
+[HTTParty] [2019-02-12 15:35:55 +0000] > 
+[HTTParty] [2019-02-12 15:35:55 +0000] < HTTP/1.1 200
+[HTTParty] [2019-02-12 15:35:55 +0000] < Cache-control: no-cache
+[HTTParty] [2019-02-12 15:35:55 +0000] < Pragma: no-cache
+[HTTParty] [2019-02-12 15:35:55 +0000] < Content-length: 387
+[HTTParty] [2019-02-12 15:35:55 +0000] < Content-type: application/json; charset=utf-8
+[HTTParty] [2019-02-12 15:35:55 +0000] < Expires: -1
+[HTTParty] [2019-02-12 15:35:55 +0000] < Server: Microsoft-IIS/10.0
+[HTTParty] [2019-02-12 15:35:55 +0000] < X-aspnet-version: 4.0.30319
+[HTTParty] [2019-02-12 15:35:55 +0000] < Request-context: appId=cid-v1:d5256cef-83ae-4057-8380-1ed09cd521cb
+[HTTParty] [2019-02-12 15:35:55 +0000] < Access-control-expose-headers: Request-Context
+[HTTParty] [2019-02-12 15:35:55 +0000] < X-powered-by: ASP.NET
+[HTTParty] [2019-02-12 15:35:55 +0000] < Date: Tue, 12 Feb 2019 15:35:54 GMT
+[HTTParty] [2019-02-12 15:35:55 +0000] < 
+{
+  "organizationGroupId": 1,
+  "organizationGroupUrl": "/api/OrganizationGroup/1",
+  "organizationId": 655,
+  "organizationName": "Acts 29 - API Testing Final",
+  "organizationGroupName": "US Southeast",
+  "organizationGroupLocation": null,
+  "organizationGroupDescription": null,
+  "contactId": 3,
+  "contactName": "Josh and Faith Morgan",
+  "contactUrl": "/api/Contact/3"
+}
+[HTTParty] [2019-02-12 15:35:55 +0000] < 
+I, [2019-02-12T15:35:55.972317 #74329]  INFO -- : [HTTParty] [2019-02-12 15:35:55 +0000] > DELETE https://api.virtuoussoftware.com/api/OrganizationGroup/1/contacts/3
+[HTTParty] [2019-02-12 15:35:55 +0000] > Headers: 
+[HTTParty] [2019-02-12 15:35:55 +0000] > Accept-Version: v1
+[HTTParty] [2019-02-12 15:35:55 +0000] > Authorization: Bearer xZWwyjMsUbsGaLXqsVzNBrJhkJgkuWvshN2ZvPgn7RLvm2gj1V2gSoHDYtQEHSoJ3IwbX0mZw8VRNP4qIecC0MIRtf1h-Lq_-Sa6m4jfUWDS3TPDCygd9uX_ZFxdiqqpYuhhoO-gsjz4d9eqQ6H7qF0nZi6ndHcfn9UJH3EWRJNE-z1SSXNapZScTBoBp7oJVE3vxjyMMfVWkbuqscvz8BSgxLclhYi0u660ZelwZSZOAylgqQ5onxK9-vuHm75lrhMASvaevyjkFeyzerPSEmbd-kntCbv3BVVjMaQCTADCezGuqHrSgh-OkhwtEU-WHpF-ra3ayap6NZnVkLBetgkft91U_93K055kDNEYroYTms1mBA9l5JJVenU4wWLRNrDJo_TyNzLDrvyxR2qIas0iejZDXUfWGrcRQYIFeSelpDIRzOw9dMCgmYC48sgS_VbHWdu5hHhELycSqwIm6mwQIJgUMf2i-y9SIDylODXuZ6w7ZPUkovgE1wg_YQlosVTmeLgcOlW2kDpv7Tjnvjynd7ke5m2SQKRsEwytGuusICXgJq94zB6hi48J6SKseo3XUg
+[HTTParty] [2019-02-12 15:35:55 +0000] > Content-Type: application/json
+[HTTParty] [2019-02-12 15:35:55 +0000] > Query: 
+[HTTParty] [2019-02-12 15:35:55 +0000] > 
+[HTTParty] [2019-02-12 15:35:55 +0000] > 
+[HTTParty] [2019-02-12 15:35:55 +0000] < HTTP/1.1 200
+[HTTParty] [2019-02-12 15:35:55 +0000] < Cache-control: no-cache
+[HTTParty] [2019-02-12 15:35:55 +0000] < Pragma: no-cache
+[HTTParty] [2019-02-12 15:35:55 +0000] < Expires: -1
+[HTTParty] [2019-02-12 15:35:55 +0000] < Server: Microsoft-IIS/10.0
+[HTTParty] [2019-02-12 15:35:55 +0000] < X-aspnet-version: 4.0.30319
+[HTTParty] [2019-02-12 15:35:55 +0000] < Request-context: appId=cid-v1:d5256cef-83ae-4057-8380-1ed09cd521cb
+[HTTParty] [2019-02-12 15:35:55 +0000] < Access-control-expose-headers: Request-Context
+[HTTParty] [2019-02-12 15:35:55 +0000] < X-powered-by: ASP.NET
+[HTTParty] [2019-02-12 15:35:55 +0000] < Date: Tue, 12 Feb 2019 15:35:55 GMT
+[HTTParty] [2019-02-12 15:35:55 +0000] < Content-length: 0
+[HTTParty] [2019-02-12 15:35:55 +0000] < 
+
+[HTTParty] [2019-02-12 15:35:55 +0000] < 
