@@ -92,8 +92,13 @@ module Virtuous #:nodoc:
         Virtuous.configuration.logger.error "Virtuous::Error #{message}." if Virtuous.configuration.logger && Virtuous.configuration.error_with == :log
         raise Virtuous::Error.new message if Virtuous.configuration.error_with == :raise
       end
-        #raise Virtuous::Error.new message
-      response
+
+      # Uh Oh! Something has gone wrong
+      # Raising an error here kills the app
+      #  raise Virtuous::Error.new message
+      #instead
+      #  return something that quacks like a response
+      OpenStruct.new( body: response.to_json )
     end
 
   end
