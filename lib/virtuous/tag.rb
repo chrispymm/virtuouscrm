@@ -29,7 +29,7 @@ module Virtuous
             private
 
             def parse_list(json)
-                JSON.parse(json)["list"].map { |tag| new tag }
+                JSON.parse(json)["list"]&.map { |tag| new tag }
             end
 
         end
