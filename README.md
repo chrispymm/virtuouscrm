@@ -43,9 +43,9 @@ This refresh string needs to be made available to the gem in your app within the
 
 **N.B. Do Not paste your refresh token directly into the initializer file. This token should never be committed to Version Control.**  
 
-The recommended way to do this would be to use Rails secrets.yml.  Or you can make it available via an ENV variable.
+The recommended way to do this would be to use Rails encrypted credentials.  Or you can make it available via an ENV variable.
 
-e.g. in `config/secrets.yml`
+e.g. in `config/credentials.yml`
 ```
 development
   virtuous_refresh_token: xxxx... your refresh string here ...xxx
@@ -56,7 +56,7 @@ then in `initializers/virtuous.rb`
 ```ruby
 Virtuous.configure do |config|
   ...
-  config.refresh_token = Rails.application.secrets.virtuous_refresh_token
+  config.refresh_token = Rails.application.credentials[Rails.env.to_sym].dig(:virtuous, :refresh_token)
   ...
 end
 ```
